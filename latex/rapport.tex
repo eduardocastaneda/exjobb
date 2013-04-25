@@ -24,6 +24,9 @@
 %\bibliography{references.bib}
 \usepackage{url}
 \usepackage{fancyvrb}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
 
 
 
@@ -115,21 +118,35 @@ Inom responsive web design är bredden och höjden viktiga egenskaper då de avg
 
 Vid användning av fluid grid och fluid image sätts egenskaper hos element i procentform, t.ex 50 \%. Med en centrering på element, blir resultatet en ruta i mitten av skärmen som täcker 50 \% och har 25 \% utrymme på var sida. När webläsarfönstret minskas till storleken på en mobilskärm, anpassas elementet utifrån skärmen, eftersom fluid grid tekniken används för bredden.
 
+\vspace{0.5cm}
+\begin{figure}[h]
+\centerline{%
+\includegraphics[scale=0.23]{pics/big.png}\hspace{5em}%
+\includegraphics[scale=0.30]{pics/small.png}%
+}
+\end{figure}
+\hspace{1.5cm}Figur 1: Utifrån desktop \hspace{4.8cm} Figur 2: Utifrån mobilen
+
+\newpage
+
 Denna design har endast ett element med egenskaperna:
-\vspace{1cm}
+
+\vspace{0.5cm}
 \begin{verbatim}
+
 div {	
 	        margin: 0 auto; //centrerad
 	        width:50 %;
 	        height:500px;
 }
+
 \end{verbatim}
-\vspace{1cm}
+
 Designen fungerar bra för skrivbordskärmar(bild 1), då rutan är centrerad och symmetrisk. 25\% utrymme på var sida av rutan ger en design som blir läsvänlig och användbart. Däremot är den inte lika optimal när skärmen blir mindre(bild 2). Rutan är fortfarande 50\% av skärmen, vilket gör att  designen blir kompakt i ett utrymme där tanken är att förmedla mycket information på lite plats. 50\% procent av skärmen går till spillo åt utrymme mellan rutan och kanter, vilket får rutan att se ihoptryckt ut. Därav en försämring på design och användbarhet när websidan ses ifrån en mobil.
 
 Med media anrop i CSSen, kallat för media queries, tillåter vi att värden hos ”div” elementet skrivs över när bredden på webläsaren underskrider 380px.
 
-\vspace{1cm}
+\vspace{0.5cm}
 \begin{verbatim}
 @media all and (max-width: 380px){
        div {
@@ -138,15 +155,20 @@ Med media anrop i CSSen, kallat för media queries, tillåter vi att värden hos
        }
 }
 \end{verbatim}
-\vspace{1cm}
+\vspace{0.5cm}
 
 Med media anropet kommer ”width” och ”margin” skrivas över när skärmstorleken är 380px eller mindre, ”height” förblir detsamma. Utrymmet mellan kanterna och rutan ändras till 0 och bredden till 100%, vilket innebär hela skärmbredden. Detta leder till att sidan får andra design värden när den ses från en mobil och andra enheter där skärmen har som störst 380px i bredd. Det ger en mer optimal lösning i både användbarhets och design perspektiv, då man kan få plats med mer information och det är lättare för en användare att navigera. 
 
-BILD!!! 
+\vspace{0.5cm}
+\begin{figure}[h]
+\centerline{%
+\includegraphics[scale=0.25]{pics/mobilesmall.png}
+}
+\end{figure}
+\centerline{Figur 3: Användning av media queries för att anpassa websidan till mobilen}
 
-På det sättet kan samma CSS-fil låta element ha olika värden på egenskaper utifrån storleken på webbläsaren. Websidan får en bra design på layouten vare sig skärmstorlek och enhet, vilket är syftet med 
+På så sätt kan samma CSS-fil låta element ha olika värden på egenskaper utifrån storleken på webbläsaren. Websidan får en bra design på layouten vare sig skärmstorlek och enhet, vilket är syftet med 
 responsive web design.
-\newpage
 
 \subsection{Verktyg}
 
@@ -174,7 +196,7 @@ I ovanstående HTML-kod har vi definierat en sektion på sidan med <div> taggen,
 CSS står för Cascading Style Sheets och är ett språk som beskriver utseendet på html-kod.
 Med hjälp av CSS-kod kan olika element i html-koden få ett speciellt utseende i form av storlek, färg och position. Det finns olika sätt att definiera css, man kan definiera det direkt i taggen t.ex <p style=”color:blue; width:50px”>Frågan en webutvecklare ställer sig inför skapandet av en responsiv websida</p> vilket kallas för inline-styling. Man kan även i html filen, definiera utseendet i <head> taggen, vilket kallas för internal styling:
 
-\vspace{1cm}
+\vspace{0.5cm}
 \begin{verbatim}
 <head>
            <style>
@@ -185,18 +207,18 @@ Med hjälp av CSS-kod kan olika element i html-koden få ett speciellt utseende 
            </style>
 </head>
 \end{verbatim}
-\vspace{1cm}
+\vspace{0.5cm}
 
 På så sätt säger man att alla <p> taggar i html-koden kommer att ha dessa egenskaper. Sista sättet är att definiera det i en egen css-fil och länka till det från <head> taggen i html-koden, vilket är det vanligaste sättet. 
-
+\vspace{0.3cm}
 \begin{verbatim}
 <link rel="stylesheet" type="text/css" href="main.css">
 \end{verbatim}
-\vspace{1cm}
+\vspace{0.5cm}
 
 I css-kod defineras utseendet av olika taggar, men möjligheten finns att definiera samma tagg med olika utseenden, detta görs med hjälp av klasser och ids. Ett element kan ha olika klasser eller ids och i css-koden kan klasserna defineras med ett utseende, vilket gör att varje tag som delar klassen delar även utseendet:
 
-\vspace{0.5cm}
+\vspace{0.3cm}
 I html filen:
 
 \begin{verbatim}
@@ -204,7 +226,7 @@ I html filen:
           <p class=”paragraf”>Mobile-first vs Desktop-first</p>
 </div>
 \end{verbatim}
-jfvf
+\vspace{0.5cm}
 I css filen:
 
 \begin{verbatim}
@@ -234,7 +256,7 @@ Tekniken för att skapa responsiva sidor existerar, med hjälp av utvecklingen a
 Mobile-first metoden bygger på att man skapar en websida anpassad för mobilskärmen först, för att sedan med hjälp av media queries och en flexibel layout renderera elementen på websidan desto större webläsarfönstret blir.  På så sätt är grund layouten designad för en mobil. Mobile-first anses som en rimlig utvecklingsmetod då man tar till hänsyn antalet mobilanvändare och det behov som finns vid navigering och informationsintagelse från mobilskärmar.  Det betyder att innehåll prioriteras då bristen på plats är ett faktum och fokus läggs på de delar som informationsmässigt är de viktigaste. Det behöver inte nödvändigtvis betyda att hänsyn till prioritering och design inte tas när man utvecklar i desktop-first, utan snarare att prioriteringen för mobilskärm sker vid ett tidigare skede i utvecklingen när man använder sig av mobil-first.
 
 Kodmässigt är grunden anpassad för mobilen, det vill säga att media anrop sker när skärmen blir större, där media queries ser till att skriva om värden klasser. 
-
+\vspace{0.5cm}
  \begin{verbatim}
 @media all and (min-width: 480px){
         .main {
@@ -244,6 +266,7 @@ Kodmässigt är grunden anpassad för mobilen, det vill säga att media anrop sk
 }
 \end{verbatim}
 
+\vspace{0.5cm}
 I fallet ovan sker ett anrop när bredden på websidan är som minst 480px, som gör att elementen med klassen main får margin och width skrivs över med nya värden. I fall då mobiler inte klarar av att läsa media queries(fotnot), vilket i dagsläget är få, är detta en optimal lösning då grunden redan är skrivet för mobilen, och en läsning av media queries endast kommer att krävas från en desktop vilket de flesta webläsare klarar av.
 
 \subsubsection{Desktop-first}
@@ -252,7 +275,7 @@ Desktop-first metoden bygger på att man utvecklar för skrivbordskärmen och d�
 Kodmässigt är grunden anpassad för skrivbordsskärmen, det vill säga att media anrop sker när skärmbredden når en minimum gräns, i form av en mobilskärm, där media queries ser till att skriva om valda klasser.
 
 
-
+\vspace{0.5cm}
  \begin{verbatim}
 @media all and (min-width: 380px){
         .main {
@@ -261,6 +284,7 @@ Kodmässigt är grunden anpassad för skrivbordsskärmen, det vill säga att med
         }
 }
 \end{verbatim}
+\vspace{0.5cm}
 
 I fallet ovan sker ett anrop när bredden är som max 380px. Anropet ger margin och width i klassen main nya värden, anpassade till mobilen.  Desktop-first används med tanken att websidan ska ge en upplevelse, och skall nå en design maximum när man den ses från en skrivbordskärm, upplevelsen utifrån en mobilskärm är inte lika högt prioriterad, men bör innebära en funktionell sida med det nödvändigaste funktionalitet.
 
@@ -288,6 +312,8 @@ Frågeställning nr 1 baseras på miljö, målgrupp och kontext. Syftet med frå
 Arbetet kommer att enbart fokusera på mobile-first och desktop-first, ett mellanläge som existerar för Ipads, tablets, osv. kommer inte att tas med i arbetet. I dagsläget finns även andra lösningar för mobilawebb t.ex Appar, Hybrida Appar, vilka även har en grund till statistiken för mobilanvändare. Jämförelse mellan dessa och responsive web design kommer inte att göras, utan jämförelsen är inom mobilalösningar i form av responsive web design.
 
 Mobile-first kan tolkas olika, det har förekommit tillfällen då tanken för mobil-first har varit prioriterande medan implementeringen ändå har skett för skrivbordsskärmen först, vilket har tolkats som en mobile-first tillvägagångsätt.  Det är inte fallet i arbetet, utan mobil-first beskrivs i arbetet som en tanke och en implementering avsedd för mobilen i först hand och detsamma för desktop-first. Testfallen under implementeringsdelen kommer att bygga på den teorin(se sida).
+
+\newpage
 
 \subsection{Valtech AB}
 Examensarbetet kommer att utföras på Valtech AB i Stockholm. Valtech Sverige fokuserar främst på utveckling av användarvänliga hemsidor, webbapplikationer och intranät. Hos Valtech finns erfarna gränssnittsutvecklare som har stött på problem under utvecklingsprocessen i form av ett beslutstagande av tillvägagångssätt. Därför finns det ett behov hos utvecklare på Valtech att ha en grund för vilka faktorer som är viktigast när det gäller att ta ett beslut om metod. En metod som ger den bästa lösningen för en effektiv utveckling av en responsiv webbplats. Gränsnittssutvecklarna besitter på mycket erfarenhet och kunskap, vilket kan samlas i form av intervjuer för att analyseras och sammanfattas utifrån verkliga situationer som förekommer i företag, för framtida syfte.

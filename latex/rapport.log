@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.4.24)  24 APR 2013 13:33
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.4.24)  24 APR 2013 16:00
 entering extended mode
 **rapport.tex
-(C:\Users\eduardo.castaneda\Documents\latexdocs\rapport.tex
+(C:\Users\eduardo.castaneda\Documents\Code\exjobb\latex\rapport.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -707,6 +707,30 @@ Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix
 \FV@StepNumber=\count222
 \FV@OutFile=\write4
 )
+(C:\Users\eduardo.castaneda\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\captio
+n.sty
+Package: caption 2013/04/14 v3.3-73 Customizing captions (AR)
+
+(C:\Users\eduardo.castaneda\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\captio
+n3.sty
+Package: caption3 2013/04/14 v1.5-71 caption3 kernel (AR)
+\captionmargin=\dimen119
+\captionmargin@=\dimen120
+\captionwidth=\dimen121
+\caption@tempdima=\dimen122
+\caption@indent=\dimen123
+\caption@parindent=\dimen124
+\caption@hangindent=\dimen125
+)
+\c@ContinuedFloat=\count223
+Package caption Info: hyperref package is loaded.
+)
+(C:\Users\eduardo.castaneda\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\subcap
+tion.sty
+Package: subcaption 2013/02/03 v1.1-62 Sub-captions (AR)
+\c@subfigure=\count224
+\c@subtable=\count225
+)
 Package biblatex Info: Trying to load language 'swedish'...
 Package biblatex Info: ... file 'swedish.lbx' found.
 
@@ -718,23 +742,23 @@ File: swedish.lbx 2013/01/10 v2.5 biblatex localization (PK/JW/AB)
 Package biblatex Warning: 'babel' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
 
-\@quotelevel=\count223
-\@quotereset=\count224
-(C:\Users\eduardo.castaneda\Documents\latexdocs\rapport.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
+\@quotelevel=\count226
+\@quotereset=\count227
+(C:\Users\eduardo.castaneda\Documents\Code\exjobb\latex\rapport.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -774,25 +798,25 @@ LaTeX Font Info:    ... okay on input line 57.
 (C:\Users\eduardo.castaneda\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pd
 f.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count225
-\scratchdimen=\dimen119
+\scratchcounter=\count228
+\scratchdimen=\dimen126
 \scratchbox=\box28
-\nofMPsegments=\count226
-\nofMParguments=\count227
+\nofMPsegments=\count229
+\nofMParguments=\count230
 \everyMPshowfont=\toks22
-\MPscratchCnt=\count228
-\MPscratchDim=\dimen120
-\MPnumerator=\count229
-\makeMPintoPDFobject=\count230
+\MPscratchCnt=\count231
+\MPscratchDim=\dimen127
+\MPnumerator=\count232
+\makeMPintoPDFobject=\count233
 \everyMPtoPDFconversion=\toks23
 )
 \AtBeginShipoutBox=\box29
-Package hyperref Info: Link coloring OFF on input line 57.
-LaTeX Info: Redefining \ref on input line 57.
-LaTeX Info: Redefining \pageref on input line 57.
-LaTeX Info: Redefining \nameref on input line 57.
- (C:\Users\eduardo.castaneda\Documents\latexdocs\rapport.out)
-(C:\Users\eduardo.castaneda\Documents\latexdocs\rapport.out)
+Package hyperref Info: Link coloring OFF on input line 60.
+LaTeX Info: Redefining \ref on input line 60.
+LaTeX Info: Redefining \pageref on input line 60.
+LaTeX Info: Redefining \nameref on input line 60.
+ (C:\Users\eduardo.castaneda\Documents\Code\exjobb\latex\rapport.out)
+(C:\Users\eduardo.castaneda\Documents\Code\exjobb\latex\rapport.out)
 \@outlinefile=\write5
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
@@ -801,18 +825,20 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'rapport.bbl' not found.
 
 No file rapport.bbl.
-Package biblatex Info: Reference section=0 on input line 57.
-Package biblatex Info: Reference segment=0 on input line 57.
+Package biblatex Info: Reference section=0 on input line 60.
+Package biblatex Info: Reference segment=0 on input line 60.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 62.
+(Font)              <12> on input line 65.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 62.
+(Font)              <8> on input line 65.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 62.
+(Font)              <6> on input line 65.
 [1
 
 {C:/Users/eduardo.castaneda/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
- (C:\Users\eduardo.castaneda\Documents\latexdocs\rapport.toc
+ (C:\Users\eduardo.castaneda\Documents\Code\exjobb\latex\rapport.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <10.95> on input line 7.
 )
@@ -824,33 +850,60 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[2] [3] [4] [5]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 120.
+[2] [3] [4] [5] <pics/big.png, id=122, 962.09438pt x 450.9347pt>
+File: pics/big.png Graphic file (type png)
 
- ("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
+<use pics/big.png>
+Package pdftex.def Info: pics/big.png used on input line 126.
+(pdftex.def)             Requested size: 221.27705pt x 103.7128pt.
+ <pics/small.png, id=123, 270.25969pt x 479.54156pt>
+File: pics/small.png Graphic file (type png)
+
+<use pics/small.png>
+Package pdftex.def Info: pics/small.png used on input line 126.
+(pdftex.def)             Requested size: 81.07852pt x 143.86357pt.
+
+Overfull \hbox (10.39265pt too wide) in paragraph at lines 128--129
+[] \T1/cmr/m/n/10.95 Fi-gur 1: Ut-i-från desk-top   Fi-gur 2: Ut-i-från mo-bi-l
+en 
+ []
+
+[6 <C:/Users/eduardo.castaneda/Documents/Code/exjobb/latex/pics/big.png> <C:/Us
+ers/eduardo.castaneda/Documents/Code/exjobb/latex/pics/small.png>]
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 135.
+
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-[6] [7] [8] [9] [10] [11] [12] [13]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 297.
- [14]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 297.
+<pics/mobilesmall.png, id=131, 270.25969pt x 480.29437pt>
+File: pics/mobilesmall.png Graphic file (type png)
 
-(C:\Users\eduardo.castaneda\Documents\latexdocs\rapport.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 297.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 297.
+<use pics/mobilesmall.png>
+Package pdftex.def Info: pics/mobilesmall.png used on input line 166.
+(pdftex.def)             Requested size: 67.56474pt x 120.07329pt.
+ [7 <C:/Users/eduardo.castaneda/Documents/Code/exjobb/latex/pics/mobilesmall.pn
+g>] [8] [9] [10] [11] [12] [13]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 323.
+ [14]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 323.
+
+(C:\Users\eduardo.castaneda\Documents\Code\exjobb\latex\rapport.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 323.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 323.
 Package rerunfilecheck Info: File `rapport.out' has not changed.
 (rerunfilecheck)             Checksum: 1DDF9828272EF57E9D8CD7C4EA4A0BA6;1241.
 Package logreq Info: Writing requests to 'rapport.run.xml'.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 297.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 323.
  ) 
 Here is how much of TeX's memory you used:
- 11902 strings out of 493921
- 188266 string characters out of 3147246
- 593368 words of memory out of 3000000
- 15027 multiletter control sequences out of 15000+200000
+ 12960 strings out of 493921
+ 207802 string characters out of 3147246
+ 614527 words of memory out of 3000000
+ 16072 multiletter control sequences out of 15000+200000
  13835 words of font info for 35 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 37i,10n,43p,1439b,1400s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 37i,10n,43p,1439b,1319s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\eduardo.castaneda\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappe
 n\ec\dpi600\ectt1095.pk> <C:\Users\eduardo.castaneda\AppData\Local\MiKTeX\2.9\f
 onts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk> <C:\Users\eduardo.castaneda\AppD
@@ -862,9 +915,9 @@ TeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1095.pk> <C:\Users\eduardo.casta
 neda\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk> <
 C:\Users\eduardo.castaneda\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec
 \dpi600\ecrm1728.pk>
-Output written on rapport.pdf (14 pages, 159222 bytes).
+Output written on rapport.pdf (14 pages, 164338 bytes).
 PDF statistics:
- 529 PDF objects out of 1000 (max. 8388607)
- 37 named destinations out of 1000 (max. 500000)
- 145 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 536 PDF objects out of 1000 (max. 8388607)
+ 39 named destinations out of 1000 (max. 500000)
+ 160 words of extra memory for PDF output out of 10000 (max. 10000000)
 
