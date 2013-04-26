@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.4.24)  26 APR 2013 10:31
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.4.24)  26 APR 2013 11:18
 entering extended mode
 **rapport.tex
 (C:\Users\eduardo.castaneda\Documents\Code\exjobb\latex\rapport.tex
@@ -895,23 +895,16 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 331.
 (C:\Users\eduardo.castaneda\Documents\Code\exjobb\latex\rapport.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 331.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 331.
-
-
-Package rerunfilecheck Warning: File `rapport.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `rapport.out':
-(rerunfilecheck)             Before: F6111DA263A16BCDD51901DAA66C3AF5;1240
-(rerunfilecheck)             After:  72206518A97AA95CDE4F9555DDF4C9E3;1242.
+Package rerunfilecheck Info: File `rapport.out' has not changed.
+(rerunfilecheck)             Checksum: 72206518A97AA95CDE4F9555DDF4C9E3;1242.
 Package logreq Info: Writing requests to 'rapport.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 331.
  ) 
 Here is how much of TeX's memory you used:
- 12970 strings out of 493921
- 207939 string characters out of 3147246
- 612527 words of memory out of 3000000
- 16080 multiletter control sequences out of 15000+200000
+ 12972 strings out of 493921
+ 207981 string characters out of 3147246
+ 612535 words of memory out of 3000000
+ 16082 multiletter control sequences out of 15000+200000
  14524 words of font info for 36 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  37i,11n,43p,1497b,1402s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -927,9 +920,9 @@ neda\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1095.pk> <
 C:\Users\eduardo.castaneda\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec
 \dpi600\ecrm1200.pk> <C:\Users\eduardo.castaneda\AppData\Local\MiKTeX\2.9\fonts
 \pk\ljfour\jknappen\ec\dpi600\ecrm1728.pk>
-Output written on rapport.pdf (15 pages, 190348 bytes).
+Output written on rapport.pdf (15 pages, 191458 bytes).
 PDF statistics:
- 605 PDF objects out of 1000 (max. 8388607)
+ 608 PDF objects out of 1000 (max. 8388607)
  40 named destinations out of 1000 (max. 500000)
  160 words of extra memory for PDF output out of 10000 (max. 10000000)
 
