@@ -292,8 +292,8 @@ Kodmässigt är grunden anpassad för skrivbordsskärmen. Det vill säga att med
 
 I fallet ovan sker ett anrop när bredden är som max 380px. Anropet ger \textit{"margin"} och \textit{"width"} i klassen main nya värden, anpassade till mobilen.  Desktop-first används oftast i samband med hemsidor där man vill skapa en upplevelse och vill att webbsidan skall nå ett design maximum när den ses utifrån en skrivbordskärm, upplevelsen utifrån en mobilskärm är inte lika högt prioriterad, men bör innebära en funktionell sida med det nödvändigaste funktionalitet.
 
-\subsubsection{Mobile-first eller Desktop-first, vilken ska man välja?}
-Utvecklingen av tekniker och verktyg har gjort det möjligt att kunna applicera metoderna vid skapandet av en websida. Kunskapen om metoderna var för sig har med tiden blivit större i samband med utvecklingen av responsive web design. Däremot ställs webutvecklare kring frågan om vilken metod som appliceras bäst till den typen av websida som skall skapas. I dagsläget finns ingen kunskap om hur bra metoderna appliceras i jämförelse med varandra. Det finns tankar och spekulationer, därefter väljs metod utifrån dessa, komplikationer hanteras men dokumenteras inte och till slut har man en fungerande responsiv websida. Eftersom websidan är färdig implementerad finns ingen anledning till att implementera om en fungerande lösning med en annan metod, därav finns ingen större kunskap om jämförelse av implementationen med respektive metod.
+\subsubsection{Mobile-first eller Desktop-first, vilken skall man välja?}
+Utvecklingen av tekniker och verktyg har gjort det möjligt att kunna applicera metoderna vid skapandet av en webbsida. Kunskapen om metoderna var för sig har med tiden blivit större i samband med utvecklingen av responsive web design. Däremot ställs webutvecklare kring frågan om vilken metod som appliceras bäst till den typen av websida som skall skapas. I dagsläget finns ingen kunskap om hur bra metoderna appliceras i jämförelse med varandra. Det finns tankar och spekulationer, därefter väljs metod utifrån dessa, komplikationer hanteras men dokumenteras inte och till slut har man en fungerande responsiv websida. Eftersom websidan är färdig implementerad finns ingen anledning till att implementera om en fungerande lösning med en annan metod, därav finns ingen större kunskap om jämförelse av implementationen med respektive metod.
 
 Användning av mobilt internet ökar och användningen av internet via en dator kommer med stor sannolikhet bestå. Vilket gör att en grund för val av metod är högst passande, då det redan nu och i framtiden kommer att kräva mer kunskap än vad som idag kan erbjudas från bloggar. Båda metoder har sina fördelar samt nackdelar, men frågan som bör ställas är när dessa går att utnyttjas på bästa sätt, och kan beslutet av val leda till positiva faktorer vilka motsatta metod inte hade kunnat uppnå inom en specifik situation.
 
@@ -303,28 +303,28 @@ Användning av mobilt internet ökar och användningen av internet via en dator 
 \newpage
 
 \section{Syfte}
-Syftet med arbetet är att kunna hitta riktlinjer till när en specifik metod appliceras som bäst. Det vill säga beroende på faktorer kring webbsidan hitta den metod som tillför det mest optimala lösningen för implementationen av webbsidan. Att hitta en metod som fungerar bäst i alla lägen är inte målet, då det har framgått i litteraturstudie att det existera för många olika vinklar som gör det svårt att hitta en specifik faktor hos en metod som avgör beslutet i alla lägen.
+Syftet med arbetet är att kunna hitta riktlinjer till när en specifik metod appliceras bäst. Det vill säga beroende på faktorer kring webbsidan hitta den metod som tillför det mest optimala lösningen för implementationen av webbsidan. Att hitta en metod som fungerar bäst i alla lägen är inte nödvändigtvis målet med arbetet då det existera många olika vinklar, vilka gör det svårt att hitta en specifik metod som ger det optimala resultatet oberoende på situation.
 
+\vspace{0.5cm}
 Frågeställningar som besvaras i rapporten är:
-
 \begin{enumerate}
-	\item I vilka lägen appliceras metoderna bäst
+	\item I vilka lägen appliceras metoderna bäst?
 	\item Vad är för- och nackdelarna med Mobile-first?
 	\item Vad är för- och nackdelarna med Desktop-first?
 \end{enumerate}
-
-Frågeställning nr 1 baseras på miljö, målgrupp och kontext. Syftet med frågeställningen är att kunna utifrån analys hitta situationer där metoderna visar sig vara fördelaktiga under utvecklingsfasen, vilket hade varit svårare att uppnå med ett annat val av metod. Frågeställning nr 2,3 är att kunna lyfta fram de fördelar och nackdelar som finns vid implementation med de två metoderna. Syftet är att hitta ramar för varje metod vilka en läsare kan relatera till med en egen situation och utifrån det använda det som grund vid val av metod. 
+\vspace{0.5cm}
+\textit{Frågeställning 1} baseras på miljö, målgrupp och kontext. Syftet med frågeställningen är att kunna utifrån analys hitta situationer där metoderna visar sig vara fördelaktiga under utvecklingsfasen, för att hitta faktorer hos metoden vilka motsatta metod inte har och därmed inte kan tillföra samma lyckade resultat. Syftet med \textit{Frågeställning 2 och 3} är att kunna lyfta fram de fördelar och nackdelar som finns vid implementation med de två metoderna. För att på så sätt hitta ramar för varje metod vilka en läsare kan relatera till med en egen situation och utifrån det använda det som grund vid val av metod. 
 
 \subsection{Avgränsningar}
 
-Arbetet kommer att enbart fokusera på mobile-first och desktop-first, ett mellanläge som existerar för Ipads, tablets, osv. kommer inte att tas med i arbetet. I dagsläget finns även andra lösningar för mobilawebb t.ex Appar, Hybrida Appar, vilka även har en grund till statistiken för mobilanvändare. Jämförelse mellan dessa och responsive web design kommer inte att göras, utan jämförelsen är inom mobilalösningar i form av responsive web design.
+Arbetet kommer att enbart fokusera på mobile-first och desktop-first, ett mellanläge som existerar för Ipads, tablets, osv. kommer inte att tas med i arbetet. I dagsläget finns även andra lösningar för mobilt webb t.ex Appar och Hybrida Appar, jämförelse mellan dessa och responsive web design kommer inte att göras, utan jämförelsen som görs är mellan mobilalösningar inom responsive web design.
 
-Mobile-first kan tolkas olika, det har förekommit tillfällen då tanken för mobil-first har varit prioriterande medan implementeringen ändå har skett för skrivbordsskärmen först, vilket har tolkats som en mobile-first tillvägagångsätt.  Det är inte fallet i arbetet, utan mobil-first beskrivs i arbetet som en tanke och en implementering avsedd för mobilen i först hand och detsamma för desktop-first. Testfallen under implementeringsdelen kommer att bygga på den teorin(se sida).
+Termen \textit{Mobile-first} kan tolkas på olika sätt. Det har förekommit tillfällen för webbutvecklare där mobile-first är prioriterad designmässigt men där implementeringen ändå har skett för Desktop innan mobil, vilket produktägare har tolkat som mobile-first. Det är inte fallet i arbetet, utan mobile-first beskrivs i arbetet som en tanke och en implementering avsedd för mobilen i första hand, och tvärtom vid desktop-first. Testfallen under implementeringsfasen i arbetet kommer att bygga på den teori för ovanstående metoder.
 
 \newpage
 
 \subsection{Valtech AB}
-Examensarbetet kommer att utföras på Valtech AB i Stockholm. Valtech Sverige fokuserar främst på utveckling av användarvänliga hemsidor, webbapplikationer och intranät. Hos Valtech finns erfarna gränssnittsutvecklare som har stött på problem under utvecklingsprocessen i form av ett beslutstagande av tillvägagångssätt. Därför finns det ett behov hos utvecklare på Valtech att ha en grund för vilka faktorer som är viktigast när det gäller att ta ett beslut om metod. En metod som ger den bästa lösningen för en effektiv utveckling av en responsiv webbplats. Gränsnittssutvecklarna besitter på mycket erfarenhet och kunskap, vilket kan samlas i form av intervjuer för att analyseras och sammanfattas utifrån verkliga situationer som förekommer i företag, för framtida syfte.
+Examensarbetet kommer att utföras på Valtech AB i Stockholm. Valtech Sverige fokuserar främst på utveckling av användarvänliga hemsidor, webbapplikationer och intranät. Hos Valtech finns erfarna gränssnittsutvecklare som har stött på problem under utvecklingsprocessen i form av ett beslutstagande av tillvägagångssätt för en responsiv webbsida. Det finns ett behov hos utvecklare på Valtech att ha en grund för vilka faktorer som är viktigast vid beslutstagande för metod, en metod som ger den bästa lösningen för en effektiv utveckling av en responsiv webbplats. Gränsnittssutvecklarna besitter på mycket erfarenhet och kunskap, vilket kan samlas i form av intervjuer för att analyseras och sammanfattas utifrån verkliga situationer som förekommer i företag, för framtida syfte.
 
 
 
