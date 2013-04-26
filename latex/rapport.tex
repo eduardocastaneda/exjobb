@@ -72,51 +72,54 @@
 
 \section{Bakgrund}
 
-Mobilutvecklingen har under de senaste åren gått fort framåt, vilket har lett till att mobiler numera utvecklas till att fungera likt en handburen minidator. Huvudsyftet med mobiler är inte längre att bara kunna kommunicera med andra, utan även att bland annat ha möjligheten att få ut information genom webben. Att en websida inte längre endast ses i en skrivbordsskärm har gjort att nya webblösningar krävs. En utvecklare måste ha i åtanke att webbdesignen bör fungera för en användare som sitter på kontoret och läser sidan från en skrivbordsskärm, likaväl för en användare som sitter på tåget och läser sidan från mobilen. Responsive web design är en lösning vilken beroende på skärmstorlek renderar samma sida på olika sätt. I responsive web design har det fokuserats på två olika metoder, Mobile-first och Desktop-first. Metoderna grundar sig på att utveckling sker för en typ av skärm först för att sedan utifrån det utveckla så att den sidan även passar för andra skärmar. Det finns mycket kunskap om metoderna var för sig, men inget underlag för valet av metod i olika situationer och inom olika områden. Mobilanvändarna ökar för varje dag medan skrivbordsanvändare minskar med en liten mängd, det största antalet använder sig utav båda, vilket kräver kunskap om när metoderna appliceras bäst för att få effektivare lösningar inom webutveckling.
+Mobilutvecklingen har under de senaste åren gått fort framåt, vilket har lett till att mobiler numera utvecklas till att fungera likt en handburen minidator. Huvudsyftet med mobiler är inte längre att bara kunna kommunicera med andra, utan även att bland annat ha möjligheten att få ut information genom webben. Att en websida inte längre endast ses i en skrivbordsskärm har gjort att nya webblösningar krävs. En utvecklare måste ha i åtanke att webbdesignen bör fungera för en användare som sitter på kontoret och läser sidan från en skrivbordsskärm, likaväl för en användare som sitter på tåget och läser sidan från mobilen. Responsive web design är en lösning vilken beroende på skärmstorlek renderar samma sida på olika sätt. I \textit{responsive web design} har det fokuserats på två olika metoder, \textit{Mobile-first} och \textit{Desktop-first}. Metoderna grundar sig på att utveckling sker för en typ av skärm först för att sedan utifrån det utveckla så att den sidan även passar för andra skärmar. Det finns mycket kunskap om metoderna var för sig, men inget underlag för valet av metod i olika situationer och inom olika områden. Mobilanvändarna ökar för varje dag medan skrivbordsanvändare behåller sina användare med en viss minskning. Det största antalet är användare utav båda, vilket kräver kunskap om när metoderna appliceras bäst för att få effektivare lösningar inom webutveckling.
 
-\subsection{Mobil användare}
+\subsection{Mobilanvändare}
 
-Sedan 2007 då Apple visade upp den första versionen av iPhone har utvecklingen för smartphones eskalerat markant. Smartphones ger dig möjligheten att utföra datorliknande handlingar som att få ut information från webben och använda nätbaserade applikationer. Tidigare mobiler har delvis haft den funktionen men fokus har varit mestadels på musikspelare och kamera, då surfande gick trögt och var icke användarvänlig.
+Sedan 2007 då Apple visade upp den första versionen av iPhone har utvecklingen för \textit{smartphones} eskalerat markant. Smartphones ger dig möjligheten att utföra datorliknande handlingar som att få ut information från webben och använda nätbaserade applikationer. Tidigare mobiler har delvis haft den funktionen men fokus har varit mestadels på musikspelare och kamera, då surfande gick trögt och var icke användarvänlig.
 Med smartphones, vilket innebar större pekskärmar, gjorde åtkomsten till internet på mobilen mer användarvänlig och har under de senaste åren utvecklats till en oundviklig funktion i dagens mobiler.
 
 
-Dagens användare av mobiler sträcker sig mellan 15-79 år gamla, av dessa är det cirka 40 \% som använder sig av mobilt internet, i jämförelse med 2008 har det ökat med över 50 \%. Telefonoperatörer har anpassat sig i den nya marknaden och erbjuder abonnemanger vilka innehåller en fast kostnad för surf på ett 3G nät. Då mobilsurf anses som en nödvändig funktion, sätts även krav hos mobiloperatörer, 3G nätet skall ha hög åtkomlighet och ha en hög hastighet. Effekten av att mobilanvändarnas åtkomst till internet ökar, leder till mobilt internet används mer och äldre tjänster ersätts. En tidning i tunnelbanan är inte alls lika vanligt nu som för fem år sen, tidtabeller vid busshållplatsen spelar är inte lika viktiga som förr och att checka-in inför en flygresa behöver inte nödvändigtvis ske via en check-in disk.
+Dagens användare av mobiler är mellan 15-79 år gamla, av dessa är det cirka 40 \% som använder sig av mobilt internet, i jämförelse med 2008 har det ökat med över 50 \%. Telefonoperatörer har anpassat sig i den nya marknaden och erbjuder abonnemanger vilka innehåller en fast kostnad för surf på ett 3G nät. Då mobilsurf anses som en nödvändig funktion, sätts krav hos mobiloperatörer i form av att 3G nätet skall ha hög åtkomlighet och en hög hastighet. Effekten av att mobilanvändarnas åtkomst till internet ökar, leder till mobilt internet används mer och äldre tjänster ersätts. En tidning i tunnelbanan är inte alls lika vanligt nu som för fem år sen, tidtabell vid busshållplatsen är inte enda sättet att få ut information om busstider och att checka-in inför en flygresa behöver inte nödvändigtvis ske via en check-in disk.
 
 
-Konkurrensen som finns i dagens mobilmarknad har tvingat ledande företag att skapa mobiler med ny teknik till allt lägre priser. Pris, tillgänglighet och användbarhet har gjort att användning av internet via mobilen i världen närmar sig antalet användare av internet via en dator. Analytiker som förutspådde mobilen till att slå i marknaden har i dagsläget fått det bekräftat och förutspår att användare av mobilt internet i världen kommer att passera antalet användare från av Desktop internet [fotnot 2] i 2014 år. Detta kräver från webbplatser att följa målgruppen användare och anpassa webbsidor utifrån de enheter som webbsidor ses ifrån, vilket är till stor del är från mobilen.
+Konkurrensen som finns i dagens mobilmarknad har tvingat ledande företag att skapa mobiler med ny teknik till allt lägre priser. Pris, tillgänglighet och användbarhet har gjort att användning av internet via mobilen i världen närmar sig antalet användare av internet via en dator[fotnot 1]. Analytiker som förutspådde mobilen till att slå i marknaden har i dagsläget fått det bekräftat och förutspår att användare av mobilt internet i världen kommer att passera antalet användare från av Desktop internet [fotnot 2] i 2014 år. Detta kräver från webbplatser att följa målgruppen användare och anpassa webbsidor utifrån de enheter som webbsidor ses ifrån, vilket till stor del är från mobilen.
 
 \subsection{Desktop användare}
-Att mobil användare ökar för varje dag har till viss del betydelse i minskningen av antalet desktop användare. Men datorer har i dagsläget funktioner som gör det osannolikt för mobiler att helt kunna ersätta datorer, funktioner som kräver att man sitter vid en dator och på så sätt sker informationssökandet i webben via desktop. 
+Att mobilanvändare ökar för varje dag har till viss del ett samband med minskningen av antalet \textit{desktop} användare. Men datorer har i dagsläget funktioner som gör det osannolikt för mobiler att helt kunna ersätta datorer, funktioner som kräver att man sitter vid en dator och på så sätt sker informationssökandet i webben via desktop. 
 
 Webbdesignen på en mobil är kompakt och uppfyller den nödvändigaste användbarheten.
-På desktop är designen mer informationsrikt, vilket ger en större inblick till websidans innehåll och en mer simpel navigering på webbsidan. Det gör att en användare beroende på komplexitet och säkerhet av handlingen väljer att utföra den via en desktop, än via mobilen. En sådan handling kan t.ex. vara bankärenden eller web shopping. Om bankärendet är en simpel koll av saldo eller överföring mellan egna konton, är mobilen en smidig enhet att använda sig av. Däremot om handlingen innebär att betala räkningar eller överföra stora summor pengar väljer man att utföra det via desktoppen, då det ger en större säkerhet och en mer simpel navigering på websidan. Även web shop faller i samma kategori, då användare väljer att söka information om produkten via mobilen, men väljer sedan att utföra köpet via desktop.[fotnot 1] Detta tyder på att användare av mobilt- eller desktop internet inte är endera, utan är användare utav båda, beroende på situation, miljö och kontext.
+På desktop är designen mer informationsrikt, vilket ger en större inblick till webbsidans innehåll och en mer simpel navigering på webbsidan. Det gör att en användare beroende på komplexitet och säkerhet av handlingen väljer att utföra den via en desktop, än via mobilen. En sådan handling kan t.ex. vara bankärenden eller webshopping. Om bankärendet gäller en översikt av saldo i kontot eller överföring mellan egna konton, anses mobilen vara en smidig enhet att använda sig av. Däremot om handlingen innefattar att betala räkningar eller överföra stora summor pengar finns behovet av att utföra dessa handlingar via desktop, då det ger en större säkerhet och en mer simpel navigering på websidan. Även webshop faller i samma kategori, då användare väljer att söka information om produkten via mobilen, men väljer sedan att utföra köpet via desktop[fotnot 3]. Detta tyder på att användare av mobilt- eller desktop internet inte är endera, utan är användare utav båda, beroende på situation, miljö och kontext.
 
-Det finns ingen grundlig faktum som tyder på att mobilt internet kommer att ta över all desktop internet användande, endast att de kan bli fler. Därför krävs det att man förstorar vyerna kring webutveckling och lösningar som gynnar både mobil- och desktop användning av internet. För även om mobila användare är fler, så går inte att förbise desktop användare.
+Det finns ingen grundlig faktum som tyder på att mobilt internet kommer att ta över all desktop internet användande, endast att de kan bli fler. Därför krävs det att man förstorar vyerna kring webutveckling och lösningar som gynnar både mobil- och desktop användning av internet. För även om mobila användare blir fler, så går det inte att förbise desktop användare.
 
-\subsection{Responsive web design}
+\subsection{Responsive Web Design}
 
-Responsive web design är ett koncept som innebär att gränssnittet på en websida ändras beroende på skärmstorlek, vilket således ger möjligheten att ha olika layout på en och samma websida anpassat efter en enhet. Konceptet definierades av Ethan Marcotte (2010) i en artikel kallat A List Apart, som sedan blev en del av boken ”responsive web design” där teorier och praktiska exempel används för att förklara begreppet. 
+\textit{Responsive web design} är ett koncept som innebär att gränssnittet på en websida ändras beroende på skärmstorlek, vilket således ger möjligheten att ha olika layout på en och samma websida anpassat efter en enhet. Konceptet definierades av Ethan Marcotte (2010) i en artikel kallat \textit{A List Apart}, som sedan blev en del av boken \textit{”responsive web design”} där teorier och praktiska exempel används för att förklara begreppet. 
 
-Syftet med Responsive Web Design är att kunna rendera olika delar av sidan beroende på skärmstorlek för att ge en optimal vy för den enhet websidan ses från. Om tre element renderas bredvid varandra på en desktop site, så vore det optimala för en mobil site att kunna renderar elementen under varandra och även skala ner de till en rimlig storlek, för att på så sätt undvika att artiklarna försvinner, inte visas helt och hållet eller tar för stor plats på skärmen.
+Syftet med Responsive Web Design är att kunna rendera olika delar av sidan beroende på skärmstorlek för att ge en optimal vy för den enhet webbsidan ses ifrån. Om tre element renderas bredvid varandra på en desktopsida, så vore det optimala för en mobilsida att kunna renderar elementen under varandra och även skala ner de till en rimlig storlek. På så sätt försvinner inte artiklarna från webläsarfönstret eller tar för stor plats på skärmen.
 
-Då endast layouten på sidan ändras behövs inga särskilda versioner för varje enhet, vilket gör det möjligt för en webbutvecklare att på ett enkelt sätt utföra en ändring i en fil, istället för antalet versioner. Däremot krävs en flexibel grundlayout för att responsive web design skall fungera, vilket enligt Ethan görs genom tre grundtekniker, Fluid Grid, Fluid Images och Media Queries.
+Då endast layouten på sidan ändras behövs inga särskilda versioner för varje enhet, vilket gör det möjligt för en webbutvecklare att på ett enkelt sätt utföra en ändring i en fil, istället för antalet versioner. Däremot krävs en flexibel grundlayout för att responsive web design skall fungera, vilket enligt Ethan görs genom tre grundtekniker, \textit{Fluid Grid}, \textit{Fluid Images} och \textit{Media Queries}.
 
 \subsubsection{Fluid Grid}
-På en webbsida kan storleken på element definieras på olika sätt. Ett vanligt sätt att definiera element är med bredd och höjd i pixlar. När det definieras i pixlar betyder det att storleken på elementet är förutbestämd vare sig upplösning eller storlek på skärm. I tidigare skede informerade webbutvecklare i vilken upplösning som renderar sidan på bästa sätt och sedan var upp till användaren att ändra upplösning på skärmen för att få den önskade layouten på sidan. I dagsläget finns många olika skärmar, och många olika alternativ till upplösning vilket gör en förutbestämd storlek inte lika optimalt. 
+På en webbsida kan storleken på element definieras på olika sätt. Ett vanligt sätt att definiera element är med bredd och höjd i pixlar. När det definieras i pixlar betyder det att storleken på elementet är förutbestämd vare sig upplösning eller storlek på skärm. I tidigare skede informerade webbutvecklare användare vilken upplösning som renderade sidan på bästa sätt och sedan var upp till användaren att ändra upplösning på skärmen för att få den önskade layouten på sidan. I dagsläget finns många olika skärmar, och många olika alternativ till upplösning vilket gör en förutbestämd storlek inte lika optimalt. 
 
-Fluid Grid är en teknik vilken använder sig procentsatser istället för pixlar. När procentsatser används förstoras eller förminskas elementets storlek relativt till webbläsarfönstrets höjd och bredd, vilket gör att sidan anpassas efter användaren istället för tvärtom. Om ett element skall täcka hela bredden på skärmen, sätts bredden till 100 %, en fjärde del av skärmen, 25 % osv. Ett sätt att räkna ut elementens storlek för att få en Fluid Grid, är att dividera pixlarna på elementet med pixlarna på elementets hållare, detta ger ett resultat i procent vilket gör att elementet anpassar sig beroende på sidans totala bredd.
+Fluid Grid är en teknik vilken använder sig av procentsatser istället för pixlar vid definering av ett elements storlek. När procentsatser används förstoras eller förminskas elementets storlek relativt till webbläsarfönstrets höjd och bredd, vilket gör att sidan istället anpassas efter användaren. Om ett element skall täcka hela bredden på skärmen, sätts bredden till 100 \%, en fjärde del av skärmen, 25 \% osv. 
+För att kunna bestämma elementets storlek i procentform härleder Ethan Marcotte ett sätt vilket innebär att, i pixelstorlek, dividera elementets storlek med behållarens storlek. Det ger ett resultat i procent, där elementet storlek ändras relativt till hållarens storlek.
 
 \subsubsection{Fluid Images}
-Fluid Images bygger på samma princip som Fluid Grid, däremot är lösningen mer komplext då det innefattar skalning av bilder. Om en bild skalas på fel sätt leder detta till att bilden ser för utsträckt eller för intryckt ut, men om skalning inte görs, kan en bild i princip ta upp all plats på webbsidan och även försvinna ut i kanterna. Inom responsive web design används Fluid Images, vilket innebär en flexible hållare med en önskad storlek, med en bild anpassad till hållaren.  
+Fluid Images bygger på samma princip som Fluid Grid, däremot är lösningen mer komplex då det innefattar skalning av bilder. Om en bild skalas på fel sätt leder detta till att bilden ser för utsträckt eller för intryckt ut, men om skalning inte görs, kan en bild i princip ta upp all plats på webbsidan och även försvinna ut i kanterna. Inom responsive web design används Fluid Images, vilket innebär en flexible hållare med en önskad storlek, med en bild anpassad till hållaren.  
 
-Med egenskapen ”max-width:100 \% på bilden“ talar man om för webläsaren att bilden skall skalas efter hållaren men endast till max av den originella storleken på bilden. ”width:100\%” talar om att bilden bara får anpassa sig efter hållaren, samtidigt som den får en normal skalning när storleken på webbläsaren minskar och hållaren krymper. Max i ”max-width” ser till att bilden aldrig blir större än bildens verkliga storlek. Om ”max” inte sätts, finns risk att bilden skalas ut, om det inte är vektor grafiska bilder, vilket gör pixelkanter synliga. Däremot så krävs det oftast att man har en bild som redan från början är av önskad storlek. En för liten bild kommer den inte att förstoras då den som störst kan vara 100 \% av bildens ursprungliga storlek.
+Lösningen som tas upp av Ethan Marcotte är användningen av egenskapen \textbf{"max-width: 100 \%"} på bilden. Med egenskapen \textbf{”max-width:100 \%"}  talar man om för webbläsaren att bilden skall skalas efter hållaren men endast till max av den originella storleken på bilden. Egenskapen \textbf{”width:100\%”} innebär att bilden bara får anpassa sig helt efter hållaren, samtidigt som den får en normal skalning när storleken på webbläsaren minskar och hållaren krymper. Egenskapen \textbf{Max} i \textbf{”max-width”} innebär att bilden aldrig blir större än bildens verkliga storlek. Om \textit{”max”} inte sätts, finns risk att bilden skalas ut, vilket gör pixelkanter synliga. Däremot krävs det att man har en bild som redan från början är av önskad storlek. En för liten bild kommer den inte att förstoras då den som störst kan vara 100 \% av bildens ursprungliga storlek. Detta är ett sätt att ta använda sig av Fluid Images som fungerar för responsiva webbsidor, det kan uppstå andra komplikationer i form av att bilden inte skalas enligt önskemål där andra lösningar krävs, men grundtanken för att upprätthålla fluid images är att bilder skalas efter webbläsarfönstrets storlek.
 
 \subsubsection{Media Queries}
-Fluid Grid och Fluid Images skapar tillsammans en del av en responsiv sida då storleken på elementen i sidan renderas utifrån storleken på skärmen. Minskningen eller förstoringen av elementen fungerar däremot endast till en viss gräns. Är storleken på webläsaren för liten, finns risk att element kommer för nära varandra och skapar konflikt i layouten, vilket gör att element hamnar på felaktiga positioner och ger en vy som designmässigt ser förstörd ut. Blir storleken däremot för stor, finns risk att max-width på bilderna uppnås och stannar i storlek, medan andra element följer förstoringen hos webbläsaren, blir för stora och skapar en osymmetri i layouten. Media Queries är en lösning som tillåter element att ha olika värden beroende på skärmstorlek.
+Fluid Grid och Fluid Images skapar tillsammans en del av en responsiv sida då storleken på element i sidan renderas utifrån storleken på skärmen. Minskningen eller förstoringen av elementen fungerar däremot endast till en viss gräns. Vid tillfällen då storleken på webbläsaren för liten, finns risk att element kommer för nära varandra och skapar konflikt i layouten, det leder till att element hamnar på felaktiga positioner och ger en vy som designmässigt ser förstörd ut. Blir storleken däremot för stor, finns risk att \textit{max-width} på bilderna uppnås och stannar i storlek, medan andra element följer förstoringen hos webbläsaren, blir för stora och skapar en osymmetri i layouten. Media Queries är en lösning som tillåter element att ha olika värden beroende på skärmstorlek.
 
-Inom responsive web design är bredden och höjden viktiga egenskaper då de avgör hur mycket av en sida skall synas på webläsarfönstret.  Media queries är anrop som görs i CSS filen, där man kollar antingen höjden och eller bredden för att utföra nödvändiga ändringar i layouten för att upprätthålla en bra design. Tillsammans med Fluid Grid och Fluid Image skapar Media Queries en responsiv web design. 
+Inom responsive web design är bredden och höjden viktiga egenskaper då de avgör hur mycket av en sida skall synas på webläsarfönstret.  Media queries är anrop som görs i CSS filen, där man kollar antingen höjden och eller bredden för att utföra nödvändiga ändringar i layouten för att upprätthålla en bra design. Tillsammans med Fluid Grid och Fluid Image skapar Media Queries en responsiv webbdesign. 
 
-Vid användning av fluid grid och fluid image sätts egenskaper hos element i procentform, t.ex 50 \%. Med en centrering på element, blir resultatet en ruta i mitten av skärmen som täcker 50 \% och har 25 \% utrymme på var sida. När webläsarfönstret minskas till storleken på en mobilskärm, anpassas elementet utifrån skärmen, eftersom fluid grid tekniken används för bredden.
+\newpage
+
+Vid användning av fluid grid och fluid image sätts egenskaper hos element i procentform, t.ex 50 \%. Med en centrering på elementet, blir resultatet en ruta i mitten av skärmen som täcker 50 \% och har 25 \% utrymme på var sida. När webbläsarfönstret minskas till storleken av en mobilskärm anpassas elementet relativt till förändringen, då fluid grid tekniken används för bredden. Vilket ger oss dessa två vyer, ena med webbläsarfönstret i storlek av en skrivbordsskärm och den andra i storlek av en mobilskärm:
 
 \vspace{0.5cm}
 \begin{figure}[h]
@@ -127,8 +130,7 @@ Vid användning av fluid grid och fluid image sätts egenskaper hos element i pr
 \end{figure}
 \hspace{1.5cm}Figur 1: Utifrån desktop \hspace{4.8cm} Figur 2: Utifrån mobilen
 
-\newpage
-
+\vspace{1cm}
 Denna design har endast ett element med egenskaperna:
 
 \vspace{0.5cm}
@@ -136,15 +138,15 @@ Denna design har endast ett element med egenskaperna:
 
 div {	
 	        margin: 0 auto; //centrerad
-	        width:50 %;
-	        height:500px;
+	        width:50 %; //bredd
+	        height:500px; //höjd
 }
 
 \end{verbatim}
 
-Designen fungerar bra för skrivbordskärmar(bild 1), då rutan är centrerad och symmetrisk. 25\% utrymme på var sida av rutan ger en design som blir läsvänlig och användbart. Däremot är den inte lika optimal när skärmen blir mindre(bild 2). Rutan är fortfarande 50\% av skärmen, vilket gör att  designen blir kompakt i ett utrymme där tanken är att förmedla mycket information på lite plats. 50\% procent av skärmen går till spillo åt utrymme mellan rutan och kanter, vilket får rutan att se ihoptryckt ut. Därav en försämring på design och användbarhet när websidan ses ifrån en mobil.
+Designen fungerar bra för skrivbordsskärmar\textit{(Figur 1)}, då rutan är centrerad och symmetrisk. 25 \% av utrymmet på var sida av rutan gör designen läsvänlig och användbart då fokusering sker i mitten av skärmen där förmodlingen information kommer att samlas. Däremot är den inte lika optimal när skärmen blir mindre\textit{(Figur 2)}. Rutan är fortfarande 50\% av skärmen, vilket gör att  designen blir kompakt i ett utrymme där förmedling av mycket information sker på ett litet utrymme. 50\% procent av skärmen går till spillo åt utrymme mellan rutan och kanter, vilket får rutan att se ihoptryckt ut. Därav en försämring på design och användbarhet när webnsidan ses ifrån en mobilskärm.
 
-Med media anrop i CSSen, kallat för media queries, tillåter vi att värden hos ”div” elementet skrivs över när bredden på webläsaren underskrider 380px.
+Med media anrop i CSSen, kallat för media queries, tillåter vi att värden hos ”div” elementet skrivs över när bredden på webbläsaren underskrider 380px.
 
 \vspace{0.5cm}
 \begin{verbatim}
@@ -157,27 +159,26 @@ Med media anrop i CSSen, kallat för media queries, tillåter vi att värden hos
 \end{verbatim}
 \vspace{0.5cm}
 
-Med media anropet kommer ”width” och ”margin” skrivas över när skärmstorleken är 380px eller mindre, ”height” förblir detsamma. Utrymmet mellan kanterna och rutan ändras till 0 och bredden till 100%, vilket innebär hela skärmbredden. Detta leder till att sidan får andra design värden när den ses från en mobil och andra enheter där skärmen har som störst 380px i bredd. Det ger en mer optimal lösning i både användbarhets och design perspektiv, då man kan få plats med mer information och det är lättare för en användare att navigera. 
-
-\vspace{0.5cm}
+Med media anropet kommer \textit{”width”} och \textit{”margin”} skrivas över när skärmstorleken är 380px eller mindre, \textit{”height”} förblir detsamma. Utrymmet mellan kanterna och rutan ändras till "0" och bredden till "100 \%", vilket innebär hela skärmbredden. Detta leder till att sidan får andra designvärden när den ses från en mobil och andra enheter där skärmen har som störst 380px i bredd. Det ger en mer optimal lösning i både användbarhets och design perspektiv, då mer plats ges åt information och gör navigeringen lättare för en användare. 
+\vspace{1cm}
 \begin{figure}[h]
 \centerline{%
 \includegraphics[scale=0.25]{pics/mobilesmall.png}
 }
 \end{figure}
-\centerline{Figur 3: Användning av media queries för att anpassa websidan till mobilen}
+\centerline{Figur 3: Resultatet vid användning av media queries}
+\vspace{0.5cm}
 
-På så sätt kan samma CSS-fil låta element ha olika värden på egenskaper utifrån storleken på webbläsaren. Websidan får en bra design på layouten vare sig skärmstorlek och enhet, vilket är syftet med 
-responsive web design.
-
+På så sätt kan samma CSS-fil låta element ha olika värden på egenskaper beroende på webbläsarstorlek. Responsive web design fyller sin funktion genom att tillföra en användbar design oavsett enhet som används för att se webbsidan. 
+\newpage
 \subsection{Verktyg}
 
-Inom webdesign utveckling används främst verktygen HTML, CSS och javascript, vilket är det verktyg som kommer att användas under implementeringsfasen i examensarbetet.  I kommande sektion av rapporten kommer verktygen att förklaras för att få en bättre förståelse till kod och termer som används.
+Inom webdesignsutveckling används främst verktygen HTML, CSS och javascript, vilket är det verktyg som kommer att användas under implementeringsfasen i examensarbetet.  I kommande sektion av rapporten kommer verktygen att förklaras för att få en bättre förståelse till kod och termer som används.
 
 \subsubsection{HTML}
-HTML står för Hypertext Markup Language och är ett format som definierar strukturen och logiken på en websida. HTML beskriver strukturen genom att märka upp olika delar av sidan med hjälp av taggar som beskriver vilken sorts element det är. En webläsare läser av HTML-koden och kan på så sätt rendera sidan med rätt layout.
+HTML står för \textit{Hypertext Markup Language} och är ett format som definierar strukturen och logiken på en webbsida. HTML beskriver strukturen genom att märka upp olika delar av sidan med hjälp av \textit{taggar} som beskriver typen av ett element. En webbläsare läser av HTML-koden och kan på så sätt rendera sidan med önskvärd layout.
 
-Det finns olika sorters taggar inom HTML, stycke, rubrik, tabeller, länkar, listor, sektioner är en av dessa. Inom webutveckling har det under senare tid blivit vanligt att man definierar en sida i olika sektioner med element inom dem. 
+Det finns olika sorters taggar inom HTML, stycke, rubrik, tabeller, länkar, listor, sektioner är en av dessa. Inom webbutveckling har användning utav taggen \textit{<div>} blivit vanlig för att strukturera upp en sida i olika sektioner, vartefter kan en sektion innehålla andra element.
 
 \vspace{1cm}
 \begin{verbatim}
@@ -190,11 +191,11 @@ Det finns olika sorters taggar inom HTML, stycke, rubrik, tabeller, länkar, lis
 \end{verbatim}
 \vspace{1cm}
 
-I ovanstående HTML-kod har vi definierat en sektion på sidan med <div> taggen, inom den sektionen har vi en rubrik som definieras med taggen <h1> och ett stycke som definieras med taggen <p>. Taggarna i html-koden bildar tillsammans strukturen på sidan, däremot så har inte html-koden någon kontroll över utseendet för taggarna, det sköts av CSS.  
+I ovanstående HTML-kod har vi definierat en sektion på webbsidan med \textit{<div>} taggen, inom den sektionen har vi en rubrik som definieras med taggen \textit{<h1>} och ett stycke som definieras med taggen \textit{<p>}. Taggarna i html-koden bildar tillsammans strukturen på sidan, däremot så har inte html-koden någon kontroll över utseendet för taggarna, det sköts utav CSS.  
 
 \subsubsection{CSS}
-CSS står för Cascading Style Sheets och är ett språk som beskriver utseendet på html-kod.
-Med hjälp av CSS-kod kan olika element i html-koden få ett speciellt utseende i form av storlek, färg och position. Det finns olika sätt att definiera css, man kan definiera det direkt i taggen t.ex <p style=”color:blue; width:50px”>Frågan en webutvecklare ställer sig inför skapandet av en responsiv websida</p> vilket kallas för inline-styling. Man kan även i html filen, definiera utseendet i <head> taggen, vilket kallas för internal styling:
+CSS står för \textit{Cascading Style Sheets} och är ett språk som beskriver utseendet på en webbsida.
+Med hjälp av CSS-kod kan olika element i html-koden få ett speciellt utseende i form av storlek, färg och position. Det finns olika sätt att definiera css, man kan definiera det direkt i taggen t.ex \textit{<p style=”color:blue; width:50px”>Frågan en webbutvecklare ställer sig inför skapandet av en responsiv webbsida</p>} vilket kallas för \textit{inline-styling}. Man kan även i html filen, definiera utseendet i \textit{<head>} taggen, vilket kallas för \textit{internal styling}:
 
 \vspace{0.5cm}
 \begin{verbatim}
@@ -209,14 +210,14 @@ Med hjälp av CSS-kod kan olika element i html-koden få ett speciellt utseende 
 \end{verbatim}
 \vspace{0.5cm}
 
-På så sätt säger man att alla <p> taggar i html-koden kommer att ha dessa egenskaper. Sista sättet är att definiera det i en egen css-fil och länka till det från <head> taggen i html-koden, vilket är det vanligaste sättet. 
+På så sätt får alla \textit{<p>} taggar i html-koden egenskaperna som sätts. Trejde sättet är att definiera det i en egen css-fil och länka till det från \textit{<head>} taggen i html-koden, vilket är det vanligaste av de tre sätten. 
 \vspace{0.3cm}
 \begin{verbatim}
 <link rel="stylesheet" type="text/css" href="main.css">
 \end{verbatim}
 \vspace{0.5cm}
 
-I css-kod defineras utseendet av olika taggar, men möjligheten finns att definiera samma tagg med olika utseenden, detta görs med hjälp av klasser och ids. Ett element kan ha olika klasser eller ids och i css-koden kan klasserna defineras med ett utseende, vilket gör att varje tag som delar klassen delar även utseendet:
+I css-kod definieras utseendet av olika taggar. Det finns möjlighet att definiera samma tagg med olika utseenden, detta görs genom att sätta \textit{Klasser} och \textit{IDs} för varje element. Ett element kan ha olika klasser eller ids, vilket definieras med ett utseende i css-koden. Det gör att varje tagg som delar klassen, delar även utseendet:
 
 \vspace{0.3cm}
 I html filen:
@@ -242,20 +243,23 @@ I css filen:
 \end{verbatim}
 \vspace{1cm}
 
-Vid dessa tre olika sätt att definiera utseendet visas enligt prioritering, inline-styling kod först, sedan internal och sist external. Anledningen till att man väljer external främst är för att man slipper definiera utseendet flera gånger, allt är samlat i en fil och det går snabbare att ladda sidans utseende. Därmed hålls det ur en webutvecklares synvinkel, en bra struktur, vilket tillåter webutvecklaren att på upprätthålla teknikerna fluid grid, fluid images och på ett enkelt sätt använda sig av media queries vid implementeringen av en webbsida.
+I ovanstående kod kommer sektionen få utseendet som definieras som ID: \textit{main} i css-koden och paragrafen utseendet som definieras som Klass: \textit{paragraf}.
+
+
+Dessa tre olika sätt att definiera utseendet visas enligt prioritering, inline-styling kod först, sedan internal och sist external. Anledningen till att external väljs främst är för att utseendet inte behövs definieras flera gånger, allt är samlat i en fil och det går snabbare att ladda sidans utseende. Därmed hålls det ur en webbutvecklares synvinkel, en bra struktur. Vilket tillåter webbutvecklaren att på upprätthålla teknikerna fluid grid, fluid images och på ett enkelt sätt använda sig av media queries vid implementering av en webbsida.
 
 \subsubsection{JavaScript}
-JavaScript är ett scriptspråk som inom webutveckling främst används för att hantera dynamiska funktioner för beteendet hos en websida, beteenden som skapas från klientsidan. Med JavaScript kan man t.ex. läsa en användarens klick i websidan och utifrån det kalla på funktioner som kan ändra websidans innehåll eller utseende. Eftersom JavaScript är ett skript språk behövs ingen kompilering och koden kan skrivas direkt i html-filen.
+\textit{JavaScript} är ett scriptspråk som inom webbutveckling främst används för att hantera dynamiska funktioner för beteendet hos en websida, beteenden som skapas från klientsidan. Med JavaScript kan man t.ex. läsa en användarens klick i websidan och utifrån det kalla på funktioner som kan ändra webbsidans innehåll eller utseende. Eftersom JavaScript är ett skriptspråk behövs ingen kompilering och koden kan skrivas direkt i html-filen.
 
-För att JavaScript skall fungera korrekt krävs det dock att webbläsaren har stödjer det. I vissa fall har webläsaren den funktionen men har den avstängd. Tidigare har det varit ett problem att mobila webbläsare inte har haft stöd för JavaScript, vilket har lett till att menyer och pop-up fönster inte har fungerat korrekt när man surfar till sidan via mobilen, men tekniken har utvecklats och numera klarar mobila webbläsare av JavaScript. Men fortfarande finns det en del problem i mobila webbläsare när det kommer till mer komplicerade JavaScript funktioner. Vid websidor som har helt separata mobilsidor kan det vara en fördel då man väljer att inte läsa in all JavaScript som behövs, med responsiva web sidor använder man samma websida för varje enhet, vilket leder till att en mobilenhet laddar all JavaScript och gör att websidan svarar långsamt. En webbutvecklare måste ha det i åtanke och redan från början utveckla en hemsidan vars JavaScript inte är för invecklat för mobilsidan.
+För att JavaScript skall fungera korrekt krävs det dock att webbläsaren stödjer det. I vissa fall har webbläsaren den funktionen men har den avstängd. Tidigare ett problem varit att mobilwebbläsare inte har haft stöd för JavaScript, vilket har lett till att menyer och pop-up fönster inte har fungerat korrekt när man surfar till sidan via mobilen, men tekniken har utvecklats och numera klarar mobila webbläsare av JavaScript. Det finns fortfarande en del problem när det kommer till mer komplicerade JavaScript funktioner och bibliotek som mobilwebläsare inte kan hantera. Vid webbsidor som har helt separata mobilsidor kan det vara en fördel då man väljer att inte läsa in all JavaScript som behövs, med responsiva webbsidor använder man samma webbsida för varje enhet, vilket leder till att en mobilenhet laddar all JavaScript vilket försämra webbsidans respons. En webbutvecklare måste ha i åtanke och redan från början utveckla en hemsida vars JavaScript inte kommer i vägen för den responsiva webbsidans funktionalitet.
 
 \subsection{Mobile-first och Desktop-first}
-Tekniken för att skapa responsiva sidor existerar, med hjälp av utvecklingen av ovanstående tekniker och verktyg finns i nuläget möjligheten att skapa en websida som beroende på skärmstorlek har olika designlayouts med en och samma kodgrund. Det finns även kunskap om hur man skall gå tillväga för att skapa en responsiv websida, där en utvecklare med formler och riktlinjer kan lära sig att använda fluid grid, fluid images och media queries på bästa sätt. Men vägen till att skapa en responsiv websida är olika.  I bloggar och forum på webben diskuteras flitigt valet av utvecklingsmetod när det kommer till responsiva webplatser och innan implementeringen av websidan är detta en fråga som med stor sannolikhet dyker upp. Utvecklingsmetoderna man diskuterar om är Mobile-first och Desktop first. Mobile-first och Desktop-first är två olika metoder där det responsiva angreppssättet används. Båda strävar efter samma mål men där frågan handlar mestadels om vilken enhet websidan skall anpassas för först. 
+Tekniken för att skapa responsiva webbsidor existerar, med hjälp av utvecklingen av ovanstående tekniker och verktyg finns i nuläget möjligheten att skapa webbsidor som beroende på skärmstorlek har olika designlayouts med en och samma kodgrund. Det finns även kunskap om hur man skall gå tillväga för att skapa en responsiv webbsida, där utvecklare med formler och riktlinjer kan lära sig att använda fluid grid, fluid images och media queries på bästa sätt. Men vägen till att skapa en responsiv websida är olika.  I bloggar och forum på webben diskuteras flitigt valet av utvecklingsmetod när det kommer till responsiva webplatser och innan implementeringen av en webbsida är detta en fråga som med stor sannolikhet dyker upp hos webbutvecklare. Utvecklingsmetoderna man diskuterar om är \textit{Mobile-first} och \textit{Desktop-first}. Mobile-first och Desktop-first är två olika metoder där det responsiva angreppssättet används. Båda strävar efter samma mål men skiljer sig i prioriteringen av vilken enhet webbsidan skall vara anpassad för först.
 
 \subsubsection{Mobile-first}
-Mobile-first metoden bygger på att man skapar en websida anpassad för mobilskärmen först, för att sedan med hjälp av media queries och en flexibel layout renderera elementen på websidan desto större webläsarfönstret blir.  På så sätt är grund layouten designad för en mobil. Mobile-first anses som en rimlig utvecklingsmetod då man tar till hänsyn antalet mobilanvändare och det behov som finns vid navigering och informationsintagelse från mobilskärmar.  Det betyder att innehåll prioriteras då bristen på plats är ett faktum och fokus läggs på de delar som informationsmässigt är de viktigaste. Det behöver inte nödvändigtvis betyda att hänsyn till prioritering och design inte tas när man utvecklar i desktop-first, utan snarare att prioriteringen för mobilskärm sker vid ett tidigare skede i utvecklingen när man använder sig av mobil-first.
+Mobile-first metoden bygger på att man skapar en webbsida anpassad för mobilskärmen först, för att sedan med hjälp av media queries och en flexibel layout renderera elementen på webbsidan desto större webbläsarfönstret blir.  På så sätt är grund layouten designad för en mobil. Mobile-first anses som en rimlig utvecklingsmetod då man tar till hänsyn antalet mobilanvändare och det behov som finns vid navigering och informationsintagelse från mobilskärmar.  Det betyder att innehåll prioriteras då bristen på plats är ett faktum och fokus läggs på de delar som informationsmässigt är de viktigaste. Det behöver inte nödvändigtvis betyda att hänsyn till design för mobilen inte tas i desktop-first, utan snarare att implementationen för mobilskärm sker vid ett senare skede i utvecklingen än vid användning av mobile-first.
 
-Kodmässigt är grunden anpassad för mobilen, det vill säga att media anrop sker när skärmen blir större, där media queries ser till att skriva om värden klasser. 
+Kodmässigt är grunden anpassad för mobilen, det vill säga att media anrop sker när skärmen blir större, där media queries ser till att skriva om värden hos valda element. 
 \vspace{0.5cm}
  \begin{verbatim}
 @media all and (min-width: 480px){
@@ -267,12 +271,12 @@ Kodmässigt är grunden anpassad för mobilen, det vill säga att media anrop sk
 \end{verbatim}
 
 \vspace{0.5cm}
-I fallet ovan sker ett anrop när bredden på websidan är som minst 480px, som gör att elementen med klassen main får margin och width skrivs över med nya värden. I fall då mobiler inte klarar av att läsa media queries(fotnot), vilket i dagsläget är få, är detta en optimal lösning då grunden redan är skrivet för mobilen, och en läsning av media queries endast kommer att krävas från en desktop vilket de flesta webläsare klarar av.
+I fallet ovan sker ett anrop när bredden på websidan är som minst 480px, som gör att elementen med klassen main får \textit{"margin"} och \textit{"width"} skrivs över med nya värden. I fall då mobiler inte klarar av att läsa media queries(fotnot), vilket i dagsläget är få, är detta en optimal lösning då grunden redan är skrivet för mobilen och en läsning av media queries endast kommer att krävas från en skrivbordsskärm vilket de flesta webbläsare klarar av.
 
 \subsubsection{Desktop-first}
-Desktop-first metoden bygger på att man utvecklar för skrivbordskärmen och därefter rendererar som sidan desto mindre skärmen blir. Det behöver inte nödvändigtvis betyda att skapar en hel sida för desktop som sedan i efterhand designas om till mobil, utan tanken för mobil finns redan från början men implementeringen sker i synnerhet för skrivbordsskärmen först. Websidor som i efterhand skapas till mobilen, brukar innebära en separat mobilsida då refaktoreringen av kod i samband med att förvandla sidan till responsiv kan innebära en del komplikationer.  
+Desktop-first metoden bygger på att man utvecklar för skrivbordskärmen först och därefter rendererar sidan desto mindre skärmen blir. Det behöver inte nödvändigtvis betyda att en färdig sida för desktop i efterhand designas om till mobil, utan tanken för mobil finns redan från början men implementeringen sker i synnerhet för skrivbordsskärmen först. Webbsidor som i efterhand skapas till mobilen, brukar innebära en separat mobilsida då refaktoreringen av kod i samband med att förvandla sidan till responsiv kan innebära en del komplikationer.  
 
-Kodmässigt är grunden anpassad för skrivbordsskärmen, det vill säga att media anrop sker när skärmbredden når en minimum gräns, i form av en mobilskärm, där media queries ser till att skriva om valda klasser.
+Kodmässigt är grunden anpassad för skrivbordsskärmen. Det vill säga att media anrop sker när skärmbredden når en minimum gräns, i form av en mobilskärm, där media queries ser till att skriva om värden på valda element.
 
 
 \vspace{0.5cm}
@@ -286,16 +290,20 @@ Kodmässigt är grunden anpassad för skrivbordsskärmen, det vill säga att med
 \end{verbatim}
 \vspace{0.5cm}
 
-I fallet ovan sker ett anrop när bredden är som max 380px. Anropet ger margin och width i klassen main nya värden, anpassade till mobilen.  Desktop-first används med tanken att websidan ska ge en upplevelse, och skall nå en design maximum när man den ses från en skrivbordskärm, upplevelsen utifrån en mobilskärm är inte lika högt prioriterad, men bör innebära en funktionell sida med det nödvändigaste funktionalitet.
+I fallet ovan sker ett anrop när bredden är som max 380px. Anropet ger \textit{"margin"} och \textit{"width"} i klassen main nya värden, anpassade till mobilen.  Desktop-first används oftast i samband med hemsidor där man vill skapa en upplevelse och vill att webbsidan skall nå ett design maximum när den ses utifrån en skrivbordskärm, upplevelsen utifrån en mobilskärm är inte lika högt prioriterad, men bör innebära en funktionell sida med det nödvändigaste funktionalitet.
 
 \subsubsection{Mobile-first eller Desktop-first, vilken ska man välja?}
-Utvecklingen av tekniker och verktyg har gjort det möjligt att kunna applicera metoderna vid skapandet av en websida. Kunskapen om metoderna var för sig har med tiden blivit större i samband med utvecklingen av responsive web design. Däremot ställs webutvecklare kring frågan om vilken metod som appliceras bäst till den typen av websida som skall skapas. I dagsläget finns ingen kunskap om hur bra metoderna appliceras i jämförelse med varandra. Det finns tankar och spekulationer, därefter väljs metod utifrån dessa, komplikationer hanteras men dokumenteras inte och till slut har man en fungerande responsiv websida. Eftersom websidan är färdig implementerad finns ingen anledning till att implementera om en fungerande lösning med en annan metod, därav är kunskapen om samma resultat men med en annan lösning liten.
+Utvecklingen av tekniker och verktyg har gjort det möjligt att kunna applicera metoderna vid skapandet av en websida. Kunskapen om metoderna var för sig har med tiden blivit större i samband med utvecklingen av responsive web design. Däremot ställs webutvecklare kring frågan om vilken metod som appliceras bäst till den typen av websida som skall skapas. I dagsläget finns ingen kunskap om hur bra metoderna appliceras i jämförelse med varandra. Det finns tankar och spekulationer, därefter väljs metod utifrån dessa, komplikationer hanteras men dokumenteras inte och till slut har man en fungerande responsiv websida. Eftersom websidan är färdig implementerad finns ingen anledning till att implementera om en fungerande lösning med en annan metod, därav finns ingen större kunskap om jämförelse av implementationen med respektive metod.
 
-Användningen av mobilt internet ökar och användningen av internet via en dator kommer med stor sannolikhet att bestå. Vilket gör att en grund för val av metod är högst passande, då det redan nu och i framtiden kommer att kräva mer än en webutvecklares tankar nedskrivna i ett blogginlägg för att fatta ett beslut. Båda metoder har sina fördelar samt nackdelar, frågan är när man kan utnyttja dessa bäst, och kan beslutet av val leda till positiva faktorer vilket andra metoden just i den frågan inte hade kunnat göra.    
+Användning av mobilt internet ökar och användningen av internet via en dator kommer med stor sannolikhet bestå. Vilket gör att en grund för val av metod är högst passande, då det redan nu och i framtiden kommer att kräva mer kunskap än vad som idag kan erbjudas från bloggar. Båda metoder har sina fördelar samt nackdelar, men frågan som bör ställas är när dessa går att utnyttjas på bästa sätt, och kan beslutet av val leda till positiva faktorer vilka motsatta metod inte hade kunnat uppnå inom en specifik situation.
+
+
+
+
 \newpage
 
 \section{Syfte}
-Syftet med arbetet är att kunna hitta riktlinjer till när en specifik metod appliceras som bäst, det vill säga beroende på faktorer kring websidan hitta den metod som tillför det mest optimala lösningen i en situation. Att hitta en metod som fungerar bäst i alla lägen är inte målet, då det har framgått i litteraturstudie att det existera för många olika vinklar som gör det svårt att hitta en specifik faktor hos en metod som avgör beslutet i alla lägen.
+Syftet med arbetet är att kunna hitta riktlinjer till när en specifik metod appliceras som bäst. Det vill säga beroende på faktorer kring webbsidan hitta den metod som tillför det mest optimala lösningen för implementationen av webbsidan. Att hitta en metod som fungerar bäst i alla lägen är inte målet, då det har framgått i litteraturstudie att det existera för många olika vinklar som gör det svårt att hitta en specifik faktor hos en metod som avgör beslutet i alla lägen.
 
 Frågeställningar som besvaras i rapporten är:
 
