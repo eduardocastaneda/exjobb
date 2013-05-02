@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.4.24)  26 APR 2013 11:18
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.4.24)  2 MAY 2013 15:37
 entering extended mode
 **rapport.tex
 (C:\Users\eduardo.castaneda\Documents\Code\exjobb\latex\rapport.tex
@@ -745,20 +745,20 @@ Package biblatex Warning: 'babel' detected but 'csquotes' missing.
 \@quotelevel=\count226
 \@quotereset=\count227
 (C:\Users\eduardo.castaneda\Documents\Code\exjobb\latex\rapport.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -811,10 +811,10 @@ f.mkii
 \everyMPtoPDFconversion=\toks23
 )
 \AtBeginShipoutBox=\box29
-Package hyperref Info: Link coloring OFF on input line 60.
-LaTeX Info: Redefining \ref on input line 60.
-LaTeX Info: Redefining \pageref on input line 60.
-LaTeX Info: Redefining \nameref on input line 60.
+Package hyperref Info: Link coloring OFF on input line 59.
+LaTeX Info: Redefining \ref on input line 59.
+LaTeX Info: Redefining \pageref on input line 59.
+LaTeX Info: Redefining \nameref on input line 59.
  (C:\Users\eduardo.castaneda\Documents\Code\exjobb\latex\rapport.out)
 (C:\Users\eduardo.castaneda\Documents\Code\exjobb\latex\rapport.out)
 \@outlinefile=\write5
@@ -825,16 +825,16 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'rapport.bbl' not found.
 
 No file rapport.bbl.
-Package biblatex Info: Reference section=0 on input line 60.
-Package biblatex Info: Reference segment=0 on input line 60.
+Package biblatex Info: Reference section=0 on input line 59.
+Package biblatex Info: Reference segment=0 on input line 59.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 65.
+(Font)              <12> on input line 64.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 65.
+(Font)              <8> on input line 64.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 65.
+(Font)              <6> on input line 64.
 [1
 
 {C:/Users/eduardo.castaneda/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
@@ -854,21 +854,21 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 File: pics/big.png Graphic file (type png)
 
 <use pics/big.png>
-Package pdftex.def Info: pics/big.png used on input line 129.
+Package pdftex.def Info: pics/big.png used on input line 128.
 (pdftex.def)             Requested size: 221.27705pt x 103.7128pt.
  <pics/small.png, id=128, 270.25969pt x 479.54156pt>
 File: pics/small.png Graphic file (type png)
 
 <use pics/small.png>
-Package pdftex.def Info: pics/small.png used on input line 129.
+Package pdftex.def Info: pics/small.png used on input line 128.
 (pdftex.def)             Requested size: 81.07852pt x 143.86357pt.
 
-Overfull \hbox (10.39265pt too wide) in paragraph at lines 131--132
+Overfull \hbox (10.39265pt too wide) in paragraph at lines 130--131
 [] \T1/cmr/m/n/10.95 Fi-gur 1: Ut-i-från desk-top   Fi-gur 2: Ut-i-från mo-bi-l
 en 
  []
 
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 137.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 136.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
@@ -878,33 +878,39 @@ Users/eduardo.castaneda/Documents/Code/exjobb/latex/pics/small.png>]
 File: pics/mobilesmall.png Graphic file (type png)
 
 <use pics/mobilesmall.png>
-Package pdftex.def Info: pics/mobilesmall.png used on input line 167.
+Package pdftex.def Info: pics/mobilesmall.png used on input line 166.
 (pdftex.def)             Requested size: 67.56474pt x 120.07329pt.
  [8 <C:/Users/eduardo.castaneda/Documents/Code/exjobb/latex/pics/mobilesmall.pn
 g>] [9] [10]
-Overfull \hbox (0.17561pt too wide) in paragraph at lines 257--258
+Overfull \hbox (0.17561pt too wide) in paragraph at lines 256--257
 \T1/cmr/m/n/10.95 Tekniken för att ska-pa re-spon-si-va webb-si-dor ex-i-ste-ra
 r, med hjälp av ut-veck-ling-en av ovanstå-
  []
 
 [11] [12] [13] [14]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 331.
- [15]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 331.
+Underfull \hbox (badness 3919) in paragraph at lines 337--341
+[]\T1/cmr/m/n/10.95 Mark Ba-tes, \T1/cmr/m/it/10.95 Tes-ting Your Ja-va-Script/
+CoffeeScript\T1/cmr/m/n/10.95 . []$\T1/cmtt/m/n/10.95 http : / / www . informit
+ . com /$
+ []
 
-(C:\Users\eduardo.castaneda\Documents\Code\exjobb\latex\rapport.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 331.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 331.
+[15]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 441.
+ [16]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 441.
+ (C:\Users\eduardo.castaneda\Documents\Code\exjobb\latex\rapport.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 441.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 441.
 Package rerunfilecheck Info: File `rapport.out' has not changed.
 (rerunfilecheck)             Checksum: 72206518A97AA95CDE4F9555DDF4C9E3;1242.
 Package logreq Info: Writing requests to 'rapport.run.xml'.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 331.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 441.
  ) 
 Here is how much of TeX's memory you used:
- 12972 strings out of 493921
- 207981 string characters out of 3147246
- 612535 words of memory out of 3000000
- 16082 multiletter control sequences out of 15000+200000
+ 13010 strings out of 493921
+ 208488 string characters out of 3147246
+ 614122 words of memory out of 3000000
+ 16100 multiletter control sequences out of 15000+200000
  14524 words of font info for 36 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  37i,11n,43p,1497b,1402s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -920,9 +926,9 @@ neda\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1095.pk> <
 C:\Users\eduardo.castaneda\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec
 \dpi600\ecrm1200.pk> <C:\Users\eduardo.castaneda\AppData\Local\MiKTeX\2.9\fonts
 \pk\ljfour\jknappen\ec\dpi600\ecrm1728.pk>
-Output written on rapport.pdf (15 pages, 191458 bytes).
+Output written on rapport.pdf (16 pages, 209108 bytes).
 PDF statistics:
- 608 PDF objects out of 1000 (max. 8388607)
- 40 named destinations out of 1000 (max. 500000)
+ 674 PDF objects out of 1000 (max. 8388607)
+ 60 named destinations out of 1000 (max. 500000)
  160 words of extra memory for PDF output out of 10000 (max. 10000000)
 
