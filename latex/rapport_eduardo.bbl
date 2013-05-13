@@ -36,6 +36,23 @@
       \verb http://ejohn.org/blog/javascript-testing-does-not-scale/
       \endverb
     \endentry
+    \entry{test}{online}{}
+      \name{labelname}{1}{}{%
+        {{hash=e1adbcbb92c622d0b3e619f9d0730abf}{Github}{G\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=e1adbcbb92c622d0b3e619f9d0730abf}{Github}{G\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{e1adbcbb92c622d0b3e619f9d0730abf}
+      \strng{fullhash}{e1adbcbb92c622d0b3e619f9d0730abf}
+      \field{sortinit}{0}
+      \field{labeltitle}{pivotal/jsunit}
+      \field{note}{Last checked: April~3, 2013}
+      \field{title}{pivotal/jsunit}
+      \verb{url}
+      \verb https://github.com/pivotal/jsunit
+      \endverb
+    \endentry
     \entry{GoodParts}{book}{}
       \name{labelname}{1}{}{%
         {{hash=e289d8e4f4648ab33fb5d884998637aa}{Crockford}{C\bibinitperiod}{Douglas}{D\bibinitperiod}{}{}{}{}}%

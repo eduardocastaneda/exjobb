@@ -1930,6 +1930,7 @@
   </bcf:bibdata>
   <bcf:section number="0">
     <bcf:citekey order="0">TestSwarm</bcf:citekey>
+    <bcf:citekey order="0">test</bcf:citekey>
     <bcf:citekey order="1">GoodParts</bcf:citekey>
     <bcf:citekey order="1">Tddjs</bcf:citekey>
   </bcf:section>

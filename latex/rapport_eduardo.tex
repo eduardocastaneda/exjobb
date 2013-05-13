@@ -8,11 +8,12 @@
 \documentclass[11pt]{article}
 
 \usepackage[swedish]{babel} % Enables swedish typesetting, needs to be at top of document
+\usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc} % set input encoding (not needed with XeLaTeX
 \usepackage{textcomp} % Suppress unicode char error
 \usepackage{enumitem} % resume numbering in enumerations
 \usepackage[bottom = 110pt]{geometry} % to change the page dimensions
-\geometry{a4paper} % paper format, could also be placed in documentclass options
+%\geometry{a4paper} % paper format, could also be placed in documentclass options
 \usepackage{graphicx} % support the \includegraphics command and options
 \usepackage[parfill]{parskip} % Begin paragraphs with an empty line rather than an indent
 \usepackage{verbatim} % adds environment for commenting out blocks of text & for better verbatim
@@ -46,6 +47,9 @@
 \begin{document}
 
 \maketitle
+\thispagestyle{empty}
+
+
 \newpage
 
 \begin{abstract}
@@ -53,6 +57,7 @@ Abstract goes here... Lorem ipsum dolor sit amet, consectetur adipiscing elit. N
 
 Integer fringilla ligula eu sem semper tincidunt. Nullam mi lacus, blandit non sollicitudin eget, tempor eu ante. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi ornare sem et purus consequat ac adipiscing nunc tincidunt. Curabitur nisi ante, ornare vel adipiscing et, scelerisque vitae erat. Etiam blandit egestas magna, quis dapibus nulla euismod quis. Sed interdum interdum malesuada. Suspendisse lacinia imperdiet laoreet. Maecenas ullamcorper laoreet nunc ac egestas. Cras consequat elit eu lacus sollicitudin ut pharetra magna venenatis. Suspendisse scelerisque condimentum pulvinar. Mauris ut tellus sit amet nulla porttitor tristique. Suspendisse eleifend erat sed nisi lacinia eu lacinia metus porta. Nulla pretium, risus eget semper laoreet, dolor odio malesuada eros, at mattis enim turpis gravida felis. Aliquam adipiscing varius nibh, ac auctor eros bibendum non.
 \end{abstract}
+\thispagestyle{empty}
 
 \newpage
 \tableofcontents
@@ -60,7 +65,7 @@ Integer fringilla ligula eu sem semper tincidunt. Nullam mi lacus, blandit non s
 \newpage
 \section{Bakgrund}
 
-Mobilutvecklingen har under de senaste åren gått fort framåt, vilket har lett till att mobiler numera utvecklas till att fungera likt en handburen minidator. Huvudsyftet med mobiler är inte längre att bara kunna kommunicera med andra, utan även att bland annat ha möjligheten att få ut information genom webben. Att en websida inte längre endast ses i en skrivbordsskärm har gjort att nya webblösningar krävs. En utvecklare måste ha i åtanke att webbdesignen bör fungera för en användare som sitter på kontoret och läser sidan från en skrivbordsskärm, likaväl för en användare som sitter på tåget och läser sidan från mobilen. \textit{Responsive Web Design} är en lösning vilken beroende på skärmstorlek renderar\nocite{TestSwarm} samma sida på olika sätt. I responsive web design har det fokuserats på två olika metoder, \textit{Mobile-first} och \textit{Desktop-first}. Metoderna grundar sig på att utveckling sker för en typ av skärm först för att sedan utifrån det utveckla så att den sidan även passar för andra skärmar. Det finns mycket kunskap om metoderna var för sig, men inget underlag för valet av metod i olika situationer och inom olika områden. Mobilanvändarna ökar för varje dag medan skrivbordsanvändare behåller sina användare med en viss minskning. Det största antalet är användare utav båda, vilket kräver kunskap om när metoderna appliceras bäst för att få effektivare lösningar inom webutveckling.
+Mobilutvecklingen har under de senaste åren gått fort framåt, vilket har lett till att mobiler numera utvecklas till att fungera likt en handburen minidator. Huvudsyftet med mobiler är inte längre att bara kunna kommunicera med andra, utan även att bland annat ha möjligheten att få ut information genom webben. Att en websida inte längre endast ses i en skrivbordsskärm har gjort att nya webblösningar krävs. En utvecklare måste ha i åtanke att webbdesignen bör fungera för en användare som sitter på kontoret och läser sidan från en skrivbordsskärm, likaväl för en användare som sitter på tåget och läser sidan från mobilen. \textit{Responsive Web Design} är en lösning vilken beroende på skärmstorlek renderar\nocite{TestSwarm} samma sida på olika sätt. I responsive web design har det fokuserats på två olika metoder, \textit{Mobile-first} och \textit{Desktop-first}. Metoderna grundar sig på att utveckling sker för en typ av skärm först för att sedan utifrån det utveckla så att den sidan även passar för andra skärmar. Det finns mycket kunskap om metoderna var för sig, men inget underlag för valet av metod i olika situationer och inom olika områden. Mobilanvändarna ökar för varje dag medan skrivbordsanvändare behåller sina användare med en viss minskning. Det största antalet är användare utav båda, vilket kräver kunskap om när \nocite{test} metoderna appliceras bäst för att få effektivare lösningar inom webutveckling.
 
 \subsection{Mobilanvändare}
 
