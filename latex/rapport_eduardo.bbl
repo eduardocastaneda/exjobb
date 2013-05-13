@@ -1,0 +1,78 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist{entry}{none}
+    \entry{TestSwarm}{online}{}
+      \name{labelname}{1}{}{%
+        {{hash=93856cc6af40486aeaec14e696f2f373}{Resig}{R\bibinitperiod}{John}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=93856cc6af40486aeaec14e696f2f373}{Resig}{R\bibinitperiod}{John}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{93856cc6af40486aeaec14e696f2f373}
+      \strng{fullhash}{93856cc6af40486aeaec14e696f2f373}
+      \field{sortinit}{0}
+      \field{labeltitle}{JavaScript testing does not scale}
+      \field{note}{Last checked: April~9, 2013}
+      \field{title}{JavaScript testing does not scale}
+      \verb{url}
+      \verb http://ejohn.org/blog/javascript-testing-does-not-scale/
+      \endverb
+    \endentry
+    \entry{GoodParts}{book}{}
+      \name{labelname}{1}{}{%
+        {{hash=e289d8e4f4648ab33fb5d884998637aa}{Crockford}{C\bibinitperiod}{Douglas}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=e289d8e4f4648ab33fb5d884998637aa}{Crockford}{C\bibinitperiod}{Douglas}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {O'Reilly Media, Inc.}%
+      }
+      \strng{namehash}{e289d8e4f4648ab33fb5d884998637aa}
+      \strng{fullhash}{e289d8e4f4648ab33fb5d884998637aa}
+      \field{sortinit}{0}
+      \field{labeltitle}{JavaScript: The Good Parts}
+      \field{isbn}{9780596517748}
+      \field{title}{JavaScript: The Good Parts}
+      \field{year}{2008}
+    \endentry
+    \entry{Tddjs}{book}{}
+      \name{labelname}{1}{}{%
+        {{hash=e290d864c2575a3239e477d4cef14f0f}{Johansen}{J\bibinitperiod}{Christian}{C\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=e290d864c2575a3239e477d4cef14f0f}{Johansen}{J\bibinitperiod}{Christian}{C\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {ADDISON-WESLEY}%
+      }
+      \strng{namehash}{e290d864c2575a3239e477d4cef14f0f}
+      \strng{fullhash}{e290d864c2575a3239e477d4cef14f0f}
+      \field{sortinit}{0}
+      \field{labeltitle}{Test-Driven JavaScript Development}
+      \field{isbn}{9780321683915}
+      \field{title}{Test-Driven JavaScript Development}
+      \field{year}{2010}
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+
