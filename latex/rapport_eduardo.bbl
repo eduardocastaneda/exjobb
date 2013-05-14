@@ -19,75 +19,209 @@
 
 \refsection{0}
   \sortlist{entry}{none}
-    \entry{TestSwarm}{online}{}
+    \entry{AppleRevolution}{online}{}
       \name{labelname}{1}{}{%
-        {{hash=93856cc6af40486aeaec14e696f2f373}{Resig}{R\bibinitperiod}{John}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=620d4fc19ff975044ddce98eb66e767d}{Seitz}{S\bibinitperiod}{Patrick}{P\bibinitperiod}{}{}{}{}}%
       }
       \name{author}{1}{}{%
-        {{hash=93856cc6af40486aeaec14e696f2f373}{Resig}{R\bibinitperiod}{John}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=620d4fc19ff975044ddce98eb66e767d}{Seitz}{S\bibinitperiod}{Patrick}{P\bibinitperiod}{}{}{}{}}%
       }
-      \strng{namehash}{93856cc6af40486aeaec14e696f2f373}
-      \strng{fullhash}{93856cc6af40486aeaec14e696f2f373}
+      \strng{namehash}{620d4fc19ff975044ddce98eb66e767d}
+      \strng{fullhash}{620d4fc19ff975044ddce98eb66e767d}
       \field{sortinit}{0}
-      \field{labeltitle}{JavaScript testing does not scale}
-      \field{note}{Last checked: April~9, 2013}
-      \field{title}{JavaScript testing does not scale}
+      \field{labeltitle}{Inventors - Apple's Iphone Turns 5 'At The Top Of Its Game'}
+      \field{note}{Senast besökt: 14 maj 2013}
+      \field{title}{Inventors - Apple's Iphone Turns 5 'At The Top Of Its Game'}
       \verb{url}
-      \verb http://ejohn.org/blog/javascript-testing-does-not-scale/
+      \verb http://news.investors.com/technology/062712-616302-apple-iphone-turns-5-faces-rivals-from-samsung-google.htm
       \endverb
     \endentry
-    \entry{test}{online}{}
+    \entry{Cfigroup_2009}{article}{}
       \name{labelname}{1}{}{%
-        {{hash=e1adbcbb92c622d0b3e619f9d0730abf}{Github}{G\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=be9585da54f2764669253d83031da288}{Doug\bibnamedelima Helmreich}{D\bibinitperiod\bibinitdelim H\bibinitperiod}{Phil\bibnamedelima Doriot}{P\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
       }
       \name{author}{1}{}{%
-        {{hash=e1adbcbb92c622d0b3e619f9d0730abf}{Github}{G\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=be9585da54f2764669253d83031da288}{Doug\bibnamedelima Helmreich}{D\bibinitperiod\bibinitdelim H\bibinitperiod}{Phil\bibnamedelima Doriot}{P\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
       }
-      \strng{namehash}{e1adbcbb92c622d0b3e619f9d0730abf}
-      \strng{fullhash}{e1adbcbb92c622d0b3e619f9d0730abf}
+      \strng{namehash}{be9585da54f2764669253d83031da288}
+      \strng{fullhash}{be9585da54f2764669253d83031da288}
       \field{sortinit}{0}
-      \field{labeltitle}{pivotal/jsunit}
-      \field{note}{Last checked: April~3, 2013}
-      \field{title}{pivotal/jsunit}
+      \field{labeltitle}{Smartphones, Providers and the Customers Who Love (and Loathe) Them}
+      \field{journaltitle}{CFI Group Smartphone Satifaction Study 2009}
+      \field{month}{08}
+      \field{title}{Smartphones, Providers and the Customers Who Love (and Loathe) Them}
+      \field{year}{2009}
+    \endentry
+    \entry{.se}{book}{}
+      \name{labelname}{1}{}{%
+        {{hash=b32910356965672e7809c10a49429c22}{Findahl}{F\bibinitperiod}{Olle}{O\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=b32910356965672e7809c10a49429c22}{Findahl}{F\bibinitperiod}{Olle}{O\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {.se}%
+      }
+      \strng{namehash}{b32910356965672e7809c10a49429c22}
+      \strng{fullhash}{b32910356965672e7809c10a49429c22}
+      \field{sortinit}{0}
+      \field{labeltitle}{Svenskarna och Internet 2012}
+      \field{isbn}{978-91-979411-7-4}
+      \field{title}{Svenskarna och Internet 2012}
+      \field{year}{2012}
+    \endentry
+    \entry{kpcb}{online}{}
+      \name{labelname}{1}{}{%
+        {{hash=f085e98d17d896b972ac4ec67ab9dc92}{Liang\bibnamedelima Wu}{L\bibinitperiod\bibinitdelim W\bibinitperiod}{Mary\bibnamedelima Meeker}{M\bibinitperiod\bibinitdelim M\bibinitperiod}{och}{o\bibinitperiod}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=f085e98d17d896b972ac4ec67ab9dc92}{Liang\bibnamedelima Wu}{L\bibinitperiod\bibinitdelim W\bibinitperiod}{Mary\bibnamedelima Meeker}{M\bibinitperiod\bibinitdelim M\bibinitperiod}{och}{o\bibinitperiod}{}{}}%
+      }
+      \strng{namehash}{f085e98d17d896b972ac4ec67ab9dc92}
+      \strng{fullhash}{f085e98d17d896b972ac4ec67ab9dc92}
+      \field{sortinit}{0}
+      \field{labeltitle}{2012 Internet Trends}
+      \field{note}{Senast besökt: 14 maj 2013}
+      \field{title}{2012 Internet Trends}
       \verb{url}
-      \verb https://github.com/pivotal/jsunit
+      \verb http://www.kpcb.com/insights/2012-internet-trends
       \endverb
     \endentry
-    \entry{GoodParts}{book}{}
+    \entry{morganstanley}{online}{}
       \name{labelname}{1}{}{%
-        {{hash=e289d8e4f4648ab33fb5d884998637aa}{Crockford}{C\bibinitperiod}{Douglas}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=fad7de7fb670b9e6c4d1d538c7816395}{Stanley}{S\bibinitperiod}{Morgan}{M\bibinitperiod}{}{}{}{}}%
       }
       \name{author}{1}{}{%
-        {{hash=e289d8e4f4648ab33fb5d884998637aa}{Crockford}{C\bibinitperiod}{Douglas}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=fad7de7fb670b9e6c4d1d538c7816395}{Stanley}{S\bibinitperiod}{Morgan}{M\bibinitperiod}{}{}{}{}}%
       }
-      \list{publisher}{1}{%
-        {O'Reilly Media, Inc.}%
-      }
-      \strng{namehash}{e289d8e4f4648ab33fb5d884998637aa}
-      \strng{fullhash}{e289d8e4f4648ab33fb5d884998637aa}
+      \strng{namehash}{fad7de7fb670b9e6c4d1d538c7816395}
+      \strng{fullhash}{fad7de7fb670b9e6c4d1d538c7816395}
       \field{sortinit}{0}
-      \field{labeltitle}{JavaScript: The Good Parts}
-      \field{isbn}{9780596517748}
-      \field{title}{JavaScript: The Good Parts}
-      \field{year}{2008}
+      \field{labeltitle}{Internet trends 2010}
+      \field{note}{Senast besökt: 14 maj 2013}
+      \field{title}{Internet trends 2010}
+      \verb{url}
+      \verb http://www.slideshare.net/fred.zimny/morgan-staneley-internet-trends-ri041210
+      \endverb
     \endentry
-    \entry{Tddjs}{book}{}
+    \entry{userbeh}{online}{}
       \name{labelname}{1}{}{%
-        {{hash=e290d864c2575a3239e477d4cef14f0f}{Johansen}{J\bibinitperiod}{Christian}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=5cd066c586d51d64a3e13ccaf24c575a}{Singhal}{S\bibinitperiod}{Rohit}{R\bibinitperiod}{}{}{}{}}%
       }
       \name{author}{1}{}{%
-        {{hash=e290d864c2575a3239e477d4cef14f0f}{Johansen}{J\bibinitperiod}{Christian}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=5cd066c586d51d64a3e13ccaf24c575a}{Singhal}{S\bibinitperiod}{Rohit}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{5cd066c586d51d64a3e13ccaf24c575a}
+      \strng{fullhash}{5cd066c586d51d64a3e13ccaf24c575a}
+      \field{sortinit}{0}
+      \field{labeltitle}{Analyzing mobile vs Desktop user behavior}
+      \field{note}{Senast besökt: 14 maj 2013}
+      \field{title}{Analyzing mobile vs Desktop user behavior}
+      \verb{url}
+      \verb http://www.designer-daily.com/analyzing-mobile-vs-desktop-user-behavior-29380
+      \endverb
+    \endentry
+    \entry{resp}{book}{}
+      \name{labelname}{1}{}{%
+        {{hash=ca762f825f70c5a1f00a689ca3e9869e}{Marcotte}{M\bibinitperiod}{Ethan}{E\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=ca762f825f70c5a1f00a689ca3e9869e}{Marcotte}{M\bibinitperiod}{Ethan}{E\bibinitperiod}{}{}{}{}}%
       }
       \list{publisher}{1}{%
-        {ADDISON-WESLEY}%
+        {Jeffrey Zeldman}%
       }
-      \strng{namehash}{e290d864c2575a3239e477d4cef14f0f}
-      \strng{fullhash}{e290d864c2575a3239e477d4cef14f0f}
+      \strng{namehash}{ca762f825f70c5a1f00a689ca3e9869e}
+      \strng{fullhash}{ca762f825f70c5a1f00a689ca3e9869e}
       \field{sortinit}{0}
-      \field{labeltitle}{Test-Driven JavaScript Development}
-      \field{isbn}{9780321683915}
-      \field{title}{Test-Driven JavaScript Development}
-      \field{year}{2010}
+      \field{labeltitle}{Responsive web design}
+      \field{isbn}{978-0-09844425-7-7}
+      \field{title}{Responsive web design}
+      \field{year}{2011}
+    \endentry
+    \entry{divtable}{online}{}
+      \name{labelname}{1}{}{%
+        {{hash=27902a2604b648acd4722b8266042463}{Rana}{R\bibinitperiod}{Pranay}{P\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=27902a2604b648acd4722b8266042463}{Rana}{R\bibinitperiod}{Pranay}{P\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{27902a2604b648acd4722b8266042463}
+      \strng{fullhash}{27902a2604b648acd4722b8266042463}
+      \field{sortinit}{0}
+      \field{labeltitle}{Div and table}
+      \field{note}{Senast besökt: 14 maj 2013}
+      \field{title}{Div and table}
+      \verb{url}
+      \verb http://www.codeproject.com/Articles/47934/DIV-TABLE
+      \endverb
+    \endentry
+    \entry{css}{online}{}
+      \name{labelname}{1}{}{%
+        {{hash=593c6ec53e16b2209b2441504d6b8ab1}{w3schools}{w\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=593c6ec53e16b2209b2441504d6b8ab1}{w3schools}{w\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{593c6ec53e16b2209b2441504d6b8ab1}
+      \strng{fullhash}{593c6ec53e16b2209b2441504d6b8ab1}
+      \field{sortinit}{0}
+      \field{labeltitle}{CSS How To...}
+      \field{note}{Senast besökt: 14 maj 2013}
+      \field{title}{CSS How To...}
+      \verb{url}
+      \verb http://www.w3schools.com/css/css_howto.asp
+      \endverb
+    \endentry
+    \entry{sara_ingmar}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=f9b17eaf1fd21ab42f138c6b978e9123}{Ingmar}{I\bibinitperiod}{Sara}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=f9b17eaf1fd21ab42f138c6b978e9123}{Ingmar}{I\bibinitperiod}{Sara}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{f9b17eaf1fd21ab42f138c6b978e9123}
+      \strng{fullhash}{f9b17eaf1fd21ab42f138c6b978e9123}
+      \field{sortinit}{0}
+      \field{labeltitle}{Responsive web design: En studie i hur designkonceptet påverkar användbarheten hos en webbplats}
+      \field{journaltitle}{Uppsala Universitet}
+      \field{month}{08}
+      \field{title}{Responsive web design: En studie i hur designkonceptet påverkar användbarheten hos en webbplats}
+      \field{year}{2012}
+    \endentry
+    \entry{quirksmode}{online}{}
+      \name{labelname}{1}{}{%
+        {{hash=81e8d9cf3a2d9044a2c2309f3ce99111}{quirksmode.org}{q\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=81e8d9cf3a2d9044a2c2309f3ce99111}{quirksmode.org}{q\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{81e8d9cf3a2d9044a2c2309f3ce99111}
+      \strng{fullhash}{81e8d9cf3a2d9044a2c2309f3ce99111}
+      \field{sortinit}{0}
+      \field{labeltitle}{Mobile compatibility tables}
+      \field{note}{Senast besökt: 14 maj 2013}
+      \field{title}{Mobile compatibility tables}
+      \verb{url}
+      \verb http://quirksmode.org/m/table.html
+      \endverb
+    \endentry
+    \entry{adaptiveresp}{online}{}
+      \name{labelname}{1}{}{%
+        {{hash=664caac41a3d12cce06337907df09e12}{Clark}{C\bibinitperiod}{Barry}{B\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=664caac41a3d12cce06337907df09e12}{Clark}{C\bibinitperiod}{Barry}{B\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{664caac41a3d12cce06337907df09e12}
+      \strng{fullhash}{664caac41a3d12cce06337907df09e12}
+      \field{sortinit}{0}
+      \field{labeltitle}{Adaptive, Responsive or Moible First}
+      \field{note}{Senst besökt: 14 maj 2013}
+      \field{title}{Adaptive, Responsive or Moible First}
+      \verb{url}
+      \verb http://barryclark.co/adaptive-responsive-or-mobile-first/
+      \endverb
     \endentry
   \endsortlist
 \endrefsection
