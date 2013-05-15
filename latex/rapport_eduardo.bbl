@@ -206,6 +206,23 @@
       \verb http://quirksmode.org/m/table.html
       \endverb
     \endentry
+    \entry{Mobilefirst}{online}{}
+      \name{labelname}{1}{}{%
+        {{hash=2f49bc5c4549dd35b978edf781ab6723}{Lande}{L\bibinitperiod}{Simon}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=2f49bc5c4549dd35b978edf781ab6723}{Lande}{L\bibinitperiod}{Simon}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{2f49bc5c4549dd35b978edf781ab6723}
+      \strng{fullhash}{2f49bc5c4549dd35b978edf781ab6723}
+      \field{sortinit}{0}
+      \field{labeltitle}{Moible First, Dekstop Later}
+      \field{note}{Senast besökt: 15 maj 2013}
+      \field{title}{Moible First, Dekstop Later}
+      \verb{url}
+      \verb http://www.cmswire.com/cms/customer-experience/mobile-first-desktop-later-019716.php
+      \endverb
+    \endentry
     \entry{adaptiveresp}{online}{}
       \name{labelname}{1}{}{%
         {{hash=664caac41a3d12cce06337907df09e12}{Clark}{C\bibinitperiod}{Barry}{B\bibinitperiod}{}{}{}{}}%
@@ -217,7 +234,7 @@
       \strng{fullhash}{664caac41a3d12cce06337907df09e12}
       \field{sortinit}{0}
       \field{labeltitle}{Adaptive, Responsive or Moible First}
-      \field{note}{Senst besökt: 14 maj 2013}
+      \field{note}{Senast besökt: 14 maj 2013}
       \field{title}{Adaptive, Responsive or Moible First}
       \verb{url}
       \verb http://barryclark.co/adaptive-responsive-or-mobile-first/

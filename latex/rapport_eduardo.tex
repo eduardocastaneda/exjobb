@@ -250,7 +250,7 @@ För att JavaScript skall fungera korrekt krävs det dock att webbläsaren stöd
 Tekniken för att skapa responsiva webbsidor existerar, med hjälp av utvecklingen av ovanstående tekniker och verktyg finns i nuläget möjligheten att skapa webbsidor som beroende på skärmstorlek har olika designlayouts med en och samma kodgrund. Det finns även kunskap om hur man skall gå tillväga för att skapa en responsiv webbsida, där utvecklare med formler och riktlinjer kan lära sig att använda fluid grid, fluid images och media queries på bästa sätt. Men vägen till att skapa en responsiv websida är olika.  I bloggar och forum på webben diskuteras flitigt valet av utvecklingsmetod när det kommer till responsiva webplatser och innan implementeringen av en webbsida är detta en fråga som med stor sannolikhet dyker upp hos webbutvecklare. Utvecklingsmetoderna man diskuterar om är \textit{Mobile-first} och \textit{Desktop-first}. Mobile-first och Desktop-first är två olika metoder där det responsiva angreppssättet används. Båda strävar efter samma mål men skiljer sig i prioriteringen av vilken enhet webbsidan skall vara anpassad för först.
 
 \subsubsection{Mobile-first}
-Mobile-first metoden bygger på att man skapar en webbsida anpassad för mobilskärmen först, för att sedan med hjälp av media queries och en flexibel layout renderera elementen på webbsidan desto större webbläsarfönstret blir.  På så sätt är grund layouten designad för en mobil. Mobile-first anses som en rimlig utvecklingsmetod då man tar till hänsyn antalet mobilanvändare och det behov som finns vid navigering och informationsintagelse från mobilskärmar.  Det betyder att innehåll prioriteras då bristen på plats är ett faktum och fokus läggs på de delar som informationsmässigt är de viktigaste. Det behöver inte nödvändigtvis betyda att hänsyn till design för mobilen inte tas i desktop-first, utan snarare att implementationen för mobilskärm sker vid ett senare skede i utvecklingen än vid användning av mobile-first.
+Mobile-first metoden bygger på att man skapar en webbsida anpassad för mobilskärmen först, för att sedan med hjälp av media queries och en flexibel layout renderera elementen på webbsidan desto större webbläsarfönstret blir.  På så sätt är grund layouten designad för en mobil. Mobile-first anses som en rimlig utvecklingsmetod då man tar till hänsyn antalet mobilanvändare och det behov som finns vid navigering och informationsintagelse från mobilskärmar.  Det betyder att innehåll prioriteras då bristen på plats är ett faktum och fokus läggs på de delar som informationsmässigt är de viktigaste\cite{Mobilefirst}. Det behöver inte nödvändigtvis betyda att hänsyn till design för mobilen inte tas i desktop-first, utan snarare att implementationen för mobilskärm sker vid ett senare skede i utvecklingen än vid användning av mobile-first.
 
 Kodmässigt är grunden anpassad för mobilen, det vill säga att media anrop sker när skärmen blir större, där media queries ser till att skriva om värden hos valda element. 
 \vspace{0.5cm}
@@ -264,7 +264,7 @@ Kodmässigt är grunden anpassad för mobilen, det vill säga att media anrop sk
 \end{verbatim}
 
 \vspace{0.5cm}
-I fallet ovan sker ett anrop när bredden på websidan är som minst 480px, som gör att elementen med klassen main får "\textit{margin"} och "\textit{width"} skrivs över med nya värden. I fall då mobiler inte klarar av att läsa media queries(fotnot), vilket i dagsläget är få, är detta en optimal lösning då grunden redan är skrivet för mobilen och en läsning av media queries endast kommer att krävas från en skrivbordsskärm vilket de flesta webbläsare klarar av.
+I fallet ovan sker ett anrop när bredden på websidan är som minst 480px, som gör att elementen med klassen main får "\textit{margin"} och "\textit{width"} skrivs över med nya värden. I fall då mobiler inte klarar av att läsa media queries\cite{adaptiveresp}, vilket i dagsläget är få, är detta en optimal lösning då grunden redan är skrivet för mobilen och en läsning av media queries endast kommer att krävas från en skrivbordsskärm vilket de flesta webbläsare klarar av.
 
 \subsubsection{Desktop-first}
 Desktop-first metoden bygger på att man utvecklar för skrivbordskärmen först och därefter rendererar sidan desto mindre skärmen blir. Det behöver inte nödvändigtvis betyda att en färdig sida för desktop i efterhand designas om till mobil, utan tanken för mobil finns redan från början men implementeringen sker i synnerhet för skrivbordsskärmen först. Webbsidor som i efterhand skapas till mobilen, brukar innebära en separat mobilsida då refaktoreringen av kod i samband med att förvandla sidan till responsiv kan innebära en del komplikationer\cite{adaptiveresp}.  
@@ -319,6 +319,18 @@ Termen \textit{Mobile-first} kan tolkas på olika sätt. Det har förekommit til
 \subsection{Valtech AB}
 Examensarbetet kommer att utföras på Valtech AB i Stockholm. Valtech Sverige fokuserar främst på utveckling av användarvänliga hemsidor, webbapplikationer och intranät. Hos Valtech finns erfarna gränssnittsutvecklare som har stött på problem under utvecklingsprocessen i form av ett beslutstagande av tillvägagångssätt för en responsiv webbsida. Det finns ett behov hos utvecklare på Valtech att ha en grund för vilka faktorer som är viktigast vid beslutstagande för metod, en metod som ger den bästa lösningen för en effektiv utveckling av en responsiv webbplats. Gränsnittssutvecklarna besitter på mycket erfarenhet och kunskap, vilket kan samlas i form av intervjuer för att analyseras och sammanfattas utifrån verkliga situationer som förekommer i företag, för framtida syfte.
 
+\section{Metod}
+För att kunna svara på frågeställningarna är tillvägagångsättet uppdelat i en praktisk del och en teoretisk del. Syftet med uppdelning är att kunna sammanställa resultat och diskussion med den erfarenhet som finns hos gränssnittsutvecklare genom en litteraturstudie, samt erfarenheten som fås utav den praktiska delen, i detta fall en implementering av båda metoder gentemot samma webbsida. Den praktiska delen vilket innebär gränssnittsutveckling, är den som tar mest tid och är den del som kommer att väga tyngst i arbetet. Litteraturstudien kommer att användas för att besvara det områden som resultatet av implementationen inte kan nå fram till, samt försvara de påståenden som fås utav implementationsfasen. 
+
+\subsection{Litteraturstudie}
+\subsubsection{Miljö}
+\subsubsection{Målgrupp}
+\subsubsection{Innehåll}
+
+\subsection{Implementationk}
+\subsubsection{prototyp}
+\subsubsection{Mobile-irst}
+\subsubsection{Desktop-first}
 \printbibliography
 
 \end{document}
