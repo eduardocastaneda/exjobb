@@ -30,7 +30,8 @@
 \usepackage{caption}
 \usepackage{subcaption}
 \usepackage{nameref} % Enable referring to the actual name of the chapter
-\usepackage[backend=biber,sorting=none]{biblatex}
+\usepackage[style=authoryear,backend=biber,maxcitenames=1]{biblatex}
+\renewcommand*{\labelnamepunct}{\addcolon\space}
 \bibliography{references.bib}
 \usepackage{url}
 

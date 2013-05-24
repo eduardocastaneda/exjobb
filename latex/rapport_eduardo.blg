@@ -1,17 +1,17 @@
 [0] Config.pm:361> INFO - This is Biber 1.5
 [0] Config.pm:364> INFO - Logfile is 'rapport_eduardo.blg'
-[138] biber-MSWIN:190> INFO - === %a %b %e, %Y, %H:%M:%S
-[147] Biber.pm:327> INFO - Reading 'rapport_eduardo.bcf'
-[249] Biber.pm:619> INFO - Found 13 citekeys in bib section 0
-[304] Biber.pm:2976> INFO - Processing section 0
-[370] Biber.pm:3086> INFO - Looking for bibtex format file 'references.bib' for section 0
-[381] bibtex.pm:889> INFO - Decoding LaTeX character macros into UTF-8
-[394] bibtex.pm:764> INFO - Found BibTeX data source 'references.bib'
-[485] Utils.pm:167> WARN - The field 'pages' in entry 'Cfigroup_2009' cannot be null, deleting it
-[487] Utils.pm:167> WARN - The field 'pages' in entry 'sara_ingmar' cannot be null, deleting it
-[640] Biber.pm:2860> INFO - Overriding locale 'English_United States.1252' default tailoring 'variable = shifted' with 'variable = non-ignorable'
-[640] Biber.pm:2866> INFO - Sorting 'entry' list 'none' keys
-[641] Biber.pm:2870> INFO - No sort tailoring available for locale 'English_United States.1252'
-[778] bbl.pm:462> INFO - Writing 'rapport_eduardo.bbl' with encoding 'UTF-8'
-[779] bbl.pm:535> INFO - Output to rapport_eduardo.bbl
-[783] Biber.pm:107> INFO - WARNINGS: 2
+[115] biber-MSWIN:190> INFO - === %a %b %e, %Y, %H:%M:%S
+[116] Biber.pm:327> INFO - Reading 'rapport_eduardo.bcf'
+[222] Biber.pm:619> INFO - Found 13 citekeys in bib section 0
+[259] Biber.pm:2976> INFO - Processing section 0
+[298] Biber.pm:3086> INFO - Looking for bibtex format file 'references.bib' for section 0
+[307] bibtex.pm:889> INFO - Decoding LaTeX character macros into UTF-8
+[316] bibtex.pm:764> INFO - Found BibTeX data source 'references.bib'
+[378] Utils.pm:167> WARN - The field 'pages' in entry 'Cfigroup_2009' cannot be null, deleting it
+[380] Utils.pm:167> WARN - The field 'pages' in entry 'sara_ingmar' cannot be null, deleting it
+[532] Biber.pm:2860> INFO - Overriding locale 'English_United States.1252' default tailoring 'variable = shifted' with 'variable = non-ignorable'
+[532] Biber.pm:2866> INFO - Sorting 'entry' list 'nyt' keys
+[532] Biber.pm:2870> INFO - No sort tailoring available for locale 'English_United States.1252'
+[667] bbl.pm:462> INFO - Writing 'rapport_eduardo.bbl' with encoding 'UTF-8'
+[668] bbl.pm:535> INFO - Output to rapport_eduardo.bbl
+[672] Biber.pm:107> INFO - WARNINGS: 2
