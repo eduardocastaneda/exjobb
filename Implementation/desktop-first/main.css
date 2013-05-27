@@ -1,34 +1,140 @@
-.content-navigation, .testing {
-  float: left;
-  border: 1px solid;
-  width: 500px;
-  height: 500px;
-  border-color: #3bbfce;
-  background-color: #16535a; }
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #d1d1d1;
+  font-size: 16px;
+  zoom: 1; }
 
-.border {
-  float: left;
-  border: 1px solid;
-  width: 500px;
-  height: 500px;
-  padding: 8px;
-  margin: 8px;
-  border-color: #3bbfce; }
-  .border div {
-    margin: 1em;
-    float: left;
-    width: 30%;
-    height: 30%;
-    border-size: 1px;
-    border-style: dotted;
-    border-color: #ff4986;
-    background-color: red;
-    background-size: 30%; }
+h1 {
+  font-size: 2.5em;
+  /* 40px/16=2.5em */ }
+  h1.title {
+    margin: 0;
+    padding: 0;
+    font-size: 7em;
+    font-family: 'UnifrakturMaguntia', serif;
+    font-weight: normal;
+    text-shadow: 4px 3px 5px #959595; }
 
-.testing {
-  border: 1px solid #3bbfce;
-  padding: 10px;
-  margin: 10px;
-  width: 100px;
+h2 {
+  font-size: 1.875em;
+  /* 30px/16=1.875em */ }
+  h2.subtitle {
+    text-decoration: underline;
+    font-weight: normal;
+    margin: 0; }
+
+p {
+  font-size: 0.875em;
+  /* 14px/16=0.875em */ }
+
+.header {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  border-bottom: 4px solid #848484;
+  background-color: #bb1616; }
+  .header div {
+    height: 100%;
+    width: 1138px;
+    margin: 0 auto; }
+
+.main-top {
+  margin: 0 auto;
   height: 100px;
-  float: left; }
+  width: 1018px;
+  background-color: white;
+  border: 1px solid black;
+  border-bottom: none;
+  -webkit-box-shadow: 0 0 15px 7px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 15px 7px rgba(0, 0, 0, 0.3); }
+
+.main-nav {
+  margin: 4.4% auto 0;
+  width: 90%;
+  height: 55%;
+  background-color: #959595; }
+  .main-nav ul {
+    padding: 0;
+    margin: 0 5%;
+    width: 90%;
+    height: 100%;
+    list-style: none;
+    display: inline-block; }
+    .main-nav ul li {
+      height: 66%;
+      font-size: 1.5em;
+      /* 24x/16=1.5em */
+      font-family: helvetica;
+      font-style: italic;
+      float: left;
+      margin: 0;
+      padding: 2.3% 4.5% 0 4.5%;
+      padding-bottom: 0; }
+      .main-nav ul li.sport {
+        background-color: rgba(252, 174, 251, 0.6); }
+      .main-nav ul li.culture {
+        background-color: rgba(159, 159, 255, 0.5); }
+      .main-nav ul li a {
+        color: white;
+        text-decoration: none; }
+
+.banner {
+  width: 1138px;
+  height: 330px;
+  margin: 0 auto;
+  border: 1px solid black;
+  z-index: 1001;
+  position: relative; }
+  .banner .red-banner {
+    background-color: #bb1616;
+    width: 100%;
+    height: 20%;
+    -moz-box-shadow: inset 0 0 15px 1px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: inset 0 0 15px 1px rgba(0, 0, 0, 0.3);
+    box-shadow: inner 0 0 15px 1px rgba(0, 0, 0, 0.3); }
+  .banner .mid-banner {
+    background-color: white;
+    width: 100%;
+    height: 60%; }
+    .banner .mid-banner .title-holder {
+      max-height: 100%;
+      max-width: 100%;
+      margin: 0;
+      padding: 3.8% 0 0 7%; }
+    .banner .mid-banner .subtitle-holder {
+      max-height: 100%;
+      max-width: 100%;
+      margin: 0;
+      padding: 0 0 0 65%; }
+
+.main-container {
+  position: relative;
+  margin: 0 auto;
+  width: 1018px;
+  min-height: 1018px;
+  background-color: white;
+  -webkit-box-shadow: 0 0 15px 7px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 15px 7px rgba(0, 0, 0, 0.3);
+  border-left: 1px solid black;
+  border-right: 1px solid black; }
+
+.left-box {
+  float: left;
+  min-height: 1018px;
+  width: 69%; }
+
+.right-box {
+  float: left;
+  min-height: 1018px;
+  width: 29%; }
+
+.footer {
+  clear: both;
+  width: 1018px;
+  margin: 0 auto;
+  height: 250px;
+  background-color: #bb1616;
+  border: 1px solid black;
+  -webkit-box-shadow: 0 0 15px 7px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 7px 15px 7px rgba(0, 0, 0, 0.3); }
