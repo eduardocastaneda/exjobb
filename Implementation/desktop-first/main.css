@@ -24,6 +24,17 @@ h2 {
     font-weight: normal;
     margin: 0; }
 
+span.headtext {
+  margin: 18% 0 0 1%;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 2.5em; }
+span.subtext {
+  font-size: 1.45em;
+  font-weight: normal;
+  font-family: Helvetica;
+  margin: 1% 0 0 1%; }
+
 p {
   font-size: 0.875em;
   /* 14px/16=0.875em */ }
@@ -38,6 +49,12 @@ p {
     height: 100%;
     width: 1138px;
     margin: 0 auto; }
+
+.sport {
+  background-color: rgba(252, 174, 251, 0.6); }
+
+.culture {
+  background-color: rgba(159, 159, 255, 0.5); }
 
 .main-top {
   margin: 0 auto;
@@ -71,10 +88,6 @@ p {
       margin: 0;
       padding: 2.3% 4.5% 0 4.5%;
       padding-bottom: 0; }
-      .main-nav ul li.sport {
-        background-color: rgba(252, 174, 251, 0.6); }
-      .main-nav ul li.culture {
-        background-color: rgba(159, 159, 255, 0.5); }
       .main-nav ul li a {
         color: white;
         text-decoration: none; }
@@ -84,7 +97,6 @@ p {
   height: 330px;
   margin: 0 auto;
   border: 1px solid black;
-  z-index: 1001;
   position: relative; }
   .banner .red-banner {
     background-color: #bb1616;
@@ -120,17 +132,59 @@ p {
   border-right: 1px solid black; }
 
 .left-box {
+  margin-top: 20px;
+  margin-bottom: 20px;
   float: left;
-  min-height: 1018px;
-  width: 69%; }
+  width: 69%;
+  height: auto;
+  border-right: 1px solid #848484; }
 
 .right-box {
   float: left;
-  min-height: 1018px;
-  width: 29%; }
+  width: 29%;
+  max-height: 100%; }
+
+.article:nth-of-type(odd) {
+  margin: 0 auto;
+  width: 85%;
+  height: 300px;
+  border-bottom: 1px solid #848484; }
+  .article:nth-of-type(odd) .child:nth-of-type(odd) {
+    box-sizing: border-box;
+    float: left;
+    width: 49%;
+    height: 99%; }
+  .article:nth-of-type(odd) .child:nth-of-type(even) {
+    box-sizing: border-box;
+    float: right;
+    width: 49%;
+    height: 99%; }
+
+.article:nth-of-type(even) {
+  margin: 0 auto;
+  width: 85%;
+  height: 300px;
+  border-bottom: 1px solid #848484; }
+  .article:nth-of-type(even) .child:nth-of-type(odd) {
+    box-sizing: border-box;
+    float: right;
+    width: 49%;
+    height: 99%; }
+  .article:nth-of-type(even) .child:nth-of-type(even) {
+    box-sizing: border-box;
+    float: left;
+    width: 49%;
+    height: 99%; }
+
+img.aimage {
+  max-width: 100%;
+  margin: 10% 0px 0px 2%;
+  border: 1px solid black; }
+
+.span-holder {
+  margin: 18% 0 0 1%; }
 
 .footer {
-  clear: both;
   width: 1018px;
   margin: 0 auto;
   height: 250px;
@@ -138,3 +192,6 @@ p {
   border: 1px solid black;
   -webkit-box-shadow: 0 0 15px 7px rgba(0, 0, 0, 0.3);
   box-shadow: 0 7px 15px 7px rgba(0, 0, 0, 0.3); }
+
+.clear {
+  clear: both; }
