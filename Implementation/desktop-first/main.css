@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #d1d1d1;
+  font-family: Helvetica;
   font-size: 16px;
   zoom: 1; }
 
@@ -11,10 +12,10 @@ h1 {
   h1.title {
     margin: 0;
     padding: 0;
+    text-shadow: 4px 3px 5px #959595;
     font-size: 7em;
     font-family: 'UnifrakturMaguntia', serif;
-    font-weight: normal;
-    text-shadow: 4px 3px 5px #959595; }
+    font-weight: normal; }
 
 h2 {
   font-size: 1.875em;
@@ -26,14 +27,22 @@ h2 {
 
 span.headtext {
   margin: 18% 0 0 1%;
-  font-family: Helvetica;
   font-weight: bold;
   font-size: 2.5em; }
 span.subtext {
   font-size: 1.45em;
   font-weight: normal;
-  font-family: Helvetica;
   margin: 1% 0 0 1%; }
+
+a {
+  color: white;
+  text-decoration: none; }
+
+.sport {
+  background-color: rgba(252, 174, 251, 0.6); }
+
+.culture {
+  background-color: rgba(159, 159, 255, 0.5); }
 
 p {
   font-size: 0.875em;
@@ -45,16 +54,14 @@ p {
   height: 50px;
   border-bottom: 4px solid #848484;
   background-color: #bb1616; }
-  .header div {
+  .header .header-mid {
     height: 100%;
-    width: 1138px;
+    width: 1218px;
     margin: 0 auto; }
-
-.sport {
-  background-color: rgba(252, 174, 251, 0.6); }
-
-.culture {
-  background-color: rgba(159, 159, 255, 0.5); }
+    .header .header-mid a {
+      margin: 1em;
+      float: right;
+      font-style: italic; }
 
 .main-top {
   margin: 0 auto;
@@ -82,15 +89,11 @@ p {
       height: 66%;
       font-size: 1.5em;
       /* 24x/16=1.5em */
-      font-family: helvetica;
       font-style: italic;
       float: left;
       margin: 0;
       padding: 2.3% 4.5% 0 4.5%;
       padding-bottom: 0; }
-      .main-nav ul li a {
-        color: white;
-        text-decoration: none; }
 
 .banner {
   width: 1138px;
@@ -113,12 +116,13 @@ p {
       max-height: 100%;
       max-width: 100%;
       margin: 0;
-      padding: 3.8% 0 0 7%; }
+      padding: 3.8% 0 0 6%; }
     .banner .mid-banner .subtitle-holder {
       max-height: 100%;
       max-width: 100%;
+      font-family: 'Times New Roman';
       margin: 0;
-      padding: 0 0 0 65%; }
+      padding: 0 0 0 67%; }
 
 .main-container {
   position: relative;
@@ -138,11 +142,6 @@ p {
   width: 69%;
   height: auto;
   border-right: 1px solid #848484; }
-
-.right-box {
-  float: left;
-  width: 29%;
-  max-height: 100%; }
 
 .article:nth-of-type(odd) {
   margin: 0 auto;
@@ -181,17 +180,67 @@ img.aimage {
   margin: 10% 0px 0px 1.5%;
   border: 1px solid black; }
 
+img.advimage {
+  width: 100%; }
+
 .span-holder {
   margin: 18% 0 0 1%; }
 
+.right-box {
+  float: left;
+  width: 30%;
+  min-height: 1018px;
+  max-height: 100%; }
+
+.adv-holder {
+  border: 2px solid #959595;
+  width: 75%;
+  margin: 7% 14%;
+  min-height: 916.2px;
+  background-color: rgba(255, 255, 0, 0.35); }
+  .adv-holder .title {
+    font-family: 'Times New Roman';
+    margin: 0.2em; }
+
+.adv {
+  margin: 0 auto;
+  width: 85%;
+  min-height: 250px; }
+  .adv .red-text {
+    margin: 4% 0;
+    padding: 1% 1.5%;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    font-size: 1.25em; }
+  .adv .black-text {
+    color: black;
+    font-weight: bold;
+    font-size: 1.125em; }
+
 .footer {
+  position: relative;
   width: 1018px;
   margin: 0 auto;
-  height: 250px;
+  min-height: 250px;
   background-color: #bb1616;
   border: 1px solid black;
   -webkit-box-shadow: 0 0 15px 7px rgba(0, 0, 0, 0.3);
   box-shadow: 0 7px 15px 7px rgba(0, 0, 0, 0.3); }
+  .footer .footer-wrapper {
+    height: 50%;
+    width: 100%;
+    margin: 4% 10%; }
+    .footer .footer-wrapper ol {
+      padding: 0;
+      margin: 0 auto;
+      list-style: none;
+      width: 90%;
+      height: 100%; }
+      .footer .footer-wrapper ol li {
+        float: left;
+        width: 10em;
+        margin: 0.3em 0.8em; }
 
 .clear {
   clear: both; }
