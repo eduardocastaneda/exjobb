@@ -1,0 +1,191 @@
+$bgGrey: #D1D1D1;
+$darkGrey: #959595;
+$red: #BB1616;
+$white: #FFFFFF;
+$color-culture:#9F9FFF;
+$color-sport: #FCAEFB;
+$fixed-width:320px;
+$content-width:310px;
+$def-border:1px solid black;
+
+body{
+	font-size:16px;
+	margin:0;
+	padding:0;
+	background-color: $bgGrey;
+	font-family: Helvetica;
+}
+
+h1 {
+	font-size:2.5em; /* 40px/16=2.5em */
+}
+h2 {
+	font-size:2.25em; /* 36px/16=1.875em */
+	&.title{
+		font-family:'UnifrakturMaguntia';
+		margin: 7% 0% 0% 5%;
+		 text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+	}
+} 
+
+h6 {
+	font-size: 0.625em;
+	&.subtitle{
+		font-family:'Times New Roman';
+		margin: 0% 0% 0% 54%;
+		text-decoration:underline;
+	}
+}
+
+p {
+	font-size:0.875em;
+} /* 14px/16=0.875em */
+
+img{
+	&.menubutton{
+		margin: 1% 1%;
+		float: right;
+		height: 32px;
+	}
+}
+
+a{
+	text-decoration:none;
+}
+
+.sport{
+	background-color:$color-sport;
+}
+
+.culture{
+	background-color:$color-culture;
+}
+
+.top{
+	border:$def-border;
+	border-bottom:none;
+	margin:0 auto;
+	width:$fixed-width;
+	height:40px;
+	background-color:$darkGrey;
+}
+
+.main-nav{
+	background-color:$darkGrey;
+	display:none;
+	margin:0 auto;
+	width:$fixed-width;
+	border:{
+		left:$def-border;
+		right:$def-border;
+	}
+	ul{
+		margin:0;
+		padding: 1% 3%;
+		display:inline-block;
+		list-style:none;
+		li{
+			padding:3% 6%;
+			float:left;
+			margin: 1px;
+			font-style:italic;
+			font-size:1.3em;
+			a{
+				color:white;
+			}
+		}
+	}
+}
+
+.banner{
+	margin:0 auto;
+	width:$fixed-width;
+	height:130px;
+	border:$def-border;
+	.red-banner{
+		width:100%;
+		height:15%;
+		background-color:$red;
+	}
+	.mid-banner{
+		width:100%;
+		height:68.5%;
+		background-color:$white;
+		border:{
+			top:$def-border;
+			bottom:$def-border;
+		}
+	}
+}
+
+
+.main-container{
+	width:$fixed-width;
+	background-color:$bgGrey;
+	margin:0 auto;
+	min-height:400px;
+}
+
+.article-container{
+	width:98%;
+	margin:0 auto;
+	border:{
+		left:$def-border;
+		right:$def-border;
+	}
+	background-color:$white;
+}
+
+.article{
+	width:100%;
+	height:150px;
+	div{
+		width:50%;
+		height:100%
+	}
+}
+
+.article:nth-child(even){
+	div:nth-child(even){
+		float:left;
+	}
+	div:nth-child(odd){
+		float:right;
+	}
+}
+
+.article:nth-child(odd){
+	div:nth-child(even){
+		float:right;
+
+	}
+	div:nth-child(odd){
+		float:left;
+	}
+}
+
+.article img{
+	max-width:90%;
+}
+
+.adv-container{
+	width:98%;
+	background-color:$white;
+	border:{
+		left:$def-border;
+		right:$def-border;
+	}
+	margin:0 auto;
+}
+
+.footer{
+	background-color:$red;
+	min-height:200px;
+	width:$fixed-width;
+	border:$def-border;
+	margin:0 auto;
+}
+
+.clear{
+	clear:both;
+}

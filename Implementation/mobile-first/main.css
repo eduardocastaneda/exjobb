@@ -1,0 +1,138 @@
+body {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  background-color: #d1d1d1;
+  font-family: Helvetica; }
+
+h1 {
+  font-size: 2.5em;
+  /* 40px/16=2.5em */ }
+
+h2 {
+  font-size: 2.25em;
+  /* 36px/16=1.875em */ }
+  h2.title {
+    font-family: 'UnifrakturMaguntia';
+    margin: 7% 0% 0% 5%;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3); }
+
+h6 {
+  font-size: 0.625em; }
+  h6.subtitle {
+    font-family: 'Times New Roman';
+    margin: 0% 0% 0% 54%;
+    text-decoration: underline; }
+
+p {
+  font-size: 0.875em; }
+
+/* 14px/16=0.875em */
+img.menubutton {
+  margin: 1% 1%;
+  float: right;
+  height: 32px; }
+
+a {
+  text-decoration: none; }
+
+.sport {
+  background-color: #fcaefb; }
+
+.culture {
+  background-color: #9f9fff; }
+
+.top {
+  border: 1px solid black;
+  border-bottom: none;
+  margin: 0 auto;
+  width: 320px;
+  height: 40px;
+  background-color: #959595; }
+
+.main-nav {
+  background-color: #959595;
+  display: none;
+  margin: 0 auto;
+  width: 320px;
+  border-left: 1px solid black;
+  border-right: 1px solid black; }
+  .main-nav ul {
+    margin: 0;
+    padding: 1% 3%;
+    display: inline-block;
+    list-style: none; }
+    .main-nav ul li {
+      padding: 3% 6%;
+      float: left;
+      margin: 1px;
+      font-style: italic;
+      font-size: 1.3em; }
+      .main-nav ul li a {
+        color: white; }
+
+.banner {
+  margin: 0 auto;
+  width: 320px;
+  height: 130px;
+  border: 1px solid black; }
+  .banner .red-banner {
+    width: 100%;
+    height: 15%;
+    background-color: #bb1616; }
+  .banner .mid-banner {
+    width: 100%;
+    height: 68.5%;
+    background-color: white;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black; }
+
+.main-container {
+  width: 320px;
+  background-color: #d1d1d1;
+  margin: 0 auto;
+  min-height: 400px; }
+
+.article-container {
+  width: 98%;
+  margin: 0 auto;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  background-color: white; }
+
+.article {
+  width: 100%;
+  height: 150px; }
+  .article div {
+    width: 50%;
+    height: 100%; }
+
+.article:nth-child(even) div:nth-child(even) {
+  float: left; }
+.article:nth-child(even) div:nth-child(odd) {
+  float: right; }
+
+.article:nth-child(odd) div:nth-child(even) {
+  float: right; }
+.article:nth-child(odd) div:nth-child(odd) {
+  float: left; }
+
+.article img {
+  max-width: 90%; }
+
+.adv-container {
+  width: 98%;
+  background-color: white;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  margin: 0 auto; }
+
+.footer {
+  background-color: #bb1616;
+  min-height: 200px;
+  width: 320px;
+  border: 1px solid black;
+  margin: 0 auto; }
+
+.clear {
+  clear: both; }
