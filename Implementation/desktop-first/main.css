@@ -1,4 +1,5 @@
 body {
+  min-width: 320px;
   margin: 0;
   padding: 0;
   background-color: #d1d1d1;
@@ -38,6 +39,9 @@ a {
   color: white;
   text-decoration: none; }
 
+.mobileviewed {
+  display: none; }
+
 .sport {
   background-color: rgba(252, 174, 251, 0.6); }
 
@@ -73,7 +77,19 @@ p {
   -webkit-box-shadow: 0 0 15px 7px rgba(0, 0, 0, 0.3);
   box-shadow: 0 0 15px 7px rgba(0, 0, 0, 0.3); }
 
+.mobilemenu {
+  display: none;
+  background-color: #959595;
+  width: 100%;
+  height: 40px; }
+  .mobilemenu img {
+    float: right;
+    height: 28px;
+    margin: 6px; }
+
 .main-nav {
+  display: block;
+  border: 1px solid black;
   margin: 4.4% auto 0;
   width: 90%;
   height: 55%;
@@ -177,14 +193,14 @@ p {
 
 img.aimage {
   max-width: 100%;
-  margin: 10% 0px 0px 1.5%;
+  margin: 10% 0px 7% 1.5%;
   border: 1px solid black; }
 
 img.advimage {
   width: 100%; }
 
 .span-holder {
-  margin: 12% 0 0 1%; }
+  margin: 12% 0 7% 1%; }
 
 .right-box {
   float: left;
@@ -245,6 +261,9 @@ img.advimage {
 .clear {
   clear: both; }
 
+.displaySwitch {
+  display: block; }
+
 @media all and (max-width: 1180px) {
   .banner {
     width: 100%; }
@@ -253,7 +272,7 @@ img.advimage {
     width: 100%; }
     .header .header-mid {
       width: 100%; } }
-@media all and (max-width: 1018px) {
+@media all and (max-width: 1024px) {
   body {
     font-size: 12px; }
 
@@ -271,6 +290,7 @@ img.advimage {
     width: 100%; }
 
   .main-nav {
+    border: none;
     height: 100%;
     width: 100%;
     margin: 0; }
@@ -291,17 +311,31 @@ img.advimage {
 
   .footer {
     width: 100%; }
+    .footer .footer-wrapper {
+      width: 800px;
+      margin: 4% auto; }
+      .footer .footer-wrapper ol {
+        width: 71%; }
 
   img.aimage {
     max-width: 90%;
-    margin: 10% 0px 0px 4.5%;
+    margin: 10% 0px 7% 4.5%;
     border: 1px solid black; } }
 @media all and (max-width: 768px) {
   .header {
     display: none; }
 
-  .banner .red-banner {
-    background-color: blue; }
+  .main-nav {
+    display: none; }
+
+  .banner .mid-banner .subtitle-holder {
+    padding: 0 0 0 60%; }
+
+  .mobileviewed {
+    display: block; }
+
+  .mobilemenu {
+    display: block; }
 
   .main-container {
     width: 99%; }
@@ -313,7 +347,20 @@ img.advimage {
 
   .right-box {
     width: 100%;
+    min-height: 0;
+    height: auto;
     float: none; }
+
+  .adv-holder {
+    width: 94%;
+    margin: 2% auto;
+    min-height: 0; }
+
+  .adv {
+    width: 27%;
+    float: left;
+    margin: 3% 3%;
+    height: 0px; }
 
   .article:nth-of-type(odd) {
     width: 95%;
@@ -321,10 +368,43 @@ img.advimage {
 
   .article:nth-of-type(even) {
     width: 95%;
-    min-height: 230px; } }
-@media all and (max-width: 400px) {
+    min-height: 230px; }
+
+  .footer .footer-wrapper {
+    width: 500px;
+    margin: 4% auto; }
+    .footer .footer-wrapper ol {
+      width: 95%;
+      margin: 0 0 0 11%; } }
+@media all and (max-width: 630px) {
   h1.title {
-    font-size: 3.7em; }
+    font-size: 5em; }
+
+  h2 {
+    font-size: 1.7em; }
+
+  .banner {
+    height: 200px; }
+    .banner .mid-banner .title-holder {
+      padding: 3.6% 0 0 5%; }
+    .banner .mid-banner .subtitle-holder {
+      padding: 0 0 0 50%; }
+
+  .adv {
+    min-height: 170px; }
+    .adv .red-text {
+      font-size: 1em; }
+    .adv .black-text {
+      font-size: 0.9em; }
+
+  .footer .footer-wrapper {
+    width: 320px; }
+    .footer .footer-wrapper ol {
+      width: 95%;
+      margin: 0 0 0 8.5%; } }
+@media all and (max-width: 450px) {
+  h1.title {
+    font-size: 3.5em; }
 
   h2 {
     font-size: 1.2em; }
@@ -336,11 +416,6 @@ img.advimage {
 
   .banner {
     height: 150px; }
-    .banner .red-banner {
-      background-color: green; }
-    .banner .mid-banner .subtitle-holder {
-      padding: 0 0 0 50%;
-      font-size: 0.9em; }
 
   .article:nth-of-type(odd) {
     width: 95%;
@@ -348,4 +423,7 @@ img.advimage {
 
   .article:nth-of-type(even) {
     width: 95%;
-    min-height: 170px; } }
+    min-height: 170px; }
+
+  .adv {
+    min-height: 150px; } }
