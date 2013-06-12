@@ -5,8 +5,12 @@ $white: #FFFFFF;
 $color-culture:#9F9FFF;
 $color-sport: #FCAEFB;
 $fixed-width:320px;
+$fixed-width-desk:980px;
 $content-width:310px;
 $def-border:1px solid black;
+
+
+//global
 
 body{
 	font-size:16px;
@@ -19,11 +23,13 @@ body{
 h1 {
 	font-size:2.5em; /* 40px/16=2.5em */
 }
+
 h2 {
-	font-size:2.25em; /* 36px/16=1.875em */
+	font-size:2.45em; /* 40px/16=1.875em */
 	&.title{
-		font-family:'UnifrakturMaguntia';
-		margin: 7% 0% 0% 5%;
+		font-family:'UnifrakturMaguntia', serif;
+		font-weight:normal;
+		margin: 7% 0% 0% 3%;
 		 text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
 	}
 } 
@@ -32,6 +38,7 @@ h6 {
 	font-size: 0.625em;
 	&.subtitle{
 		font-family:'Times New Roman';
+		font-weight:normal;
 		margin: 0% 0% 0% 54%;
 		text-decoration:underline;
 	}
@@ -43,7 +50,7 @@ p {
 
 img{
 	&.menubutton{
-		margin: 1% 1%;
+		margin: 4px;
 		float: right;
 		height: 32px;
 	}
@@ -51,6 +58,7 @@ img{
 
 a{
 	text-decoration:none;
+	color:$white;
 }
 
 .sport{
@@ -59,6 +67,34 @@ a{
 
 .culture{
 	background-color:$color-culture;
+}
+
+.hide{
+	display:block;
+}
+
+.clear{
+	clear:both;
+}
+
+
+//top
+
+.desktop-top{
+	display:none;
+	margin:0;
+	height:40px;
+	background-color:$red;
+	border-bottom:3px ridge darken($bgGrey, 20);
+	ul{
+		margin:0;
+		list-style:none;
+		li{
+			float:right;
+			font-style:italic;
+			padding:12px;
+		}
+	}
 }
 
 .top{
@@ -85,14 +121,11 @@ a{
 		display:inline-block;
 		list-style:none;
 		li{
-			padding:3% 6%;
+			padding:3% 4%;
 			float:left;
-			margin: 1px;
+			margin: 0;
 			font-style:italic;
 			font-size:1.3em;
-			a{
-				color:white;
-			}
 		}
 	}
 }
@@ -119,64 +152,115 @@ a{
 }
 
 
-.main-container{
-	width:$fixed-width;
-	background-color:$bgGrey;
-	margin:0 auto;
-	min-height:400px;
-}
+//main
 
-.article-container{
-	width:98%;
+.main-container{
+	width:($fixed-width - 6px);
+	background-color:$white;
 	margin:0 auto;
+	height:auto;
+	padding: 0 0 1%;
 	border:{
 		left:$def-border;
 		right:$def-border;
 	}
-	background-color:$white;
+
+}
+
+.article-container{
+	width:100%;
+	margin:0 auto;
 }
 
 .article{
-	width:100%;
-	height:150px;
-	div{
+	margin: 0 auto;
+	padding: 0 0 2% 0;
+	width:98%;
+	min-height:150px;
+	border-bottom: 1px solid $darkGrey;
+	.child{
 		width:50%;
-		height:100%
+		height:100%;
+	}
+	img{
+	max-width:90%;
+	border:$def-border;
+	margin: 10% 5%;
 	}
 }
 
 .article:nth-child(even){
-	div:nth-child(even){
+	.child:nth-child(even){
 		float:left;
 	}
-	div:nth-child(odd){
+	.child:nth-child(odd){
 		float:right;
 	}
 }
 
 .article:nth-child(odd){
-	div:nth-child(even){
+	.child:nth-child(even){
 		float:right;
 
 	}
-	div:nth-child(odd){
+	.child:nth-child(odd){
 		float:left;
 	}
 }
 
-.article img{
-	max-width:90%;
+.text-holder{
+	width:90%;
+	margin:13% 0 0 6%;
+	min-height:80%;
+	span{
+		&.headline{
+			font-weight:bold;
+			font-size:1.1em;
+		}
+		&.subline{
+			font-size:0.8em;
+		}
+	}
 }
 
 .adv-container{
-	width:98%;
-	background-color:$white;
-	border:{
-		left:$def-border;
-		right:$def-border;
+	width:97.5%;
+	border:1px solid $darkGrey;
+	margin:2% auto 0%;
+	background-color: rgba(242,217,9,0.3);
+	.container-text{
+		margin:1%;
+		font-size: 0.7em;
+		font-family:Times new roman;
 	}
-	margin:0 auto;
 }
+
+.advertisement{
+	width:29%;
+	min-height:160px;
+	margin: 0 2% 0 2.34%;
+	display:inline-block;
+	float:left;
+	.redtext{
+		background-color:red;
+		margin: 5% 0;
+		font-size:0.8em;
+		font-weight:bold;
+		color:$white;
+		padding:1% 2%;
+	}
+	.blacktext{
+		font-size:0.6em;
+		font-weight:bold;
+	}
+	img{
+
+		max-width:100%;
+	}
+}
+
+
+//bottom
 
 .footer{
 	background-color:$red;
@@ -184,8 +268,272 @@ a{
 	width:$fixed-width;
 	border:$def-border;
 	margin:0 auto;
+	ul{
+		margin:5% auto 5% 7%;
+		width:92%;
+		padding:0;
+		list-style:none;
+		li{
+			display:block;
+			float:left;
+			width:9em;
+			margin:0.3em 0.1em;
+			a{
+				font-size:0.9em;
+				color:$white;
+			}
+		}
+	}
 }
 
-.clear{
-	clear:both;
+
+@media all and (min-width:340px){
+	
+	h2.title{
+			font-size:2.8em;
+	}
+
+	.top{
+		width:100%;
+	}
+
+	.main-nav{
+		width:100%;
+	}
+
+	.main-container{
+		width:100%;
+	}
+
+	.banner{
+		width:100%;
+		height:150px;
+		.red-banner{
+			background-color:blue;
+		}
+	}
+
+	.advertisement{
+	width:27%;
+	min-height:180px;
+		.redtext{
+			font-size:0.8em;
+			
+		}
+		.blacktext{
+			font-size:0.6em;
+		}
+	}
+
+	.footer{
+		width:100%;
+	}
 }
+
+@media all and (min-width:480px){
+	
+	h2.title{
+		font-size: 3.4em;
+		margin: 5% 0% 0% 8%;
+	}
+	h6.subtitle{
+		font-size: 0.8em;
+	}
+
+	.banner{
+		height:170px;
+		.red-banner{
+			height:15.1%;
+			background-color:green;
+		}
+	}
+
+	.advertisement{
+	width:27%;
+	min-height:220px;
+		.redtext{
+			font-size:0.8em;
+			
+		}
+		.blacktext{
+			font-size:0.6em;
+		}
+	}
+
+	.text-holder{
+		span{
+			&.headline{
+				font-size:1.5em;
+			}
+			&.subline{
+				font-size:1em;
+			}
+		}
+	}
+}
+
+@media all and (min-width:768px){
+	
+	.hide{
+		display:none;
+	}
+
+	h2.title{
+		font-size: 5.5em;
+		margin: 5% 0% 0% 4%;
+	}
+
+	h6.subtitle{
+		font-size: 1.2em;
+		margin: 0% 0% 0% 64%;
+
+	}
+
+	.desktop-top{
+		display:block;
+	}
+
+	.top{
+		display:none;
+	}
+	.main-nav{
+		display:block;
+		width:100%;
+		ul{
+			padding:0;
+			margin:0 10%;
+			width:85%;
+			li{
+				padding:12px 4% 4px 4%;
+			}
+		}
+	}
+
+	.banner{
+		height: 260px;
+		.red-banner{
+			height:15%;
+			background-color:$red;
+		}
+		.mid-banner{
+			height:69.2%;
+		}
+	}
+
+	.article-container{
+		float:left;
+		width:67%;
+		border-right:1px solid $darkGrey;
+		margin: 20px 0;
+		padding: 0 2.3% 0 0;
+		.article{
+			width:90%;
+		}
+	}
+
+	.text-holder{
+		span{
+			&.headline{
+				font-size:1.8em;
+			}
+			&.subline{
+				font-size:1em;
+			}
+		}
+	}
+
+
+	.adv-container{
+		float:right;
+		width:22%;
+		margin: 6% 4%;
+		padding: 0 0 10%;
+		.advertisement{
+			margin: 2% 6%;
+			width:88%;
+			min-height:180px;
+			.redtext{
+				font-size:0.9em;
+			}
+			.blacktext{
+				font-size:0.8em;
+			}
+		}
+	}
+
+	.footer{
+		ul{
+			margin: 5% 13.5%;
+			width: 77%;
+		}
+	}
+}
+
+@media all and (min-width:980px){
+
+	.desktop-top{
+		ul{
+			width:$fixed-width-desk;
+			margin:0 auto;
+			padding: 0;
+		}
+	}
+
+	.main-nav{
+		width:$fixed-width-desk;
+	}
+
+	.main-container{
+		width:$fixed-width-desk;
+	}
+
+	.banner{
+		width:$fixed-width-desk;
+		.red-banner{
+			background-color:blue;
+		}
+	}
+.footer{
+		width:$fixed-width-desk;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
