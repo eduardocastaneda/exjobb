@@ -65,6 +65,11 @@ a {
       font-style: italic;
       padding: 12px; }
 
+.middle {
+  background-color: white;
+  height: auto;
+  width: auto; }
+
 .top {
   border: 1px solid black;
   border-bottom: none;
@@ -100,7 +105,10 @@ a {
   .banner .red-banner {
     width: 100%;
     height: 15%;
-    background-color: #bb1616; }
+    background-color: #bb1616;
+    -moz-box-shadow: inset 0 0 11px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: inset 0 0 11px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0 0 11px 2px rgba(0, 0, 0, 0.3); }
   .banner .mid-banner {
     width: 100%;
     height: 68.5%;
@@ -220,8 +228,6 @@ a {
   .banner {
     width: 100%;
     height: 150px; }
-    .banner .red-banner {
-      background-color: blue; }
 
   .advertisement {
     width: 27%;
@@ -244,8 +250,7 @@ a {
   .banner {
     height: 170px; }
     .banner .red-banner {
-      height: 15.1%;
-      background-color: green; }
+      height: 15.1%; }
 
   .advertisement {
     width: 27%;
@@ -259,13 +264,38 @@ a {
     font-size: 1.5em; }
   .text-holder span.subline {
     font-size: 1em; } }
+@media all and (min-width: 600px) {
+  h2.title {
+    font-size: 4.5em;
+    margin: 5% 0% 0% 4%; }
+
+  h6.subtitle {
+    font-size: 1.1em;
+    margin: -1% 0% 0% 64%; }
+
+  .banner {
+    height: 220px; }
+    .banner .red-banner {
+      height: 15%; }
+    .banner .mid-banner {
+      height: 69.2%; }
+
+  .article {
+    width: 85%; }
+
+  .text-holder span.headline {
+    font-size: 2.1em; }
+  .text-holder span.subline {
+    font-size: 1.2em; }
+
+  .footer ul {
+    margin: 5% auto 5% 13%; } }
 @media all and (min-width: 768px) {
   .hide {
     display: none; }
 
   h2.title {
-    font-size: 5.5em;
-    margin: 5% 0% 0% 4%; }
+    font-size: 5.5em; }
 
   h6.subtitle {
     font-size: 1.2em;
@@ -290,8 +320,7 @@ a {
   .banner {
     height: 260px; }
     .banner .red-banner {
-      height: 15%;
-      background-color: #bb1616; }
+      height: 15%; }
     .banner .mid-banner {
       height: 69.2%; }
 
@@ -324,24 +353,80 @@ a {
         font-size: 0.8em; }
 
   .footer ul {
-    margin: 5% 13.5%;
-    width: 77%; } }
+    width: 79%;
+    margin: 5% auto 5% 16%; }
+    .footer ul li {
+      width: 12em; } }
 @media all and (min-width: 980px) {
   .desktop-top ul {
-    width: 980px;
-    margin: 0 auto;
+    width: 100%;
+    margin: 0;
     padding: 0; }
 
+  .middle {
+    width: 980px;
+    height: 80px;
+    overflow: hidden;
+    margin: 0 auto;
+    background-color: white;
+    display: block;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    -moz-box-shadow: 0px 4px 21px 6px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 4px 21px 6px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 4px 21px 6px rgba(0, 0, 0, 0.3); }
+
   .main-nav {
-    width: 980px; }
+    width: 85%;
+    margin: 40px auto 0;
+    border-top: 1px solid black; }
+
+  @-moz-document url-prefix() {
+    .main-nav {
+      margin: 41px auto 0; } }
 
   .main-container {
-    width: 980px; }
+    width: 980px;
+    -moz-box-shadow: 0px 4px 21px 6px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 4px 21px 6px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 4px 21px 6px rgba(0, 0, 0, 0.3); }
 
   .banner {
-    width: 980px; }
+    width: 100%;
+    height: 330px; }
     .banner .red-banner {
-      background-color: blue; }
+      height: 20%; }
+    .banner .mid-banner {
+      height: 59.3%; }
+
+  .article {
+    min-height: 250px; }
+
+  h2.title {
+    font-size: 7em;
+    margin: 4% 0% 0% 5%; }
+
+  h6.subtitle {
+    font-size: 1.5em;
+    margin: -1.4% 0% 4% 68.5%; }
+
+  .text-holder span.headline {
+    font-size: 2.3em; }
+  .text-holder span.subline {
+    font-size: 1.2em; }
 
   .footer {
-    width: 980px; } }
+    width: 980px;
+    -moz-box-shadow: 0px 4px 21px 6px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 4px 21px 6px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 4px 21px 6px rgba(0, 0, 0, 0.3); }
+    .footer ul {
+      width: 80%;
+      margin: 5% auto 5% 14%; } }
+@media all and (min-width: 1100px) {
+  .banner {
+    width: 1100px; } }
+@media all and (min-width: 1180px) {
+  .desktop-top ul {
+    width: 1180px;
+    margin: 0 auto; } }

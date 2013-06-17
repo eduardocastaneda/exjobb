@@ -83,7 +83,7 @@ p{ font-size:0.875em; /* 14px/16=0.875em */}
 .header{
     position:relative;
     width:100%;
-    height:50px;
+    height:40px;
     border-bottom:4px solid darken($bgGrey,30%);
     background-color:$red;
     .header-mid{
@@ -91,7 +91,7 @@ p{ font-size:0.875em; /* 14px/16=0.875em */}
         width:($fixed-width + 200px);
         margin:0 auto;
         a{
-            margin:1em;
+            margin: .8em;
             float:right;
             font-style:italic;
         }
@@ -504,10 +504,7 @@ img.advimage{
 
 }
 
-
 @media all and (max-width: 630px){
-    
-
     h1{
         &.title{
             font-size:5em;
@@ -549,11 +546,7 @@ img.advimage{
             }
         }
     }
-
-
 }
-
-
 
 @media all and (max-width: 450px){
 

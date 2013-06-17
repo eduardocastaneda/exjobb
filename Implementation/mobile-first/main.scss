@@ -30,7 +30,7 @@ h2 {
 		font-family:'UnifrakturMaguntia', serif;
 		font-weight:normal;
 		margin: 7% 0% 0% 3%;
-		 text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+		text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
 	}
 } 
 
@@ -97,6 +97,12 @@ a{
 	}
 }
 
+.middle{
+	background-color:$white;
+	height:auto;
+	width:auto;
+}
+
 .top{
 	border:$def-border;
 	border-bottom:none;
@@ -105,6 +111,7 @@ a{
 	height:40px;
 	background-color:$darkGrey;
 }
+
 
 .main-nav{
 	background-color:$darkGrey;
@@ -139,6 +146,9 @@ a{
 		width:100%;
 		height:15%;
 		background-color:$red;
+		-moz-box-shadow: inset 0 0 11px 2px rgba(0, 0, 0, 0.3);
+		-webkit-box-shadow: inset 0 0 11px 2px rgba(0, 0, 0, 0.3);
+		box-shadow: inset 0 0 11px 2px rgba(0, 0, 0, 0.3);
 	}
 	.mid-banner{
 		width:100%;
@@ -164,7 +174,6 @@ a{
 		left:$def-border;
 		right:$def-border;
 	}
-
 }
 
 .article-container{
@@ -308,9 +317,6 @@ a{
 	.banner{
 		width:100%;
 		height:150px;
-		.red-banner{
-			background-color:blue;
-		}
 	}
 
 	.advertisement{
@@ -344,7 +350,6 @@ a{
 		height:170px;
 		.red-banner{
 			height:15.1%;
-			background-color:green;
 		}
 	}
 
@@ -370,7 +375,57 @@ a{
 			}
 		}
 	}
+	.footer{
+		
+	}
 }
+
+
+@media all and (min-width:600px){
+
+	h2.title{
+		font-size: 4.5em;
+		margin: 5% 0% 0% 4%;
+	}
+
+	h6.subtitle{
+		font-size: 1.1em;
+		margin: -1% 0% 0% 64%;
+
+	}
+
+	.banner{
+		height: 220px;
+		.red-banner{
+			height:15%;
+		}
+		.mid-banner{
+			height:69.2%;
+		}
+	}
+
+	.article{
+		width:85%;
+	}
+
+	.text-holder{
+		span{
+			&.headline{
+				font-size:2.1em;
+			}
+			&.subline{
+				font-size:1.2em;
+			}
+		}
+	}
+
+	.footer{
+		ul{
+			margin: 5% auto 5% 13%;
+		}
+	}
+}
+
 
 @media all and (min-width:768px){
 	
@@ -380,7 +435,6 @@ a{
 
 	h2.title{
 		font-size: 5.5em;
-		margin: 5% 0% 0% 4%;
 	}
 
 	h6.subtitle{
@@ -413,7 +467,6 @@ a{
 		height: 260px;
 		.red-banner{
 			height:15%;
-			background-color:$red;
 		}
 		.mid-banner{
 			height:69.2%;
@@ -442,7 +495,6 @@ a{
 		}
 	}
 
-
 	.adv-container{
 		float:right;
 		width:22%;
@@ -463,8 +515,11 @@ a{
 
 	.footer{
 		ul{
-			margin: 5% 13.5%;
-			width: 77%;
+			width:79%;
+			margin: 5% auto 5% 16%;
+			li{
+				width: 12em;
+			}
 		}
 	}
 }
@@ -473,33 +528,111 @@ a{
 
 	.desktop-top{
 		ul{
-			width:$fixed-width-desk;
-			margin:0 auto;
+			width:100%;
+			margin:0;
 			padding: 0;
 		}
 	}
 
-	.main-nav{
+	.middle{
 		width:$fixed-width-desk;
+		height:80px;
+		overflow:hidden;
+		margin:0 auto;
+		background-color:$white;
+		display: block;
+		border:{
+			left:$def-border;
+			right:$def-border;
+		}
+		-moz-box-shadow: 0px 4px 21px 6px rgba(0, 0, 0, 0.3);
+	    -webkit-box-shadow: 0px 4px 21px 6px rgba(0, 0, 0, 0.3);
+	    box-shadow: 0px 4px 21px 6px rgba(0, 0, 0, 0.3);
 	}
+
+	.main-nav{
+		width:85%;
+		margin: 40px auto 0;
+		border-top:$def-border;
+	}
+
+
+	@-moz-document url-prefix() {
+    .main-nav {
+        margin: 41px auto 0;
+    }
+}
 
 	.main-container{
 		width:$fixed-width-desk;
+		-moz-box-shadow: 0px 4px 21px 6px rgba(0, 0, 0, 0.3);
+		-webkit-box-shadow: 0px 4px 21px 6px rgba(0, 0, 0, 0.3);
+		box-shadow: 0px 4px 21px 6px rgba(0, 0, 0, 0.3);
 	}
 
 	.banner{
-		width:$fixed-width-desk;
+		width:100%;
+		height:330px;
 		.red-banner{
-			background-color:blue;
+			height:20%;
+		}
+		.mid-banner{
+			height:59.3%;
 		}
 	}
-.footer{
+
+	.article{
+		min-height: 250px;
+	}
+
+	h2.title{
+		font-size: 7em;
+		margin: 4% 0% 0% 5%
+	}
+	h6.subtitle{
+		font-size: 1.5em;
+		margin: -1.4% 0% 4% 68.5%;
+	}
+
+	.text-holder{
+		span{
+			&.headline{
+			font-size:2.3em
+			}
+			&.subline{
+			font-size:1.2em;
+			}
+		}
+	}
+
+	.footer{
 		width:$fixed-width-desk;
+		-moz-box-shadow: 0px 4px 21px 6px rgba(0, 0, 0, 0.3);
+		-webkit-box-shadow: 0px 4px 21px 6px rgba(0, 0, 0, 0.3);
+		box-shadow: 0px 4px 21px 6px rgba(0, 0, 0, 0.3);
+		ul{
+			width:80%;
+			margin: 5% auto 5% 14%;
+		}
 	}
 }
 
+@media all and (min-width: 1100px){
 
+	.banner{
+		width: ($fixed-width-desk + 120px); 
+	}
+}
 
+@media all and (min-width: 1180px){
+
+	.desktop-top{
+		ul{
+			width: ($fixed-width-desk + 200px);
+			margin:0 auto;
+		}
+	}
+}
 
 
 
