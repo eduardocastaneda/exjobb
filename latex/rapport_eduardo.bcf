@@ -1954,26 +1954,28 @@
   <bcf:section number="0">
     <bcf:citekey order="1">AppleRevolution</bcf:citekey>
     <bcf:citekey order="2">Cfigroup_2009</bcf:citekey>
-    <bcf:citekey order="3">.se</bcf:citekey>
-    <bcf:citekey order="4">Cfigroup_2009</bcf:citekey>
-    <bcf:citekey order="5">kpcb</bcf:citekey>
-    <bcf:citekey order="6">morganstanley</bcf:citekey>
-    <bcf:citekey order="7">morganstanley</bcf:citekey>
-    <bcf:citekey order="8">userbeh</bcf:citekey>
-    <bcf:citekey order="9">userbeh</bcf:citekey>
-    <bcf:citekey order="10">resp</bcf:citekey>
-    <bcf:citekey order="11">resp</bcf:citekey>
+    <bcf:citekey order="3">pts</bcf:citekey>
+    <bcf:citekey order="4">telekomidag</bcf:citekey>
+    <bcf:citekey order="5">.se</bcf:citekey>
+    <bcf:citekey order="6">Cfigroup_2009</bcf:citekey>
+    <bcf:citekey order="7">kpcb</bcf:citekey>
+    <bcf:citekey order="8">morganstanley</bcf:citekey>
+    <bcf:citekey order="9">morganstanley</bcf:citekey>
+    <bcf:citekey order="10">userbeh</bcf:citekey>
+    <bcf:citekey order="11">userbeh</bcf:citekey>
     <bcf:citekey order="12">resp</bcf:citekey>
     <bcf:citekey order="13">resp</bcf:citekey>
     <bcf:citekey order="14">resp</bcf:citekey>
-    <bcf:citekey order="15">divtable</bcf:citekey>
-    <bcf:citekey order="16">css</bcf:citekey>
-    <bcf:citekey order="17">css</bcf:citekey>
-    <bcf:citekey order="18">sara_ingmar</bcf:citekey>
-    <bcf:citekey order="19">quirksmode</bcf:citekey>
-    <bcf:citekey order="20">Mobilefirst</bcf:citekey>
-    <bcf:citekey order="21">adaptiveresp</bcf:citekey>
-    <bcf:citekey order="22">adaptiveresp</bcf:citekey>
+    <bcf:citekey order="15">resp</bcf:citekey>
+    <bcf:citekey order="16">resp</bcf:citekey>
+    <bcf:citekey order="17">Mobilefirst</bcf:citekey>
+    <bcf:citekey order="18">adaptiveresp</bcf:citekey>
+    <bcf:citekey order="19">adaptiveresp</bcf:citekey>
+    <bcf:citekey order="20">divtable</bcf:citekey>
+    <bcf:citekey order="21">css</bcf:citekey>
+    <bcf:citekey order="22">css</bcf:citekey>
+    <bcf:citekey order="23">sara_ingmar</bcf:citekey>
+    <bcf:citekey order="24">quirksmode</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" type="entry" label="nyt">
   <bcf:sorting>
