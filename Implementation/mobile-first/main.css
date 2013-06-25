@@ -364,9 +364,9 @@ a {
     padding: 0; }
 
   .middle {
+    position: relative;
     width: 980px;
     height: 80px;
-    overflow: hidden;
     margin: 0 auto;
     background-color: white;
     display: block;
@@ -377,13 +377,11 @@ a {
     box-shadow: 0px 4px 21px 6px rgba(0, 0, 0, 0.3); }
 
   .main-nav {
+    position: absolute;
     width: 85%;
-    margin: 40px auto 0;
+    top: 38px;
+    left: 76px;
     border-top: 1px solid black; }
-
-  @-moz-document url-prefix() {
-    .main-nav {
-      margin: 41px auto 0; } }
 
   .main-container {
     width: 980px;

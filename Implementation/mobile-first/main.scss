@@ -535,9 +535,9 @@ a{
 	}
 
 	.middle{
+		position:relative;
 		width:$fixed-width-desk;
 		height:80px;
-		overflow:hidden;
 		margin:0 auto;
 		background-color:$white;
 		display: block;
@@ -551,17 +551,13 @@ a{
 	}
 
 	.main-nav{
+		position:absolute;
 		width:85%;
-		margin: 40px auto 0;
+		top:38px;
+		left:76px;
 		border-top:$def-border;
 	}
 
-
-	@-moz-document url-prefix() {
-    .main-nav {
-        margin: 41px auto 0;
-    }
-}
 
 	.main-container{
 		width:$fixed-width-desk;
@@ -620,7 +616,8 @@ a{
 @media all and (min-width: 1100px){
 
 	.banner{
-		width: ($fixed-width-desk + 120px); 
+		width: ($fixed-width-desk + 120px);
+
 	}
 }
 
