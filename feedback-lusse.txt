@@ -1,0 +1,18 @@
+ändra css, ändra floats till display-inline, ingen widht på ul.
+
+minifiera kod.
+
+vertical align: top.
+
+ändra html, till h3. 
+
+ändra main rubriken i bannern.
+
+vertical align och text-align.
+
+
+semantiska och internet explorer 8.
+
+padding och margin bottom, alltid bra att den växer neråt.
+
+display block important!, går ut över allt annat.

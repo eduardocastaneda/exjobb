@@ -6,34 +6,30 @@ body {
   font-family: Helvetica; }
 
 h1 {
-  font-size: 2.5em;
-  /* 40px/16=2.5em */ }
+  font-size: 2.5em; }
 
 h2 {
-  font-size: 2.45em;
-  /* 40px/16=1.875em */ }
+  font-size: 2.45em; }
   h2.title {
     font-family: 'UnifrakturMaguntia', serif;
     font-weight: normal;
     margin: 7% 0% 0% 3%;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3); }
+  h2.headline {
+    font-size: 1.1em;
+    margin-bottom: 2%; }
 
 h6 {
   font-size: 0.625em; }
   h6.subtitle {
     font-family: 'Times New Roman';
     font-weight: normal;
-    margin: 0% 0% 0% 54%;
+    float: right;
+    margin: 0% 5%;
     text-decoration: underline; }
 
 p {
   font-size: 0.875em; }
-
-/* 14px/16=0.875em */
-img.menubutton {
-  margin: 4px;
-  float: right;
-  height: 32px; }
 
 a {
   text-decoration: none;
@@ -45,30 +41,8 @@ a {
 .culture {
   background-color: #9f9fff; }
 
-.hide {
-  display: block; }
-
 .clear {
   clear: both; }
-
-.desktop-top {
-  display: none;
-  margin: 0;
-  height: 40px;
-  background-color: #bb1616;
-  border-bottom: 3px ridge #9e9e9e; }
-  .desktop-top ul {
-    margin: 0;
-    list-style: none; }
-    .desktop-top ul li {
-      float: right;
-      font-style: italic;
-      padding: 12px; }
-
-.middle {
-  background-color: white;
-  height: auto;
-  width: auto; }
 
 .top {
   border: 1px solid black;
@@ -76,7 +50,15 @@ a {
   margin: 0 auto;
   width: 320px;
   height: 40px;
-  background-color: #959595; }
+  background-color: #959595;
+  text-align: right; }
+
+img.menubutton {
+  margin: 4px;
+  height: 32px; }
+
+.desktop-top {
+  display: none; }
 
 .main-nav {
   background-color: #959595;
@@ -88,11 +70,10 @@ a {
   .main-nav ul {
     margin: 0;
     padding: 1% 3%;
-    display: inline-block;
     list-style: none; }
     .main-nav ul li {
+      display: inline-block;
       padding: 3% 4%;
-      float: left;
       margin: 0;
       font-style: italic;
       font-size: 1.3em; }
@@ -104,7 +85,7 @@ a {
   border: 1px solid black; }
   .banner .red-banner {
     width: 100%;
-    height: 15%;
+    height: 15.1%;
     background-color: #bb1616;
     -moz-box-shadow: inset 0 0 11px 2px rgba(0, 0, 0, 0.3);
     -webkit-box-shadow: inset 0 0 11px 2px rgba(0, 0, 0, 0.3);
@@ -157,9 +138,6 @@ a {
   width: 90%;
   margin: 13% 0 0 6%;
   min-height: 80%; }
-  .text-holder span.headline {
-    font-weight: bold;
-    font-size: 1.1em; }
   .text-holder span.subline {
     font-size: 0.8em; }
 
@@ -174,11 +152,11 @@ a {
     font-family: Times new roman; }
 
 .advertisement {
-  width: 29%;
+  width: 27%;
   min-height: 160px;
-  margin: 0 2% 0 2.34%;
+  margin: 0 2% 4% 2.34%;
   display: inline-block;
-  float: left; }
+  vertical-align: top; }
   .advertisement .redtext {
     background-color: red;
     margin: 5% 0;
@@ -192,23 +170,22 @@ a {
   .advertisement img {
     max-width: 100%; }
 
-.footer {
+footer {
   background-color: #bb1616;
   min-height: 200px;
   width: 320px;
   border: 1px solid black;
   margin: 0 auto; }
-  .footer ul {
-    margin: 5% auto 5% 7%;
-    width: 92%;
+  footer ul {
+    margin: 5% auto 5%;
     padding: 0;
+    text-align: center;
     list-style: none; }
-    .footer ul li {
-      display: block;
-      float: left;
+    footer ul li {
+      display: inline-block;
       width: 9em;
       margin: 0.3em 0.1em; }
-      .footer ul li a {
+      footer ul li a {
         font-size: 0.9em;
         color: white; }
 
@@ -229,49 +206,30 @@ a {
     width: 100%;
     height: 150px; }
 
-  .advertisement {
-    width: 27%;
-    min-height: 180px; }
-    .advertisement .redtext {
-      font-size: 0.8em; }
-    .advertisement .blacktext {
-      font-size: 0.6em; }
-
-  .footer {
+  footer {
     width: 100%; } }
 @media all and (min-width: 480px) {
   h2.title {
-    font-size: 3.4em;
-    margin: 5% 0% 0% 8%; }
+    font-size: 3.4em; }
+  h2.headline {
+    font-size: 1.5em; }
 
   h6.subtitle {
     font-size: 0.8em; }
 
   .banner {
     height: 170px; }
-    .banner .red-banner {
-      height: 15.1%; }
 
-  .advertisement {
-    width: 27%;
-    min-height: 220px; }
-    .advertisement .redtext {
-      font-size: 0.8em; }
-    .advertisement .blacktext {
-      font-size: 0.6em; }
-
-  .text-holder span.headline {
-    font-size: 1.5em; }
   .text-holder span.subline {
     font-size: 1em; } }
 @media all and (min-width: 600px) {
   h2.title {
-    font-size: 4.5em;
-    margin: 5% 0% 0% 4%; }
+    font-size: 4.5em; }
+  h2.headline {
+    font-size: 2.1em; }
 
   h6.subtitle {
-    font-size: 1.1em;
-    margin: -1% 0% 0% 64%; }
+    font-size: 1.2em; }
 
   .banner {
     height: 220px; }
@@ -281,66 +239,64 @@ a {
       height: 69.2%; }
 
   .article {
-    width: 85%; }
+    width: 90%; }
 
-  .text-holder span.headline {
-    font-size: 2.1em; }
   .text-holder span.subline {
-    font-size: 1.2em; }
-
-  .footer ul {
-    margin: 5% auto 5% 13%; } }
+    font-size: 1.2em; } }
 @media all and (min-width: 768px) {
-  .hide {
-    display: none; }
-
   h2.title {
     font-size: 5.5em; }
-
-  h6.subtitle {
-    font-size: 1.2em;
-    margin: 0% 0% 0% 64%; }
+  h2.headline {
+    font-size: 1.8em; }
 
   .desktop-top {
-    display: block; }
+    display: block;
+    margin: 0;
+    height: 40px;
+    background-color: #bb1616;
+    border-bottom: 3px ridge #9e9e9e; }
+    .desktop-top ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      text-align: right; }
+      .desktop-top ul li {
+        display: inline-block;
+        font-style: italic;
+        padding: 12px; }
 
   .top {
     display: none; }
 
   .main-nav {
-    display: block;
+    display: block !important;
     width: 100%; }
     .main-nav ul {
+      text-align: center;
       padding: 0;
-      margin: 0 10%;
-      width: 85%; }
+      margin: 0 auto; }
       .main-nav ul li {
-        padding: 12px 4% 4px 4%; }
+        padding: 12px 20px 4px; }
+        .main-nav ul li.hide {
+          display: none; }
 
   .banner {
     height: 260px; }
-    .banner .red-banner {
-      height: 15%; }
-    .banner .mid-banner {
-      height: 69.2%; }
 
   .article-container {
-    float: left;
+    display: inline-block;
     width: 67%;
     border-right: 1px solid #959595;
     margin: 20px 0;
     padding: 0 2.3% 0 0; }
-    .article-container .article {
-      width: 90%; }
 
-  .text-holder span.headline {
-    font-size: 1.8em; }
   .text-holder span.subline {
     font-size: 1em; }
 
   .adv-container {
-    float: right;
-    width: 22%;
+    display: inline-block;
+    vertical-align: top;
+    width: 21%;
     margin: 6% 4%;
     padding: 0 0 10%; }
     .adv-container .advertisement {
@@ -352,24 +308,23 @@ a {
       .adv-container .advertisement .blacktext {
         font-size: 0.8em; }
 
-  .footer ul {
-    width: 79%;
-    margin: 5% auto 5% 16%; }
-    .footer ul li {
-      width: 12em; } }
+  footer ul li {
+    width: 12em; } }
 @media all and (min-width: 980px) {
-  .desktop-top ul {
-    width: 100%;
-    margin: 0;
-    padding: 0; }
+  h2.title {
+    font-size: 7em;
+    margin: 4% 0% 0% 5%; }
+  h2.headline {
+    font-size: 2.3em; }
+
+  h6.subtitle {
+    font-size: 1.5em; }
 
   .middle {
-    position: relative;
     width: 980px;
-    height: 80px;
     margin: 0 auto;
+    padding-top: 40px;
     background-color: white;
-    display: block;
     border-left: 1px solid black;
     border-right: 1px solid black;
     -moz-box-shadow: 0px 4px 21px 6px rgba(0, 0, 0, 0.3);
@@ -377,11 +332,10 @@ a {
     box-shadow: 0px 4px 21px 6px rgba(0, 0, 0, 0.3); }
 
   .main-nav {
-    position: absolute;
     width: 85%;
-    top: 38px;
-    left: 76px;
     border-top: 1px solid black; }
+    .main-nav ul li {
+      padding: 12px 30px 4px; }
 
   .main-container {
     width: 980px;
@@ -400,27 +354,14 @@ a {
   .article {
     min-height: 250px; }
 
-  h2.title {
-    font-size: 7em;
-    margin: 4% 0% 0% 5%; }
-
-  h6.subtitle {
-    font-size: 1.5em;
-    margin: -1.4% 0% 4% 68.5%; }
-
-  .text-holder span.headline {
-    font-size: 2.3em; }
   .text-holder span.subline {
     font-size: 1.2em; }
 
-  .footer {
+  footer {
     width: 980px;
     -moz-box-shadow: 0px 4px 21px 6px rgba(0, 0, 0, 0.3);
     -webkit-box-shadow: 0px 4px 21px 6px rgba(0, 0, 0, 0.3);
-    box-shadow: 0px 4px 21px 6px rgba(0, 0, 0, 0.3); }
-    .footer ul {
-      width: 80%;
-      margin: 5% auto 5% 14%; } }
+    box-shadow: 0px 4px 21px 6px rgba(0, 0, 0, 0.3); } }
 @media all and (min-width: 1100px) {
   .banner {
     width: 1100px; } }
