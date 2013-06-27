@@ -11,28 +11,29 @@ h1 {
   /* 40px/16=2.5em */ }
   h1.title {
     margin: 0;
-    padding: 0;
+    padding: 3.2% 6% 0%;
     text-shadow: 4px 3px 5px #959595;
     font-size: 7em;
     font-family: 'UnifrakturMaguntia', serif;
     font-weight: normal; }
 
 h2 {
-  font-size: 1.875em;
-  /* 30px/16=1.875em */ }
-  h2.subtitle {
+  font-size: 2.28em; }
+  h2.headtext {
+    margin-bottom: 1%; }
+
+h6 {
+  font-size: 1.6em;
+  /* 32px/16=2.25em */ }
+  h6.subtitle {
     text-decoration: underline;
     font-weight: normal;
-    margin: 0; }
+    margin: 0;
+    padding: 0% 5%;
+    float: right; }
 
-span.headtext {
-  margin: 18% 0 0 1%;
-  font-weight: bold;
-  font-size: 2.5em; }
 span.subtext {
-  font-size: 1.45em;
-  font-weight: normal;
-  margin: 1% 0 0 1%; }
+  font-size: 1.35em; }
 
 a {
   color: white;
@@ -92,7 +93,7 @@ p {
       /* 24x/16=1.5em */
       font-style: italic;
       display: inline-block;
-      padding: 2% 3% 1%; }
+      padding: 2% 3% 1.4%; }
       .main-nav ul li.mobileviewed {
         display: none; }
 
@@ -106,27 +107,15 @@ p {
     background-color: #bb1616;
     width: 100%;
     height: 20%;
-    -moz-box-shadow: inset 0 0 15px 1px rgba(0, 0, 0, 0.3);
-    -webkit-box-shadow: inset 0 0 15px 1px rgba(0, 0, 0, 0.3);
-    box-shadow: inner 0 0 15px 1px rgba(0, 0, 0, 0.3); }
+    -moz-box-shadow: inset 0 0 11px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: inset 0 0 11px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0 0 11px 2px rgba(0, 0, 0, 0.3); }
   .banner .mid-banner {
     background-color: white;
     width: 100%;
     height: 60%; }
-    .banner .mid-banner .title-holder {
-      max-height: 100%;
-      max-width: 100%;
-      margin: 0;
-      padding: 3.8% 0 0 6%; }
-    .banner .mid-banner .subtitle-holder {
-      max-height: 100%;
-      max-width: 100%;
-      font-family: 'Times New Roman';
-      margin: 0;
-      padding: 0 0 0 67%; }
 
 .main-container {
-  position: relative;
   margin: 0 auto;
   width: 1018px;
   min-height: 1018px;
@@ -139,10 +128,13 @@ p {
 .left-box {
   margin-top: 20px;
   margin-bottom: 20px;
-  float: left;
   width: 69%;
-  height: auto;
-  border-right: 1px solid #848484; }
+  border-right: 1px solid #848484;
+  display: inline-block;
+  vertical-align: top; }
+
+.text-holder {
+  margin: 12% 5% 0%; }
 
 .article {
   margin: 0 auto;
@@ -172,20 +164,14 @@ img.aimage {
 img.advimage {
   width: 100%; }
 
-.span-holder {
-  margin: 12% 0 7% 1%; }
-
 .right-box {
-  float: left;
   width: 30%;
-  min-height: 1018px;
-  max-height: 100%; }
+  display: inline-block; }
 
 .adv-holder {
   border: 2px solid #959595;
   width: 75%;
-  margin: 7% 14%;
-  min-height: 916.2px;
+  margin: 20% 14%;
   background-color: rgba(255, 255, 0, 0.35); }
   .adv-holder .title {
     font-family: 'Times New Roman';
@@ -199,9 +185,7 @@ img.advimage {
     margin: 4% 0;
     padding: 1% 1.5%;
     background-color: red;
-    color: white;
-    font-weight: bold;
-    font-size: 1.25em; }
+    color: white; }
   .adv .black-text {
     color: black;
     font-weight: bold;
@@ -216,20 +200,15 @@ footer {
   border: 1px solid black;
   -webkit-box-shadow: 0 0 15px 7px rgba(0, 0, 0, 0.3);
   box-shadow: 0 7px 15px 7px rgba(0, 0, 0, 0.3); }
-  footer .footer-wrapper {
-    height: 50%;
-    width: 100%;
-    margin: 4% 10%; }
-    footer .footer-wrapper ol {
-      padding: 0;
-      margin: 0 auto;
-      list-style: none;
-      width: 90%;
-      height: 100%; }
-      footer .footer-wrapper ol li {
-        float: left;
-        width: 10em;
-        margin: 0.3em 0.8em; }
+  footer ol {
+    padding: 0;
+    list-style: none;
+    margin: 3% 4%;
+    text-align: center; }
+    footer ol li {
+      display: inline-block;
+      width: 10em;
+      margin: 0.3em 0.8em; }
 
 .clear {
   clear: both; }
@@ -244,16 +223,19 @@ footer {
       width: 100%; } }
 @media all and (max-width: 1024px) {
   body {
-    font-size: 12px; }
+    font-size: 13px; }
+
+  h1.title {
+    font-size: 7em; }
+
+  h6.subtitle {
+    font-size: 1.3em; }
 
   .header {
     height: 40px; }
 
   .banner {
     height: 290px; }
-    .banner .mid-banner .subtitle-holder {
-      padding: 0 0 0 69%;
-      font-size: 0.9em; }
 
   .main-top {
     height: auto;
@@ -279,59 +261,57 @@ footer {
     width: 90%;
     min-height: 200px; }
 
-  footer {
-    width: 100%; }
-    footer .footer-wrapper {
-      width: 800px;
-      margin: 4% auto; }
-      footer .footer-wrapper ol {
-        width: 71%; }
-
   img.aimage {
     max-width: 90%;
     margin: 10% 0px 7% 4.5%;
-    border: 1px solid black; } }
+    border: 1px solid black; }
+
+  footer {
+    width: 100%;
+    font-size: 1.4em; } }
 @media all and (max-width: 768px) {
   .header {
     display: none; }
+
+  h1.title {
+    font-size: 5.5em; }
+
+  h6.subtitle {
+    font-size: 1em; }
 
   .main-nav {
     display: none; }
     .main-nav ul {
       text-align: left;
-      width: 80%;
+      width: 82%;
       padding-left: 4%; }
       .main-nav ul li {
         padding: 2% 6% 1%; }
         .main-nav ul li.mobileviewed {
           display: inline-block; }
 
-  .banner .mid-banner .subtitle-holder {
-    padding: 0 0 0 60%; }
-
   .mobilemenu {
     display: block;
     background-color: #959595;
     width: 100%;
-    height: 40px; }
+    height: 40px;
+    text-align: right; }
     .mobilemenu img {
-      float: right;
       height: 28px;
       margin: 6px; }
+
+  .banner {
+    height: 200px; }
 
   .main-container {
     width: 99%; }
 
   .left-box {
     width: 100%;
-    float: none;
     margin: 0; }
 
   .right-box {
-    width: 100%;
-    min-height: 0;
-    height: auto;
-    float: none; }
+    width: 100%; }
 
   .adv-holder {
     width: 94%;
@@ -340,9 +320,10 @@ footer {
 
   .adv {
     width: 27%;
-    float: left;
-    margin: 3% 3%;
-    height: 0px; }
+    margin: 3% 2.7%;
+    height: 0px;
+    display: inline-block;
+    vertical-align: top; }
 
   .article:nth-of-type(odd) {
     width: 95%;
@@ -350,51 +331,34 @@ footer {
 
   .article:nth-of-type(even) {
     width: 95%;
-    min-height: 230px; }
-
-  footer .footer-wrapper {
-    width: 500px;
-    margin: 4% auto; }
-    footer .footer-wrapper ol {
-      width: 95%;
-      margin: 0 0 0 11%; } }
-@media all and (max-width: 630px) {
+    min-height: 230px; } }
+@media all and (max-width: 575px) {
   h1.title {
-    font-size: 5em; }
-
-  h2 {
-    font-size: 1.7em; }
-
-  .banner {
-    height: 200px; }
-    .banner .mid-banner .title-holder {
-      padding: 3.6% 0 0 5%; }
-    .banner .mid-banner .subtitle-holder {
-      padding: 0 0 0 50%; }
+    font-size: 4em;
+    padding: 5.2% 3% 0; }
 
   .adv {
     min-height: 170px; }
-    .adv .red-text {
-      font-size: 1em; }
     .adv .black-text {
       font-size: 0.9em; }
 
-  footer .footer-wrapper {
-    width: 320px; }
-    footer .footer-wrapper ol {
-      width: 95%;
-      margin: 0 0 0 8.5%; } }
+  footer {
+    font-size: 0.9em; } }
 @media all and (max-width: 450px) {
   h1.title {
-    font-size: 3.5em; }
+    font-size: 3em; }
 
-  h2 {
-    font-size: 1.2em; }
+  h2.headtext {
+    font-size: 1.35em; }
 
-  span.headtext {
-    font-size: 1.7em; }
+  h6.subtitle {
+    font-size: 0.9em; }
+
   span.subtext {
-    font-size: 1.1em; }
+    font-size: 1em; }
+
+  .text-holder {
+    margin: 12% 7% 0%; }
 
   .banner {
     height: 150px; }

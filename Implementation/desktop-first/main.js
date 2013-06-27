@@ -1,6 +1,9 @@
 $(document).ready(function(){
+	onClick();
+});
 
-		$('.mobilemenu img').click(function(){
+function onClick(){
+	$('.mobilemenu img').click(function(){
 			$('.main-nav').toggle();
 		});	
-});
+}
