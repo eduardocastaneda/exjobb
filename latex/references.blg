@@ -1,5 +1,5 @@
 [0] Config.pm:361> INFO - This is Biber 1.5
 [0] Config.pm:364> INFO - Logfile is 'references.blg'
-[114] biber-MSWIN:190> INFO - === %a %b %e, %Y, %H:%M:%S
-[312] Utils.pm:183> ERROR - Cannot find control file 'references.bcf'! - did you pass the "backend=biber" option to BibLaTeX?
-[313] Biber.pm:111> INFO - ERRORS: 1
+[139] biber-MSWIN:190> INFO - === %a %b %e, %Y, %H:%M:%S
+[354] Utils.pm:183> ERROR - Cannot find control file 'references.bcf'! - did you pass the "backend=biber" option to BibLaTeX?
+[354] Biber.pm:111> INFO - ERRORS: 1

@@ -6,7 +6,10 @@
 % arara: pdflatex: { synctex: true }
 
 \documentclass[11pt]{article}
-
+\setcounter{secnumdepth}{5}
+\setcounter{tocdepth}{5}
+\usepackage{float}
+\restylefloat{table}
 \usepackage[swedish]{babel} % Enables swedish typesetting, needs to be at top of document
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc} % set input encoding (not needed with XeLaTeX
@@ -354,6 +357,164 @@ Dessa tre olika sätt att definiera utseendet visas enligt prioritering, inline-
 För att JavaScript skall fungera korrekt krävs det dock att webbläsaren stödjer det. I vissa fall har webbläsaren den funktionen men har den avstängd(\cite[s.13]{sara_ingmar}). Tidigare ett problem varit att mobilwebbläsare inte har haft stöd för JavaScript, vilket har lett till att menyer och pop-up fönster inte har fungerat korrekt när man surfar till sidan via mobilen, men tekniken har utvecklats och numera klarar mobila webbläsare av JavaScript. Det finns fortfarande en del problem när det kommer till mer komplicerade JavaScript funktioner och bibliotek som mobilwebbläsare inte kan hantera(\cite{quirksmode}). Vid webbsidor som har helt separata mobilsidor kan det vara en fördel då man väljer att inte läsa in all JavaScript som behövs, med responsiva webbsidor använder man samma webbsida för varje enhet, vilket leder till att en mobilenhet laddar all JavaScript vilket försämra webbsidans respons. En webbutvecklare måste ha i åtanke och redan från början utveckla en hemsida vars JavaScript inte kommer i vägen för den responsiva webbsidans funktionalitet.
 
 \newpage
+
+\section{Resultat}
+\subsection{Litteraturstudie}
+\textit{I detta kapitel samlas resultat från litteraturstudien som gjordes uppdelat i Synpunkter från gränssnittsutvecklare interaktionsdesigner och profiler inom webutveckling angående mobile-first och desktop-first samt användningsområden för mobilt internet.}
+\subsubsection{Samlade synpunkter}
+Utifrån de 13 olika källor som har samlats och analyserats säger 11 att mobile-first kommer att vara, om inte det redan är det, nästa stora teknik. Den främsta anledningen som poängteras är att mobilt internet börjar bli så oerhört stort att webbutvecklingen måste finna ett sätt att anpassa sig efter det utan att gå miste om det som har funnits en längre tid, det vill säga desktop. Anpassningen bör ske för att vid ett tidigt skede ta sig över barriärer så som mindre skärmar, sämre prestanda och begränsad internethastighet(\cite{themepartner}), där statistik visar att om en användare finner mobilvyn slö, finns även risken att desktopvyn tappar användarnas intresse[ref. 1](\cite{zurbword}). Mobilanvändare kräver i dagsläget snabb respons från mobilsidor, då de flesta aktiviteter sker i tidsrelaterade situationer[ref  2](\cite{techradar}). Med desktop-first finns risk att man skapar en stor sida med många element som även laddas i mobilvyn, vare sig dessa visas eller inte, vilket försämrar mobilvyns respons och skapar även en kompakt, icke-användarvänlig design(\cite{zurbword}) eller en försämrad version av desktopvyn.
+
+ Utav 13 källor påpekar 6 av dessa på att det finns funktioner hos mobilt som kräver en annan typ av fokus samtidigt som dessa tar webbsidan till en helt ny nivå funktionsmässigt. Funktionerna man syftar på är speciella för mobilt och är GPS, Touchscreen och Multitouch. Dessa tre funktioner kan anpassa en mobilsida till att fungera på användningsområden som i dagsläget inte fungerar lika bra från en desktop, men som utvecklas åt det hållet(\cite{sweclock}). Dessa funktioner är nya tekniker vilka fortfarande utvecklas för att nå optimal funktionalitet och ett tidigt fokus på dessa ger ens stabil grund för funktionalitet hos mobilsidan, vilket gör mobile-first till ett bra alternativ(\cite{techradar}, \cite{othermedia}).
+ 
+ Webbutveckling har sin grund hos desktopsidor, vilka har funnits i flera år. Flera källor påpekar detta i mån om att poängtera att ett säkert och välprövat alternativ ibland kan kännas som den bästa startpunkten[ref 7] [ref 8](\cite{armstrong}, \cite{readyartwork}). Mobile-first är en ny teknik och som kräver ett annat tänk än den vid implementeringen av en desktopsida vilket då oftast kräver längre tid vid implementeringen och kan således kosta mer(\cite{readyartwork}, \cite{marcuspope}(9)). Däremot anser alla förutom en källa(\cite{armstrong}) att argumentet inte håller då detta leder till en ond cirkel där ny och bra teknik inte används eller utvecklas[ref 3](\cite{designshack}, \cite{marcuspope}). Webbutvecklare får även ha i åtanke att vanliga funktioner hos desktop som har existera under än längre tid, i mobilt inte existerar(\cite{responsivedesign}(10), \cite{designshack}, \cite{webinsation})(7-1)]. Vid desktop-first existerar risken att använda funktionaliteter som hover, vilka kan leda till komplikationer när mobilvyn börjar implementeras(\cite{readyartwork}), med det menar källan att funktioner och innehåll kan av misstag försvinna utan att de har varit avsedda att tas bort(\cite{readyartwork}). \textit{Exemplet med hover görs i samband med desktop-first, där en ruta med text i desktopvy blir större när man håller musen över, rutan visar då all text istället för en liten del av texten som visas när man inte håller musen över. I implementeringen av mobilvyn går inte samma kod att använda då ”hover” inte fungerar och istället så är elementet antingen stor hela tiden(tar stor plats i skärmen) eller så är den liten och endast visar en del av texten. Vid sen påkommenhet kräver detta att utvecklare får be interaktionsdesigners att finna en lösning så att texten får plats i mobilvyn eller prioriteras om.}
+ 
+ En nackdel med mobile-first är att Internet Explorer 6, 7 och 8 inte stödjer media queries(\cite{marcuspope}, \cite{neocreo}(4)] vilket lösningen fås genom javascript som av prestanda skäl inte är bra för ett mobilgränssnitt(\cite{responsivedesign}), fördelen med desktop-first blir då att media queries inte behövs läsas utifrån en desktopvy(\cite{neocreo}), utan det görs via mobilens webbläsare vilka de flesta klarar av tack vare den ständiga uppdateringen som görs för webbläsare i mobiler(\cite{webinsation}). 
+ 
+ Utav 13 källor var det 2 som inte ansåg att webben och tekniken för responsive web design var redo för mobile-first[ref 13](\cite{cloudfour}, \cite{armstrong}). Enligt en studie hade flertal mobile-first sidor granskats och nått slutsatsen att mobile-first sidor blev större än desktop(\cite{cloudfour}). Enkelheten med desktop-first gentemot mobile-first tas åter upp med hänvisning till att desktop har funnits under en längre tid, vilket medför att det är simpelt för användbarhetsexperter att ta sig an, samt är en säker grund för gränssnittsutvecklare att utveckla responsivt ifrån(\cite{armstrong}). Skapandet av en responsiv webbsida efterhand innebär mycket refaktorering med mobile-first(med antagandet att alla sidor som inte är responsiv är byggda för desktop). Vilket är något som resterande källor inte säger emot(\cite{neocreo}), men syftar på att en webbsida i desktop-first har tendensen att få mobilvyn förmedla en känsla av en nödlösning snarare en genomtänkt produkt(\cite{designshack}, \cite{othermedia}) och att i det fallet en bättre lösning är att påbörja en ny design för mobilt, istället för att från desktop designa om till en responsiv webbsida.
+7 utav 13 anser mobile-first som en optimal lösning då den enkla principen säger att om element får plats i mobilvyn får de alltid plats i desktopvyn, men inte tvärtom. Med desktop-first kan element av misstag försvinna vid nedskallning till mindre skärmar då de vid det fallet anses överflödiga(\cite{blogskent}(11), \cite{responsivedesign}). Dessa hänvisar även till att webbdesign har tagit ett nytt steg mot användbarhet där websidan skall vara simpel för användaren att förstå och innehålla relevant information snarare att designen skall fånga användaren genom ”överflödig” design(\cite{blogskent}). 
+
+3 Källor anser att användningsområde för webblösningen är en viktig aspekt att analysera inför implementeringen av den responsiva webbsidan(\cite{neocreo}, \cite{marcuspope}, \cite{designshack}). Vilket fördelarna i de flesta källor redan bygger på att man har en aning om målgruppen i stort(\cite{zurbword}). En vanlig siffra som förekommer är att 25 procent av USA’s befolkning använder sig endast av mobilt internet och där ökningen som sker i nuläget utav användningen av mobilt internet tyder på att mobile-first är ett bra alternativ till metod för implementering.  Men 25 procent av användare som enbart använder mobilt internet tyder på att 75 procent använder antingen båda eller endast desktop och är därför inte alltid en avgörande faktor till att implementera i mobile-first(\cite{marcuspope}). Utan de att användningsområde i sig är en viktig riktlinje till val av metod(\cite{neocreo}).  
+
+\paragraph{Nämnda för- och nackdelar}\mbox{} \\
+
+\textbf{Desktop-first}
+\begin{table}[H]
+\centering
+\begin{tabular}{|p{7.2cm}|p{7.2cm}|}
+\hline
+Fördelar&Nackdelar\\ \hline
+\textbf{Går fort att redesigna en existerande desktopsida till responsive, }\textit{om elementen är definerade i procentform.}&\textbf{Mycket kod som inte används läses in när sidan ses från mobilen, }\textit{leder till sämre respons när sidan ses i mobilvy}\\ \hline
+\textbf{Enkelt koncept att förstå sig på, }\textit{finns mycket erfarenhet från både kund, designers och utvecklare.}& \textbf{Lätt att funktioner för desktop försvinner i mobilt,} \textit{kan leda till att mobilvyn tvingas redesignas och element får prioriteras om.} \\ \hline
+\textbf{Fokus på enheten den större delen av befolkningen använder. }\textit{Även om mobilanvändande växer består antalet desktopanvändarna.}&\textbf{Mycket fokus på desktop leder till nerskalad mobilvy design- och funktionsmässigt, }\textit{eftersom mobilvyn har fler begränsningar.}\\ \hline
+\textbf{Bra för webbsidor om internet explorer 6,7 och 8 används, }\textit{dessa kan inte läsa media queries, desktop blir då kodgrunden och media queries läses endast utav mobilwebbläsaren.}&  \textbf{Mindre fokus  på mer speciella funktioner för mobilt} \textit{t.ex hardware acceleration, touch, location awareness.} \\ \hline
+\textbf{Säker punkt att utveckla responsivt ifrån, }\textit{mer erfarenhet leder till mindre implementeringstid således blir kostnaden mindre.}&\textbf{All innehåll från desktopvyn får inte alltid plats i mobilvyn,} \textit{samma element på en stor yta får inte alltid plats på en mindre yta.}\\ \hline
+~&\textbf{Problemen som finns hos mobilvy så som prestanda och sämre bandbredd åtgärdas i efterhand.}\\ \hline
+
+
+    \end{tabular}
+    \caption {Desktop-first, nackdelar och fördelar som samlades i litteraturestudien}
+\end{table}
+\newpage
+
+\textbf{Mobile-first}
+\begin{table}[H]
+\centering
+\begin{tabular}{|p{7.2cm}|p{7.2cm}|}
+\hline
+Fördelar&Nackdelar\\ \hline
+\textbf{Användbarhet i fokus, }\textit{att börja i en begränsad yta tvingar fram funktionalitet, där det nödvändigaste prioriteras.}&\textbf{Ny teknik, nya utmaningar,} \textit{kan ta längre tid att implementera}\\ \hline
+\textbf{Fokus på innehåll, }\textit{innehåll prioriteras först, sedan presentation och sist animation.}&\textbf{Internet explorer 6,7,8 klarar inte av media queries} \\ \hline
+\textbf{Skapar anpassningsbara och framtidsvänliga hemsidor, }\textit{varje enhet får ut det bästa från en och samma webbsida.}&\textbf{Liten skärm att påbörja designen för, } \textit{svårt att få en helhetsbild för hur desktopvyn skall renderas.}\\ \hline
+\textbf{Robust grund för arbetssätt och design, }\textit{implementering sker där det viktigaste är i centrum och allt byggs utifrån det.}&\textbf{Komplicerat om man ska redesigna en existerande desktopsida}\\ \hline
+\textbf{Robust grund för komplikationer, }\textit{svårigheter tas i början(prestanda, design, prioritering).}&\textbf{Redan från start möter man det svåra, } \textit{kan uppfattas som trist och jobbigt.}\\ \hline
+\textbf{Läser in mindre kod i mobilvyn, }\textit{behöver inte läsa in allt för desktop, utan bara det för mobile.}&\textbf{Svår koncept att sälja, inte lika populärt bland kunder.}\\ \hline
+\textbf{Anpassasning efter dagens marknad, }\textit{användning av mobiltinternet öka för varje dag.}&\textbf{Simpelt är svårt, prioritering är svårt, } \textit{speciellt med olika investerare som vill få ut en bild av varumärket i produkten.}\\ \hline
+\textbf{Fokuserar på kontext som fungerar för plats, tid och sociala egenskaper, }\textit{situationer då snabb respons krävs.}&~\\ \hline
+\textbf{Simpelt att arbeta med nya funktionaliteter för mobilen, }\textit{multi-touch, gps, hardware acceleration, location awareness.}&~\\ \hline
+\textbf{Allt från mobilvyn fås med till desktopvyn, }\textit{samma element i en liten yta får plats i en stor yta.}&~\\ \hline
+\textbf{Känns naturligt att lägga till desto större fönstret blir, }\textit{gentemot att ta bort desto mindre skärmen blir.}&~\\ \hline
+
+    \end{tabular}
+    \caption {Mobile-first, nackdelar och fördelar som samlades i litteraturstudien}
+\end{table}
+\newpage
+
+
+
+
+\subsubsection{Användningsområde}
+
+Mobilawebbsidor och Desktopwebbsidor har olika besökare beroende på vilken typ av webbsida och under vilka förhållanden den ses ifrån, även åldern spelar roll då det visar sig i statistik att ungdomar är de största användarna av mobilt internet[ref svenskarna]. I Sverige utförs det varje år en statistiksredovisning på svenskar och deras internetanvändning[Svenskar och deras internet]. Trots distansen ser användningen av mobilt internet ungefär likadant i Sverige så som i USA, i detta kapitel visas resultat på en litteraturstudie där fokus läggs på användning av webbsidor beroende på användarnas åldersgrupp, kontext på webbsidan samt miljön webbsidan ses ifrån.
+
+\paragraph{Målgrupp}\mbox{} \\
+
+I de flesta vetenskapliga artiklar gällande användning av mobilt internet har man inriktat sig till användare där målgruppen är från 19 uppåt, med en medelålder mellan 20-29. Bara detta syftar på att en stor del av användarna för mobilt internet består utav nämnda målgrupp. I statistik som utförts för att ta reda på svenskarna användning utav mobilt internet sträcker sig lägsta ålder ner till 12 år vid gällande mobilanvändning i en daglig basis. Trots detta stämmer målgruppen som har valts i de vetenskapliga artiklar väldigt bra då statistik visar att den stora målgruppen i Sverige av mobil internetanvändare är mellan 16-25 år där 69 \% av målgruppen använder sig utav mobilt internet dagligen. Tätt efter är målgruppen från 26-35 där 68 \% och 12-15 där 67 \% använder sig utav mobilt internet dagligen. Den stora förändringen sker inte förens målgrupp där åldern avser 46-55 år och endast 30 \% använder sig utav mobilt internet. Lägst är målgruppen från 76 uppåt som ligger på 1 \% men där internet användningen överhuvudtaget inte är stor.
+\\
+\setcounter{figure}{3}
+\begin{figure}[H]
+  \centering
+    \includegraphics[scale=0.8]{pics/statistikalder.png}
+    \caption{Andel procent av befolkningen som använder sig utav mobilt internet, statistik visar att den stora målgruppen är mellan 12-45 år gamla.}
+\end{figure}
+
+\paragraph{Kontext}\mbox{} \\
+
+Med kontext menas sidans typiska innehåll, det vill säga huvudsyftet med webbsidan. Beroende på webbsidans kontext kan användarna finna det simplare att använda antingen desktop eller mobilt, eller helt enkelt den enheten närmast till hands. Av de vetenskapliga artiklar som har tagits med i litteraturstudien har alla gemensamt att mobilt internet används flitigt för:
+
+\begin{itemize}
+	\item{Sköta E-post}
+	\item{Sociala Nätverk}
+	\item{Kolla nyheter, väder}
+	\item{Söka information}
+\end{itemize}
+\bigskip
+Andel procent av användarna skiljer sig beroende på artikel, då antalet användare för studien har varit olika, men visar ändå vad fokus läggs på när mobilt internet används. I Sverige uppskattas att 50 \% använder mobilt internet för att sköta e-post, 43 \% för socialt nätverk, 40 \% för att kolla vädret, nyheter och 18 \% för att söka fakta[], i en daglig basis. I en annan studie där användningen utav mobilt internet analyserades med hjälp utav 109 deltagare [] visades sig att 70 \% av deltagarna använde mobilt internet för att kolla nyheter, väder och söka fakta, 13 \% utav deltagarna använde mobilt internet till sociala nätverk och 17 \% för att kolla på film och lyssna på musik[]. I en liknande studie där istället 18 aktiva mobilanvändare studerades varje dag under en 4 veckors period, bestod den dagliga användningen av mobilt internet av 27 \% sociala nätverk, 24 \% koll på nyheter och vädret, 18.8 \% för email, 14.9 för vanligt surf, 10 \% för mobilt sök och 5.1 \% för kartor[].
+
+Vid desktop anses dessa fyra områden vara minst lika populär. I en studie som gjorde hos HarrisPolls[ref] samlades 2400 vuxna varav 991 mobilt internet användare för att se hur enheterna används i jämförelse beroende på kontext. I studien hamnade tre längst upp som de typer av hemsida vars desktopanvändare är ungefär lika stora om mobilanvändare.
+\\
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|p{4cm}|p{4cm}|p{4cm}|}
+	\hline
+	~&Dator(desktop/laptop)&Mobil(Smartphone)\\ \hline
+	Sköta E-post &90 \%&72 \%\\ \hline
+	Sociala Nätverk&69 \%&64 \%\\ \hline
+	Söka information&81 \%&45 \%\\ \hline
+	*Kolla nyheter, väder&44.2 \%&52.1 \%\\ \hline
+	\end{tabular}
+    \caption {Områden i webben där användarna utnyttjar både mobil och desktop}
+\end{table}
+\textit{*I studien ingick inte läsning utav nyheter, men i Q1 Research report för nyhetsläsning[ref] visades det sig, med undantag från målgruppen 65+, att majoriteten utav läsarna(59 \% till 77 \% i varje målgrupp) använder både mobil och desktop. Studien visar även att nyhetsläsare från mobilen numera är större än läsarna från desktop.}
+
+I HarrisPole fanns även siffror för områden där användaren föredrar en enhet mer än den andra.
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|p{4cm}|p{4cm}|p{4cm}|}
+	\hline
+	~&Dator(desktop/laptop)&Mobil(Smartphone)\\ \hline
+	Fylla enkäter &86 \%&24 \%\\ \hline
+	Handla produkter&78 \%&23 \%\\ \hline
+	Navigation/Kartor&56 \%&73 \%\\ \hline
+	\end{tabular}
+    \caption {Områden i webben där användarna utnyttjar en enhet mer än de andra}
+\end{table}
+
+\paragraph{Miljö} \mbox{} \\
+
+En användares miljö har förändras tack vare mobilens storlek, det har gjort att miljön inte är längre är den vanliga sederliga hemma eller på kontor, utan kan vara i vilket sammanhang som helst och även vart som helst. Ett vanligt antagande är att mobilen endast används vid rörliga situationer[ref mobile first]. Vilket vetenskapliga artiklar och statistik som har visar annat tvärtemot[ref mobile first, den andra].
+
+Författaren utav mobile first använder sig utav en statistik tagen ifrån http://bkaprt.com/mf/32 där genom en enkätundersökning visar användningen utav internet genom smartphones:
+\begin{itemize}
+	\item{84 \% använder det hemma}
+	\item{80 \% använder det under diversa dödtid genom dagen}
+	\item{74 \% använder det i kötid och väntan på möten}
+	\item{69 \% använder det under shopping}
+	\item{64 \% använder det på jobbet}
+	\item{62 \% använder det medan man kollar på TV}
+	\item{47 \% under pendling}
+\end{itemize}
+\bigskip
+
+Att en stor andel av smartphonebärare använder sig utav mobilt internet i hemmet styrks utav fler vetenskapliga artiklar[ref ]. Där orsakerna pekar åt bekvämligheten av att använda mobilen istället för datorn. Mobilen tillåter 1 minuts användning utav internet, t.ex. vid brådskande tillfällen, vilket kan anses vara omständliga via en desktop[]. I studien där 18 deltagare skulle föra dagböcker[] under en period av 4 veckor var över 70 \% av inläggen om aktiviteter gjorda vid ett stationärt perspektiv, det vill säga antingen på jobbet eller i hemmet. Bara 17 \% av inläggen handlade om aktiviteter som gjordes vid resor, aktiviteter utomhus och vi pendling.
+\\
+\begin{itemize}
+	\item{49,6 \% av inläggen handlade om aktiviteter gjorda i hemmet}
+	\item{21,8 \% av inläggen handlade om aktiviteter på jobbet/universitetet}
+	\item{11,4 \% av inläggen handlade om aktiviteter gjorda inomhus}
+	\item{9,6 \% av inläggen handlade om aktiviteter gjorda under pendling eller transit}
+	\item{7,2 \% av inläggen handlade om aktiviteter gjorda utomhus}
+	\item{0,5 \% av inläggen handlade om aktiviteter gjorda under resa utomlands}
+\end{itemize}
+\bigskip
+
+\subsection{Implementation}
+Efter resultatet av litteraturstudien blev prototypen till webbsidan en nyhetssida. Grunden till valet gjordes med hänvisning till resultatet från litteraturstudien där statistik visar att andelen desktop och mobilbesökare hos en nyhetssida är jämnt fördelat, och även en av de största inom mobilområdet. För att skapa sidan gjordes en jämförelse mellan stora nyhetssidor så som aftonbladet.se, metro.co.uk, globalnews.ca, time.com, för att upprätthålla typiska element som finns i nyhetssidor. Allt som finns i ena vyn finns även i den andra.OBS SKRIV I METOD ATT SIDAN BARA ÄR EN PROTOTYP OCH DET VIKTIGASTE HAR TAGITS MED ENDAST SÅ ATT DET INTE TAR FÖR LÅNG TID.
+\subsubsection{Prototyp}
+\subsubsection{Resultat utav implementering}
+\paragraph{Responstid}
+\paragraph{Implementeringstid}
+\paragraph{Kodstorlek}
 
 
 \printbibliography

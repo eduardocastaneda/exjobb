@@ -19,6 +19,63 @@
 
 \refsection{0}
   \sortlist{entry}{nyt}
+    \entry{blogskent}{online}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=2bf721d558df5aeb4d7fb85374e5d74d}{Bull}{B\bibinitperiod}{Matthew}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=2bf721d558df5aeb4d7fb85374e5d74d}{Bull}{B\bibinitperiod}{Matthew}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{2bf721d558df5aeb4d7fb85374e5d74d}
+      \strng{fullhash}{2bf721d558df5aeb4d7fb85374e5d74d}
+      \field{sortinit}{B}
+      \field{labelyear}{2012}
+      \field{labeltitle}{Mobile comes first: responsive web design in a mobile world}
+      \field{note}{Senast besökt: 11 juli 2013}
+      \field{title}{Mobile comes first: responsive web design in a mobile world}
+      \field{year}{2012}
+      \verb{url}
+      \verb http://blogs.kent.ac.uk/webdev/2012/07/22/mobile-comes-first-responsive-web-design-in-a-mobile-world/
+      \endverb
+    \endentry
+    \entry{readyartwork}{online}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=09ae02b0efa7e129f530081c67f5ae0b}{Chan}{C\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=09ae02b0efa7e129f530081c67f5ae0b}{Chan}{C\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{09ae02b0efa7e129f530081c67f5ae0b}
+      \strng{fullhash}{09ae02b0efa7e129f530081c67f5ae0b}
+      \field{sortinit}{C}
+      \field{labelyear}{2013}
+      \field{labeltitle}{The better approach to rwd: Mobile first design}
+      \field{note}{Senast besökt: 11 juli 2013}
+      \field{title}{The better approach to rwd: Mobile first design}
+      \field{year}{2013}
+      \verb{url}
+      \verb http://www.readyartwork.com/2013/05/15/mobile-first-design/
+      \endverb
+    \endentry
+    \entry{othermedia}{online}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=eb01607bdf3023b0ebc31f42e89f5bcf}{Chapman}{C\bibinitperiod}{Katy}{K\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=eb01607bdf3023b0ebc31f42e89f5bcf}{Chapman}{C\bibinitperiod}{Katy}{K\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{eb01607bdf3023b0ebc31f42e89f5bcf}
+      \strng{fullhash}{eb01607bdf3023b0ebc31f42e89f5bcf}
+      \field{sortinit}{C}
+      \field{labelyear}{2012}
+      \field{labeltitle}{Interview by Edd Gold, Why design for mobile before desktop?}
+      \field{note}{Senast besökt: 11 juli 2013}
+      \field{title}{Interview by Edd Gold, Why design for mobile before desktop?}
+      \field{year}{2012}
+      \verb{url}
+      \verb http://www.othermedia.com/blog/why-design-for-mobile-before-desktop,424,TA.html
+      \endverb
+    \endentry
     \entry{adaptiveresp}{online}{}
       \name{labelname}{1}{}{%
         {{uniquename=0,hash=664caac41a3d12cce06337907df09e12}{Clark}{C\bibinitperiod}{Barry}{B\bibinitperiod}{}{}{}{}}%
@@ -36,6 +93,25 @@
       \field{year}{2009}
       \verb{url}
       \verb http://barryclark.co/adaptive-responsive-or-mobile-first/
+      \endverb
+    \endentry
+    \entry{sweclock}{online}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=33828345fabf7c3a055db31136cca5ab}{Dimestam}{D\bibinitperiod}{Andreas}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=33828345fabf7c3a055db31136cca5ab}{Dimestam}{D\bibinitperiod}{Andreas}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{33828345fabf7c3a055db31136cca5ab}
+      \strng{fullhash}{33828345fabf7c3a055db31136cca5ab}
+      \field{sortinit}{D}
+      \field{labelyear}{2012}
+      \field{labeltitle}{Acer släpper multi touch-skärmar för windows 8}
+      \field{note}{Senast besökt: 11 juli 2013}
+      \field{title}{Acer släpper multi touch-skärmar för windows 8}
+      \field{year}{2012}
+      \verb{url}
+      \verb http://www.sweclockers.com/nyhet/16010-acer-slapper-multi-touch-skarmar-for-windows-8
       \endverb
     \endentry
     \entry{Cfigroup_2009}{article}{}
@@ -74,6 +150,25 @@
       \field{title}{Svenskarna och Internet 2012}
       \field{year}{2012}
     \endentry
+    \entry{responsivedesign}{online}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=7bd349427f820c43d20ac2a9cabb9113}{Foster}{F\bibinitperiod}{Aidan}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=7bd349427f820c43d20ac2a9cabb9113}{Foster}{F\bibinitperiod}{Aidan}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{7bd349427f820c43d20ac2a9cabb9113}
+      \strng{fullhash}{7bd349427f820c43d20ac2a9cabb9113}
+      \field{sortinit}{F}
+      \field{labelyear}{2012}
+      \field{labeltitle}{Mobile First: A key ingredient in great responsive design}
+      \field{note}{Senast besökt: 11 juli 2013}
+      \field{title}{Mobile First: A key ingredient in great responsive design}
+      \field{year}{2012}
+      \verb{url}
+      \verb http://responsivedesign.ca/blog/mobile-first-a-key-ingredient-in-great-responsive-design
+      \endverb
+    \endentry
     \entry{pts}{book}{}
       \name{labelname}{1}{}{%
         {{uniquename=0,hash=ca6efad6b02802c3d0fb53324497efd9}{Fransén\bibnamedelimb och\bibnamedelima Holmström}{F\bibinitperiod\bibinitdelim o\bibinitperiod\bibinitdelim H\bibinitperiod}{Karin\bibnamedelima Oscar}{K\bibinitperiod\bibinitdelim O\bibinitperiod}{}{}{}{}}%
@@ -92,6 +187,25 @@
       \field{isbn}{PTTS-ER-2012:26}
       \field{title}{Prisutevecklingen på mobiltelefoni och bredband}
       \field{year}{2012}
+    \endentry
+    \entry{cloudfour}{online}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=892791b444bf89c72e931caca0bb2864}{Grigsby}{G\bibinitperiod}{Jason}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=892791b444bf89c72e931caca0bb2864}{Grigsby}{G\bibinitperiod}{Jason}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{892791b444bf89c72e931caca0bb2864}
+      \strng{fullhash}{892791b444bf89c72e931caca0bb2864}
+      \field{sortinit}{G}
+      \field{labelyear}{2011}
+      \field{labeltitle}{Where are the mobile first responsive web designs?}
+      \field{note}{Senast besökt: 11 juli 2013}
+      \field{title}{Where are the mobile first responsive web designs?}
+      \field{year}{2011}
+      \verb{url}
+      \verb http://blog.cloudfour.com/where-are-the-mobile-first-responsive-web-designs/
+      \endverb
     \endentry
     \entry{telekomidag}{online}{}
       \name{labelname}{1}{}{%
@@ -112,6 +226,44 @@
       \verb http://www.telekomidag.se/nyheter/artikel.php?id=38201
       \endverb
     \endentry
+    \entry{neocreo}{online}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=4f10e68079f609aa08489c1d0370ffc0}{Hansson}{H\bibinitperiod}{Daniel}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=4f10e68079f609aa08489c1d0370ffc0}{Hansson}{H\bibinitperiod}{Daniel}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{4f10e68079f609aa08489c1d0370ffc0}
+      \strng{fullhash}{4f10e68079f609aa08489c1d0370ffc0}
+      \field{sortinit}{H}
+      \field{labelyear}{2012}
+      \field{labeltitle}{Responsive websites - mobile vs. deskop first}
+      \field{note}{Senast besökt: 11 juli 2013}
+      \field{title}{Responsive websites - mobile vs. deskop first}
+      \field{year}{2012}
+      \verb{url}
+      \verb http://www.neocreo.net/en/articles/responsive-websites-mobile-vs-desktop-first
+      \endverb
+    \endentry
+    \entry{armstrong}{online}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=a3dc44769354523a8950590d98e23764}{Houx}{H\bibinitperiod}{James}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=a3dc44769354523a8950590d98e23764}{Houx}{H\bibinitperiod}{James}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{a3dc44769354523a8950590d98e23764}
+      \strng{fullhash}{a3dc44769354523a8950590d98e23764}
+      \field{sortinit}{H}
+      \field{labelyear}{2013}
+      \field{labeltitle}{Choosing between Mobile-first, Desktop-first or Independent hemes and Sites}
+      \field{note}{Senast besökt: 11 juli 2013}
+      \field{title}{Choosing between Mobile-first, Desktop-first or Independent hemes and Sites}
+      \field{year}{2013}
+      \verb{url}
+      \verb http://www.armstrongtheme.com/appendix/choosing-between-mobile-first-or-desktop-first/
+      \endverb
+    \endentry
     \entry{sara_ingmar}{article}{}
       \name{labelname}{1}{}{%
         {{uniquename=0,hash=f9b17eaf1fd21ab42f138c6b978e9123}{Ingmar}{I\bibinitperiod}{Sara}{S\bibinitperiod}{}{}{}{}}%
@@ -129,6 +281,25 @@
       \field{title}{Responsive web design: En studie i hur designkonceptet påverkar användbarheten hos en webbplats}
       \field{year}{2012}
     \endentry
+    \entry{designshack}{online}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=b393cb1bbfc73832dd48188bcd215a29}{Johnson}{J\bibinitperiod}{Joshua}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=b393cb1bbfc73832dd48188bcd215a29}{Johnson}{J\bibinitperiod}{Joshua}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{b393cb1bbfc73832dd48188bcd215a29}
+      \strng{fullhash}{b393cb1bbfc73832dd48188bcd215a29}
+      \field{sortinit}{J}
+      \field{labelyear}{2013}
+      \field{labeltitle}{Mobile First Design: Why It's great and why it sucks}
+      \field{note}{Senast besökt: 11 juli 2013}
+      \field{title}{Mobile First Design: Why It's great and why it sucks}
+      \field{year}{2013}
+      \verb{url}
+      \verb http://designshack.net/articles/css/mobilefirst/
+      \endverb
+    \endentry
     \entry{Mobilefirst}{online}{}
       \name{labelname}{1}{}{%
         {{uniquename=0,hash=2f49bc5c4549dd35b978edf781ab6723}{Lande}{L\bibinitperiod}{Simon}{S\bibinitperiod}{}{}{}{}}%
@@ -140,9 +311,9 @@
       \strng{fullhash}{2f49bc5c4549dd35b978edf781ab6723}
       \field{sortinit}{L}
       \field{labelyear}{2009}
-      \field{labeltitle}{Mobile First, Dekstop Later}
+      \field{labeltitle}{Mobile First, Desktop Later}
       \field{note}{Senast besökt: 15 maj 2013}
-      \field{title}{Mobile First, Dekstop Later}
+      \field{title}{Mobile First, Desktop Later}
       \field{year}{2009}
       \verb{url}
       \verb http://www.cmswire.com/cms/customer-experience/mobile-first-desktop-later-019716.php
@@ -185,6 +356,44 @@
       \field{isbn}{978-0-09844425-7-7}
       \field{title}{Responsive web design}
       \field{year}{2011}
+    \endentry
+    \entry{webinsation}{online}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=14196cc760270bfab082ee070ac32a75}{Mellas}{M\bibinitperiod}{Caleb}{C\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=14196cc760270bfab082ee070ac32a75}{Mellas}{M\bibinitperiod}{Caleb}{C\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{14196cc760270bfab082ee070ac32a75}
+      \strng{fullhash}{14196cc760270bfab082ee070ac32a75}
+      \field{sortinit}{M}
+      \field{labelyear}{2011}
+      \field{labeltitle}{Why should I design for mobile-first?}
+      \field{note}{Senast besökt: 11 juli 2013}
+      \field{title}{Why should I design for mobile-first?}
+      \field{year}{2011}
+      \verb{url}
+      \verb http://www.webinsation.com/why-should-i-design-for-mobile-first/
+      \endverb
+    \endentry
+    \entry{marcuspope}{online}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=6f0fc3c15e6788bfb4349c0c68a8958a}{Pope}{P\bibinitperiod}{Marcus}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=6f0fc3c15e6788bfb4349c0c68a8958a}{Pope}{P\bibinitperiod}{Marcus}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{6f0fc3c15e6788bfb4349c0c68a8958a}
+      \strng{fullhash}{6f0fc3c15e6788bfb4349c0c68a8958a}
+      \field{sortinit}{P}
+      \field{labelyear}{2222}
+      \field{labeltitle}{Mobile-first, kind of like the secret}
+      \field{note}{Senast besökt: 1 juli 2013}
+      \field{title}{Mobile-first, kind of like the secret}
+      \field{year}{2222}
+      \verb{url}
+      \verb http://www.marcuspope.com/blog/mobile-first,-kind-of-like-the-secret
+      \endverb
     \endentry
     \entry{quirksmode}{online}{}
       \name{labelname}{1}{}{%
@@ -298,6 +507,63 @@
       \field{year}{2009}
       \verb{url}
       \verb http://www.w3schools.com/css/css_howto.asp
+      \endverb
+    \endentry
+    \entry{techradar}{online}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=ec5019c09be82a8904485615239ef96f}{Wroblewski}{W\bibinitperiod}{Luke}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=ec5019c09be82a8904485615239ef96f}{Wroblewski}{W\bibinitperiod}{Luke}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{ec5019c09be82a8904485615239ef96f}
+      \strng{fullhash}{ec5019c09be82a8904485615239ef96f}
+      \field{sortinit}{W}
+      \field{labelyear}{2010}
+      \field{labeltitle}{Mobile web design tips: Mobile should come first}
+      \field{note}{Senast besökt: 11 juli 2013}
+      \field{title}{Mobile web design tips: Mobile should come first}
+      \field{year}{2010}
+      \verb{url}
+      \verb http://www.techradar.com/news/internet/mobile-web-design-tips-mobile-should-come-first-719677/1#articleContent
+      \endverb
+    \endentry
+    \entry{themepartner}{online}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=656aaebd68bb76388e3ec99c825acc4c}{Zee}{Z\bibinitperiod}{Theo}{T\bibinitperiod}{van\bibnamedelima der}{v\bibinitperiod\bibinitdelim d\bibinitperiod}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=656aaebd68bb76388e3ec99c825acc4c}{Zee}{Z\bibinitperiod}{Theo}{T\bibinitperiod}{van\bibnamedelima der}{v\bibinitperiod\bibinitdelim d\bibinitperiod}{}{}}%
+      }
+      \strng{namehash}{656aaebd68bb76388e3ec99c825acc4c}
+      \strng{fullhash}{656aaebd68bb76388e3ec99c825acc4c}
+      \field{sortinit}{Z}
+      \field{labelyear}{2012}
+      \field{labeltitle}{Responsive web design and mobile first}
+      \field{note}{Senast besökt: 11 juli 2013}
+      \field{title}{Responsive web design and mobile first}
+      \field{year}{2012}
+      \verb{url}
+      \verb http://www.themepartner.com/blog/100/responsive-web-design-and-mobile-first/
+      \endverb
+    \endentry
+    \entry{zurbword}{online}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=22aa909fc36f5608205b474a983fabb9}{zurbword}{z\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=22aa909fc36f5608205b474a983fabb9}{zurbword}{z\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{22aa909fc36f5608205b474a983fabb9}
+      \strng{fullhash}{22aa909fc36f5608205b474a983fabb9}
+      \field{sortinit}{z}
+      \field{labelyear}{2012}
+      \field{labeltitle}{Mobile first – An adaptive, future-friendly solution for website design}
+      \field{note}{Senast besökt: 11 juli 2013}
+      \field{title}{Mobile first – An adaptive, future-friendly solution for website design}
+      \field{year}{2012}
+      \verb{url}
+      \verb http://zurb.com/word/mobile-first
       \endverb
     \endentry
   \endsortlist

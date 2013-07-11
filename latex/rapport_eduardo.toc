@@ -2,60 +2,88 @@
 \defcounter {refsection}{0}\relax 
 \select@language {swedish}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1}Inledning}{4}{section.1}
+\contentsline {section}{\numberline {1}Inledning}{5}{section.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1}Mobile-first eller Desktop-first}{4}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.1}Mobile-first eller Desktop-first}{5}{subsection.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2}Syfte}{5}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.2}Syfte}{6}{subsection.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3}Avgr\IeC {\"a}nsningar}{5}{subsection.1.3}
+\contentsline {subsection}{\numberline {1.3}Avgr\IeC {\"a}nsningar}{6}{subsection.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4}Valtech AB}{6}{subsection.1.4}
+\contentsline {subsection}{\numberline {1.4}Valtech AB}{7}{subsection.1.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2}Bakgrund}{7}{section.2}
+\contentsline {section}{\numberline {2}Bakgrund}{8}{section.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1}Mobilanv\IeC {\"a}ndare}{7}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.1}Mobilanv\IeC {\"a}ndare}{8}{subsection.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2}Desktopanv\IeC {\"a}ndare}{9}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.2}Desktopanv\IeC {\"a}ndare}{10}{subsection.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3}Teori}{10}{section.3}
+\contentsline {section}{\numberline {3}Teori}{11}{section.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1}Responsive web design}{10}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.1}Responsive web design}{11}{subsection.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.1.1}Fluid Grid}{10}{subsubsection.3.1.1}
+\contentsline {subsubsection}{\numberline {3.1.1}Fluid Grid}{11}{subsubsection.3.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.1.2}Fluid Images}{11}{subsubsection.3.1.2}
+\contentsline {subsubsection}{\numberline {3.1.2}Fluid Images}{12}{subsubsection.3.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.1.3}Media Queries}{11}{subsubsection.3.1.3}
+\contentsline {subsubsection}{\numberline {3.1.3}Media Queries}{12}{subsubsection.3.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2}Mobile-first}{14}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.2}Mobile-first}{15}{subsection.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3}Desktop-first}{14}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.3}Desktop-first}{15}{subsection.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Metod}{16}{section.4}
+\contentsline {section}{\numberline {4}Metod}{17}{section.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1}Litteraturstudie}{16}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.1}Litteraturstudie}{17}{subsection.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.1.1}Milj\IeC {\"o}}{16}{subsubsection.4.1.1}
+\contentsline {subsubsection}{\numberline {4.1.1}Milj\IeC {\"o}}{17}{subsubsection.4.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.1.2}M\IeC {\r a}lgrupp}{16}{subsubsection.4.1.2}
+\contentsline {subsubsection}{\numberline {4.1.2}M\IeC {\r a}lgrupp}{17}{subsubsection.4.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.1.3}Kontext}{17}{subsubsection.4.1.3}
+\contentsline {subsubsection}{\numberline {4.1.3}Kontext}{18}{subsubsection.4.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2}Implementation av webbsida}{17}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.2}Implementation av webbsida}{18}{subsection.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.1}Prototyp}{17}{subsubsection.4.2.1}
+\contentsline {subsubsection}{\numberline {4.2.1}Prototyp}{18}{subsubsection.4.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.2}Webbsidan i Desktop-first}{18}{subsubsection.4.2.2}
+\contentsline {subsubsection}{\numberline {4.2.2}Webbsidan i Desktop-first}{19}{subsubsection.4.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.3}Webbsidan i Mobile-first}{18}{subsubsection.4.2.3}
+\contentsline {subsubsection}{\numberline {4.2.3}Webbsidan i Mobile-first}{19}{subsubsection.4.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3}Praktisk- och teoretisk tillv\IeC {\"a}gag\IeC {\r a}ngs\IeC {\"a}tt}{18}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.3}Praktisk- och teoretisk tillv\IeC {\"a}gag\IeC {\r a}ngs\IeC {\"a}tt}{19}{subsection.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Verktyg}{19}{section.5}
+\contentsline {section}{\numberline {5}Verktyg}{20}{section.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1}HTML}{19}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.1}HTML}{20}{subsection.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2}CSS}{20}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.2}CSS}{21}{subsection.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3}JavaScript}{21}{subsection.5.3}
+\contentsline {subsection}{\numberline {5.3}JavaScript}{22}{subsection.5.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6}Resultat}{23}{section.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.1}Litteraturstudie}{23}{subsection.6.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {6.1.1}Samlade synpunkter}{23}{subsubsection.6.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\numberline {6.1.1.1}N\IeC {\"a}mnda f\IeC {\"o}r- och nackdelar}{25}{paragraph.6.1.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {6.1.2}Anv\IeC {\"a}ndningsomr\IeC {\r a}de}{27}{subsubsection.6.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\numberline {6.1.2.1}M\IeC {\r a}lgrupp}{27}{paragraph.6.1.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\numberline {6.1.2.2}Kontext}{28}{paragraph.6.1.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\numberline {6.1.2.3}Milj\IeC {\"o}}{29}{paragraph.6.1.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.2}Implementation}{30}{subsection.6.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {6.2.1}Prototyp}{30}{subsubsection.6.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {6.2.2}Resultat utav implementering}{30}{subsubsection.6.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\numberline {6.2.2.1}Responstid}{30}{paragraph.6.2.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\numberline {6.2.2.2}Implementeringstid}{30}{paragraph.6.2.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\numberline {6.2.2.3}Kodstorlek}{30}{paragraph.6.2.2.3}
