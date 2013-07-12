@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.5.13)  11 JUL 2013 20:13
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.5.13)  12 JUL 2013 15:51
 entering extended mode
 **rapport_eduardo.tex
 (C:\Users\eduardo.castaneda\Documents\Code\exjobb\latex\rapport_eduardo.tex
@@ -1024,13 +1024,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [3])
 \tf@toc=\write6
  [4] [5] [6] [7] [8] [9] [10] [11] [12]
-<pics/big.png, id=307, 962.09438pt x 450.9347pt>
+<pics/big.png, id=332, 962.09438pt x 450.9347pt>
 File: pics/big.png Graphic file (type png)
  <use pics/big.png>
 Package pdftex.def Info: pics/big.png used on input line 160.
 (pdftex.def)             Requested size: 221.27705pt x 103.7128pt.
 
-<pics/small.png, id=308, 270.25969pt x 479.54156pt>
+<pics/small.png, id=333, 270.25969pt x 479.54156pt>
 File: pics/small.png Graphic file (type png)
  <use pics/small.png>
 Package pdftex.def Info: pics/small.png used on input line 160.
@@ -1047,7 +1047,7 @@ LaTeX Font Info:    Try loading font information for T1+cmtt on input line 168.
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 ) [13 <C:/Users/eduardo.castaneda/Documents/Code/exjobb/latex/pics/big.png> <C:
 /Users/eduardo.castaneda/Documents/Code/exjobb/latex/pics/small.png>]
-<pics/mobilesmall.png, id=318, 270.25969pt x 480.29437pt>
+<pics/mobilesmall.png, id=343, 270.25969pt x 480.29437pt>
 File: pics/mobilesmall.png Graphic file (type png)
 
 <use pics/mobilesmall.png>
@@ -1076,12 +1076,7 @@ Overfull \hbox (3.71486pt too wide) in paragraph at lines 402--418
  [][] 
  []
 
-[26]
-Underfull \hbox (badness 10000) in paragraph at lines 429--430
-
- []
-
-<pics/statistikalder.png, id=445, 341.77687pt x 204.01219pt>
+[26] <pics/statistikalder.png, id=473, 341.77687pt x 204.01219pt>
 File: pics/statistikalder.png Graphic file (type png)
 
 <use pics/statistikalder.png>
@@ -1092,66 +1087,252 @@ Underfull \hbox (badness 10000) in paragraph at lines 431--438
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 440--441
-
- []
-
 [27 <C:/Users/eduardo.castaneda/Documents/Code/exjobb/latex/pics/statistikalder
 .png>]
 Underfull \hbox (badness 10000) in paragraph at lines 453--466
 
  []
 
+
+Overfull \hbox (3.73784pt too wide) in paragraph at lines 467--468
+[]\T1/cmr/m/it/10.95 *I stu-di-en ingick in-te läs-ning ut-av ny-he-ter, men i 
+Q1 Re-se-arch re-port för ny-hets-läs-ning([]Fidler
+ []
+
 [28]
-Underfull \hbox (badness 10000) in paragraph at lines 483--484
-
- []
-
-
-Overfull \hbox (18.95792pt too wide) in paragraph at lines 487--489
-[]\T1/cmr/m/n/10.95 Författaren ut-av mo-bi-le first an-vän-der sig ut-av en st
-a-tistik ta-gen ifrån http://bkaprt.com/mf/32
- []
-
-
-Overfull \hbox (8.55861pt too wide) in paragraph at lines 487--489
-\T1/cmr/m/n/10.95 där ge-nom en en-kät-un-der-sök-ning vi-sar an-vänd-ning-en u
-t-av in-ter-net ge-nom smartp-ho-nes: 
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 499--502
 
  []
 
-[29] [30] [31]
-Overfull \hbox (0.64659pt too wide) in paragraph at lines 521--521
+[29] <pics/bannerdesktop.png, id=511, 978.65625pt x 362.85562pt>
+File: pics/bannerdesktop.png Graphic file (type png)
+
+<use pics/bannerdesktop.png>
+Package pdftex.def Info: pics/bannerdesktop.png used on input line 523.
+(pdftex.def)             Requested size: 252.48839pt x 93.61491pt.
+
+<pics/bannermobil.png, id=512, 383.93437pt x 216.05719pt>
+File: pics/bannermobil.png Graphic file (type png)
+
+<use pics/bannermobil.png>
+Package pdftex.def Info: pics/bannermobil.png used on input line 523.
+(pdftex.def)             Requested size: 153.57101pt x 86.42133pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 517--527
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 531--533
+
+ []
+
+[30 <C:/Users/eduardo.castaneda/Documents/Code/exjobb/latex/pics/bannerdesktop.
+png> <C:/Users/eduardo.castaneda/Documents/Code/exjobb/latex/pics/bannermobil.p
+ng>] <pics/menydesktop.png, id=518, 978.65625pt x 164.11313pt>
+File: pics/menydesktop.png Graphic file (type png)
+
+<use pics/menydesktop.png>
+Package pdftex.def Info: pics/menydesktop.png used on input line 537.
+(pdftex.def)             Requested size: 391.45557pt x 65.64407pt.
+
+<pics/menymobil.png, id=519, 383.93437pt x 85.82062pt>
+File: pics/menymobil.png Graphic file (type png)
+
+<use pics/menymobil.png>
+Package pdftex.def Info: pics/menymobil.png used on input line 545.
+(pdftex.def)             Requested size: 230.3624pt x 51.49275pt.
+
+<pics/menymobilopen.png, id=520, 383.93437pt x 217.5628pt>
+File: pics/menymobilopen.png Graphic file (type png)
+
+<use pics/menymobilopen.png>
+Package pdftex.def Info: pics/menymobilopen.png used on input line 545.
+(pdftex.def)             Requested size: 134.37903pt x 76.14812pt.
+
+<pics/menydesktopbot.png, id=521, 978.65625pt x 223.58531pt>
+File: pics/menydesktopbot.png Graphic file (type png)
+
+<use pics/menydesktopbot.png>
+Package pdftex.def Info: pics/menydesktopbot.png used on input line 553.
+(pdftex.def)             Requested size: 231.94048pt x 52.98947pt.
+
+<pics/menymobilbot.png, id=522, 383.93437pt x 248.42813pt>
+File: pics/menymobilbot.png Graphic file (type png)
+
+<use pics/menymobilbot.png>
+Package pdftex.def Info: pics/menymobilbot.png used on input line 553.
+(pdftex.def)             Requested size: 134.37903pt x 86.95114pt.
+ [31 <C:/Users/eduardo.castaneda/Documents/Code/exjobb/latex/pics/menydesktop.p
+ng> <C:/Users/eduardo.castaneda/Documents/Code/exjobb/latex/pics/menymobil.png>
+ <C:/Users/eduardo.castaneda/Documents/Code/exjobb/latex/pics/menymobilopen.png
+> <C:/Users/eduardo.castaneda/Documents/Code/exjobb/latex/pics/menydesktopbot.p
+ng> <C:/Users/eduardo.castaneda/Documents/Code/exjobb/latex/pics/menymobilbot.p
+ng>]
+Underfull \hbox (badness 10000) in paragraph at lines 559--561
+
+ []
+
+<pics/artikelannonsdesktop.png, id=534, 978.65625pt x 690.32906pt>
+File: pics/artikelannonsdesktop.png Graphic file (type png)
+
+<use pics/artikelannonsdesktop.png>
+Package pdftex.def Info: pics/artikelannonsdesktop.png used on input line 565.
+(pdftex.def)             Requested size: 293.59914pt x 207.10031pt.
+
+<pics/artikelmobil.png, id=535, 383.93437pt x 384.6872pt>
+File: pics/artikelmobil.png Graphic file (type png)
+
+<use pics/artikelmobil.png>
+Package pdftex.def Info: pics/artikelmobil.png used on input line 573.
+(pdftex.def)             Requested size: 134.37903pt x 134.64253pt.
+
+<pics/annonsmobil.png, id=536, 383.93437pt x 384.6872pt>
+File: pics/annonsmobil.png Graphic file (type png)
+
+<use pics/annonsmobil.png>
+Package pdftex.def Info: pics/annonsmobil.png used on input line 573.
+(pdftex.def)             Requested size: 134.37903pt x 134.64253pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 567--574
+
+ []
+
+[32 <C:/Users/eduardo.castaneda/Documents/Code/exjobb/latex/pics/artikelannonsd
+esktop.png> <C:/Users/eduardo.castaneda/Documents/Code/exjobb/latex/pics/artike
+lmobil.png> <C:/Users/eduardo.castaneda/Documents/Code/exjobb/latex/pics/annons
+mobil.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 579--581
+
+ []
+
+<pics/fargdesktop.png, id=543, 978.65625pt x 819.06pt>
+File: pics/fargdesktop.png Graphic file (type png)
+
+<use pics/fargdesktop.png>
+Package pdftex.def Info: pics/fargdesktop.png used on input line 586.
+(pdftex.def)             Requested size: 244.66347pt x 204.7645pt.
+
+<pics/fargmobil.png, id=544, 383.93437pt x 605.26125pt>
+File: pics/fargmobil.png Graphic file (type png)
+
+<use pics/fargmobil.png>
+Package pdftex.def Info: pics/fargmobil.png used on input line 586.
+(pdftex.def)             Requested size: 115.1812pt x 181.57976pt.
+ [33 <C:/Users/eduardo.castaneda/Documents/Code/exjobb/latex/pics/fargdesktop.p
+ng> <C:/Users/eduardo.castaneda/Documents/Code/exjobb/latex/pics/fargmobil.png>
+]
+Overfull \hbox (14.10754pt too wide) in paragraph at lines 599--606
+ [][] 
+ []
+
+
+Overfull \hbox (14.10754pt too wide) in paragraph at lines 613--620
+ [][] 
+ []
+
+
+Overfull \hbox (14.10754pt too wide) in paragraph at lines 627--634
+ [][] 
+ []
+
+[34]
+Underfull \hbox (badness 10000) in paragraph at lines 673--688
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 673--688
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 673--688
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 673--688
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 673--688
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 673--688
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 673--688
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 673--688
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 673--688
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 673--688
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 673--688
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 673--688
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 673--688
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 673--688
+
+ []
+
+[35] [36] [37]
+Overfull \hbox (0.64659pt too wide) in paragraph at lines 690--690
 [][]\T1/cmr/m/n/10.95 w3schools (2009): \T1/cmr/m/it/10.95 CSS How To... \T1/cm
 r/m/n/10.95 Se-nast be-sökt: 14 maj 2013. \T1/cmr/m/sc/10.95 url\T1/cmr/m/n/10.
 95 : []$\T1/cmtt/m/n/10.95 http : / / www . w3schools .$
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 522.
-[32]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 522.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 691.
+[38]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 691.
 
 (C:\Users\eduardo.castaneda\Documents\Code\exjobb\latex\rapport_eduardo.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 522.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 522.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 691.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 691.
 Package rerunfilecheck Info: File `rapport_eduardo.out' has not changed.
-(rerunfilecheck)             Checksum: 3BCA85D55B4A6AB1B0DFD31109465BAF;2936.
+(rerunfilecheck)             Checksum: 4C52E2AE135822EFFE202AF27D9C36F3;3336.
 Package logreq Info: Writing requests to 'rapport_eduardo.run.xml'.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 522.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 691.
  ) 
 Here is how much of TeX's memory you used:
- 13901 strings out of 493921
- 222812 string characters out of 3144840
- 622172 words of memory out of 3000000
- 16911 multiletter control sequences out of 15000+200000
+ 14020 strings out of 493921
+ 225126 string characters out of 3144840
+ 623347 words of memory out of 3000000
+ 16990 multiletter control sequences out of 15000+200000
  17080 words of font info for 40 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 41i,11n,45p,1964b,2228s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,11n,57p,1964b,2228s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\eduardo.castaneda\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappe
 n\ec\dpi600\eccc1095.pk> <C:\Users\eduardo.castaneda\AppData\Local\MiKTeX\2.9\f
 onts\pk\ljfour\jknappen\ec\dpi600\tcrm1095.pk> <C:\Users\eduardo.castaneda\AppD
@@ -1169,9 +1350,9 @@ rdo.castaneda\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1
 000.pk> <C:\Users\eduardo.castaneda\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jk
 nappen\ec\dpi600\ecrm1200.pk> <C:\Users\eduardo.castaneda\AppData\Local\MiKTeX\
 2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1728.pk>
-Output written on rapport_eduardo.pdf (32 pages, 330040 bytes).
+Output written on rapport_eduardo.pdf (38 pages, 2222672 bytes).
 PDF statistics:
- 1118 PDF objects out of 1200 (max. 8388607)
- 117 named destinations out of 1000 (max. 500000)
- 365 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1223 PDF objects out of 1440 (max. 8388607)
+ 145 named destinations out of 1000 (max. 500000)
+ 465 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -76,6 +76,23 @@
       \verb http://www.othermedia.com/blog/why-design-for-mobile-before-desktop,424,TA.html
       \endverb
     \endentry
+    \entry{mobilewebsearch}{article}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=d9c5508b98da87e55eae935d75b42a31}{Church\bibnamedelima Oliver}{C\bibinitperiod\bibinitdelim O\bibinitperiod}{Karen\bibnamedelima Nurta}{K\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=d9c5508b98da87e55eae935d75b42a31}{Church\bibnamedelima Oliver}{C\bibinitperiod\bibinitdelim O\bibinitperiod}{Karen\bibnamedelima Nurta}{K\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{d9c5508b98da87e55eae935d75b42a31}
+      \strng{fullhash}{d9c5508b98da87e55eae935d75b42a31}
+      \field{sortinit}{C}
+      \field{labelyear}{2011}
+      \field{labeltitle}{Understanding Mobile Web and Mobile Search Use in Today's Dynamic Mobile Landscape}
+      \field{journaltitle}{Telefonica Research}
+      \field{month}{09}
+      \field{title}{Understanding Mobile Web and Mobile Search Use in Today's Dynamic Mobile Landscape}
+      \field{year}{2011}
+    \endentry
     \entry{adaptiveresp}{online}{}
       \name{labelname}{1}{}{%
         {{uniquename=0,hash=664caac41a3d12cce06337907df09e12}{Clark}{C\bibinitperiod}{Barry}{B\bibinitperiod}{}{}{}{}}%
@@ -114,22 +131,24 @@
       \verb http://www.sweclockers.com/nyhet/16010-acer-slapper-multi-touch-skarmar-for-windows-8
       \endverb
     \endentry
-    \entry{Cfigroup_2009}{article}{}
+    \entry{q1research}{online}{}
       \name{labelname}{1}{}{%
-        {{uniquename=0,hash=be9585da54f2764669253d83031da288}{Doug\bibnamedelima Helmreich}{D\bibinitperiod\bibinitdelim H\bibinitperiod}{Phil\bibnamedelima Doriot}{P\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=ba4d76f2ade7b1dab2f5b776769100f1}{Fidler}{F\bibinitperiod}{Roger}{R\bibinitperiod}{}{}{}{}}%
       }
       \name{author}{1}{}{%
-        {{uniquename=0,hash=be9585da54f2764669253d83031da288}{Doug\bibnamedelima Helmreich}{D\bibinitperiod\bibinitdelim H\bibinitperiod}{Phil\bibnamedelima Doriot}{P\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=ba4d76f2ade7b1dab2f5b776769100f1}{Fidler}{F\bibinitperiod}{Roger}{R\bibinitperiod}{}{}{}{}}%
       }
-      \strng{namehash}{be9585da54f2764669253d83031da288}
-      \strng{fullhash}{be9585da54f2764669253d83031da288}
-      \field{sortinit}{D}
-      \field{labelyear}{2009}
-      \field{labeltitle}{Smartphones, Providers and the Customers Who Love (and Loathe) Them}
-      \field{journaltitle}{CFI Group Smartphone Satifaction Study 2009}
-      \field{month}{08}
-      \field{title}{Smartphones, Providers and the Customers Who Love (and Loathe) Them}
-      \field{year}{2009}
+      \strng{namehash}{ba4d76f2ade7b1dab2f5b776769100f1}
+      \strng{fullhash}{ba4d76f2ade7b1dab2f5b776769100f1}
+      \field{sortinit}{F}
+      \field{labelyear}{2013}
+      \field{labeltitle}{2013 Q1 Research Report 1: News consumption on mobile media surpassing desktop computers and newspapers}
+      \field{note}{Senast besökt: 12 juli 2013}
+      \field{title}{2013 Q1 Research Report 1: News consumption on mobile media surpassing desktop computers and newspapers}
+      \field{year}{2013}
+      \verb{url}
+      \verb http://www.rjionline.org/research/rji-dpa-mobile-media-project/2013-q1-research-report-1
+      \endverb
     \endentry
     \entry{.se}{book}{}
       \name{labelname}{1}{}{%
@@ -171,16 +190,16 @@
     \endentry
     \entry{pts}{book}{}
       \name{labelname}{1}{}{%
-        {{uniquename=0,hash=ca6efad6b02802c3d0fb53324497efd9}{Fransén\bibnamedelimb och\bibnamedelima Holmström}{F\bibinitperiod\bibinitdelim o\bibinitperiod\bibinitdelim H\bibinitperiod}{Karin\bibnamedelima Oscar}{K\bibinitperiod\bibinitdelim O\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=1e11e71ff33858df2054643172c389a2}{Fransén\bibnamedelima Holmström}{F\bibinitperiod\bibinitdelim H\bibinitperiod}{Karin\bibnamedelima Oscar}{K\bibinitperiod\bibinitdelim O\bibinitperiod}{}{}{}{}}%
       }
       \name{author}{1}{}{%
-        {{uniquename=0,hash=ca6efad6b02802c3d0fb53324497efd9}{Fransén\bibnamedelimb och\bibnamedelima Holmström}{F\bibinitperiod\bibinitdelim o\bibinitperiod\bibinitdelim H\bibinitperiod}{Karin\bibnamedelima Oscar}{K\bibinitperiod\bibinitdelim O\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=1e11e71ff33858df2054643172c389a2}{Fransén\bibnamedelima Holmström}{F\bibinitperiod\bibinitdelim H\bibinitperiod}{Karin\bibnamedelima Oscar}{K\bibinitperiod\bibinitdelim O\bibinitperiod}{}{}{}{}}%
       }
       \list{publisher}{1}{%
         {PTS}%
       }
-      \strng{namehash}{ca6efad6b02802c3d0fb53324497efd9}
-      \strng{fullhash}{ca6efad6b02802c3d0fb53324497efd9}
+      \strng{namehash}{1e11e71ff33858df2054643172c389a2}
+      \strng{fullhash}{1e11e71ff33858df2054643172c389a2}
       \field{sortinit}{F}
       \field{labelyear}{2012}
       \field{labeltitle}{Prisutevecklingen på mobiltelefoni och bredband}
@@ -244,6 +263,23 @@
       \verb{url}
       \verb http://www.neocreo.net/en/articles/responsive-websites-mobile-vs-desktop-first
       \endverb
+    \endentry
+    \entry{Cfigroup_2009}{article}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=56c96cbede08473bdbcf38f0d6c9dd5e}{Helmreich\bibnamedelima Doriot}{H\bibinitperiod\bibinitdelim D\bibinitperiod}{Doug\bibnamedelima Phil}{D\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=56c96cbede08473bdbcf38f0d6c9dd5e}{Helmreich\bibnamedelima Doriot}{H\bibinitperiod\bibinitdelim D\bibinitperiod}{Doug\bibnamedelima Phil}{D\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{56c96cbede08473bdbcf38f0d6c9dd5e}
+      \strng{fullhash}{56c96cbede08473bdbcf38f0d6c9dd5e}
+      \field{sortinit}{H}
+      \field{labelyear}{2009}
+      \field{labeltitle}{Smartphones, Providers and the Customers Who Love (and Loathe) Them}
+      \field{journaltitle}{CFI Group Smartphone Satifaction Study 2009}
+      \field{month}{08}
+      \field{title}{Smartphones, Providers and the Customers Who Love (and Loathe) Them}
+      \field{year}{2009}
     \endentry
     \entry{armstrong}{online}{}
       \name{labelname}{1}{}{%
@@ -319,25 +355,6 @@
       \verb http://www.cmswire.com/cms/customer-experience/mobile-first-desktop-later-019716.php
       \endverb
     \endentry
-    \entry{kpcb}{online}{}
-      \name{labelname}{1}{}{%
-        {{uniquename=0,hash=f085e98d17d896b972ac4ec67ab9dc92}{Liang\bibnamedelima Wu}{L\bibinitperiod\bibinitdelim W\bibinitperiod}{Mary\bibnamedelima Meeker}{M\bibinitperiod\bibinitdelim M\bibinitperiod}{och}{o\bibinitperiod}{}{}}%
-      }
-      \name{author}{1}{}{%
-        {{uniquename=0,hash=f085e98d17d896b972ac4ec67ab9dc92}{Liang\bibnamedelima Wu}{L\bibinitperiod\bibinitdelim W\bibinitperiod}{Mary\bibnamedelima Meeker}{M\bibinitperiod\bibinitdelim M\bibinitperiod}{och}{o\bibinitperiod}{}{}}%
-      }
-      \strng{namehash}{f085e98d17d896b972ac4ec67ab9dc92}
-      \strng{fullhash}{f085e98d17d896b972ac4ec67ab9dc92}
-      \field{sortinit}{L}
-      \field{labelyear}{2009}
-      \field{labeltitle}{2012 Internet Trends}
-      \field{note}{Senast besökt: 14 maj 2013}
-      \field{title}{2012 Internet Trends}
-      \field{year}{2009}
-      \verb{url}
-      \verb http://www.kpcb.com/insights/2012-internet-trends
-      \endverb
-    \endentry
     \entry{resp}{book}{}
       \name{labelname}{1}{}{%
         {{uniquename=0,hash=ca762f825f70c5a1f00a689ca3e9869e}{Marcotte}{M\bibinitperiod}{Ethan}{E\bibinitperiod}{}{}{}{}}%
@@ -356,6 +373,25 @@
       \field{isbn}{978-0-09844425-7-7}
       \field{title}{Responsive web design}
       \field{year}{2011}
+    \endentry
+    \entry{kpcb}{online}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=aaf37257f5320ac22190c77fbc339082}{Meeker\bibnamedelima Wu}{M\bibinitperiod\bibinitdelim W\bibinitperiod}{Liang\bibnamedelima Mary}{L\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=aaf37257f5320ac22190c77fbc339082}{Meeker\bibnamedelima Wu}{M\bibinitperiod\bibinitdelim W\bibinitperiod}{Liang\bibnamedelima Mary}{L\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{aaf37257f5320ac22190c77fbc339082}
+      \strng{fullhash}{aaf37257f5320ac22190c77fbc339082}
+      \field{sortinit}{M}
+      \field{labelyear}{2009}
+      \field{labeltitle}{2012 Internet Trends}
+      \field{note}{Senast besökt: 14 maj 2013}
+      \field{title}{2012 Internet Trends}
+      \field{year}{2009}
+      \verb{url}
+      \verb http://www.kpcb.com/insights/2012-internet-trends
+      \endverb
     \endentry
     \entry{webinsation}{online}{}
       \name{labelname}{1}{}{%
@@ -433,6 +469,23 @@
       \verb http://www.codeproject.com/Articles/47934/DIV-TABLE
       \endverb
     \endentry
+    \entry{usageusability2}{article}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=011b8a09f9581184a5c835eedd9697d8}{Schmiedl\bibnamedelimb Seidl\bibnamedelima Temper}{S\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim T\bibinitperiod}{Grischa\bibnamedelimb Makus\bibnamedelima Klaus}{G\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim K\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=011b8a09f9581184a5c835eedd9697d8}{Schmiedl\bibnamedelimb Seidl\bibnamedelima Temper}{S\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim T\bibinitperiod}{Grischa\bibnamedelimb Makus\bibnamedelima Klaus}{G\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim K\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{011b8a09f9581184a5c835eedd9697d8}
+      \strng{fullhash}{011b8a09f9581184a5c835eedd9697d8}
+      \field{sortinit}{S}
+      \field{labelyear}{2009}
+      \field{labeltitle}{Mobile Phone Web Browsing - A Study on Usage and Usability Of The Mobile Web}
+      \field{journaltitle}{University of Applied Science St. Pölten, Institute of Media Informatics}
+      \field{month}{09}
+      \field{title}{Mobile Phone Web Browsing - A Study on Usage and Usability Of The Mobile Web}
+      \field{year}{2009}
+    \endentry
     \entry{AppleRevolution}{online}{}
       \name{labelname}{1}{}{%
         {{uniquename=0,hash=620d4fc19ff975044ddce98eb66e767d}{Seitz}{S\bibinitperiod}{Patrick}{P\bibinitperiod}{}{}{}{}}%
@@ -451,6 +504,23 @@
       \verb{url}
       \verb http://news.investors.com/technology/062712-616302-apple-iphone-turns-5-faces-rivals-from-samsung-google.htm
       \endverb
+    \endentry
+    \entry{harrispoll}{article}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=7a4a813e647a3a2387728842cbd70e3a}{Shannon-Missal}{S\bibinithyphendelim M\bibinitperiod}{Larry}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=7a4a813e647a3a2387728842cbd70e3a}{Shannon-Missal}{S\bibinithyphendelim M\bibinitperiod}{Larry}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{7a4a813e647a3a2387728842cbd70e3a}
+      \strng{fullhash}{7a4a813e647a3a2387728842cbd70e3a}
+      \field{sortinit}{S}
+      \field{labelyear}{2013}
+      \field{labeltitle}{Different Priorities in Smartphone vs Computer Use, But Some Common Ground}
+      \field{journaltitle}{The Harris Poll}
+      \field{month}{01}
+      \field{title}{Different Priorities in Smartphone vs Computer Use, But Some Common Ground}
+      \field{year}{2013}
     \endentry
     \entry{userbeh}{online}{}
       \name{labelname}{1}{}{%
@@ -527,6 +597,25 @@
       \verb{url}
       \verb http://www.techradar.com/news/internet/mobile-web-design-tips-mobile-should-come-first-719677/1#articleContent
       \endverb
+    \endentry
+    \entry{mobilefirstluke}{book}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=ec5019c09be82a8904485615239ef96f}{Wroblewski}{W\bibinitperiod}{Luke}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=ec5019c09be82a8904485615239ef96f}{Wroblewski}{W\bibinitperiod}{Luke}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Jeffrey Zeldman}%
+      }
+      \strng{namehash}{ec5019c09be82a8904485615239ef96f}
+      \strng{fullhash}{ec5019c09be82a8904485615239ef96f}
+      \field{sortinit}{W}
+      \field{labelyear}{2011}
+      \field{labeltitle}{Mobile First}
+      \field{isbn}{978-937557-02-7}
+      \field{title}{Mobile First}
+      \field{year}{2011}
     \endentry
     \entry{themepartner}{online}{}
       \name{labelname}{1}{}{%

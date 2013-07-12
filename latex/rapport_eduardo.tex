@@ -274,11 +274,11 @@ Mobile-first är andra implementeringsmetoden och utvecklades efter desktop-firs
 \subsection{Praktisk- och teoretisk tillvägagångsätt}
 Frågeställningarna för examensarbetet är väldigt breda, vilket gör det väldigt svårt att besvarar dem med endast en praktisk metod. För att kunna besvara frågeställningar med trovärdiga påståenden har den egna erfarenheten, taget ur implementationsfasen för att ge en mer djup analys, kombinerats med litteraturstudien för att kunna ge en mer bred analys i form av användningsområde där metoderna bör prioriteras när responsive web design används i synnerhet till användarnas vanor. Förutom data om användningsområden har även andra gränssnittsutvecklares erfarenhet samlats upp i litteraturstudien i form analys av artiklar och bloggar vilket rent vetenskapligt inte alltid ses som vetenskaplig data, men som i detta fall bör tas med då de speglar och stärker de påståenden som fås utav den praktiska delen. Dock är data utifrån litteraturstudie inte direkt kopplat till den praktiska metoden, då gränssnittsutvecklares erfarenhet har bestått utav implementering med endast en av metoderna för en webbsida, medan praktiska delen består utav båda. Kombinationen utav en praktiskt och en teoretisk del ger ett resultat varav frågeställningarna kan besvaras, då data hämtas på två olika sätt.
 
-\section{Verktyg}
+\subsection{Verktyg}
 
 Inom webdesignsutveckling används främst verktygen HTML, CSS och javascript, vilket är det verktyg som kommer att användas under implementeringsfasen i examensarbetet.  I kommande sektion av rapporten kommer verktygen att förklaras för att få en bättre förståelse till kod och termer som används.
 
-\subsection{HTML}
+\subsubsection{HTML}
 HTML står för \textit{Hypertext Markup Language} och är ett format som definierar strukturen och logiken på en webbsida. HTML beskriver strukturen genom att märka upp olika delar av sidan med hjälp av \textit{taggar} som beskriver typen av ett element. En webbläsare läser av HTML-koden och kan på så sätt rendera sidan med önskvärd layout.
 
 Det finns olika sorters taggar inom HTML, stycke, rubrik, tabeller, länkar, listor, sektioner är en av dessa. Inom webbutveckling har användning utav taggen \textit{<div>} blivit vanlig för att strukturera upp en sida i olika sektioner(\cite{divtable}), vartefter kan en sektion innehålla andra element.
@@ -296,7 +296,7 @@ Det finns olika sorters taggar inom HTML, stycke, rubrik, tabeller, länkar, lis
 
 I ovanstående HTML-kod har vi definierat en sektion på webbsidan med \textit{<div>} taggen, inom den sektionen har vi en rubrik som definieras med taggen \textit{<h1>} och ett stycke som definieras med taggen \textit{<p>}. Taggarna i html-koden bildar tillsammans strukturen på sidan, däremot så har inte html-koden någon kontroll över utseendet för taggarna, det sköts utav CSS.  
 
-\subsection{CSS}
+\subsubsection{CSS}
 CSS står för \textit{Cascading Style Sheets} och är ett språk som beskriver utseendet på en webbsida.
 Med hjälp av CSS-kod kan olika element i html-koden få ett speciellt utseende i form av storlek, färg och position. Det finns olika sätt att definiera css, man kan definiera det direkt i taggen t.ex \textit{<p style=”color:blue; width:50px”>Frågan en webbutvecklare ställer sig inför skapandet av en responsiv webbsida</p>} vilket kallas för \textit{inline-styling}. Man kan även i html filen, definiera utseendet i \textit{<head>} taggen, vilket kallas för \textit{internal styling}(\cite{css}):
 
@@ -351,7 +351,7 @@ I ovanstående kod kommer sektionen få utseendet som definieras som ID: \textit
 
 Dessa tre olika sätt att definiera utseendet visas enligt prioritering, inline-styling kod först, sedan internal och sist external. Anledningen till att external väljs främst är för att utseendet inte behövs definieras flera gånger, allt är samlat i en fil och det går snabbare att ladda sidans utseende(\cite{css}). Därmed hålls det ur en webbutvecklares synvinkel, en bra struktur. Vilket tillåter webbutvecklaren att på upprätthålla teknikerna fluid grid, fluid images och på ett enkelt sätt använda sig av media queries vid implementering av en webbsida.
 
-\subsection{JavaScript}
+\subsubsection{JavaScript}
 \textit{JavaScript} är ett scriptspråk som inom webbutveckling främst används för att hantera dynamiska funktioner för beteendet hos en websida, beteenden som skapas från klientsidan. Med JavaScript kan man t.ex. läsa en användarens klick i webbsidan och utifrån det kalla på funktioner som kan ändra webbsidans innehåll eller utseende. Eftersom JavaScript är ett skriptspråk behövs ingen kompilering och koden kan skrivas direkt i html-filen.
 
 För att JavaScript skall fungera korrekt krävs det dock att webbläsaren stödjer det. I vissa fall har webbläsaren den funktionen men har den avstängd(\cite[s.13]{sara_ingmar}). Tidigare ett problem varit att mobilwebbläsare inte har haft stöd för JavaScript, vilket har lett till att menyer och pop-up fönster inte har fungerat korrekt när man surfar till sidan via mobilen, men tekniken har utvecklats och numera klarar mobila webbläsare av JavaScript. Det finns fortfarande en del problem när det kommer till mer komplicerade JavaScript funktioner och bibliotek som mobilwebbläsare inte kan hantera(\cite{quirksmode}). Vid webbsidor som har helt separata mobilsidor kan det vara en fördel då man väljer att inte läsa in all JavaScript som behövs, med responsiva webbsidor använder man samma webbsida för varje enhet, vilket leder till att en mobilenhet laddar all JavaScript vilket försämra webbsidans respons. En webbutvecklare måste ha i åtanke och redan från början utveckla en hemsida vars JavaScript inte kommer i vägen för den responsiva webbsidans funktionalitet.
@@ -392,7 +392,7 @@ Fördelar&Nackdelar\\ \hline
 
 
     \end{tabular}
-    \caption {Desktop-first, nackdelar och fördelar som samlades i litteraturestudien}
+    \caption {Desktop-first, nackdelar och fördelar som samlades i litteraturestudien.}
 \end{table}
 \newpage
 
@@ -415,7 +415,7 @@ Fördelar&Nackdelar\\ \hline
 \textbf{Känns naturligt att lägga till desto större fönstret blir, }\textit{gentemot att ta bort desto mindre skärmen blir.}&~\\ \hline
 
     \end{tabular}
-    \caption {Mobile-first, nackdelar och fördelar som samlades i litteraturstudien}
+    \caption {Mobile-first, nackdelar och fördelar som samlades i litteraturstudien.}
 \end{table}
 \newpage
 
@@ -424,20 +424,20 @@ Fördelar&Nackdelar\\ \hline
 
 \subsubsection{Användningsområde}
 
-Mobilawebbsidor och Desktopwebbsidor har olika besökare beroende på vilken typ av webbsida och under vilka förhållanden den ses ifrån, även åldern spelar roll då det visar sig i statistik att ungdomar är de största användarna av mobilt internet[ref svenskarna]. I Sverige utförs det varje år en statistiksredovisning på svenskar och deras internetanvändning[Svenskar och deras internet]. Trots distansen ser användningen av mobilt internet ungefär likadant i Sverige så som i USA, i detta kapitel visas resultat på en litteraturstudie där fokus läggs på användning av webbsidor beroende på användarnas åldersgrupp, kontext på webbsidan samt miljön webbsidan ses ifrån.
+Mobilawebbsidor och Desktopwebbsidor har olika besökare beroende på vilken typ av webbsida och under vilka förhållanden den ses ifrån, även åldern spelar roll då det visar sig i statistik att ungdomar är de största användarna av mobilt internet(\cite[s.24]{.se}). I Sverige utförs det varje år en statistiksredovisning på svenskar och deras internetanvändning(\cite{.se}). Trots distansen ser användningen av mobilt internet ungefär likadant i Sverige så som i USA, i detta kapitel visas resultat på en litteraturstudie där fokus läggs på användning av webbsidor beroende på användarnas åldersgrupp, kontext på webbsidan samt miljön webbsidan ses ifrån.
 
-\paragraph{Målgrupp}\mbox{} \\
+\paragraph{Målgrupp}\mbox{}
 
-I de flesta vetenskapliga artiklar gällande användning av mobilt internet har man inriktat sig till användare där målgruppen är från 19 uppåt, med en medelålder mellan 20-29. Bara detta syftar på att en stor del av användarna för mobilt internet består utav nämnda målgrupp. I statistik som utförts för att ta reda på svenskarna användning utav mobilt internet sträcker sig lägsta ålder ner till 12 år vid gällande mobilanvändning i en daglig basis. Trots detta stämmer målgruppen som har valts i de vetenskapliga artiklar väldigt bra då statistik visar att den stora målgruppen i Sverige av mobil internetanvändare är mellan 16-25 år där 69 \% av målgruppen använder sig utav mobilt internet dagligen. Tätt efter är målgruppen från 26-35 där 68 \% och 12-15 där 67 \% använder sig utav mobilt internet dagligen. Den stora förändringen sker inte förens målgrupp där åldern avser 46-55 år och endast 30 \% använder sig utav mobilt internet. Lägst är målgruppen från 76 uppåt som ligger på 1 \% men där internet användningen överhuvudtaget inte är stor.
+I de vetenskapliga artiklar som togs med i litteraturstudien gällande användning av mobilt internet har de inriktat sig till användare där målgruppen är från 19 uppåt, med en medelålder mellan 20-29. Bara detta syftar på att en stor del av användarna för mobilt internet består utav nämnda målgrupp. I statistik som utförts för att ta reda på svenskarna användning utav mobilt internet sträcker sig lägsta ålder ner till 12 år vid gällande mobilanvändning i en daglig basis. Trots detta stämmer målgruppen som har valts i de vetenskapliga artiklar väldigt bra då statistik visar att den stora målgruppen i Sverige av mobil internetanvändare är mellan 16-25 år där 69 \% av målgruppen använder sig utav mobilt internet dagligen. Tätt efter är målgruppen från 26-35 där 68 \% och 12-15 där 67 \% använder sig utav mobilt internet dagligen. Den stora förändringen sker inte förens målgrupp där åldern avser 46-55 år och endast 30 \% använder sig utav mobilt internet(\cite{.se}). Lägst är målgruppen från 76 uppåt som ligger på 1 \% men där internet användningen överhuvudtaget inte är stor.
 \\
 \setcounter{figure}{3}
 \begin{figure}[H]
   \centering
     \includegraphics[scale=0.8]{pics/statistikalder.png}
-    \caption{Andel procent av befolkningen som använder sig utav mobilt internet, statistik visar att den stora målgruppen är mellan 12-45 år gamla.}
+    \caption{Andel procent av befolkningen som använder sig utav mobilt internet, statistik visar att den stora målgruppen är mellan 12-45 år gamla([s. 24]\cite{.se}).}
 \end{figure}
 
-\paragraph{Kontext}\mbox{} \\
+\paragraph{Kontext}\mbox{}
 
 Med kontext menas sidans typiska innehåll, det vill säga huvudsyftet med webbsidan. Beroende på webbsidans kontext kan användarna finna det simplare att använda antingen desktop eller mobilt, eller helt enkelt den enheten närmast till hands. Av de vetenskapliga artiklar som har tagits med i litteraturstudien har alla gemensamt att mobilt internet används flitigt för:
 
@@ -448,9 +448,9 @@ Med kontext menas sidans typiska innehåll, det vill säga huvudsyftet med webbs
 	\item{Söka information}
 \end{itemize}
 \bigskip
-Andel procent av användarna skiljer sig beroende på artikel, då antalet användare för studien har varit olika, men visar ändå vad fokus läggs på när mobilt internet används. I Sverige uppskattas att 50 \% använder mobilt internet för att sköta e-post, 43 \% för socialt nätverk, 40 \% för att kolla vädret, nyheter och 18 \% för att söka fakta[], i en daglig basis. I en annan studie där användningen utav mobilt internet analyserades med hjälp utav 109 deltagare [] visades sig att 70 \% av deltagarna använde mobilt internet för att kolla nyheter, väder och söka fakta, 13 \% utav deltagarna använde mobilt internet till sociala nätverk och 17 \% för att kolla på film och lyssna på musik[]. I en liknande studie där istället 18 aktiva mobilanvändare studerades varje dag under en 4 veckors period, bestod den dagliga användningen av mobilt internet av 27 \% sociala nätverk, 24 \% koll på nyheter och vädret, 18.8 \% för email, 14.9 för vanligt surf, 10 \% för mobilt sök och 5.1 \% för kartor[].
+Andel procent av användarna skiljer sig beroende på artikel, då antalet användare för studien har varit olika, men visar ändå vad fokus läggs på när mobilt internet används. I Sverige uppskattas att 50 \% använder mobilt internet för att sköta e-post, 43 \% för socialt nätverk, 40 \% för att kolla vädret, nyheter och 18 \% för att söka fakta(\cite{.se}), i en daglig basis. I en annan studie där användningen utav mobilt internet analyserades med hjälp utav 109 deltagare visades sig att 70 \% av deltagarna använde mobilt internet för att kolla nyheter, väder och söka fakta, 13 \% utav deltagarna använde mobilt internet till sociala nätverk och 17 \% för att kolla på film och lyssna på musik(\cite{usageusability2}). I en liknande studie där istället 18 aktiva mobilanvändare studerades varje dag under en 4 veckors period, bestod den dagliga användningen av mobilt internet av 27 \% sociala nätverk, 24 \% koll på nyheter och vädret, 18.8 \% för email, 14.9 för vanligt surf, 10 \% för mobilt sök och 5.1 \% för kartor(\cite{mobilewebsearch}).
 
-Vid desktop anses dessa fyra områden vara minst lika populär. I en studie som gjorde hos HarrisPolls[ref] samlades 2400 vuxna varav 991 mobilt internet användare för att se hur enheterna används i jämförelse beroende på kontext. I studien hamnade tre längst upp som de typer av hemsida vars desktopanvändare är ungefär lika stora om mobilanvändare.
+Vid desktop anses dessa fyra områden vara minst lika populär. I en studie som gjorde hos The Harris Polls Research(\cite{harrispoll}) samlades 2400 vuxna varav 991 mobilt internet användare för att se hur enheterna används i jämförelse beroende på kontext. I studien hamnade tre längst upp som de typer av hemsida vars desktopanvändare är ungefär lika stora om mobilanvändare.
 \\
 \begin{table}[H]
 	\centering
@@ -462,11 +462,11 @@ Vid desktop anses dessa fyra områden vara minst lika populär. I en studie som 
 	Söka information&81 \%&45 \%\\ \hline
 	*Kolla nyheter, väder&44.2 \%&52.1 \%\\ \hline
 	\end{tabular}
-    \caption {Områden i webben där användarna utnyttjar både mobil och desktop}
+    \caption {Områden i webben där användarna utnyttjar både mobil och desktop.}
 \end{table}
-\textit{*I studien ingick inte läsning utav nyheter, men i Q1 Research report för nyhetsläsning[ref] visades det sig, med undantag från målgruppen 65+, att majoriteten utav läsarna(59 \% till 77 \% i varje målgrupp) använder både mobil och desktop. Studien visar även att nyhetsläsare från mobilen numera är större än läsarna från desktop.}
+\textit{*I studien ingick inte läsning utav nyheter, men i Q1 Research report för nyhetsläsning(\cite{q1research}) visades det sig, med undantag från målgruppen 65+, att majoriteten utav läsarna(59 \% till 77 \% i varje målgrupp) använder både mobil och desktop. Studien visar även att nyhetsläsare från mobilen numera är större än läsarna från desktop.}
 
-I HarrisPole fanns även siffror för områden där användaren föredrar en enhet mer än den andra.
+I The HarrisPole Research fanns även siffror för områden där användaren föredrar en enhet mer än den andra.
 
 \begin{table}[H]
 	\centering
@@ -477,14 +477,14 @@ I HarrisPole fanns även siffror för områden där användaren föredrar en enh
 	Handla produkter&78 \%&23 \%\\ \hline
 	Navigation/Kartor&56 \%&73 \%\\ \hline
 	\end{tabular}
-    \caption {Områden i webben där användarna utnyttjar en enhet mer än de andra}
+    \caption {Områden i webben där användarna utnyttjar en enhet mer än de andra.}
 \end{table}
 
-\paragraph{Miljö} \mbox{} \\
+\paragraph{Miljö} \mbox{}
 
-En användares miljö har förändras tack vare mobilens storlek, det har gjort att miljön inte är längre är den vanliga sederliga hemma eller på kontor, utan kan vara i vilket sammanhang som helst och även vart som helst. Ett vanligt antagande är att mobilen endast används vid rörliga situationer[ref mobile first]. Vilket vetenskapliga artiklar och statistik som har visar annat tvärtemot[ref mobile first, den andra].
+En användares miljö har förändras tack vare mobilens storlek, det har gjort att miljön inte är längre är den vanliga sederliga hemma eller på kontor, utan kan vara i vilket sammanhang som helst och även vart som helst. Ett vanligt antagande är att mobilen endast används vid rörliga situationer(\cite[s.12]{mobilefirstluke}). Vilket vetenskapliga artiklar och statistik som har visar annat tvärtemot(\cite{mobilewebsearch}, \cite{mobilefirstluke}).
 
-Författaren utav mobile first använder sig utav en statistik tagen ifrån http://bkaprt.com/mf/32 där genom en enkätundersökning visar användningen utav internet genom smartphones:
+Författaren utav mobile first hänvisar(\cite[s.12]{mobilefirstluke}) till en enkätundersökning vilket visar användningen utav internet genom smartphones:
 \begin{itemize}
 	\item{84 \% använder det hemma}
 	\item{80 \% använder det under diversa dödtid genom dagen}
@@ -496,7 +496,7 @@ Författaren utav mobile first använder sig utav en statistik tagen ifrån http
 \end{itemize}
 \bigskip
 
-Att en stor andel av smartphonebärare använder sig utav mobilt internet i hemmet styrks utav fler vetenskapliga artiklar[ref ]. Där orsakerna pekar åt bekvämligheten av att använda mobilen istället för datorn. Mobilen tillåter 1 minuts användning utav internet, t.ex. vid brådskande tillfällen, vilket kan anses vara omständliga via en desktop[]. I studien där 18 deltagare skulle föra dagböcker[] under en period av 4 veckor var över 70 \% av inläggen om aktiviteter gjorda vid ett stationärt perspektiv, det vill säga antingen på jobbet eller i hemmet. Bara 17 \% av inläggen handlade om aktiviteter som gjordes vid resor, aktiviteter utomhus och vi pendling.
+Att en stor andel av smartphonebärare använder sig utav mobilt internet i hemmet styrks utav fler vetenskapliga artiklar(\cite{mobilewebsearch}, \cite{mobilefirstluke}). Där orsakerna pekar åt bekvämligheten av att använda mobilen istället för datorn. Mobilen tillåter 1 minuts användning utav internet, t.ex. vid brådskande tillfällen, vilket kan anses vara omständliga via en desktop(\cite{mobilewebsearch}). I studien där 18 deltagare skulle föra dagböcker(\cite{mobilewebsearch}) under en period av 4 veckor var över 70 \% av inläggen om aktiviteter gjorda vid ett stationärt perspektiv, det vill säga antingen på jobbet eller i hemmet. Bara 17 \% av inläggen handlade om aktiviteter som gjordes vid resor, aktiviteter utomhus och vi pendling.
 \\
 \begin{itemize}
 	\item{49,6 \% av inläggen handlade om aktiviteter gjorda i hemmet}
@@ -509,14 +509,183 @@ Att en stor andel av smartphonebärare använder sig utav mobilt internet i hemm
 \bigskip
 
 \subsection{Implementation}
-Efter resultatet av litteraturstudien blev prototypen till webbsidan en nyhetssida. Grunden till valet gjordes med hänvisning till resultatet från litteraturstudien där statistik visar att andelen desktop och mobilbesökare hos en nyhetssida är jämnt fördelat, och även en av de största inom mobilområdet. För att skapa sidan gjordes en jämförelse mellan stora nyhetssidor så som aftonbladet.se, metro.co.uk, globalnews.ca, time.com, för att upprätthålla typiska element som finns i nyhetssidor. Allt som finns i ena vyn finns även i den andra.OBS SKRIV I METOD ATT SIDAN BARA ÄR EN PROTOTYP OCH DET VIKTIGASTE HAR TAGITS MED ENDAST SÅ ATT DET INTE TAR FÖR LÅNG TID.
 \subsubsection{Prototyp}
-\subsubsection{Resultat utav implementering}
-\paragraph{Responstid}
-\paragraph{Implementeringstid}
-\paragraph{Kodstorlek}
+Efter resultatet av litteraturstudien blev prototypen till webbsidan en nyhetssida. Grunden till valet gjordes med hänvisning till resultatet från litteraturstudien där statistik visar att andelen desktop och mobilbesökare hos en nyhetssida är jämnt fördelat, och även en av de största inom mobilområdet. För att skapa sidan gjordes en jämförelse mellan stora nyhetssidor så som aftonbladet.se, metro.co.uk, globalnews.ca, time.com, för att upprätthålla typiska element som finns i nyhetssidor. Allt som finns i ena vyn finns även i den andra.
+
+\paragraph{Banner}\mbox{}
+
+Banner visar tydligt vilken sidan man har kommit till. Beskriver namnet på sidan och en slogan som beskriver typen av webbsidan. Både i mobilt och i desktop går dessa inte att undgå, för att märka sig hos användaren, men är på mobilsidan mindre proportionerligt till artiklarna, tillskillnad från desktopvyn(\textit{figur 5}), för att undvika att bannern tar för stor plats på mobilskärmen(\textit{figur 6}).
+\\
+\begin{figure}[H]
+\centerline{%
+\includegraphics[scale=0.258]{pics/bannerdesktop.png}\hspace{2em}%
+\includegraphics[scale=0.40]{pics/bannermobil.png}%
+}
+\vspace{0.3cm}
+\hspace{0.15cm}Figur 5: Banner för desktopvyn.\hspace{4.4cm} Figur 6: Banner för mobilvyn.
+
+\end{figure}
+
+\paragraph{Menyer}\mbox{}
+
+Nyhetssidorna som granskades hade alla minst tre olika sorters menyer, en huvudmeny, en mindre meny bestående av typiska ”skapa konto, logga in” länkar(\textit{figur 7}), samt en nedre meny längst ner på sidan med diverse länkar(\textit{figur 9}). I mobilvyn, behölls nedersta menyn, men de två översta sattes ihop och gömdes under en meny knapp för att spara plats på mobilskärmen(\textit{figur 8}).
+\\
+
+\begin{figure}[H]
+\centerline{%
+\includegraphics[scale=0.4]{pics/menydesktop.png}\\
+}
+\end{figure}
+\hspace{0.5cm}Figur 7: Huvudmenyn i desktopvy.
+
+\begin{figure}[H]
+\centerline{%
+\includegraphics[scale=0.6]{pics/menymobil.png}\hspace{2em}%
+\includegraphics[scale=0.35]{pics/menymobilopen.png}%
+}
+\end{figure}
+\hspace{0.5cm}Figur 8: Huvudmenyn i mobilvyn.
+
+\begin{figure}[H]
+\centerline{%
+\includegraphics[scale=0.237]{pics/menydesktopbot.png}\hspace{2em}%
+\includegraphics[scale=0.35]{pics/menymobilbot.png}%
+}
+\end{figure}
+\hspace{0.5cm}Figur 9: Nedremenyn i desktopvyn och mobilvyn.
+\newpage
+\paragraph{Artiklar och Annonser}\mbox{}
+
+För artiklarna och annonserna, prioriterades dessa ungefär lika högt i desktopvyn(\textit{figur 10}), mestadels för att annonser anser vara en viktig faktor till nyhetssidors intäkter nu när nyhetssidor kan ses på webben. Dessvärre inte lika hög prioriterat i mobilläge då det finns mindre yta och artiklarna är huvudelementen i nyhetssidan, därför hamnar annonserna efter artiklarna(\textit{figur 11}). Artiklarna har alla samma storlek men skiftar i plats på bild och text, för att skapa en mer levande känsla när man ser webbsidan. Annonsernas design härstammar från aftonbladet.se, där färgen på bakgrunden samt texten får läsaren att förstå att det är annonser. 
+\\
+
+\begin{figure}[H]
+\centerline{%
+\includegraphics[scale=0.3]{pics/artikelannonsdesktop.png}
+}
+\end{figure}
+\hspace{0.5cm}Figur 10: Artiklar och annonser i desktopvyn.
+\\
+\begin{figure}[H]
+\centerline{%
+\includegraphics[scale=0.35]{pics/artikelmobil.png}\hspace{2em}%
+\includegraphics[scale=0.35]{pics/annonsmobil.png}%
+}
+\end{figure}
+\hspace{0.5cm}Figur 11: Artiklar och annonser och mobilvyn.
+
+\paragraph{Färgmarkeringar}\mbox{}
+
+Färgmarkeringen görs i webbsidan för att markera olika typer av artiklar, i nyhetssidor görs detta normalt för att markera artiklar som tillhör en annan sektion av tidningen, så som sport, ekonomi, kultur osv. I prototypen markeras sport och kultur med en rosa och blå färg vilken även blir färgen för respektive länk(\textit{figur 12}).
+\\
+
+\begin{figure}[H]
+\centerline{%
+\includegraphics[scale=0.25]{pics/fargdesktop.png}\hspace{2em}%
+\includegraphics[scale=0.3]{pics/fargmobil.png}%
+}
+\end{figure}
+\hspace{0.5cm}Figur 12: Lilla/blå färgmarkering för kultursektionen.
 
 
+\subsubsection{Responstid}
+
+Nedan visas tre olika hämtningar av bägge webbsidor, både i desktopmiljö samt mobilmiljö. Värdena som har antecknats är responstiden för hämtning av HTML-filen samt CSS-filen. T.ex I mobile-first tog det 19ms för att hämta mobilsidans css-fil, i desktop-first tog det längre tid, 36ms. Däremot tog mobile-first 23ms att hämta desktopsidans css-fil, vilket gick snabbare i desktop-first, då det tog 21ms. De tre olika hämtningar visar relativt lika siffor vilket betyder att hämtningar från mobilsidan görs snabbare i mobile-first än desktop-first. Hämtningar från desktopsidan görs däremot snabbare med desktop-first.
+\newpage
+\textbf{Hämtning 1}
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|p{2.5cm}|p{2.7cm}|p{2.4cm}|p{3.1cm}|p{2.8cm}|}
+	\hline
+	~&\textbf{.html mobilvy}&\textbf{.css mobilvy}&\textbf{.html desktopvy}&\textbf{.css desktopvy}\\ \hline
+	\textbf{Desktop-first}&73ms&36ms&36ms&21ms\\ \hline
+	\textbf{Mobile-first}&36ms&19ms&39ms&23ms \\ \hline
+	~&~&~ &~&~\\ \hline
+	\end{tabular}
+    \caption {Värden från första hämtningen av prototypsidan.}
+\end{table}
+
+\textbf{Hämtning 2}
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|p{2.5cm}|p{2.7cm}|p{2.4cm}|p{3.1cm}|p{2.8cm}|}
+	\hline
+	~&\textbf{.html mobilvy}&\textbf{.css mobilvy}&\textbf{.html desktopvy}&\textbf{.css desktopvy}\\ \hline
+	\textbf{Desktop-first}&19ms&22ms&46ms&20ms\\ \hline
+	\textbf{Mobile-first}&33ms&20ms&22ms&22ms \\ \hline
+	~&~&~ &~&~\\ \hline
+	\end{tabular}
+    \caption {Värden från andra hämtningen av prototypsidan.}
+\end{table}
+
+\textbf{Hämtning 3}
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|p{2.5cm}|p{2.7cm}|p{2.4cm}|p{3.1cm}|p{2.8cm}|}
+	\hline
+	~&\textbf{.html mobilvy}&\textbf{.css mobilvy}&\textbf{.html desktopvy}&\textbf{.css desktopvy}\\ \hline
+	\textbf{Desktop-first}&73ms&36ms&36ms&21ms\\ \hline
+	\textbf{Mobile-first}&36ms&19ms&39ms&23ms \\ \hline
+	~&~&~ &~&~\\ \hline
+	\end{tabular}
+    \caption {Värden för tredje hämtningen av prototypsidan.}
+\end{table}
+
+
+\subsubsection{Kodstorlek}
+
+Tabellen visar storleken på css-filen i både antal rader och filstorlek. Den visar att CSSen för mobil-first är större än CSSen för desktop-first i filstorlek. Däremot har den i desktop-first fler rader än den i mobile-first. I mobile-first CSSen är uppdelningen mellan rader i grundkod och rader i media queries 193 mot 180. I den för desktop-first består största delen utav rader i grundkoden, där är uppdelningen 221 mot 160.
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|p{6cm}|p{2.7cm}|p{2.4cm}|}
+	\hline
+	\textbf{main.css}&\textbf{Desktop-first}&\textbf{Mobile-first}\\ \hline
+	\textbf{Antal rader i grundkod}&221st&193st\\ \hline
+	\textbf{Antal rader i media queries}&160st&180st\\ \hline
+	\textbf{Totalt antal rader}&381st&374st\\ \hline
+	\textbf{Filstorlek}&5.2kb&5.6kb\\ \hline
+	\end{tabular}
+    \caption {Värden från main.css.}
+\end{table}
+
+\subsubsection{Implementeringstid}
+
+Implementeringstiden redovisas utifrån dagboken som skrevs under implementeringstiden. I resultatet visar skillnaden mellan implementeringstiden för grundsidan och tiden som krävdes för att göra webbsidan responsivt. I mobile-first tog grundsidan mindre tid att implementera än att göra webbsidan responsiv, i desktop-first tog det däremot längre tid att implementera grundsidan. Desktop-first tog totalt längre tid att implementera än mobile-first. Ta i beaktande att implementeringen gjordes utav en junior inom området gränssnittsutveckling, samt att desktop-first implementerades före mobile-first.
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|p{6cm}|p{2.7cm}|p{2.4cm}|}
+	\hline
+	~&\textbf{Desktop-first}&\textbf{Mobile-first}\\ \hline
+	\textbf{Tid för grundsidan}&14.5h&6.5h\\ \hline
+	\textbf{Tid för responsive}&7.5h&10h\\ \hline
+	\textbf{Totalt antal rader}&22h&16.5h\\ \hline
+	\end{tabular}
+    \caption {Värden på implementationstid, tagna från dagboken.}
+\end{table}
+
+\subsubsection{Kommentarer från dagboken}
+
+\textbf{Desktop-first}
+\\\\
+\textit{”Mycket småpill i början, många element att finslipa, göra fina och sätta på plats.”}\\\\
+\textit{”Oerhört lätt att göras till responsive så länge man har använt sig av fluid grid och fluid layout från början. Allt renderas av sig självt och så fort det ser konstigt ut, modifieras CSSen i en media querie.”}\\\\
+\textit{”Lång tid i början, i jämförelse med responsive delen, förvånad över att responsivedelen gick så smidigt. Endast lite småpill lite här och där för att. Det mesta hade fixats under desktoputseendet.”}\\\\
+\textit{”Inte så många media queries, sidan ser bra ut mellan media queries. Mycket kod i grunden som är avsedd för desktop, inte lika mycket i media queries.”}\\\\
+\\
+\textbf{Mobile-first}
+\\\\
+\textit{”Enkelt att påbörja med, följer skissen uppifrån neråt, går inte att tappat bort sig åt kanterna utan elementen är så pass små att det känns som att de finns i en smal led att följa.”}\\\\
+\textit{”Behövs mycket småpill mellan media queries, media queries kommer i början hyfsat tät inpå varandra enbart för att fixa små fel som margins och padding så att elementen håller sig på ett och samma ställe. Samt för förstoring av text, så det är väldigt litet i början och måste förstoras relativt till andra element.”}\\\\
+\textit{”Gäller att hitta en struktur redan från början mellan skisserna, blir en några refaktoreringar för att få webbsidan då bredden är 768px att se perfekt ut, eftersom mycket kommer just under den vyn. Som att lägga vissa element i hållare”}\\\\
+\textit{”Från 768px till desktop-size gick väldigt smidigt.”}\\\\
+\textit{”Väldigt lätt i början, enkel struktur att lägga upp för mobilen, responsivt höll till 480px och till och med 768px var det mycket att fixa med hjälp av media queries, då många element går från att vara under varandra till att vara bredvid varandra.”}\\\\
+\textit{”Viktigt att planera och lägga en struktur på hur den ska övergå till desktop. Mycket kod i media queries sektionen, lite kod i grunden för mobilvyn.  Ser bra ut mellan mobilvyn och desktopvyn.”}\\\\
+\section{Diskussion och Analys}
 \printbibliography
 
 \end{document}
