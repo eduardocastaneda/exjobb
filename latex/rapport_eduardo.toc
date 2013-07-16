@@ -44,19 +44,19 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.2}Implementation av webbsida}{18}{subsection.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.1}Prototyp}{18}{subsubsection.4.2.1}
+\contentsline {subsubsection}{\numberline {4.2.1}Prototyp}{19}{subsubsection.4.2.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {4.2.2}Webbsidan i Desktop-first}{19}{subsubsection.4.2.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {4.2.3}Webbsidan i Mobile-first}{19}{subsubsection.4.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3}Praktisk- och teoretisk tillv\IeC {\"a}gag\IeC {\r a}ngs\IeC {\"a}tt}{19}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.3}Praktiskt- och teoretiskt tillv\IeC {\"a}gag\IeC {\r a}ngs\IeC {\"a}tt}{20}{subsection.4.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.4}Verktyg}{20}{subsection.4.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {4.4.1}HTML}{20}{subsubsection.4.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.4.2}CSS}{20}{subsubsection.4.4.2}
+\contentsline {subsubsection}{\numberline {4.4.2}CSS}{21}{subsubsection.4.4.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {4.4.3}JavaScript}{22}{subsubsection.4.4.3}
 \defcounter {refsection}{0}\relax 
@@ -64,7 +64,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.1}Litteraturstudie}{23}{subsection.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.1.1}Samlade synpunkter}{23}{subsubsection.5.1.1}
+\contentsline {subsubsection}{\numberline {5.1.1}Samlade synpunkter kring Mobile-first och Desktop-first}{23}{subsubsection.5.1.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{\numberline {5.1.1.1}N\IeC {\"a}mnda f\IeC {\"o}r- och nackdelar}{25}{paragraph.5.1.1.1}
 \defcounter {refsection}{0}\relax 
@@ -96,4 +96,24 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {5.2.5}Kommentarer fr\IeC {\r a}n dagboken}{35}{subsubsection.5.2.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6}Diskussion och Analys}{36}{section.6}
+\contentsline {section}{\numberline {6}Diskussion}{36}{section.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.1}Mobile- vs Desktop-first}{36}{subsection.6.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {6.1.1}Responstid}{36}{subsubsection.6.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {6.1.2}Implementeringstid}{36}{subsubsection.6.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {6.1.3}Kod}{36}{subsubsection.6.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\numberline {6.1.3.1}storlek}{36}{paragraph.6.1.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\numberline {6.1.3.2}komplexitet}{36}{paragraph.6.1.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {6.1.4}F\IeC {\"o}r- och Nackdelar}{37}{subsubsection.6.1.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.2}N\IeC {\"a}r ska man anv\IeC {\"a}nda Mobile-first?}{37}{subsection.6.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.3}N\IeC {\"a}r ska man anv\IeC {\"a}nda Desktop-first?}{37}{subsection.6.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7}Slutsats}{37}{section.7}

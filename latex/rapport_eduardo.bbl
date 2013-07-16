@@ -77,14 +77,16 @@
       \endverb
     \endentry
     \entry{mobilewebsearch}{article}{}
-      \name{labelname}{1}{}{%
-        {{uniquename=0,hash=d9c5508b98da87e55eae935d75b42a31}{Church\bibnamedelima Oliver}{C\bibinitperiod\bibinitdelim O\bibinitperiod}{Karen\bibnamedelima Nurta}{K\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
+      \name{labelname}{2}{}{%
+        {{uniquename=0,hash=99712ca975a232218f8cb108af88954e}{Church}{C\bibinitperiod}{Karen}{K\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=6befa50d1bad159fffc14e56262c94b2}{Oliver}{O\bibinitperiod}{Nuria}{N\bibinitperiod}{}{}{}{}}%
       }
-      \name{author}{1}{}{%
-        {{uniquename=0,hash=d9c5508b98da87e55eae935d75b42a31}{Church\bibnamedelima Oliver}{C\bibinitperiod\bibinitdelim O\bibinitperiod}{Karen\bibnamedelima Nurta}{K\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=99712ca975a232218f8cb108af88954e}{Church}{C\bibinitperiod}{Karen}{K\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=6befa50d1bad159fffc14e56262c94b2}{Oliver}{O\bibinitperiod}{Nuria}{N\bibinitperiod}{}{}{}{}}%
       }
-      \strng{namehash}{d9c5508b98da87e55eae935d75b42a31}
-      \strng{fullhash}{d9c5508b98da87e55eae935d75b42a31}
+      \strng{namehash}{0b233f495a7b58c240b4f9f4659d53aa}
+      \strng{fullhash}{c55880bb333069eb1e2410f9d0b8279c}
       \field{sortinit}{C}
       \field{labelyear}{2011}
       \field{labeltitle}{Understanding Mobile Web and Mobile Search Use in Today's Dynamic Mobile Landscape}
@@ -189,17 +191,19 @@
       \endverb
     \endentry
     \entry{pts}{book}{}
-      \name{labelname}{1}{}{%
-        {{uniquename=0,hash=1e11e71ff33858df2054643172c389a2}{Fransén\bibnamedelima Holmström}{F\bibinitperiod\bibinitdelim H\bibinitperiod}{Karin\bibnamedelima Oscar}{K\bibinitperiod\bibinitdelim O\bibinitperiod}{}{}{}{}}%
+      \name{labelname}{2}{}{%
+        {{uniquename=0,hash=1d2a905d082b5dfe14862dd67e871595}{Fransén}{F\bibinitperiod}{Karin}{K\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=4c62cb78afdea8329c5e04ec868853e6}{Holmström}{H\bibinitperiod}{Oscar}{O\bibinitperiod}{}{}{}{}}%
       }
-      \name{author}{1}{}{%
-        {{uniquename=0,hash=1e11e71ff33858df2054643172c389a2}{Fransén\bibnamedelima Holmström}{F\bibinitperiod\bibinitdelim H\bibinitperiod}{Karin\bibnamedelima Oscar}{K\bibinitperiod\bibinitdelim O\bibinitperiod}{}{}{}{}}%
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=1d2a905d082b5dfe14862dd67e871595}{Fransén}{F\bibinitperiod}{Karin}{K\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=4c62cb78afdea8329c5e04ec868853e6}{Holmström}{H\bibinitperiod}{Oscar}{O\bibinitperiod}{}{}{}{}}%
       }
       \list{publisher}{1}{%
         {PTS}%
       }
-      \strng{namehash}{1e11e71ff33858df2054643172c389a2}
-      \strng{fullhash}{1e11e71ff33858df2054643172c389a2}
+      \strng{namehash}{df24fe268a0125fe6efe3ce41df86d6d}
+      \strng{fullhash}{f648515f631d493f2a2745b574c7835d}
       \field{sortinit}{F}
       \field{labelyear}{2012}
       \field{labeltitle}{Prisutevecklingen på mobiltelefoni och bredband}
@@ -265,14 +269,16 @@
       \endverb
     \endentry
     \entry{Cfigroup_2009}{article}{}
-      \name{labelname}{1}{}{%
-        {{uniquename=0,hash=56c96cbede08473bdbcf38f0d6c9dd5e}{Helmreich\bibnamedelima Doriot}{H\bibinitperiod\bibinitdelim D\bibinitperiod}{Doug\bibnamedelima Phil}{D\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+      \name{labelname}{2}{}{%
+        {{uniquename=0,hash=ce570d0f422c7cc5aa16f38b7ef7cf18}{Helmreich}{H\bibinitperiod}{Doug}{D\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=5a1838634a09019583b7056cd2d16b52}{Doriot}{D\bibinitperiod}{Philip}{P\bibinitperiod}{}{}{}{}}%
       }
-      \name{author}{1}{}{%
-        {{uniquename=0,hash=56c96cbede08473bdbcf38f0d6c9dd5e}{Helmreich\bibnamedelima Doriot}{H\bibinitperiod\bibinitdelim D\bibinitperiod}{Doug\bibnamedelima Phil}{D\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=ce570d0f422c7cc5aa16f38b7ef7cf18}{Helmreich}{H\bibinitperiod}{Doug}{D\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=5a1838634a09019583b7056cd2d16b52}{Doriot}{D\bibinitperiod}{Philip}{P\bibinitperiod}{}{}{}{}}%
       }
-      \strng{namehash}{56c96cbede08473bdbcf38f0d6c9dd5e}
-      \strng{fullhash}{56c96cbede08473bdbcf38f0d6c9dd5e}
+      \strng{namehash}{738db7ee5a2d7b33ccc94c5760b0f39a}
+      \strng{fullhash}{0db234209f1aba8b68abad8ad402635d}
       \field{sortinit}{H}
       \field{labelyear}{2009}
       \field{labeltitle}{Smartphones, Providers and the Customers Who Love (and Loathe) Them}
@@ -375,14 +381,16 @@
       \field{year}{2011}
     \endentry
     \entry{kpcb}{online}{}
-      \name{labelname}{1}{}{%
-        {{uniquename=0,hash=aaf37257f5320ac22190c77fbc339082}{Meeker\bibnamedelima Wu}{M\bibinitperiod\bibinitdelim W\bibinitperiod}{Liang\bibnamedelima Mary}{L\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+      \name{labelname}{2}{}{%
+        {{uniquename=0,hash=286222b1a85ff4c4b339f3afee1a4885}{Meeker}{M\bibinitperiod}{Mary}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=a788ff7e34150e1077ba4fa3ae27bfb9}{Wu}{W\bibinitperiod}{Liang}{L\bibinitperiod}{}{}{}{}}%
       }
-      \name{author}{1}{}{%
-        {{uniquename=0,hash=aaf37257f5320ac22190c77fbc339082}{Meeker\bibnamedelima Wu}{M\bibinitperiod\bibinitdelim W\bibinitperiod}{Liang\bibnamedelima Mary}{L\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=286222b1a85ff4c4b339f3afee1a4885}{Meeker}{M\bibinitperiod}{Mary}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=a788ff7e34150e1077ba4fa3ae27bfb9}{Wu}{W\bibinitperiod}{Liang}{L\bibinitperiod}{}{}{}{}}%
       }
-      \strng{namehash}{aaf37257f5320ac22190c77fbc339082}
-      \strng{fullhash}{aaf37257f5320ac22190c77fbc339082}
+      \strng{namehash}{1a93f43996510240512f47e36715153e}
+      \strng{fullhash}{bb0eb3331931f6aa3d14c171fc0d21ba}
       \field{sortinit}{M}
       \field{labelyear}{2009}
       \field{labeltitle}{2012 Internet Trends}
@@ -422,11 +430,11 @@
       \strng{namehash}{6f0fc3c15e6788bfb4349c0c68a8958a}
       \strng{fullhash}{6f0fc3c15e6788bfb4349c0c68a8958a}
       \field{sortinit}{P}
-      \field{labelyear}{2222}
+      \field{labelyear}{2012}
       \field{labeltitle}{Mobile-first, kind of like the secret}
       \field{note}{Senast besökt: 1 juli 2013}
       \field{title}{Mobile-first, kind of like the secret}
-      \field{year}{2222}
+      \field{year}{2012}
       \verb{url}
       \verb http://www.marcuspope.com/blog/mobile-first,-kind-of-like-the-secret
       \endverb
@@ -470,14 +478,18 @@
       \endverb
     \endentry
     \entry{usageusability2}{article}{}
-      \name{labelname}{1}{}{%
-        {{uniquename=0,hash=011b8a09f9581184a5c835eedd9697d8}{Schmiedl\bibnamedelimb Seidl\bibnamedelima Temper}{S\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim T\bibinitperiod}{Grischa\bibnamedelimb Makus\bibnamedelima Klaus}{G\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim K\bibinitperiod}{}{}{}{}}%
+      \name{labelname}{3}{}{%
+        {{uniquename=0,hash=9bdcf6c218205d87757905600e59b2b7}{Schmiedl}{S\bibinitperiod}{Grischa}{G\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=cd62c017f904cbf8661ef523cb41729e}{Siedl}{S\bibinitperiod}{Markys}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=d8130a447d4b28fa686e36268a275c9a}{Temper}{T\bibinitperiod}{Klaus}{K\bibinitperiod}{}{}{}{}}%
       }
-      \name{author}{1}{}{%
-        {{uniquename=0,hash=011b8a09f9581184a5c835eedd9697d8}{Schmiedl\bibnamedelimb Seidl\bibnamedelima Temper}{S\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim T\bibinitperiod}{Grischa\bibnamedelimb Makus\bibnamedelima Klaus}{G\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim K\bibinitperiod}{}{}{}{}}%
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=9bdcf6c218205d87757905600e59b2b7}{Schmiedl}{S\bibinitperiod}{Grischa}{G\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=cd62c017f904cbf8661ef523cb41729e}{Siedl}{S\bibinitperiod}{Markys}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=d8130a447d4b28fa686e36268a275c9a}{Temper}{T\bibinitperiod}{Klaus}{K\bibinitperiod}{}{}{}{}}%
       }
-      \strng{namehash}{011b8a09f9581184a5c835eedd9697d8}
-      \strng{fullhash}{011b8a09f9581184a5c835eedd9697d8}
+      \strng{namehash}{575af917c141a0614649a2b2c1162e35}
+      \strng{fullhash}{dc675b68ac2fe6922b5b2d7c204bcdeb}
       \field{sortinit}{S}
       \field{labelyear}{2009}
       \field{labeltitle}{Mobile Phone Web Browsing - A Study on Usage and Usability Of The Mobile Web}

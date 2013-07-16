@@ -1,20 +1,20 @@
 [0] Config.pm:361> INFO - This is Biber 1.5
-[1] Config.pm:364> INFO - Logfile is 'rapport_eduardo.blg'
-[121] biber-MSWIN:190> INFO - === %a %b %e, %Y, %H:%M:%S
-[123] Biber.pm:327> INFO - Reading 'rapport_eduardo.bcf'
-[239] Biber.pm:619> INFO - Found 34 citekeys in bib section 0
-[279] Biber.pm:2976> INFO - Processing section 0
-[320] Biber.pm:3086> INFO - Looking for bibtex format file 'references.bib' for section 0
-[331] bibtex.pm:889> INFO - Decoding LaTeX character macros into UTF-8
-[334] bibtex.pm:764> INFO - Found BibTeX data source 'references.bib'
-[439] Utils.pm:167> WARN - The field 'pages' in entry 'Cfigroup_2009' cannot be null, deleting it
-[443] Utils.pm:167> WARN - The field 'pages' in entry 'sara_ingmar' cannot be null, deleting it
-[447] Utils.pm:167> WARN - The field 'pages' in entry 'usageusability2' cannot be null, deleting it
-[447] Utils.pm:167> WARN - The field 'pages' in entry 'mobilewebsearch' cannot be null, deleting it
-[448] Utils.pm:167> WARN - The field 'pages' in entry 'harrispoll' cannot be null, deleting it
-[761] Biber.pm:2860> INFO - Overriding locale 'English_United States.1252' default tailoring 'variable = shifted' with 'variable = non-ignorable'
-[761] Biber.pm:2866> INFO - Sorting 'entry' list 'nyt' keys
-[762] Biber.pm:2870> INFO - No sort tailoring available for locale 'English_United States.1252'
-[1118] bbl.pm:462> INFO - Writing 'rapport_eduardo.bbl' with encoding 'UTF-8'
-[1120] bbl.pm:535> INFO - Output to rapport_eduardo.bbl
-[1125] Biber.pm:107> INFO - WARNINGS: 5
+[0] Config.pm:364> INFO - Logfile is 'rapport_eduardo.blg'
+[141] biber-MSWIN:190> INFO - === %a %b %e, %Y, %H:%M:%S
+[151] Biber.pm:327> INFO - Reading 'rapport_eduardo.bcf'
+[261] Biber.pm:619> INFO - Found 34 citekeys in bib section 0
+[315] Biber.pm:2976> INFO - Processing section 0
+[396] Biber.pm:3086> INFO - Looking for bibtex format file 'references.bib' for section 0
+[407] bibtex.pm:889> INFO - Decoding LaTeX character macros into UTF-8
+[410] bibtex.pm:764> INFO - Found BibTeX data source 'references.bib'
+[540] Utils.pm:167> WARN - The field 'pages' in entry 'Cfigroup_2009' cannot be null, deleting it
+[544] Utils.pm:167> WARN - The field 'pages' in entry 'sara_ingmar' cannot be null, deleting it
+[549] Utils.pm:167> WARN - The field 'pages' in entry 'usageusability2' cannot be null, deleting it
+[549] Utils.pm:167> WARN - The field 'pages' in entry 'mobilewebsearch' cannot be null, deleting it
+[549] Utils.pm:167> WARN - The field 'pages' in entry 'harrispoll' cannot be null, deleting it
+[947] Biber.pm:2860> INFO - Overriding locale 'English_United States.1252' default tailoring 'variable = shifted' with 'variable = non-ignorable'
+[947] Biber.pm:2866> INFO - Sorting 'entry' list 'nyt' keys
+[947] Biber.pm:2870> INFO - No sort tailoring available for locale 'English_United States.1252'
+[1316] bbl.pm:462> INFO - Writing 'rapport_eduardo.bbl' with encoding 'UTF-8'
+[1318] bbl.pm:535> INFO - Output to rapport_eduardo.bbl
+[1323] Biber.pm:107> INFO - WARNINGS: 5
