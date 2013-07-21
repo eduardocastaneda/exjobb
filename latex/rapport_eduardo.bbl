@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 2.1 $
+% $ biblatex bbl format version 2.2 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -89,6 +89,7 @@
       \strng{fullhash}{c55880bb333069eb1e2410f9d0b8279c}
       \field{sortinit}{C}
       \field{labelyear}{2011}
+      \field{labelmonth}{09}
       \field{labeltitle}{Understanding Mobile Web and Mobile Search Use in Today's Dynamic Mobile Landscape}
       \field{journaltitle}{Telefonica Research}
       \field{month}{09}
@@ -281,6 +282,7 @@
       \strng{fullhash}{0db234209f1aba8b68abad8ad402635d}
       \field{sortinit}{H}
       \field{labelyear}{2009}
+      \field{labelmonth}{08}
       \field{labeltitle}{Smartphones, Providers and the Customers Who Love (and Loathe) Them}
       \field{journaltitle}{CFI Group Smartphone Satifaction Study 2009}
       \field{month}{08}
@@ -317,6 +319,7 @@
       \strng{fullhash}{f9b17eaf1fd21ab42f138c6b978e9123}
       \field{sortinit}{I}
       \field{labelyear}{2012}
+      \field{labelmonth}{08}
       \field{labeltitle}{Responsive web design: En studie i hur designkonceptet påverkar användbarheten hos en webbplats}
       \field{journaltitle}{Uppsala Universitet}
       \field{month}{08}
@@ -492,6 +495,7 @@
       \strng{fullhash}{dc675b68ac2fe6922b5b2d7c204bcdeb}
       \field{sortinit}{S}
       \field{labelyear}{2009}
+      \field{labelmonth}{09}
       \field{labeltitle}{Mobile Phone Web Browsing - A Study on Usage and Usability Of The Mobile Web}
       \field{journaltitle}{University of Applied Science St. Pölten, Institute of Media Informatics}
       \field{month}{09}
@@ -528,6 +532,7 @@
       \strng{fullhash}{7a4a813e647a3a2387728842cbd70e3a}
       \field{sortinit}{S}
       \field{labelyear}{2013}
+      \field{labelmonth}{01}
       \field{labeltitle}{Different Priorities in Smartphone vs Computer Use, But Some Common Ground}
       \field{journaltitle}{The Harris Poll}
       \field{month}{01}
