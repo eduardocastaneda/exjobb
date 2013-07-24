@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.7.19)  22 JUL 2013 16:39
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.7.19)  24 JUL 2013 15:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1044,7 +1044,7 @@ Package babel Info: Redefining swedish shorthand "~
 
 [2] (./rapport_eduardo.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 7.
+(Font)              <10.95> on input line 9.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1053,16 +1053,27 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining swedish shorthand "|
-(babel)             in language  on input line 99.
+(babel)             in language  on input line 97.
 Package babel Info: Redefining swedish shorthand "~
-(babel)             in language  on input line 99.
+(babel)             in language  on input line 97.
 Package babel Info: Redefining swedish shorthand "|
-(babel)             in language  on input line 99.
+(babel)             in language  on input line 97.
 Package babel Info: Redefining swedish shorthand "~
-(babel)             in language  on input line 99.
+(babel)             in language  on input line 97.
 [3])
 \tf@toc=\write6
 \openout6 = `rapport_eduardo.toc'.
+
+Package babel Info: Redefining swedish shorthand "|
+(babel)             in language  on input line 73.
+Package babel Info: Redefining swedish shorthand "~
+(babel)             in language  on input line 73.
+
+
+Package Fancyhdr Warning: \headheight is too small (13.59999pt): 
+ Make it at least 13.85303pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining swedish shorthand "|
 (babel)             in language  on input line 74.
@@ -1072,7 +1083,7 @@ Package babel Info: Redefining swedish shorthand "|
 (babel)             in language  on input line 74.
 Package babel Info: Redefining swedish shorthand "~
 (babel)             in language  on input line 74.
- [4]
+[4]
 Package babel Info: Redefining swedish shorthand "|
 (babel)             in language  on input line 77.
 Package babel Info: Redefining swedish shorthand "~
@@ -1188,13 +1199,13 @@ Package babel Info: Redefining swedish shorthand "|
 Package babel Info: Redefining swedish shorthand "~
 (babel)             in language  on input line 156.
  [11]
-<pics/big.png, id=326, 962.09438pt x 450.9347pt>
+<pics/big.png, id=336, 962.09438pt x 450.9347pt>
 File: pics/big.png Graphic file (type png)
  <use pics/big.png>
 Package pdftex.def Info: pics/big.png used on input line 164.
 (pdftex.def)             Requested size: 221.27705pt x 103.7128pt.
 
-<pics/small.png, id=327, 270.25969pt x 479.54156pt>
+<pics/small.png, id=337, 270.25969pt x 479.54156pt>
 File: pics/small.png Graphic file (type png)
  <use pics/small.png>
 Package pdftex.def Info: pics/small.png used on input line 164.
@@ -1219,7 +1230,7 @@ Package babel Info: Redefining swedish shorthand "|
 Package babel Info: Redefining swedish shorthand "~
 (babel)             in language  on input line 183.
  [12 <./pics/big.png> <./pics/small.png>]
-<pics/mobilesmall.png, id=336, 270.25969pt x 480.29437pt>
+<pics/mobilesmall.png, id=346, 270.25969pt x 480.29437pt>
 File: pics/mobilesmall.png Graphic file (type png)
 
 <use pics/mobilesmall.png>
@@ -1438,7 +1449,7 @@ Package babel Info: Redefining swedish shorthand "|
 (babel)             in language  on input line 426.
 Package babel Info: Redefining swedish shorthand "~
 (babel)             in language  on input line 426.
- <pics/statistikalder.png, id=469, 341.77687pt x 204.01219pt>
+ <pics/statistikalder.png, id=479, 341.77687pt x 204.01219pt>
 File: pics/statistikalder.png Graphic file (type png)
 
 <use pics/statistikalder.png>
@@ -1498,14 +1509,14 @@ Package babel Info: Redefining swedish shorthand "|
 (babel)             in language  on input line 513.
 Package babel Info: Redefining swedish shorthand "~
 (babel)             in language  on input line 513.
- <pics/bannerdesktop.png, id=514, 978.65625pt x 362.85562pt>
+ <pics/bannerdesktop.png, id=524, 978.65625pt x 362.85562pt>
 File: pics/bannerdesktop.png Graphic file (type png)
 
 <use pics/bannerdesktop.png>
 Package pdftex.def Info: pics/bannerdesktop.png used on input line 524.
 (pdftex.def)             Requested size: 252.48839pt x 93.61491pt.
 
-<pics/bannermobil.png, id=515, 383.93437pt x 216.05719pt>
+<pics/bannermobil.png, id=525, 383.93437pt x 216.05719pt>
 File: pics/bannermobil.png Graphic file (type png)
 
 <use pics/bannermobil.png>
@@ -1530,35 +1541,35 @@ Package babel Info: Redefining swedish shorthand "|
 Package babel Info: Redefining swedish shorthand "~
 (babel)             in language  on input line 534.
 [29 <./pics/bannerdesktop.png> <./pics/bannermobil.png>]
-<pics/menydesktop.png, id=522, 978.65625pt x 164.11313pt>
+<pics/menydesktop.png, id=532, 978.65625pt x 164.11313pt>
 File: pics/menydesktop.png Graphic file (type png)
 
 <use pics/menydesktop.png>
 Package pdftex.def Info: pics/menydesktop.png used on input line 538.
 (pdftex.def)             Requested size: 391.45557pt x 65.64407pt.
 
-<pics/menymobil.png, id=523, 383.93437pt x 85.82062pt>
+<pics/menymobil.png, id=533, 383.93437pt x 85.82062pt>
 File: pics/menymobil.png Graphic file (type png)
 
 <use pics/menymobil.png>
 Package pdftex.def Info: pics/menymobil.png used on input line 546.
 (pdftex.def)             Requested size: 230.3624pt x 51.49275pt.
 
-<pics/menymobilopen.png, id=524, 383.93437pt x 217.5628pt>
+<pics/menymobilopen.png, id=534, 383.93437pt x 217.5628pt>
 File: pics/menymobilopen.png Graphic file (type png)
 
 <use pics/menymobilopen.png>
 Package pdftex.def Info: pics/menymobilopen.png used on input line 546.
 (pdftex.def)             Requested size: 134.37903pt x 76.14812pt.
 
-<pics/menydesktopbot.png, id=525, 978.65625pt x 223.58531pt>
+<pics/menydesktopbot.png, id=535, 978.65625pt x 223.58531pt>
 File: pics/menydesktopbot.png Graphic file (type png)
 
 <use pics/menydesktopbot.png>
 Package pdftex.def Info: pics/menydesktopbot.png used on input line 554.
 (pdftex.def)             Requested size: 231.94048pt x 52.98947pt.
 
-<pics/menymobilbot.png, id=526, 383.93437pt x 248.42813pt>
+<pics/menymobilbot.png, id=536, 383.93437pt x 248.42813pt>
 File: pics/menymobilbot.png Graphic file (type png)
 
 <use pics/menymobilbot.png>
@@ -1578,21 +1589,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 560--562
 
  []
 
-<pics/artikelannonsdesktop.png, id=539, 978.65625pt x 690.32906pt>
+<pics/artikelannonsdesktop.png, id=549, 978.65625pt x 690.32906pt>
 File: pics/artikelannonsdesktop.png Graphic file (type png)
 
 <use pics/artikelannonsdesktop.png>
 Package pdftex.def Info: pics/artikelannonsdesktop.png used on input line 566.
 (pdftex.def)             Requested size: 293.59914pt x 207.10031pt.
 
-<pics/artikelmobil.png, id=540, 383.93437pt x 384.6872pt>
+<pics/artikelmobil.png, id=550, 383.93437pt x 384.6872pt>
 File: pics/artikelmobil.png Graphic file (type png)
 
 <use pics/artikelmobil.png>
 Package pdftex.def Info: pics/artikelmobil.png used on input line 574.
 (pdftex.def)             Requested size: 134.37903pt x 134.64253pt.
 
-<pics/annonsmobil.png, id=541, 383.93437pt x 384.6872pt>
+<pics/annonsmobil.png, id=551, 383.93437pt x 384.6872pt>
 File: pics/annonsmobil.png Graphic file (type png)
 
 <use pics/annonsmobil.png>
@@ -1617,14 +1628,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 580--582
 
  []
 
-<pics/fargdesktop.png, id=550, 978.65625pt x 819.06pt>
+<pics/fargdesktop.png, id=560, 978.65625pt x 819.06pt>
 File: pics/fargdesktop.png Graphic file (type png)
 
 <use pics/fargdesktop.png>
 Package pdftex.def Info: pics/fargdesktop.png used on input line 587.
 (pdftex.def)             Requested size: 244.66347pt x 204.7645pt.
 
-<pics/fargmobil.png, id=551, 383.93437pt x 605.26125pt>
+<pics/fargmobil.png, id=561, 383.93437pt x 605.26125pt>
 File: pics/fargmobil.png Graphic file (type png)
 
 <use pics/fargmobil.png>
@@ -1831,19 +1842,19 @@ Package babel Info: Redefining swedish shorthand "|
 (babel)             in language  on input line 765.
 Package babel Info: Redefining swedish shorthand "~
 (babel)             in language  on input line 765.
- [39] <pics/mobiledots.png, id=619, 351.3125pt x 501.875pt>
+ [39] <pics/mobiledots.png, id=629, 351.3125pt x 501.875pt>
 File: pics/mobiledots.png Graphic file (type png)
 
 <use pics/mobiledots.png>
 Package pdftex.def Info: pics/mobiledots.png used on input line 772.
 (pdftex.def)             Requested size: 94.85564pt x 135.50806pt.
- <pics/responsiv.png, id=620, 351.3125pt x 501.875pt>
+ <pics/responsiv.png, id=630, 351.3125pt x 501.875pt>
 File: pics/responsiv.png Graphic file (type png)
 
 <use pics/responsiv.png>
 Package pdftex.def Info: pics/responsiv.png used on input line 772.
 (pdftex.def)             Requested size: 94.85564pt x 135.50806pt.
- <pics/desktop.png, id=621, 351.3125pt x 501.875pt>
+ <pics/desktop.png, id=631, 351.3125pt x 501.875pt>
 File: pics/desktop.png Graphic file (type png)
 
 <use pics/desktop.png>
@@ -1863,7 +1874,7 @@ File: pics/desktop.png Graphic file (type png)
 <use pics/desktop.png>
 Package pdftex.def Info: pics/desktop.png used on input line 783.
 (pdftex.def)             Requested size: 94.85564pt x 135.50806pt.
- <pics/desktopresp.png, id=622, 351.3125pt x 501.875pt>
+ <pics/desktopresp.png, id=632, 351.3125pt x 501.875pt>
 File: pics/desktopresp.png Graphic file (type png)
 
 <use pics/desktopresp.png>
@@ -1942,68 +1953,87 @@ Package babel Info: Redefining swedish shorthand "|
 Package babel Info: Redefining swedish shorthand "~
 (babel)             in language  on input line 821.
 Package babel Info: Redefining swedish shorthand "|
-(babel)             in language  on input line 827.
+(babel)             in language  on input line 835.
 Package babel Info: Redefining swedish shorthand "~
-(babel)             in language  on input line 827.
+(babel)             in language  on input line 835.
 Package babel Info: Redefining swedish shorthand "|
-(babel)             in language  on input line 827.
+(babel)             in language  on input line 835.
 Package babel Info: Redefining swedish shorthand "~
-(babel)             in language  on input line 827.
+(babel)             in language  on input line 835.
  [45]
-Overfull \hbox (0.64659pt too wide) in paragraph at lines 828--828
+Package babel Info: Redefining swedish shorthand "|
+(babel)             in language  on input line 835.
+Package babel Info: Redefining swedish shorthand "~
+(babel)             in language  on input line 835.
+Package babel Info: Redefining swedish shorthand "|
+(babel)             in language  on input line 835.
+Package babel Info: Redefining swedish shorthand "~
+(babel)             in language  on input line 835.
+ [46]
+Overfull \hbox (0.64659pt too wide) in paragraph at lines 836--836
 [][]\T1/cmr/m/n/10.95 w3schools (2009): \T1/cmr/m/it/10.95 CSS How To... \T1/cm
 r/m/n/10.95 Se-nast be-sökt: 14 maj 2013. \T1/cmr/m/sc/10.95 url\T1/cmr/m/n/10.
 95 : []$\T1/cmtt/m/n/10.95 http : / / www . w3schools .
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 829.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 837.
 Package babel Info: Redefining swedish shorthand "|
-(babel)             in language  on input line 829.
+(babel)             in language  on input line 837.
 Package babel Info: Redefining swedish shorthand "~
-(babel)             in language  on input line 829.
+(babel)             in language  on input line 837.
 Package babel Info: Redefining swedish shorthand "|
-(babel)             in language  on input line 829.
+(babel)             in language  on input line 837.
 Package babel Info: Redefining swedish shorthand "~
-(babel)             in language  on input line 829.
-[46]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 829.
+(babel)             in language  on input line 837.
+[47]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 837.
  (./rapport_eduardo.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 829.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 829.
-Package rerunfilecheck Info: File `rapport_eduardo.out' has not changed.
-(rerunfilecheck)             Checksum: EF52460D89DADF0C5BF9650F297DA449;3194.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 837.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 837.
+
+
+Package rerunfilecheck Warning: File `rapport_eduardo.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `rapport_eduardo.out':
+(rerunfilecheck)             Before: 69F3D44C9539AEC7797ED0403C15FDEC;3327
+(rerunfilecheck)             After:  FF3740BE6471077E900B95B76E7686C8;3254.
 Package logreq Info: Writing requests to 'rapport_eduardo.run.xml'.
 \openout1 = `rapport_eduardo.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 829.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 837.
  ) 
 Here is how much of TeX's memory you used:
- 15892 strings out of 493315
- 249328 string characters out of 6137904
+ 15897 strings out of 493315
+ 249385 string characters out of 6137904
  657725 words of memory out of 5000000
- 18955 multiletter control sequences out of 15000+600000
+ 18957 multiletter control sequences out of 15000+600000
  17080 words of font info for 40 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  42i,11n,59p,2100b,2083s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
-{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<
-/usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></
-usr/local/texlive/2013/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></us
-r/local/texlive/2013/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/
-local/texlive/2013/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/lo
-cal/texlive/2013/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/loca
-l/texlive/2013/texmf-dist/fonts/type1/public/cm-super/sfcc1095.pfb></usr/local/
-texlive/2013/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/te
-xlive/2013/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texl
-ive/2013/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texliv
-e/2013/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/
-2013/texmf-dist/fonts/type1/public/cm-super/sfsl1095.pfb></usr/local/texlive/20
-13/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb></usr/local/texlive/2013
-/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on rapport_eduardo.pdf (46 pages, 2306062 bytes).
+pdfTeX warning (dest): name{subsection.2.5} has been referenced but does not 
+exist, replaced by a fixed one
+
+{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/
+usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</u
+sr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></us
+r/local/texlive/2013/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/
+local/texlive/2013/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/lo
+cal/texlive/2013/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/loca
+l/texlive/2013/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/
+texlive/2013/texmf-dist/fonts/type1/public/cm-super/sfcc1095.pfb></usr/local/te
+xlive/2013/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texl
+ive/2013/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texliv
+e/2013/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/
+2013/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/20
+13/texmf-dist/fonts/type1/public/cm-super/sfsl1095.pfb></usr/local/texlive/2013
+/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb></usr/local/texlive/2013/t
+exmf-dist/fonts/type1/public/cm-super/sftt1095.pfb>
+Output written on rapport_eduardo.pdf (47 pages, 2312167 bytes).
 PDF statistics:
- 790 PDF objects out of 1000 (max. 8388607)
- 694 compressed objects within 7 object streams
- 187 named destinations out of 1000 (max. 500000)
- 477 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 805 PDF objects out of 1000 (max. 8388607)
+ 707 compressed objects within 8 object streams
+ 190 named destinations out of 1000 (max. 500000)
+ 493 words of extra memory for PDF output out of 10000 (max. 10000000)
 
