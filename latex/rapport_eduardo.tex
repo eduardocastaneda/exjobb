@@ -4,14 +4,14 @@
 % arara: biber
 % arara: pdflatex: { synctex: true }
 % arara: pdflatex: { synctex: true }
-
+7
 \documentclass[11pt]{article}
 \setcounter{secnumdepth}{5}
 
-\usepackage{listings}
-\lstset{% Add other global options here
-  escapechar=\&% char to escape out of listings and back to LaTeX
-}
+%\usepackage{listings}   DET HÄR MÅSTE LÄGGAS IN
+%\lstset{% Add other global options here
+%  escapechar=\&% char to escape out of listings and back to LaTeX
+%} DET HÄR MÅSTE LÄGGAS IN
 \usepackage{caption,subcaption}
 \usepackage{float}
 \restylefloat{table}
@@ -88,6 +88,18 @@ Det som kännetecknar metoderna är  grunden på strukturen och designen,  där 
 
 Användning av mobilt internet ökar och användningen av internet via en dator kommer med stor sannolikhet bestå. Vilket gör att en grund för val av metod är högst passande, då det redan nu och i framtiden kommer att kräva mer kunskap än vad som idag kan erbjudas från bloggar. Båda metoder har sina fördelar samt nackdelar, vilket bör lyftas fram tydligare. Även frågan som bör ställas är när dessa går att utnyttjas på bästa sätt, och kan beslutet av val leda till positiva faktorer vilka motsatta metod inte hade kunnat uppnå inom en specifik situation.
 
+\begin{figure}[h]
+\centerline{%
+\includegraphics[scale=0.6]{pics/olikaenheter.png}
+}
+\end{figure}
+\vspace{1.5cm}
+Figur 1: En responsive webbsida kan även anpassas till enheter mellan desktop och mobil, t.ex  tablets och ipads.  I arbetet kommer fokus ske endast för mobil och desktop.
+
+
+\subsection{Valtech AB}
+Examensarbetet kommer att utföras på Valtech AB i Stockholm. Valtech Sverige fokuserar främst på utveckling av användaranpassade hemsidor, webbapplikationer och intranät. Hos Valtech finns erfarna gränssnittsutvecklare som har stött på problem under utvecklingsprocessen i form av ett beslutstagande av tillvägagångssätt för en responsiv webbsida. Det finns ett behov hos utvecklare på Valtech att ha en grund för vilka faktorer som är viktigast vid beslutstagande för metod, en metod som ger den bästa lösningen för en effektiv utveckling av en responsiv webbplats. Gränsnittssutvecklarna besitter på mycket erfarenhet och kunskap, vilket kan samlas i form av intervjuer för att analyseras och sammanfattas utifrån verkliga situationer som förekommer i företag, för framtida syfte.
+
 \subsection{Syfte}
 Syftet med arbetet är att kunna hitta riktlinjer till när en specifik metod appliceras bäst. Det vill säga beroende på faktorer kring webbsidan hitta den metod som tillför det mest optimala lösningen för implementationen av webbsidan. Att hitta en metod som fungerar bäst i alla lägen är inte nödvändigtvis målet med arbetet då det existera många olika vinklar, vilka gör det svårt att hitta en specifik metod som ger det optimala resultatet oberoende på situation.
 
@@ -103,13 +115,16 @@ Frågeställningar som besvaras i rapporten är:
 
 \subsection{Avgränsningar}
 
-Arbetet kommer att enbart fokusera på mobile-first och desktop-first, ett mellanläge som existerar för Ipads, tablets, osv. kommer inte att tas med i arbetet utan kommer att ses som ett desktopläge. I dagsläget finns även andra lösningar för mobilt webb t.ex Appar och Hybrida Appar, jämförelse mellan dessa och responsive web design kommer inte att göras, utan jämförelsen som görs är mellan mobilalösningar inom responsive web design.
+Arbetet kommer att enbart fokusera på mobile-first och desktop-first \textit{(se figur 1)}, ett mellanläge som existerar för Ipads, tablets, osv. kommer inte att tas med i arbetet utan kommer att ses som ett desktopläge. I dagsläget finns även andra lösningar för mobilt webb t.ex Appar och Hybrida Appar, jämförelse mellan dessa och responsive web design kommer inte att göras, utan jämförelsen som görs är mellan mobilalösningar inom responsive web design.
 
 Termen \textit{Mobile-first} kan tolkas på olika sätt. Det har förekommit tillfällen för webbutvecklare där mobile-first är prioriterad designmässigt men där implementeringen ändå har skett för desktop innan mobilen, vilket en produktägare har tolkat som mobile-first. Det är inte fallet i arbetet, utan mobile-first beskrivs i arbetet som en tanke och en implementering avsedd för mobilen i första hand, och tvärtom vid desktop-first. Testfallen under implementeringsfasen i arbetet kommer att bygga på den teori för ovanstående metoder.
 
+\subsection{Disposition}
 
-\subsection{Valtech AB}
-Examensarbetet kommer att utföras på Valtech AB i Stockholm. Valtech Sverige fokuserar främst på utveckling av användaranpassade hemsidor, webbapplikationer och intranät. Hos Valtech finns erfarna gränssnittsutvecklare som har stött på problem under utvecklingsprocessen i form av ett beslutstagande av tillvägagångssätt för en responsiv webbsida. Det finns ett behov hos utvecklare på Valtech att ha en grund för vilka faktorer som är viktigast vid beslutstagande för metod, en metod som ger den bästa lösningen för en effektiv utveckling av en responsiv webbplats. Gränsnittssutvecklarna besitter på mycket erfarenhet och kunskap, vilket kan samlas i form av intervjuer för att analyseras och sammanfattas utifrån verkliga situationer som förekommer i företag, för framtida syfte.
+Kommande kapitler är indelade i \textit{bakgrund}, \textit{teori}, \textit{metod}, \textit{resultat} och \textit{diskussion}. I \textit{bakgrund} beskrivs ökningen av användandet av mobil och desktop, samt vilken betydelse detta har för webbutvecklingen och varför responsive web design är en metod som kan gynna detta. I kapitlet \textit{teori} förklaras tekniken responsive web design samt de verktyg och metoder som samverkar för att få en fungerande responsiv webbplats, detta för att få en teknisk förståelse för webbutvecklingen av mobile-first och desktop-first. Metoderna för arbetet är en litteraturstudie samt en prototyp av en webbsida som både utvecklas i mobile-first och desktop-first, i kapitlet beskrivs valet av metod samt hur dessa samspelar till att få fram resultat som besvarar frågeställningarna för arbetet. I nästa kapitel samlas resultatet från både litteraturstudien och utvecklingen av prototypen, som senare diskuteras i kapitlet \textit{diskussion}, där även frågeställningarna besvaras. 
+
+
+
 \newpage
 
 
@@ -119,48 +134,131 @@ Mobilutvecklingen har under de senaste åren gått fort framåt, vilket har lett
 
 \subsection{Mobilanvändare}
 
-Sedan 2007 då Apple visade upp den första versionen av iPhones(\cite{AppleRevolution}) har utvecklingen för \textit{smartphones} eskalerat markant. Smartphones ger dig möjligheten att utföra datorliknande handlingar som att få ut information från webben och använda nätbaserade applikationer. Tidigare mobiler har delvis haft den funktionen men fokus mestadels har varit på musikspelare och kamera, då surfande gick trögt och var icke praktiskt användbara.
-Med smartphones, vilket innebar större pekskärmar, gjorde åtkomsten till internet på mobilen mer användaranpassade och har under de senaste åren utvecklats till en oundviklig funktion i dagens mobiler(\cite[s. 4]{Cfigroup_2009}).  Även prisutvecklingen har varit en givande faktor till användningen av mobilt internet, då under de senaste åren telekomföretag har varit tvungna att sänka avgifterna samt erbjuda fast pris för att kunna passa in i marknaden. Sedan 2007 fram tills 2012 har lägsta priser för mobilt bredband minskat med 60 \%, i dagens erbjudanden kan man finna abonnemang med fri surf för 89kr i månaden med 18 månaders bindningstid, vilket i jämförelse med 2007 hade legat på 169kr(\cite[s. 36]{pts}). Numera ser man satsningen på att även kunna erbjuda ett fast pris för att surfa utomlands, vilket tyder på att en breddning för användandet görs, och antal svenskar som använder mobilt internet kommer att fortsätta öka.(\cite{telekomidag})
+Sedan 2007 då Apple visade upp den första versionen av iPhones (\cite{AppleRevolution}) har utvecklingen för \textit{smartphones} eskalerat markant. Smartphones ger dig möjligheten att utföra datorliknande handlingar som att få ut information från webben och använda nätbaserade applikationer. Tidigare mobiler har delvis haft den funktionen men fokus mestadels har varit på musikspelare och kamera, då surfande gick trögt och var icke praktiskt användbara.
+Med smartphones, vilket innebar större pekskärmar, gjorde åtkomsten till internet på mobilen mer användaranpassade och har under de senaste åren utvecklats till en oundviklig funktion i dagens mobiler (\cite[s. 4]{Cfigroup_2009}).  Även prisutvecklingen har varit en givande faktor till användningen av mobilt internet, då under de senaste åren telekomföretag har varit tvungna att sänka avgifterna samt erbjuda fast pris för att kunna passa in i marknaden. Sedan 2007 fram tills 2012 har lägsta priser för mobilt bredband minskat med 60\%, i dagens erbjudanden kan man finna abonnemang med fri surf för 89kr i månaden med 18 månaders bindningstid, vilket i jämförelse med 2007 hade legat på 169kr (\cite[s. 36]{pts}). Numera ser man satsningen på att även kunna erbjuda ett fast pris för att surfa utomlands, vilket tyder på att en breddning för användandet görs, och antal svenskar som använder mobilt internet kommer att fortsätta öka (\cite{telekomidag}).
 
-Av svenskar mellan 12-79 år är det cirka 54 \% som använder sig av mobilt internet, i jämförelse med 2008 har det ökat med ungefär 70 \%. Under tidiga åren under 2000-talet låg ökningen per år på 1 \%, vilket visar att stora genombrottet har skett under de två senaste åren(\cite[s. 24]{.se}).  Telefonoperatörer har anpassat sig till den nya marknaden och erbjuder abonnemanger vilka innehåller en fast kostnad för surf på ett 3G nät. Då mobilsurf anses som en nödvändig funktion, sätts krav hos mobiloperatörer i form av att hög åtkomlighet och en hög hastighet för 3G nätet(\cite[s. 17]{Cfigroup_2009}). Effekten av att mobilanvändarnas åtkomst till internet ökar, leder till mobilt internet används mer och äldre tjänster ersätts. En tidning i tunnelbanan är inte alls lika vanlig nu som för fem år sen, tidtabell vid busshållplatsen är inte enda sättet att få ut information om busstider och att checka-in inför en flygresa behöver inte nödvändigtvis ske via en check-in disk(\cite{kpcb}).
+Av svenskar mellan 12-79 år är det cirka 54\% som använder sig av mobilt internet, i jämförelse med 2008 har det ökat med ungefär 70\%. Under tidiga åren under 2000-talet låg ökningen per år på 1\%, vilket visar att stora genombrottet har skett under de två senaste åren (\cite[s. 24]{.se}).  Telefonoperatörer har anpassat sig till den nya marknaden och erbjuder abonnemanger vilka innehåller en fast kostnad för surf på ett 3G nät. Då mobilsurf anses som en nödvändig funktion, sätts krav hos mobiloperatörer i form av att hög åtkomlighet och en hög hastighet för 3G nätet (\cite[s. 17]{Cfigroup_2009}). Effekten av att mobilanvändarnas åtkomst till internet ökar, leder till mobilt internet används mer och äldre tjänster ersätts. En tidning i tunnelbanan är inte alls lika vanlig nu som för fem år sen, tidtabell vid busshållplatsen är inte enda sättet att få ut information om busstider och att checka-in inför en flygresa behöver inte nödvändigtvis ske via en check-in disk (\cite{kpcb}).
 
-Konkurrensen som finns i dagens mobilmarknad har tvingat ledande företag att skapa mobiler med ny teknik till allt lägre priser. Pris, tillgänglighet och användbarhet har gjort att användning av internet via mobilen i världen närmar sig antalet användare av internet via en dator(\cite{morganstanley}). Analytiker som förutspådde mobilen till att slå i marknaden har i dagsläget fått det bekräftat och förutspår att användare av mobilt internet i världen kommer att passera antalet användare av Desktop internet  under år 2014(\cite{morganstanley}). Detta kräver från webbplatser att följa målgruppen användare och anpassa webbsidor utifrån de enheter som webbsidor ses ifrån, vilket till stor del är från mobilen.
+Konkurrensen som finns i dagens mobilmarknad har tvingat ledande företag att skapa mobiler med ny teknik till allt lägre priser. Pris, tillgänglighet och användbarhet har gjort att användning av internet via mobilen i världen närmar sig antalet användare av internet via en dator (\cite{morganstanley}). Analytiker som förutspådde mobilen till att slå i marknaden har i dagsläget fått det bekräftat och förutspår att användare av mobilt internet i världen kommer att passera antalet användare av Desktop internet  under år 2014 (\cite{morganstanley}). Detta kräver från webbplatser att följa målgruppen användare och anpassa webbsidor utifrån de enheter som webbsidor ses ifrån, vilket till stor del är från mobilen.
 
 \subsection{Desktopanvändare}
 Att mobilanvändare ökar för varje dag har till viss del ett samband med minskningen av antalet \textit{desktop} användare. Men datorer har i dagsläget funktioner som gör det osannolikt för mobiler att helt kunna ersätta datorer, funktioner som kräver att man sitter vid en dator och på så sätt sker informationssökandet i webben via desktop. 
 
 Webbdesignen på en mobil är kompakt och uppfyller den nödvändigaste användbarheten.
-På desktop är designen mer informationsrikt, vilket ger en större inblick till webbsidans innehåll och en mer simpel navigering på webbsidan. Det gör att en användare beroende på komplexitet och säkerhet av handlingen väljer att utföra den via en desktop(\cite{userbeh}), än via mobilen. En sådan handling kan t.ex. vara bankärenden eller webshopping. Om bankärendet gäller en översikt av saldo i kontot eller överföring mellan egna konton, anses mobilen vara en smidig enhet att använda sig av. Däremot om handlingen innefattar att betala räkningar eller överföra stora summor pengar finns behovet av att utföra dessa handlingar via desktop, då det ger en större säkerhet och en mer simpel navigering på webbsidan. Även webshop faller i samma kategori, då användare väljer att söka information om produkten via mobilen, men väljer sedan att utföra köpet via desktop eller i affären(\cite{userbeh}). Detta tyder på att användare av mobilt- eller desktop internet inte är endera, utan är användare utav båda, beroende på situation, miljö och kontext på webbsidan.
+På desktop är designen mer informationsrikt, vilket ger en större inblick till webbsidans innehåll och en mer simpel navigering på webbsidan. Det gör att en användare beroende på komplexitet och säkerhet av handlingen väljer att utföra den via en desktop (\cite{userbeh}), än via mobilen. En sådan handling kan t.ex. vara bankärenden eller webshopping. Om bankärendet gäller en översikt av saldo i kontot eller överföring mellan egna konton, anses mobilen vara en smidig enhet att använda sig av. Däremot om handlingen innefattar att betala räkningar eller överföra stora summor pengar finns behovet av att utföra dessa handlingar via desktop, då det ger en större säkerhet och en mer simpel navigering på webbsidan. Även webshop faller i samma kategori, då användare väljer att söka information om produkten via mobilen, men väljer sedan att utföra köpet via desktop eller i affären (\cite{userbeh}). Detta tyder på att användare av mobilt- eller desktop internet inte är endera, utan är användare utav båda, beroende på situation, miljö och kontext på webbsidan.
 
 Det finns ingen grundlig faktum som tyder på att mobilt internet kommer att ta över all desktop internet användande, endast att de kan bli fler. Därför krävs det att man vidgar vyerna kring webutveckling och lösningar som gynnar både mobil- och desktop användning av internet. För även om mobila användare blir fler, så går det inte att förbise desktop användare.
 \newpage
 
 \section{Teori}
-I nedanstående kapitel beskrivs  den kunskap som krävs för att upprätthålla ett responsivt tillvägagångsätt för både \textit{desktop-first} och \textit{mobile-first}.
+I nedanstående kapitel beskrivs den teori som krävs för att upprätthålla ett responsivt tillvägagångsätt för både \textit{desktop-first} och \textit{mobile-first}. Först kommer verktygen att beskrivas mer ingående för att sedan övergå till hur dessa samverkar med responsive web design.
+
+\subsection{Verktyg}
+
+Inom webdesignsutveckling används främst verktygen HTML, CSS och javascript, vilket är det verktyg som kommer att användas under implementeringsfasen i examensarbetet.
+
+\subsubsection{HTML}
+HTML står för \textit{Hypertext Markup Language} och är ett format som definierar strukturen och logiken på en webbsida. HTML beskriver strukturen genom att märka upp olika delar av sidan med hjälp av \textit{taggar} som beskriver typen av ett element. En webbläsare läser av HTML-koden och kan på så sätt rendera sidan med önskvärd layout.
+
+Det finns olika sorters taggar inom HTML, stycke, rubrik, tabeller, länkar, listor, sektioner är en av dessa. Inom webbutveckling har användning utav taggen \textit{<div>} blivit vanlig för att strukturera upp en sida i olika sektioner (\cite{divtable}), vartefter kan en sektion innehålla andra element.
+
+
+\begin{verbatim}
+<div> 
+          <h1> Mobile-first eller Desktop-first?</h1>
+          <p>Frågan en webutvecklare ställer sig inför skapandet av
+           en responsiv webbsida
+          </p>
+</div>
+\end{verbatim}
+\vspace{1cm}
+
+I ovanstående HTML-kod har vi definierat en sektion på webbsidan med \textit{<div>} taggen, inom den sektionen har vi en rubrik som definieras med taggen \textit{<h1>} och ett stycke som definieras med taggen \textit{<p>}. Taggarna i html-koden bildar tillsammans strukturen på sidan, däremot så har inte html-koden någon kontroll över utseendet för taggarna, det sköts utav CSS.  
+
+\subsubsection{CSS}
+CSS står för \textit{Cascading Style Sheets} och är ett språk som beskriver utseendet på en webbsida.
+Med hjälp av CSS-kod kan olika element i html-koden få ett speciellt utseende i form av storlek, färg och position. CSSen ser till att ge elementen egenskaper, vilket kan definieras direkt i taggen t.ex \textit{<p style=”color:blue; width:50px”>Frågan en webbutvecklare ställer sig inför skapandet av en responsiv webbsida</p>}, vilket betyder att elementet \textit{<p>} kommer att ha bredden 50px och texten kommer att vara blå. Att definiera utseendet på det sättet kallas för \textit{inline-styling}. Man kan även i html filen, definiera utseendet i \textit{<head>} taggen, vilket kallas för \textit{internal styling} (\cite{css}), det betyder då att alla taggar i html filen delar egenskapen som är utsatt, i det här fallet att texten i \textbf{alla} \textit{<p>} taggar i html filen har blå text och bredden 50px:
+
+\vspace{0.5cm}
+\begin{verbatim}
+<head>
+           <style>
+           p {
+           color:blue;
+           width:50px;
+           }
+           </style>
+</head>
+\end{verbatim}
+\vspace{0.5cm}
+
+Tredje sättet är att definiera det i en egen css-fil och länka till det från \textit{<head>} taggen i html-koden, vilket är det vanligaste av de tre sätten och kallas för \textit{external styling}. 
+\vspace{0.3cm}
+\begin{verbatim}
+<link rel="stylesheet" type="text/css" href="main.css">
+\end{verbatim}
+\vspace{0.5cm}
+
+I css-kod definieras utseendet av olika taggar. Det finns möjlighet att definiera samma tagg med olika utseenden, detta görs genom att sätta \textit{Klasser} och \textit{IDs} för varje element. Ett element kan ha olika klasser eller ids, vilket definieras med ett utseende i css-koden. Det gör att varje tagg som delar klassen, delar även utseendet:
+
+\vspace{0.3cm}
+I html filen:
+
+\begin{verbatim}
+<div id=”main-container”>
+          <p class=”paragraf”>Mobile-first vs Desktop-first</p>
+</div>
+\end{verbatim}
+\vspace{0.5cm}
+I css filen:
+
+\begin{verbatim}
+#main-container {
+        width:50%;
+        background-color:grey;
+}
+
+.paragraf{
+        font-size: 125%;
+        color:black;
+}
+\end{verbatim}
+\vspace{0.5cm}
+
+I ovanstående kod kommer sektionen få utseendet som definieras som ID: \textit{main} i css-koden och paragrafen utseendet som definieras som Klass: \textit{paragraf}.
+
+
+Dessa tre olika sätt syns i en browser enligt prioritering, inline-styling, internal-styling och sist external-styling, det betyder att utseende som skrivs i inline-styling kommer att skriva över utseende som har definierats i internal- och external-styling. Men oftast används external-styling i första hand för att utseendet inte behövs definieras flera gånger, allt är samlat i en fil och det går snabbare att ladda sidans utseende (\cite{css}). Därmed hålls det ur en webbutvecklares synvinkel, en bra struktur. Vilket tillåter webbutvecklaren att upprätthålla teknikerna fluid grid, fluid images och på ett enkelt sätt använda sig av media queries vid implementering av en responsiv webbplats.
+
+\subsubsection{JavaScript}
+\textit{JavaScript} är ett scriptspråk som inom webbutveckling främst används för att hantera dynamiska funktioner för beteendet hos en webbsida, beteenden som skapas från klientsidan. Med JavaScript kan man t.ex. läsa en användarens klick i webbsidan och utifrån det kalla på funktioner som kan ändra webbsidans innehåll eller utseende. Eftersom JavaScript är ett skriptspråk behövs ingen kompilering och koden kan skrivas direkt i html-filen.
+
+För att JavaScript skall fungera korrekt krävs det dock att webbläsaren stödjer det. I vissa fall har webbläsaren den funktionen men har den avstängd (\cite[s.13]{sara_ingmar}). Tidigare ett problem varit att mobilwebbläsare inte har haft stöd för JavaScript, vilket har lett till att menyer och pop-up fönster inte har fungerat korrekt när man surfar till sidan via mobilen, men tekniken har utvecklats och numera klarar mobila webbläsare av JavaScript. Det finns fortfarande en del problem när det kommer till mer komplicerade JavaScript funktioner och bibliotek som mobilwebbläsare inte kan hantera (\cite{quirksmode}). Vid webbsidor som har helt separata mobilsidor kan det vara en fördel då man väljer att inte läsa in all JavaScript som behövs, med responsiva webbsidor använder man samma webbsida för varje enhet, vilket leder till att en mobilenhet laddar all JavaScript vilket försämra webbsidans respons. En webbutvecklare måste ha i åtanke och redan från början utveckla en hemsida vars JavaScript inte kommer i vägen för den responsiva webbsidans funktionalitet.
+
 \subsection{Responsive web design}
-\textit{Responsive web design} är ett koncept som innebär att gränssnittet på en webbsida ändras beroende på skärmstorlek, vilket således ger möjligheten att ha olika layout på en och samma webbsida anpassat efter en enhet. Konceptet definierades av Ethan Marcotte (2010) i en artikel kallat \textit{A List Apart}, som sedan blev en del av boken \textit{”responsive web design”} där teorier och praktiska exempel används för att förklara begreppet. 
+\textit{Responsive web design} är ett koncept som innebär att gränssnittet på en webbsida ändras beroende på skärmstorlek, vilket således ger möjligheten att ha olika layout på en och samma webbsida anpassat efter en enhet. Konceptet definierades av \cite{resp} i en artikel kallat \textit{A List Apart}, som sedan blev en del av boken \textit{”responsive web design”} där teorier och praktiska exempel används för att förklara begreppet. 
 
 Syftet med Responsive Web Design är att kunna rendera olika delar av sidan beroende på skärmstorlek för att ge en optimal vy för den enhet webbsidan ses ifrån. Om tre element renderas bredvid varandra på en desktop sida, så vore det optimala för en mobilsida att kunna renderar elementen under varandra och även skala ner de till en rimlig storlek. På så sätt försvinner inte artiklarna från webläsarfönstret eller tar för stor plats på skärmen.
 
-Då endast layouten på sidan ändras behövs inga särskilda versioner för varje enhet, vilket gör det möjligt för en webbutvecklare att på ett enkelt sätt utföra en ändring i en fil, istället för antalet versioner. Däremot krävs en flexibel grundlayout för att responsive web design skall fungera, vilket enligt Ethan görs genom tre grundtekniker, \textit{Fluid Grid}, \textit{Fluid Images} och \textit{Media Queries}(\cite{resp}).
+Då endast layouten på sidan ändras behövs inga särskilda versioner av webbsidan för varje enhet, vilket gör det möjligt för en webbutvecklare att på ett enkelt sätt utföra en ändring i en fil, istället för antalet versioner. Däremot krävs en flexibel grundlayout för att responsive web design skall fungera, vilket enligt Marcotte görs genom tre grundtekniker, \textit{Fluid Grid}, \textit{Fluid Images} och \textit{Media Queries} (2011), vilka kommer att beskrivas mer ingående härnäst.
 
 \subsubsection{Fluid Grid}
-På en webbsida kan storleken på element definieras på olika sätt. Ett vanligt sätt att definiera element är med bredd och höjd i pixlar. När det definieras i pixlar betyder det att storleken på elementet är förutbestämd vare sig upplösning eller storlek på skärm. I tidigare skede informerade webbutvecklare användare vilken upplösning som renderade sidan på bästa sätt och sedan var upp till användaren att ändra upplösning på skärmen för att få den önskade layouten på sidan(\cite[s. 6]{resp}). I dagsläget finns många olika skärmar, och många olika alternativ till upplösning vilket gör en förutbestämd storlek inte lika optimalt. 
+På en webbsida kan storleken på element definieras på olika sätt. Ett vanligt sätt att definiera element är med bredd och höjd i pixlar. När det definieras i pixlar betyder det att storleken på elementet är förutbestämd vare sig upplösning eller storlek på skärm. I tidigare skede informerade webbutvecklare användare vilken upplösning som renderade sidan på bästa sätt och sedan var upp till användaren att ändra upplösning på skärmen för att få den önskade layouten på sidan (\cite[s. 6]{resp}). I dagsläget finns många olika skärmar, och många olika alternativ till upplösning vilket gör en förutbestämd storlek inte lika optimalt. 
 
-Fluid Grid är en teknik vilken använder sig av procentsatser istället för pixlar vid definering av ett elements storlek. När procentsatser används förstoras eller förminskas elementets storlek relativt till webbläsarfönstrets höjd och bredd, vilket gör att sidan istället anpassas efter användaren. Om ett element skall täcka hela bredden på skärmen, sätts bredden till 100 \%, en fjärde del av skärmen, 25 \% osv. 
-För att kunna bestämma elementets storlek i procentform härleder Ethan Marcotte ett sätt vilket innebär att, i pixelstorlek, dividera elementets storlek med behållarens storlek. Det ger ett resultat i procent, där elementet storlek ändras relativt till hållarens bredd och höjd(\cite[s. 23]{resp}).
+Fluid Grid är en teknik vilken använder sig av procentsatser istället för pixlar vid definering av ett elements storlek. När procentsatser används förstoras eller förminskas elementets storlek relativt till webbläsarfönstrets höjd och bredd, vilket gör att sidan istället anpassas efter användaren. Om ett element skall täcka hela bredden på skärmen, sätts bredden till 100\%, en fjärde del av skärmen, 25\% osv. 
+För att kunna bestämma elementets storlek i procentform härleder Marcotte ett sätt vilket innebär att, i pixelstorlek, dividera elementets storlek med behållarens storlek. Det ger ett resultat i procent, där elementet storlek ändras relativt till hållarens bredd och höjd (\cite[s. 23]{resp}).
 
 \subsubsection{Fluid Images}
 Fluid Images bygger på samma princip som Fluid Grid, däremot är lösningen mer komplex då det innefattar skalning av bilder. Om en bild skalas på fel sätt leder detta till att bilden ser för utsträckt eller för intryckt ut, men om skalning inte görs, kan en bild i princip ta upp all plats på webbsidan och även försvinna ut i kanterna. Inom responsive web design används Fluid Images, vilket innebär en flexible hållare med en önskad storlek, med en bild anpassad till hållaren.  
 
-Lösningen som tas upp av Ethan Marcotte är användningen av egenskapen "\textbf{max-width: 100 \%"} på bilden(\cite[s. 45]{resp}). Med egenskapen "\textbf{"max-width:100 \%"}  talar man om för webbläsaren att bilden skall skalas efter hållaren men endast till max av den originella storleken på bilden. Egenskapen \textbf{”width:100\%”} innebär att bilden bara får anpassa sig helt efter hållaren, samtidigt som den får en normal skalning när storleken på webbläsaren minskar och hållaren krymper. Egenskapen \textbf{Max} i \textbf{”max-width”} innebär att bilden aldrig blir större än bildens verkliga storlek. Om \textit{”max”} inte sätts, finns risk att bilden skalas ut, vilket gör pixelkanter synliga. Däremot krävs det att man har en bild som redan från början är av önskad storlek. En för liten bild kommer den inte att förstoras då den som störst kan vara 100 \% av bildens ursprungliga storlek. Detta är ett sätt att ta använda sig av Fluid Images som fungerar för responsiva webbsidor, det kan uppstå andra komplikationer i form av att bilden inte skalas enligt önskemål där andra lösningar krävs, men grundtanken för att upprätthålla fluid images är att bilder skalas efter webbläsarfönstrets storlek.
+Lösningen som tas upp av Marcotte är användningen av egenskapen "\textbf{max-width: 100\%"} på bilden (\cite[s. 45]{resp}). Med egenskapen "\textbf{"max-width:100\%"}  talar man om för webbläsaren att bilden skall skalas efter hållaren men endast till max av den originella storleken på bilden. Egenskapen \textbf{”width:100\%”} innebär att bilden bara får anpassa sig helt efter hållaren, samtidigt som den får en normal skalning när storleken på webbläsaren minskar och hållaren krymper. Egenskapen \textbf{Max} i \textbf{”max-width”} innebär att bilden aldrig blir större än bildens verkliga storlek. Om \textit{”max”} inte sätts, finns risk att bilden skalas ut, vilket gör pixelkanter synliga. Däremot krävs det att man har en bild som redan från början är av önskad storlek. En för liten bild kommer den inte att förstoras då den som störst kan vara 100\% av bildens ursprungliga storlek. Detta är ett sätt att ta använda sig av Fluid Images som fungerar för responsiva webbsidor, det kan uppstå andra komplikationer i form av att bilden inte skalas enligt önskemål där andra lösningar krävs, men grundtanken för att upprätthålla fluid images är att bilder skalas efter webbläsarfönstrets storlek.
 
 \subsubsection{Media Queries}
-Fluid Grid och Fluid Images skapar tillsammans en del av en responsiv sida då storleken på element i sidan renderas utifrån storleken på skärmen. Minskningen eller förstoringen av elementen fungerar däremot endast till en viss gräns. Vid tillfällen då storleken på webbläsaren för liten, finns risk att element kommer för nära varandra och skapar konflikt i layouten, det leder till att element hamnar på felaktiga positioner och ger en vy som designmässigt ser förstörd ut. Blir storleken däremot för stor, finns risk att \textit{max-width} på bilderna uppnås och stannar i storlek, medan andra element följer förstoringen hos webbläsaren, blir för stora och skapar en osymmetri i layouten. Media Queries är en lösning som tillåter element att ha olika värden beroende på skärmstorlek(\cite[s. 65]{resp}).
+Fluid Grid och Fluid Images skapar tillsammans en del av en responsiv sida då storleken på element i sidan renderas utifrån storleken på skärmen. Minskningen eller förstoringen av elementen fungerar däremot endast till en viss gräns. Vid tillfällen då storleken på webbläsaren för liten, finns risk att element kommer för nära varandra och skapar konflikt i layouten, det leder till att element hamnar på felaktiga positioner och ger en vy som designmässigt ser förstörd ut. Blir storleken däremot för stor, finns risk att \textit{max-width} på bilderna uppnås och stannar i storlek, medan andra element följer förstoringen hos webbläsaren, blir för stora och skapar en osymmetri i layouten. Media Queries är en lösning som tillåter element att ha olika värden beroende på skärmstorlek (\cite[s. 65]{resp}).
 
 Inom responsive web design är bredden och höjden viktiga egenskaper då de avgör hur mycket av en sida skall synas på webläsarfönstret.  Media queries är anrop som görs i CSS filen, där man kollar antingen höjden och eller bredden för att utföra nödvändiga ändringar i layouten för att upprätthålla en bra design. Tillsammans med Fluid Grid och Fluid Image skapar Media Queries en responsiv webbdesign. 
 \newpage
-Vid användning av fluid grid och fluid image sätts egenskaper hos element i procentform, t.ex 50 \%. Med en centrering på elementet, blir resultatet en ruta i mitten av skärmen som täcker 50 \% och har 25 \% utrymme på var sida. När webbläsarfönstret minskas till storleken av en mobilskärm anpassas elementet relativt till förändringen, då fluid grid tekniken används för bredden. Vilket ger oss dessa två vyer, ena med webbläsarfönstret i storlek av en skrivbordsskärm och den andra i storlek av en mobilskärm:
+Vid användning av fluid grid och fluid image sätts egenskaper hos element i procentform, t.ex 50\%. Med en centrering på elementet, blir resultatet en ruta i mitten av skärmen som täcker 50\% och har 25\% utrymme på var sida. När webbläsarfönstret minskas till storleken av en mobilskärm anpassas elementet relativt till förändringen, då fluid grid tekniken används för bredden. Vilket ger oss dessa två vyer, ena med webbläsarfönstret i storlek av en skrivbordsskärm och den andra i storlek av en mobilskärm:
 
 \vspace{0.5cm}
 \begin{figure}[h]
@@ -169,7 +267,7 @@ Vid användning av fluid grid och fluid image sätts egenskaper hos element i pr
 \includegraphics[scale=0.30]{pics/small.png}%
 }
 \end{figure}
-\hspace{1.5cm}Figur 1: Utifrån desktop \hspace{4.8cm} Figur 2: Utifrån mobilen
+\hspace{1.5cm}Figur 2: Utifrån desktop \hspace{4.8cm} Figur 3: Utifrån mobilen
 
 \vspace{1cm}
 Denna design har endast ett element med egenskaperna:
@@ -179,13 +277,13 @@ Denna design har endast ett element med egenskaperna:
 
 div {	
 	        margin: 0 auto; //centrerad
-	        width:50 %; //bredd
+	        width:50%; //bredd
 	        height:500px; //höjd
 }
 
 \end{verbatim}
 
-Designen fungerar bra för skrivbordsskärmar\textit{(Figur 1)}, då rutan är centrerad och symmetrisk. 25 \% av utrymmet på var sida av rutan gör designen läsvänlig och användbart då fokusering sker i mitten av skärmen där förmodlingen information kommer att samlas. Däremot är den inte lika optimal när skärmen blir mindre\textit{(Figur 2)}. Rutan är fortfarande 50\% av skärmen, vilket gör att  designen blir kompakt i ett utrymme där förmedling av mycket information sker. 50\% procent av skärmen går till spillo åt utrymme mellan rutan och kanter, vilket får rutan att se ihoptryckt ut. Därav en försämring på design och användbarhet när webbsidan ses ifrån en mobilskärm.
+Designen fungerar bra för skrivbordsskärmar\textit{(Figur 2)}, då rutan är centrerad och symmetrisk. 25\% av utrymmet på var sida av rutan gör designen läsvänlig och användbart då fokusering sker i mitten av skärmen där förmodlingen information kommer att samlas. Däremot är den inte lika optimal när skärmen blir mindre\textit{(Figur 3)}. Rutan är fortfarande 50\% av skärmen, vilket gör att  designen blir kompakt i ett utrymme där förmedling av mycket information sker. 50\% procent av skärmen går till spillo åt utrymme mellan rutan och kanter, vilket får rutan att se ihoptryckt ut. Därav en försämring på design och användbarhet när webbsidan ses ifrån en mobilskärm.
 \newpage
 Med media anrop i CSSen, kallat för media queries, tillåter vi att värden hos ”div” elementet skrivs över när bredden på webbläsaren underskrider 380px.
 
@@ -200,7 +298,7 @@ Med media anrop i CSSen, kallat för media queries, tillåter vi att värden hos
 \end{verbatim}
 \vspace{0.5cm}
 
-Med media anropet kommer \textit{”width”} och \textit{”margin”} skrivas över när skärmstorleken är 380px eller mindre, \textit{”height”} förblir detsamma. Utrymmet mellan kanterna och rutan ändras till "0" och bredden till "100 \%", vilket innebär hela skärmbredden. Detta leder till att sidan får andra designvärden när den ses från en mobil och andra enheter där skärmen har som störst 380px i bredd. Det ger en mer optimal lösning i både användbarhets och design perspektiv, då mer plats ges åt information och gör navigeringen lättare för en användare.
+Med media anropet kommer \textit{”width”} och \textit{”margin”} skrivas över när skärmstorleken är 380px eller mindre, \textit{”height”} förblir detsamma. Utrymmet mellan kanterna och rutan ändras till "0" och bredden till "100\%", vilket innebär hela skärmbredden. Detta leder till att sidan får andra designvärden när den ses från en mobil och andra enheter där skärmen har som störst 380px i bredd. Det ger en mer optimal lösning i både användbarhets och design perspektiv, då mer plats ges åt information och gör navigeringen lättare för en användare.
 
 \vspace{1cm}
 \begin{figure}[h]
@@ -208,14 +306,14 @@ Med media anropet kommer \textit{”width”} och \textit{”margin”} skrivas 
 \includegraphics[scale=0.25]{pics/mobilesmall.png}
 }
 \end{figure}
-\centerline{Figur 3: Resultatet vid användning av media queries}
+\centerline{Figur 4: Resultatet vid användning av media queries}
 \vspace{0.5cm}
 
 På så sätt kan samma CSS-fil låta element ha olika värden på egenskaper beroende på webbläsarstorlek. Responsive web design fyller sin funktion genom att tillföra en användbar design oavsett enhet som används för att se webbsidan. 
 \newpage
 
 \subsection{Mobile-first}
-Mobile-first metoden bygger på att man skapar en webbsida anpassad för mobilskärmen först, för att sedan med hjälp av media queries och en flexibel layout renderera elementen på webbsidan desto större webbläsarfönstret blir.  På så sätt är grund layouten designad för en mobil. Mobile-first anses som en rimlig utvecklingsmetod då man tar till hänsyn antalet mobilanvändare och det behov som finns vid navigering och informationsintagelse från mobilskärmar.  Det betyder att innehåll prioriteras då bristen på plats är ett faktum och fokus läggs på de delar som informationsmässigt är de viktigaste(\cite{Mobilefirst}). Det behöver inte nödvändigtvis betyda att hänsyn till design för mobilen inte tas i desktop-first, utan snarare att implementationen för mobilskärm sker vid ett senare skede i utvecklingen än vid användning av mobile-first.
+Mobile-first metoden bygger på att man skapar en webbsida anpassad för mobilskärmen först, för att sedan med hjälp av media queries och en flexibel layout renderera elementen på webbsidan desto större webbläsarfönstret blir.  På så sätt är grund layouten designad för en mobil. Mobile-first anses som en rimlig utvecklingsmetod då man tar till hänsyn antalet mobilanvändare och det behov som finns vid navigering och informationsintagelse från mobilskärmar.  Det betyder att innehåll prioriteras då bristen på plats är ett faktum och fokus läggs på de delar som informationsmässigt är de viktigaste (\cite{Mobilefirst}). Det behöver inte nödvändigtvis betyda att hänsyn till design för mobilen inte tas i desktop-first, utan snarare att implementationen för mobilskärm sker vid ett senare skede i utvecklingen än vid användning av mobile-first.
 
 Kodmässigt är grunden anpassad för mobilen, layout och struktur är helt designat till mobil där förändringen sker vid ett media anrop som reagerar på när webbläsarfönstret blir större. Media querie anroppet ser till att skriva om värden hos valda element så att de anpassas utifrån storleken på en skrivbordsskärm.
  
@@ -230,10 +328,10 @@ Kodmässigt är grunden anpassad för mobilen, layout och struktur är helt desi
 \end{verbatim}
 
 \vspace{0.5cm}
-I fallet ovan sker ett anrop när bredden på webbsidan är som minst 480px, som gör att elementen med klassen main får "\textit{margin"} och "\textit{width"} skrivs över med nya värden. I fall då mobiler inte klarar av att läsa media queries(\cite{adaptiveresp}), vilket i dagsläget är få, är detta en optimal lösning då grunden redan är skrivet för mobilen och en läsning av media queries endast kommer att krävas från en skrivbordsskärm vilket de flesta webbläsare klarar av.
+I fallet ovan sker ett anrop när bredden på webbsidan är som minst 480px, som gör att elementen med klassen main får "\textit{margin"} och "\textit{width"} skrivs över med nya värden. I fall då mobiler inte klarar av att läsa media queries (\cite{adaptiveresp}), vilket i dagsläget är få, är detta en optimal lösning då grunden redan är skrivet för mobilen och en läsning av media queries endast kommer att krävas från en skrivbordsskärm vilket de flesta webbläsare klarar av.
 
 \subsection{Desktop-first}
-Desktop-first metoden bygger på att man utvecklar för skrivbordskärmen först och därefter rendererar sidan desto mindre skärmen blir. Det behöver inte nödvändigtvis betyda att en färdig sida för desktop i efterhand designas om till mobil, utan tanken för mobil finns redan från början men implementeringen sker i synnerhet för skrivbordsskärmen först. Webbsidor som i efterhand skapas till mobilen, brukar innebära en separat mobilsida då refaktoreringen av kod i samband med att förvandla sidan till responsiv kan innebära en del komplikationer(\cite{adaptiveresp}).  
+Desktop-first metoden bygger på att man utvecklar för skrivbordskärmen först och därefter rendererar sidan desto mindre skärmen blir. Det behöver inte nödvändigtvis betyda att en färdig sida för desktop i efterhand designas om till mobil, utan tanken för mobil finns redan från början men implementeringen sker i synnerhet för skrivbordsskärmen först. Webbsidor som i efterhand skapas till mobilen, brukar innebära en separat mobilsida då refaktoreringen av kod i samband med att förvandla sidan till responsiv kan innebära en del komplikationer (\cite{adaptiveresp}).  
 
 Kodmässigt är grunden anpassad för skrivbordsskärmen. Det vill säga att media anrop sker när skärmbredden når en minimum gräns, där media queries ser till att skriva om värden på valda element för anpassa de efter mobilen istället för skrivbordsskärmen.
 
@@ -280,107 +378,33 @@ Desktop-first är första implementeringsmetoden som utfördes utifrån ritninga
 \subsubsection{Webbsidan i Mobile-first}
 Mobile-first är andra implementeringsmetoden och utvecklades efter desktop-first. Implementationen genomfördes direkt efter implementationen för desktop-first, då analysen av implementeringsfasen skulle göras efter att båda rapporterna för utförandena var slutförda. Under implementeringen utvecklades även här webbsidan responsivt från början i form av fluid grids och fluid images. När webbsidan var klar för mobilen, påbörjas utvecklingen med media queries för att få en desktopvy utav de element som har utvecklats hos mobilvyn.
 
-\subsection{Verktyg}
 
-Inom webdesignsutveckling används främst verktygen HTML, CSS och javascript, vilket är det verktyg som kommer att användas under implementeringsfasen i examensarbetet.  I kommande sektion av rapporten kommer verktygen att förklaras för att få en bättre förståelse till kod och termer som används.
-
-\subsubsection{HTML}
-HTML står för \textit{Hypertext Markup Language} och är ett format som definierar strukturen och logiken på en webbsida. HTML beskriver strukturen genom att märka upp olika delar av sidan med hjälp av \textit{taggar} som beskriver typen av ett element. En webbläsare läser av HTML-koden och kan på så sätt rendera sidan med önskvärd layout.
-
-Det finns olika sorters taggar inom HTML, stycke, rubrik, tabeller, länkar, listor, sektioner är en av dessa. Inom webbutveckling har användning utav taggen \textit{<div>} blivit vanlig för att strukturera upp en sida i olika sektioner(\cite{divtable}), vartefter kan en sektion innehålla andra element.
-
-
-\begin{verbatim}
-<div> 
-          <h1> Mobile-first eller Desktop-first?</h1>
-          <p>Frågan en webutvecklare ställer sig inför skapandet av
-           en responsiv webbsida
-          </p>
-</div>
-\end{verbatim}
-\vspace{1cm}
-
-I ovanstående HTML-kod har vi definierat en sektion på webbsidan med \textit{<div>} taggen, inom den sektionen har vi en rubrik som definieras med taggen \textit{<h1>} och ett stycke som definieras med taggen \textit{<p>}. Taggarna i html-koden bildar tillsammans strukturen på sidan, däremot så har inte html-koden någon kontroll över utseendet för taggarna, det sköts utav CSS.  
-
-\subsubsection{CSS}
-CSS står för \textit{Cascading Style Sheets} och är ett språk som beskriver utseendet på en webbsida.
-Med hjälp av CSS-kod kan olika element i html-koden få ett speciellt utseende i form av storlek, färg och position. Det finns olika sätt att definiera css, man kan definiera det direkt i taggen t.ex \textit{<p style=”color:blue; width:50px”>Frågan en webbutvecklare ställer sig inför skapandet av en responsiv webbsida</p>} vilket kallas för \textit{inline-styling}. Man kan även i html filen, definiera utseendet i \textit{<head>} taggen, vilket kallas för \textit{internal styling}(\cite{css}):
-
-\vspace{0.5cm}
-\begin{verbatim}
-<head>
-           <style>
-           p {
-           color:blue;
-           width:50px;
-           }
-           </style>
-</head>
-\end{verbatim}
-\vspace{0.5cm}
-
-På så sätt får alla \textit{<p>} taggar i html-koden egenskaperna som sätts. Trejde sättet är att definiera det i en egen css-fil och länka till det från \textit{<head>} taggen i html-koden, vilket är det vanligaste av de tre sätten och kallas för \textit{external styling}. 
-\vspace{0.3cm}
-\begin{verbatim}
-<link rel="stylesheet" type="text/css" href="main.css">
-\end{verbatim}
-\vspace{0.5cm}
-
-I css-kod definieras utseendet av olika taggar. Det finns möjlighet att definiera samma tagg med olika utseenden, detta görs genom att sätta \textit{Klasser} och \textit{IDs} för varje element. Ett element kan ha olika klasser eller ids, vilket definieras med ett utseende i css-koden. Det gör att varje tagg som delar klassen, delar även utseendet:
-
-\vspace{0.3cm}
-I html filen:
-
-\begin{verbatim}
-<div id=”main-container”>
-          <p class=”paragraf”>Mobile-first vs Desktop-first</p>
-</div>
-\end{verbatim}
-\vspace{0.5cm}
-I css filen:
-
-\begin{verbatim}
-#main-container {
-        width:50%;
-        background-color:grey;
-}
-
-.paragraf{
-        font-size: 125%;
-        color:black;
-}
-\end{verbatim}
-\vspace{0.5cm}
-
-I ovanstående kod kommer sektionen få utseendet som definieras som ID: \textit{main} i css-koden och paragrafen utseendet som definieras som Klass: \textit{paragraf}.
-
-
-Dessa tre olika sätt att definiera utseendet visas enligt prioritering, inline-styling kod först, sedan internal och sist external. Anledningen till att external väljs främst är för att utseendet inte behövs definieras flera gånger, allt är samlat i en fil och det går snabbare att ladda sidans utseende(\cite{css}). Därmed hålls det ur en webbutvecklares synvinkel, en bra struktur. Vilket tillåter webbutvecklaren att på upprätthålla teknikerna fluid grid, fluid images och på ett enkelt sätt använda sig av media queries vid implementering av en webbsida.
-
-\subsubsection{JavaScript}
-\textit{JavaScript} är ett scriptspråk som inom webbutveckling främst används för att hantera dynamiska funktioner för beteendet hos en webbsida, beteenden som skapas från klientsidan. Med JavaScript kan man t.ex. läsa en användarens klick i webbsidan och utifrån det kalla på funktioner som kan ändra webbsidans innehåll eller utseende. Eftersom JavaScript är ett skriptspråk behövs ingen kompilering och koden kan skrivas direkt i html-filen.
-
-För att JavaScript skall fungera korrekt krävs det dock att webbläsaren stödjer det. I vissa fall har webbläsaren den funktionen men har den avstängd(\cite[s.13]{sara_ingmar}). Tidigare ett problem varit att mobilwebbläsare inte har haft stöd för JavaScript, vilket har lett till att menyer och pop-up fönster inte har fungerat korrekt när man surfar till sidan via mobilen, men tekniken har utvecklats och numera klarar mobila webbläsare av JavaScript. Det finns fortfarande en del problem när det kommer till mer komplicerade JavaScript funktioner och bibliotek som mobilwebbläsare inte kan hantera(\cite{quirksmode}). Vid webbsidor som har helt separata mobilsidor kan det vara en fördel då man väljer att inte läsa in all JavaScript som behövs, med responsiva webbsidor använder man samma webbsida för varje enhet, vilket leder till att en mobilenhet laddar all JavaScript vilket försämra webbsidans respons. En webbutvecklare måste ha i åtanke och redan från början utveckla en hemsida vars JavaScript inte kommer i vägen för den responsiva webbsidans funktionalitet.
 
 \newpage
 
 \section{Resultat}
+
+I detta kapitel har resultat samlats från litteraturstudien samt implementationen av prototypen.
+Resultatet från litteraturstudien är uppdelat i två delar, där ena består av samlade synpunkter kring mobile- och desktop-first utifrån webbutvecklare samt interaktionsdesigners perspektiv. Andra delen av litteraturstudien består av en studie kring användningsområdet för mobilt internet, som visar hur mobilt internet används i nuläget beroende på målgrupp, typ av webbsida samt den miljön där webbsidan används. Studien kring användningsområdet för mobilt internet har legat till grund för typen av webbsida som har använts som prototyp och implementerats i mobile- och desktop-first. Resultat från implementationen har samlats i form av responstid, kodgranskning och implementeringstid, vilket har jämförts mellan metoderna. Mer ingående vad resultatet har för betydelse diskuteras i nästkommande kapitel.
+
+
 \subsection{Litteraturstudie}
-\textit{I detta kapitel har resultat samlats från litteraturstudien som gjordes uppdelat i ''synpunkter angående mobile-first och desktop-first'' samt ''användningsområden för mobilt internet''.}
+I nedanstående del har resultat samlats från litteraturstudien som gjordes uppdelat i ''synpunkter angående mobile-first och desktop-first'' samt ''användningsområden för mobilt internet''.
 \subsubsection{Samlade synpunkter kring Mobile-first och Desktop-first}
-Utifrån de 13 olika källor som har samlats och analyserats säger 11 att mobile-first kommer att vara, om inte redan är, nästa stora teknik inom responsiv web design. Den främsta anledningen som poängteras är att mobilt internet börjar bli så oerhört stort att webbutvecklingen måste finna ett anpassningssätt för det behov som finns hos mobilanvändare utan att gå miste om det som har funnits en längre tid, desktopanvändare. Anpassningen bör ske rikitat mot att vid ett tidigt skede ta sig över barriärer så som mindre skärmar, sämre prestanda och begränsad internethastighet(\cite{themepartner}), där statistik visar att om en användare finner mobilvyn slö, finns även risken att desktopvyn tappar användarens intresse(\cite{zurbword}). Mobilanvändare kräver i dagsläget snabb respons från mobilsidor, då många aktiviteter sker i tidspressade situationer(\cite{techradar}). Med desktop-first finns risk att man skapar en stor sida med många element som även laddas i mobilvyn, vare sig dessa visas eller inte. Det försämrar mobilvyns respons och skapar även en kompakt, komplicerad design(\cite{zurbword}) eller en nerskalad version av desktopvyn.
+Utifrån de 13 olika källor som har samlats och analyserats säger 11 att mobile-first kommer att vara, om inte redan är, nästa stora teknik inom responsiv web design. Den främsta anledningen som poängteras är att mobilt internet börjar bli så oerhört stort att webbutvecklingen måste finna ett anpassningssätt för det behov som finns hos mobilanvändare utan att gå miste om det som har funnits en längre tid, desktopanvändare. Anpassningen bör ske rikitat mot att vid ett tidigt skede ta sig över barriärer så som mindre skärmar, sämre prestanda och begränsad internethastighet (\cite{themepartner}), där statistik visar att om en användare finner mobilvyn slö, finns även risken att desktopvyn tappar användarens intresse (\cite{zurbword}). Mobilanvändare kräver i dagsläget snabb respons från mobilsidor, då många aktiviteter sker i tidspressade situationer (\cite{techradar}). Med desktop-first finns risk att man skapar en stor sida med många element som även laddas i mobilvyn, vare sig dessa visas eller inte. Det försämrar mobilvyns respons och skapar även en kompakt, komplicerad design (\cite{zurbword}) eller en nerskalad version av desktopvyn.
 
- Utav 13 källor påpekar 6 av dessa på funktioner hos mobilen som kräver en annan typ av fokus, då dessa kan ta webbsidan till en helt annan nivå funktionsmässigt. Funktionerna man syftar på är GPS, Touchscreen och Multitouch. Dessa tre funktioner kan anpassa en mobilsida till att fungera på användningsområden som i dagsläget inte fungerar lika bra från desktop, men som utvecklas åt att göra det(\cite{sweclock}). Dessa funktioner är nya tekniker vilka fortfarande utvecklas för att nå optimal funktionalitet. Ett tidigt fokus på dessa ger ens stabil grund för funktionaliteten hos mobilsidan, vilket gör mobile-first till ett bra alternativ(\cite{techradar}, \cite{othermedia}).
+ Utav 13 källor påpekar 6 av dessa på funktioner hos mobilen som kräver en annan typ av fokus, då dessa kan ta webbsidan till en helt annan nivå funktionsmässigt. Funktionerna man syftar på är GPS, Touchscreen och Multitouch. Dessa tre funktioner kan anpassa en mobilsida till att fungera på användningsområden som i dagsläget inte fungerar lika bra från desktop, men som utvecklas åt att göra det (\cite{sweclock}). Dessa funktioner är nya tekniker vilka fortfarande utvecklas för att nå optimal funktionalitet. Ett tidigt fokus på dessa ger ens stabil grund för funktionaliteten hos mobilsidan, vilket gör mobile-first till ett bra alternativ (\cite{techradar}, \cite{othermedia}).
  
- Webbutveckling har sin grund hos desktopsidor, vilka har funnits i flera år. Flera källor påpekar detta i mån om att poängtera att ett säkert och välprövat alternativ, ibland kan kännas som den bästa startpunkten(\cite{armstrong}, \cite{readyartwork}). Mobile-first är en ny teknik och som kräver ett annat tänk än den vid implementeringen av en desktopsida vilket då oftast kräver längre tid vid implementeringen än desktop-first och kan således kosta mer(\cite{readyartwork}, \cite{marcuspope}). Däremot anser alla förutom en källa(\cite{armstrong}) att argumentet inte håller då detta leder till en ond cirkel där ny och bra teknik inte används eller utvecklas(\cite{designshack}, \cite{marcuspope}). Webbutvecklare får även ha i åtanke att vanliga funktioner hos desktop som har existerat under än längre tid, i mobilt inte existerar(\cite{responsivedesign}, \cite{designshack}, \cite{webinsation}). Vid desktop-first finns risken att använda funktionaliteter, t.ex hover, vilka kan leda till komplikationer när mobilvyn börjar implementeras(\cite{readyartwork}), med det menar källan att funktioner och innehåll kan av misstag försvinna utan att de har varit avsedda att tas bort(\cite{readyartwork}). \textit{Exemplet med hover görs i samband med desktop-first, där en ruta med text i desktopvy blir större när man håller musen över, rutan visar då all text istället för en liten del av texten som visas när man inte håller musen över. I implementeringen av mobilvyn går inte samma kod att använda då ”hover” inte fungerar, vilket leder till att elementet antingen är stor hela tiden(tar mycket plats) eller liten och endast visar en del av texten. Vid sen påkommenhet kräver detta att utvecklare får be interaktionsdesigners att finna en lösning så att texten får plats i mobilvyn eller atthaha fakti elementet prioriteras om.}
+ Webbutveckling har sin grund hos desktopsidor, vilka har funnits i flera år. Flera källor påpekar detta i mån om att poängtera att ett säkert och välprövat alternativ, ibland kan kännas som den bästa startpunkten (\cite{armstrong}, \cite{readyartwork}). Mobile-first är en ny teknik och som kräver ett annat tänk än den vid implementeringen av en desktopsida vilket då oftast kräver längre tid vid implementeringen än desktop-first och kan således kosta mer (\cite{readyartwork}, \cite{marcuspope}). Däremot anser alla förutom en källa (\cite{armstrong}) att argumentet inte håller då detta leder till en ond cirkel där ny och bra teknik inte används eller utvecklas (\cite{designshack} \cite{marcuspope}). Webbutvecklare får även ha i åtanke att vanliga funktioner hos desktop som har existerat under än längre tid, i mobilt inte existerar (\cite{responsivedesign}, \cite{designshack}, \cite{webinsation}). Vid desktop-first finns risken att använda funktionaliteter, t.ex hover, vilka kan leda till komplikationer när mobilvyn börjar implementeras (\cite{readyartwork}), med det menar källan att funktioner och innehåll kan av misstag försvinna utan att de har varit avsedda att tas bort (\cite{readyartwork}). \textit{Exemplet med hover görs i samband med desktop-first, där en ruta med text i desktopvy blir större när man håller musen över, rutan visar då all text istället för en liten del av texten som visas när man inte håller musen över. I implementeringen av mobilvyn går inte samma kod att använda då ”hover” inte fungerar, vilket leder till att elementet antingen är stor hela tiden(tar mycket plats) eller liten och endast visar en del av texten. Vid sen påkommenhet kräver detta att utvecklare får be interaktionsdesigners att finna en lösning så att texten får plats i mobilvyn eller atthaha fakti elementet prioriteras om.}
  
- En nackdel med mobile-first är att Internet Explorer 6, 7 och 8 inte stödjer media queries(\cite{marcuspope}, \cite{neocreo}) vilket lösningen fås genom javascript som av prestanda skäl inte är bra för ett mobilgränssnitt(\cite{responsivedesign}), fördelen med desktop-first blir då att media queries inte behövs läsas utifrån en desktopvy(\cite{neocreo}), utan det görs via mobilens webbläsare vilka de flesta klarar av tack vare den ständiga uppdateringen som görs för webbläsare i mobiler(\cite{webinsation}).
+ En nackdel med mobile-first är att Internet Explorer 6, 7 och 8 inte stödjer media queries (\cite{marcuspope}, \cite{neocreo}) vilket lösningen fås genom javascript som av prestanda skäl inte är bra för ett mobilgränssnitt (\cite{responsivedesign}), fördelen med desktop-first blir då att media queries inte behövs läsas utifrån en desktopvy (\cite{neocreo}), utan det görs via mobilens webbläsare vilka de flesta klarar av tack vare den ständiga uppdateringen som görs för webbläsare i mobiler (\cite{webinsation}).
  
- Utav 13 källor var det 2 som inte ansåg att webben och tekniken för responsive web design var redo för mobile-first(\cite{cloudfour}, \cite{armstrong}). Enligt en studie hade flertal mobile-first sidor granskats och nått slutsatsen att mobile-first sidor blev större än desktop(\cite{cloudfour}). Enkelheten med desktop-first gentemot mobile-first tas åter upp med hänvisning till att desktop har funnits under en längre tid, vilket medför att det är simpelt för användbarhetsexperter att ta sig an, samt är en säker grund för gränssnittsutvecklare att utveckla responsivt ifrån(\cite{armstrong}). Skapandet av en responsiv webbsida efterhand innebär mycket refaktorering med mobile-first(med antagandet att alla sidor som inte är responsiv är byggda för desktop). Vilket är något som resterande källor inte säger emot(\cite{neocreo}), men syftar på att en webbsida i desktop-first har tendensen att få mobilvyn förmedla en känsla av en nödlösning snarare än en genomtänkt produkt(\cite{designshack}, \cite{othermedia}). I det fallet anses en bättre lösning vara att påbörja en ny design för mobilt, istället för att från desktop designa om till en responsiv webbsida.
+ Utav 13 källor var det 2 som inte ansåg att webben och tekniken för responsive web design var redo för mobile-first (\cite{cloudfour}, \cite{armstrong}). Enligt en studie hade flertal mobile-first sidor granskats och nått slutsatsen att mobile-first sidor blev större än desktop (\cite{cloudfour}). Enkelheten med desktop-first gentemot mobile-first tas åter upp med hänvisning till att desktop har funnits under en längre tid, vilket medför att det är simpelt för användbarhetsexperter att ta sig an, samt är en säker grund för gränssnittsutvecklare att utveckla responsivt ifrån (\cite{armstrong}). Skapandet av en responsiv webbsida efterhand innebär mycket refaktorering med mobile-first(med antagandet att alla sidor som inte är responsiv är byggda för desktop). Vilket är något som resterande källor inte säger emot (\cite{neocreo}), men syftar på att en webbsida i desktop-first har tendensen att få mobilvyn förmedla en känsla av en nödlösning snarare än en genomtänkt produkt (\cite{designshack}, \cite{othermedia}). I det fallet anses en bättre lösning vara att påbörja en ny design för mobilt, istället för att från desktop designa om till en responsiv webbsida.
  
-7 utav 13 anser mobile-first vara en optimal lösning då den enkla principen säger att om element får plats i mobilvyn får de alltid plats i desktopvyn, gäller inte tvärtom. Med desktop-first kan element av misstag försvinna vid nedskallning till mindre skärmar då de anses överflödiga och inte får plats(\cite{blogskent}(11) \cite{responsivedesign}). Dessa hänvisar även till att webbdesign har tagit ett nytt steg mot användbarhet där webbsidan skall vara simpel för användaren att förstå och innehålla relevant information snarare än att den skall fånga användaren genom ”överflödig” design(\cite{blogskent}). 
+7 utav 13 anser mobile-first vara en optimal lösning då den enkla principen säger att om element får plats i mobilvyn får de alltid plats i desktopvyn, gäller inte tvärtom. Med desktop-first kan element av misstag försvinna vid nedskallning till mindre skärmar då de anses överflödiga och inte får plats (\cite{blogskent}(11), \cite{responsivedesign}). Dessa hänvisar även till att webbdesign har tagit ett nytt steg mot användbarhet där webbsidan skall vara simpel för användaren att förstå och innehålla relevant information snarare än att den skall fånga användaren genom ”överflödig” design (\cite{blogskent}). 
 
-3 källor anser att användningsområde för webblösningen är en viktig aspekt att analysera inför implementeringen av den responsiva webbsidan(\cite{neocreo}, \cite{marcuspope}, \cite{designshack}). Vilket fördelarna i de flesta källor redan bygger på att man har en aning om målgruppen i stort(\cite{zurbword}). En vanlig siffra som förekommer är att 25 procent av USA’s befolkning använder sig endast av mobilt internet och där ökningen som sker för användning av mobilt internet tyder på att mobile-first är ett bra tillvägangångsätt till en responsiv webbplats.  Men 25 procent av användare som enbart använder mobilt internet tyder även på att 75 procent antingen använder båda eller endast desktop, och är därför inte en tillräckligt övertygande anledning(\cite{marcuspope}). Källorna menar då att en bra riktlinje till val av metod är att analysera användarna som webbplatsen kommer att inrikta sig mot(\cite{neocreo}). 
+3 källor anser att användningsområde för webblösningen är en viktig aspekt att analysera inför implementeringen av den responsiva webbsidan (\cite{neocreo}, \cite{marcuspope}, \cite{designshack}). Vilket fördelarna i de flesta källor redan bygger på att man har en aning om målgruppen i stort (\cite{zurbword}). En vanlig siffra som förekommer är att 25 procent av USA’s befolkning använder sig endast av mobilt internet och där ökningen som sker för användning av mobilt internet tyder på att mobile-first är ett bra tillvägangångsätt till en responsiv webbplats.  Men 25 procent av användare som enbart använder mobilt internet tyder även på att 75 procent antingen använder båda eller endast desktop, och är därför inte en tillräckligt övertygande anledning (\cite{marcuspope}). Källorna menar då att en bra riktlinje till val av metod är att analysera användarna som webbplatsen kommer att inrikta sig mot (\cite{neocreo}). 
+\newpage
 
 \paragraph{Nämnda för- och nackdelar}\mbox{} \\
 
@@ -431,17 +455,17 @@ Fördelar&Nackdelar\\ \hline
 
 \subsubsection{Användningsområde}
 
-Mobil- och desktopwebbsidor har olika besökare beroende på typ av webbsida och under vilka förhållanden den ses ifrån, även åldern spelar roll då det visar sig i statistik att ungdomar är de största användarna av mobilt internet(\cite[s.24]{.se}). I Sverige utförs det varje år en statistiksredovisning på svenskar och deras internetanvändning(\cite{.se}). Trots distansen ser användningen av mobilt internet ungefär likadan ut i Sverige och USA, i detta kapitel visas resultat i en litteraturstudie där fokus läggs på användning av webbsidor beroende på användarnas åldersgrupp, kontext på webbsidan samt miljön webbsidan ses ifrån.
+Mobil- och desktopwebbsidor har olika besökare beroende på typ av webbsida och under vilka förhållanden den ses ifrån, även åldern spelar roll då det visar sig i statistik att ungdomar är de största användarna av mobilt internet (\cite[s.24]{.se}). I Sverige utförs det varje år en statistiksredovisning på svenskar och deras internetanvändning (\cite{.se}). Trots distansen ser användningen av mobilt internet ungefär likadan ut i Sverige och USA, i detta kapitel visas resultat i en litteraturstudie där fokus läggs på användning av webbsidor beroende på användarnas åldersgrupp, kontext på webbsidan samt miljön webbsidan ses ifrån.
 
 \paragraph{Målgrupp}\mbox{}
 
-I de vetenskapliga artiklar som togs med i litteraturstudien gällande användning av mobilt internet har dessa inriktat sig till användare där målgruppen är från 19 uppåt, med en medelålder mellan 20-29. Detta tyder på att en stor del av användarna för mobilt internet består utav nämnda målgrupp. I statistik som utförts för att ta reda på svenskarna användning utav mobilt internet sträcker sig lägsta ålder ner till 12 år gällande mobilanvändning i en daglig basis. Trots detta stämmer målgruppen som har valts i de vetenskapliga artiklar väldigt bra då statistik visar att den stora målgruppen i Sverige av mobil internetanvändare är mellan 16-25 år där 69 \% av målgruppen använder sig utav mobilt internet dagligen. Tätt efter är målgruppen från 26-35 med 68 \% och 12-15 med 67 \%. Den stora förändringen sker inte förens målgrupp där åldern avser 46-55 år då endast 30 \% använder sig utav mobilt internet dagligen(\cite[s. 24]{.se}). Lägst är målgruppen från 76 uppåt som ligger på 1 \% men där internet användningen i överhuvudtaget inte är stor.
+I de vetenskapliga artiklar som togs med i litteraturstudien gällande användning av mobilt internet har dessa inriktat sig till användare där målgruppen är från 19 uppåt, med en medelålder mellan 20-29. Detta tyder på att en stor del av användarna för mobilt internet består utav nämnda målgrupp. I statistik som utförts för att ta reda på svenskarna användning utav mobilt internet sträcker sig lägsta ålder ner till 12 år gällande mobilanvändning i en daglig basis. Trots detta stämmer målgruppen som har valts i de vetenskapliga artiklar väldigt bra då statistik visar att den stora målgruppen i Sverige av mobil internetanvändare är mellan 16-25 år där 69\% av målgruppen använder sig utav mobilt internet dagligen. Tätt efter är målgruppen från 26-35 med 68\% och 12-15 med 67\%. Den stora förändringen sker inte förens målgrupp där åldern avser 46-55 år då endast 30\% använder sig utav mobilt internet dagligen (\cite[s. 24]{.se}). Lägst är målgruppen från 76 uppåt som ligger på 1\% men där internet användningen i överhuvudtaget inte är stor.
 \\
-\setcounter{figure}{3}
+\setcounter{figure}{4}
 \begin{figure}[H]
   \centering
     \includegraphics[scale=0.8]{pics/statistikalder.png}
-    \caption{Andel procent av befolkningen som använder sig utav mobilt internet, statistik visar att den stora målgruppen är mellan 12-45 år gamla(\cite[s. 24]{.se}).}
+    \caption{Andel procent av befolkningen som använder sig utav mobilt internet, statistik visar att den stora målgruppen är mellan 12-45 år gamla (\cite[s. 24]{.se}).}
 \end{figure}
 
 \paragraph{Kontext}\mbox{}
@@ -455,23 +479,23 @@ Med kontext menas sidans typiska innehåll, huvudsyftet med webbsidan. Beroende 
 	\item{Söka information}
 \end{itemize}
 \bigskip
-Andel procent av användarna skiljer sig beroende på artikel och statistik, då antalet användare för studierna har varit olika, men ändå visar vad fokus läggs på när mobilt internet används. I Sverige uppskattas  50 \% använda sig utav mobilt internet för att sköta e-post, 43 \% för socialt nätverk, 40 \% för att kolla vädret, nyheter och 18 \% för att söka fakta(\cite[s. 25]{.se}). I en annan studie där användningen utav mobilt internet analyserades med hjälp utav 109 deltagare visade den att 70 \% av deltagarna använder mobilt internet för att kolla nyheter, väder och söka fakta, 13 \% utav deltagarna använder mobilt internet för sociala nätverk och 17 \% för att kolla på film och lyssna på musik(\cite{usageusability2}). I en liknande studie där 18 aktiva mobilanvändare studerades varje dag under en 4 veckors period, bestod den dagliga användningen av mobilt internet 27 \% för sociala nätverk, 24 \% för koll på nyheter och vädret, 18.8 \% för email, 14.9 för vanlig surf, 10 \% för mobilsök och 5.1 \% för kartor och navigation(\cite{mobilewebsearch}).
+Andel procent av användarna skiljer sig beroende på artikel och statistik, då antalet användare för studierna har varit olika, men ändå visar vad fokus läggs på när mobilt internet används. I Sverige uppskattas  50\% använda sig utav mobilt internet för att sköta e-post, 43\% för socialt nätverk, 40\% för att kolla vädret, nyheter och 18\% för att söka fakta (\cite[s. 25]{.se}). I en annan studie där användningen utav mobilt internet analyserades med hjälp utav 109 deltagare visade den att 70\% av deltagarna använder mobilt internet för att kolla nyheter, väder och söka fakta, 13\% utav deltagarna använder mobilt internet för sociala nätverk och 17\% för att kolla på film och lyssna på musik(\cite{usageusability2}). I en liknande studie där 18 aktiva mobilanvändare studerades varje dag under en 4 veckors period, bestod den dagliga användningen av mobilt internet 27\% för sociala nätverk, 24\% för koll på nyheter och vädret, 18.8\% för email, 14.9 för vanlig surf, 10\% för mobilsök och 5.1\% för kartor och navigation (\cite{mobilewebsearch}).
 
-För desktop anses dessa fyra områden vara minst lika populära. I en studie som gjorde hos The Harris Polls Research(\cite{harrispoll}) samlades 2400 vuxna varav 991 mobilt internet användare för att se hur enheterna används i jämförelse beroende på kontext. I studien hamnade \textit{Sköta e-post, sociala nätverk och söka information} längst upp som de typer av hemsida vars desktopanvändare är ungefär lika stora om mobilanvändare.
+För desktop anses dessa fyra områden vara minst lika populära. I en studie som gjorde hos The Harris Polls Research (\cite{harrispoll}) samlades 2400 vuxna varav 991 mobilt internet användare för att se hur enheterna används i jämförelse beroende på kontext. I studien hamnade \textit{Sköta e-post, sociala nätverk och söka information} längst upp som de typer av hemsida vars desktopanvändare är ungefär lika stora om mobilanvändare.
 \\
 \begin{table}[H]
 	\centering
 	\begin{tabular}{|p{4cm}|p{4cm}|p{4cm}|}
 	\hline
 	~&Dator(desktop/laptop)&Mobil(Smartphone)\\ \hline
-	Sköta E-post &90 \%&72 \%\\ \hline
-	Sociala Nätverk&69 \%&64 \%\\ \hline
-	Söka information&81 \%&45 \%\\ \hline
-	*Kolla nyheter, väder&44.2 \%&52.1 \%\\ \hline
+	Sköta E-post &90\%&72\%\\ \hline
+	Sociala Nätverk&69\%&64\%\\ \hline
+	Söka information&81\%&45\%\\ \hline
+	*Kolla nyheter, väder&44.2\%&52.1\%\\ \hline
 	\end{tabular}
     \caption {Områden i webben där användarna utnyttjar både mobil och desktop.}
 \end{table}
-\textit{*I studien ingick inte läsning utav nyheter, men i Q1 Research report för nyhetsläsning(\cite{q1research}) visades det sig, med undantag från målgruppen 65 uppåt, att majoriteten utav läsarna(59 \% till 77 \% i varje målgrupp) använder både mobil och desktop. Studien visar även att nyhetsläsare från mobilen numera är större än läsarna från desktop.}
+\textit{*I studien ingick inte läsning utav nyheter, men i Q1 Research report för nyhetsläsning (\cite{q1research}) visades det sig, med undantag från målgruppen 65 uppåt, att majoriteten utav läsarna(59\% till 77\% i varje målgrupp) använder både mobil och desktop. Studien visar även att nyhetsläsare från mobilen numera är större än läsarna från desktop.}
 
 I The HarrisPole Research fanns även siffror för områden där användaren föredrar en enhet mer än den andra.
 
@@ -480,38 +504,38 @@ I The HarrisPole Research fanns även siffror för områden där användaren fö
 	\begin{tabular}{|p{4cm}|p{4cm}|p{4cm}|}
 	\hline
 	~&Dator(desktop/laptop)&Mobil(Smartphone)\\ \hline
-	Fylla enkäter &86 \%&24 \%\\ \hline
-	Handla produkter&78 \%&23 \%\\ \hline
-	Navigation/Kartor&56 \%&73 \%\\ \hline
+	Fylla enkäter &86\%&24\%\\ \hline
+	Handla produkter&78\%&23\%\\ \hline
+	Navigation/Kartor&56\%&73\%\\ \hline
 	\end{tabular}
     \caption {Områden i webben där användarna föredrar en enhet mer än de andra.}
 \end{table}
 
 \paragraph{Miljö} \mbox{}
 
-En användares miljö har förändras tack vare mobilens handburna storlek. Det har gjort att miljön inte är längre är den vanliga sederliga hemma eller på kontor, utan kan vara i vilket sammanhang som helst och även vart som helst. Ett vanligt antagande är att mobilen endast används vid rörliga situationer(\cite[s.12]{mobilefirstluke}). Vilket vetenskapliga artiklar och statistik visar tvärtemot(\cite{mobilewebsearch}, \cite{mobilefirstluke}).
+En användares miljö har förändras tack vare mobilens handburna storlek. Det har gjort att miljön inte är längre är den vanliga sederliga hemma eller på kontor, utan kan vara i vilket sammanhang som helst och även vart som helst. Ett vanligt antagande är att mobilen endast används vid rörliga situationer (\cite[s.12]{mobilefirstluke}). Vilket vetenskapliga artiklar och statistik visar tvärtemot (\cite{mobilewebsearch}, \cite{mobilefirstluke}).
 
 Författaren utav mobile first hänvisar(\cite[s.12]{mobilefirstluke}) till en enkätundersökning vilket visar användningen utav internet genom smartphones:
 \begin{itemize}
-	\item{84 \% använder det hemma.}
-	\item{80 \% använder det under diversa dödtid genom dagen.}
-	\item{74 \% använder det i kötid och väntan på möten.}
-	\item{69 \% använder det under shopping.}
-	\item{64 \% använder det på jobbet.}
-	\item{62 \% använder det medan man kollar på TV.}
-	\item{47 \% använder det under pendling.}
+	\item{84\% använder det hemma.}
+	\item{80\% använder det under diversa dödtid genom dagen.}
+	\item{74\% använder det i kötid och väntan på möten.}
+	\item{69\% använder det under shopping.}
+	\item{64\% använder det på jobbet.}
+	\item{62\% använder det medan man kollar på TV.}
+	\item{47\% använder det under pendling.}
 \end{itemize}
 \bigskip
 
-Att en stor andel av smartphonebärare använder sig utav mobilt internet i hemmet styrks utav fler vetenskapliga artiklar(\cite{mobilewebsearch}, \cite{mobilefirstluke}). Där orsakerna pekar på bekvämligheten av att använda mobilen istället för datorn. Mobilen tillåter 1 minuts användning utav internet, t.ex. vid brådskande tillfällen, vilket kan anses vara omständliga via en desktop(\cite{mobilewebsearch}). I studien där 18 deltagare skulle föra dagböcker(\cite{mobilewebsearch}) under en period av 4 veckor var över 70 \% av inläggen om aktiviteter gjorda vid ett stationärt perspektiv, det vill säga, antingen på jobbet eller i hemmet. Bara 17 \% av inläggen handlade om aktiviteter som gjordes vid resor, utomhus och vid pendling.
+Att en stor andel av smartphonebärare använder sig utav mobilt internet i hemmet styrks utav fler vetenskapliga artiklar (\cite{mobilewebsearch}, \cite{mobilefirstluke}). Där orsakerna pekar på bekvämligheten av att använda mobilen istället för datorn. Mobilen tillåter 1 minuts användning utav internet, t.ex. vid brådskande tillfällen, vilket kan anses vara omständliga via en desktop (\cite{mobilewebsearch}). I studien där 18 deltagare skulle föra dagböcker (\cite{mobilewebsearch}) under en period av 4 veckor var över 70\% av inläggen om aktiviteter gjorda vid ett stationärt perspektiv, det vill säga, antingen på jobbet eller i hemmet. Bara 17\% av inläggen handlade om aktiviteter som gjordes vid resor, utomhus och vid pendling.
 \\
 \begin{itemize}
-	\item{49,6 \% av inläggen handlade om aktiviteter gjorda i hemmet.}
-	\item{21,8 \% av inläggen handlade om aktiviteter på jobbet/universitetet.}
-	\item{11,4 \% av inläggen handlade om aktiviteter gjorda inomhus.}
-	\item{9,6 \% av inläggen handlade om aktiviteter gjorda under pendling eller transit.}
-	\item{7,2 \% av inläggen handlade om aktiviteter gjorda utomhus.}
-	\item{0,5 \% av inläggen handlade om aktiviteter gjorda under resa utomlands.}
+	\item{49,6\% av inläggen handlade om aktiviteter gjorda i hemmet.}
+	\item{21,8\% av inläggen handlade om aktiviteter på jobbet/universitetet.}
+	\item{11,4\% av inläggen handlade om aktiviteter gjorda inomhus.}
+	\item{9,6\% av inläggen handlade om aktiviteter gjorda under pendling eller transit.}
+	\item{7,2\% av inläggen handlade om aktiviteter gjorda utomhus.}
+	\item{0,5\% av inläggen handlade om aktiviteter gjorda under resa utomlands.}
 \end{itemize}
 \bigskip
 
@@ -521,7 +545,7 @@ Efter resultatet av litteraturstudien blev prototypen till webbsidan en nyhetssi
 
 \paragraph{Banner}\mbox{}
 
-Banner visar tydligt vilken sidan man har kommit till. Beskriver namnet på sidan och en slogan som beskriver typen av webbsidan. Både i mobilt och i desktop går dessa inte att undgå, för igenkännande hos användaren, men är på mobilsidan mindre proportionerligt till artiklarna, tillskillnad från desktopvyn(\textit{figur 5}). Detta för att undvika bannern ta för stor plats på mobilskärmen(\textit{figur 6}).
+Banner visar tydligt vilken sidan man har kommit till. Beskriver namnet på sidan och en slogan som beskriver typen av webbsidan. Både i mobilt och i desktop går dessa inte att undgå, för igenkännande hos användaren, men är på mobilsidan mindre proportionerligt till artiklarna, tillskillnad från desktopvyn(\textit{figur 6}). Detta för att undvika bannern ta för stor plats på mobilskärmen(\textit{figur 7}).
 \\
 \begin{figure}[H]
 \centerline{%
@@ -529,13 +553,13 @@ Banner visar tydligt vilken sidan man har kommit till. Beskriver namnet på sida
 \includegraphics[scale=0.40]{pics/bannermobil.png}%
 }
 \vspace{0.3cm}
-\hspace{0.15cm}Figur 5: Banner för desktopvyn.\hspace{4.4cm} Figur 6: Banner för mobilvyn.
+\hspace{0.15cm}Figur 6: Banner för desktopvyn.\hspace{4.4cm} Figur 7: Banner för mobilvyn.
 
 \end{figure}
 
 \paragraph{Menyer}\mbox{}
 
-Nyhetssidorna som användes som referens för prototypen hade alla minst tre olika sorters menyer, en huvudmeny. En mindre meny bestående av typiska ”skapa konto, logga in” länkar(\textit{figur 7}), samt en nedre meny längst ner på sidan med diverse länkar(\textit{figur 9}). I mobilvyn, behölls nedersta menyn i en ihopsamlad version och de två översta sattes ihop och gömdes under en menyknapp för att spara plats på mobilskärmen(\textit{figur 8}).
+Nyhetssidorna som användes som referens för prototypen hade alla minst tre olika sorters menyer, en huvudmeny. En mindre meny bestående av typiska ”skapa konto, logga in” länkar(\textit{figur 8}), samt en nedre meny längst ner på sidan med diverse länkar(\textit{figur 10}). I mobilvyn, behölls nedersta menyn i en ihopsamlad version och de två översta sattes ihop och gömdes under en menyknapp för att spara plats på mobilskärmen(\textit{figur 9}).
 \\
 
 \begin{figure}[H]
@@ -543,7 +567,7 @@ Nyhetssidorna som användes som referens för prototypen hade alla minst tre oli
 \includegraphics[scale=0.4]{pics/menydesktop.png}\\
 }
 \end{figure}
-\hspace{0.5cm}Figur 7: Huvudmenyn i desktopvy.
+\hspace{0.5cm}Figur 8: Huvudmenyn i desktopvy.
 
 \begin{figure}[H]
 \centerline{%
@@ -551,7 +575,7 @@ Nyhetssidorna som användes som referens för prototypen hade alla minst tre oli
 \includegraphics[scale=0.35]{pics/menymobilopen.png}%
 }
 \end{figure}
-\hspace{0.5cm}Figur 8: Huvudmenyn i mobilvyn.
+\hspace{0.5cm}Figur 9: Huvudmenyn i mobilvyn.
 
 \begin{figure}[H]
 \centerline{%
@@ -559,11 +583,11 @@ Nyhetssidorna som användes som referens för prototypen hade alla minst tre oli
 \includegraphics[scale=0.35]{pics/menymobilbot.png}%
 }
 \end{figure}
-\hspace{0.5cm}Figur 9: Nedremenyn i desktopvyn och mobilvyn.
+\hspace{0.5cm}Figur 10: Nedremenyn i desktopvyn och mobilvyn.
 \newpage
 \paragraph{Artiklar och Annonser}\mbox{}
 
-För artiklarna och annonserna, prioriterades dessa ungefär lika högt i desktopvyn(\textit{figur 10}), mestadels för att annonser anser vara en viktig faktor till nyhetssidors intäkter. Dessvärre inte lika hög prioriterat i mobilläge då det finns mindre yta och artiklarna är huvudelementen i nyhetssidan, därför hamnar annonserna efter artiklarna(\textit{figur 11}). Artiklarna har alla samma storlek men skiftar i plats på bild och text, för att skapa en mer levande känsla när man ser webbsidan. Annonsernas design härstammar från \href{www.aftonbladet.se}{aftonbladet.se}, där färgen på bakgrunden samt texten får läsaren att förstå att det är annonser. 
+För artiklarna och annonserna, prioriterades dessa ungefär lika högt i desktopvyn(\textit{figur 11}), mestadels för att annonser anser vara en viktig faktor till nyhetssidors intäkter. Dessvärre inte lika hög prioriterat i mobilläge då det finns mindre yta och artiklarna är huvudelementen i nyhetssidan, därför hamnar annonserna efter artiklarna(\textit{figur 12}). Artiklarna har alla samma storlek men skiftar i plats på bild och text, för att skapa en mer levande känsla när man ser webbsidan. Annonsernas design härstammar från \href{www.aftonbladet.se}{aftonbladet.se}, där färgen på bakgrunden samt texten får läsaren att förstå att det är annonser. 
 \\
 
 \begin{figure}[H]
@@ -571,7 +595,7 @@ För artiklarna och annonserna, prioriterades dessa ungefär lika högt i deskto
 \includegraphics[scale=0.3]{pics/artikelannonsdesktop.png}
 }
 \end{figure}
-\hspace{0.5cm}Figur 10: Artiklar och annonser i desktopvyn.
+\hspace{0.5cm}Figur 11: Artiklar och annonser i desktopvyn.
 \\
 \begin{figure}[H]
 \centerline{%
@@ -579,11 +603,11 @@ För artiklarna och annonserna, prioriterades dessa ungefär lika högt i deskto
 \includegraphics[scale=0.35]{pics/annonsmobil.png}%
 }
 \end{figure}
-\hspace{0.5cm}Figur 11: Artiklar och annonser i mobilvyn.
+\hspace{0.5cm}Figur 12: Artiklar och annonser i mobilvyn.
 
 \paragraph{Färgmarkeringar}\mbox{}
 
-Färgmarkeringen görs i webbsidan för att markera olika typer av artiklar, i nyhetssidor görs detta för att markera artiklar som tillhör en annan sektion av tidningen, t.ex sport, ekonomi, kultur osv. I prototypen markeras sport och kultur med en rosa och blå färg vilken även blir färgen för respektive länk(\textit{figur 12}).
+Färgmarkeringen görs i webbsidan för att markera olika typer av artiklar, i nyhetssidor görs detta för att markera artiklar som tillhör en annan sektion av tidningen, t.ex sport, ekonomi, kultur osv. I prototypen markeras sport och kultur med en rosa och blå färg vilken även blir färgen för respektive länk(\textit{figur 13}).
 \\
 
 \begin{figure}[H]
@@ -592,7 +616,7 @@ Färgmarkeringen görs i webbsidan för att markera olika typer av artiklar, i n
 \includegraphics[scale=0.3]{pics/fargmobil.png}%
 }
 \end{figure}
-\hspace{0.5cm}Figur 12: Blå färgmarkering för kultursektionen.
+\hspace{0.5cm}Figur 13: Blå färgmarkering för kultursektionen.
 
 
 \subsubsection{Responstid}
@@ -725,43 +749,43 @@ Kodstorleken spelar en stor roll till resultatet av responstiden, beroende på m
 
 \paragraph{komplexitet}\mbox{}
 
-Förutom olika mycket kod i media queries, skiljer sig metodernas main.css till att få mobile-first agera som ett mer naturligt sätt att implementera. I Mobile-first är grundkoden avsedd för mobilen där element ligger i en kolumn under varandra. Eftersom det är standard att element visas under varandra behövs ingen kod för detta, utan kod läggs istället till i media queries när webbsidan börjar övergå till desktop och element skall visas vid sidan om varandra. I desktop-first måste elementen redan från början definieras så att de skall ligga bredvid varandra då detta inte är standard. När webbsidan börjar övergå till mobilläge och webbläsaren blir mindre, måste i media queries se till att det blir ogjort så att elementen hamnar under varandra, i en kolumn. Med andra ord kräver detta en rad kod i mobil-first som ändrar elementens position när den syns i desktop(\textit{figur 13}), men två rader kod i desktop-first, en som ändrar elementens position från början och en som ser till att det återgår till standard när sidan syns i mobilen(\textit{figur 14}). Det är endast fåtal element i protoypen där detta förekommer, men det tyder på att fallet existerar fler gånger på större webbsidor, speciellt nyhetssidor, där många element går från att vara vid sidan om varandra till att vara under varandra i en kolumn. Det medför att mobilsida blir ett naturligt sätt att påbörja en implementation av en responsiv webbplats, då det börjas från standard. 
+Förutom olika mycket kod i media queries, skiljer sig metodernas main.css till att få mobile-first agera som ett mer naturligt sätt att implementera. I Mobile-first är grundkoden avsedd för mobilen där element ligger i en kolumn under varandra. Eftersom det är standard att element visas under varandra behövs ingen kod för detta, utan kod läggs istället till i media queries när webbsidan börjar övergå till desktop och element skall visas vid sidan om varandra. I desktop-first måste elementen redan från början definieras så att de skall ligga bredvid varandra då detta inte är standard. När webbsidan börjar övergå till mobilläge och webbläsaren blir mindre, måste i media queries se till att det blir ogjort så att elementen hamnar under varandra, i en kolumn. Med andra ord kräver detta en rad kod i mobil-first som ändrar elementens position när den syns i desktop(\textit{figur 14}), men två rader kod i desktop-first, en som ändrar elementens position från början och en som ser till att det återgår till standard när sidan syns i mobilen(\textit{figur 15}). Det är endast fåtal element i protoypen där detta förekommer, men det tyder på att fallet existerar fler gånger på större webbsidor, speciellt nyhetssidor, där många element går från att vara vid sidan om varandra till att vara under varandra i en kolumn. Det medför att mobilsida blir ett naturligt sätt att påbörja en implementation av en responsiv webbplats, då det börjas från standard. 
 
-\setcounter{figure}{12}
-\begin{figure}[H]
-  \begin{subfigure}[b]{.5\linewidth }
-
-    \begin{lstlisting}
-     .articles{
-	color: white;
-	widht: 200px;
-	height:200px;
-      }
-
-    @media (min-width: 768px){
-	float:left;
-    }
- & &
-    \end{lstlisting}
-    \caption{Mobile-first}
-  \end{subfigure}
-  \begin{subfigure}[b]{.5\linewidth}
-	\begin{lstlisting}
-     .articles{
-	float:left;
-	color: white;
-	widht: 200px;
-	height:200px;
-      }
-
-     @media (max-width: 768px){
-	float: none;  
-     }
-	\end{lstlisting}
-    \caption{Desktop-first}
-  \end{subfigure}
-  \caption{I Desktop-first(b) måste elementet först definieras så att de ligger vid sidan om varandra, sedan med media queries tas detta bort när det går över till mobilvyn. I Mobile-first(a) är det standard och inget behöver definieras förens webbsidan övergår till desktopvy, då sätts elementen vid sidan om varandra.}
-\end{figure}
+%\setcounter{figure}{13}
+%\begin{figure}[H]
+%  \begin{subfigure}[b]{.5\linewidth }
+%
+  %  \begin{lstlisting}
+    % .articles{
+%	color: white;
+%	widht: 200px;
+%	height:200px;
+  %    }
+%
+  %  @media (min-width: 768px){
+%	float:left;
+  %  }
+ %& &
+   % \end{lstlisting}
+   % \caption{Mobile-first}
+  %\end{subfigure}
+  %\begin{subfigure}[b]{.5\linewidth}
+%	\begin{lstlisting}
+   %  .articles{
+	%float:left;
+%	color: white;
+%	widht: 200px;
+%	height:200px;
+   %   }
+%s
+ %    @media (max-width: 768px){
+%	float: none;  
+%     }
+%	\end{lstlisting}
+%    \caption{Desktop-first}
+%  \end{subfigure}
+%  \caption{I Desktop-first(b) måste elementet först definieras så att de ligger vid sidan om varandra, sedan med media queries tas detta bort när det går över till mobilvyn. I %Mobile-first(a) är det standard och inget behöver definieras förens webbsidan övergår till desktopvy, då sätts elementen vid sidan om varandra.}
+%\end{figure}
 
 \subsubsection{Implementeringstid}
 Implementeringstiden för webbsidorna skiljer sig med ungefär med 5 timmar, mobil-first tog totalt 16,5 timmar och desktop-first 22h. Det är svårt att dra slutsatsen att mobile-first tar mindre tid att implementera än desktop-first, på grund av att: 1. Desktop-first implementerades före mobile-first, för en junior gränssnittsutvecklare, kan desktop-first implementeringen varit en bra uppvärmning, 2. För att erfarenheten utav utvecklaren inte är tillräckligt stor, vilket kan medföra inlärning inräknat i tiden. En teori kan ändå skapas utav kommentarerna ur dagboken och även tiden som redovisades under implementationsfasen
@@ -778,7 +802,7 @@ Mobile-first har fördelen att grundsidan implementeras på ett simplare sätt �
 }
 \hspace{2cm}(a) Mobilvyn\hspace{2.3cm}(b)Responsiv\hspace{2.1cm}(c) Desktopvyn
 \\\\
-\hspace{0.15cm}Figur 14: Responsiv i Mobile-first, elementen börjar designas och placeras i en kolumn på skärmen, responsive ser till att med en del justeringar placera dessa rätt i desktopvyn.
+\hspace{0.15cm}Figur 16: Responsiv i Mobile-first, elementen börjar designas och placeras i en kolumn på skärmen, responsive ser till att med en del justeringar placera dessa rätt i desktopvyn.
 \end{figure}
 
 \begin{figure}[H]
@@ -789,7 +813,7 @@ Mobile-first har fördelen att grundsidan implementeras på ett simplare sätt �
 }
 \hspace{1.7cm}(a) Desktopvyn\hspace{2.3cm}(b)Responsiv\hspace{2.1cm}(c) Mobilvyn
 \\\\
-\hspace{0.15cm}Figur 15: Responsiv i Desktop-first, elementen måste designas och placeras rätt på skärmen, responsiv ser till att de samlas en kolumn för mobilvyn.
+\hspace{0.15cm}Figur 17: Responsiv i Desktop-first, elementen måste designas och placeras rätt på skärmen, responsiv ser till att de samlas en kolumn för mobilvyn.
 \end{figure}
 
 
@@ -815,7 +839,7 @@ Fördelen med desktop-first är att det är ett simpelt sätt att övergå till 
 Vilket till skillnad från mobilen är en enhet med bra prestanda och en skärmyta som inte innebär samma begränsningar.
 
 \subsection{När ska Desktop-first respektive Mobile-first användas}
-I resultatet beskrivs användningsområdet vara väldigt stor och utspritt för mobilt internet, vilket två källor från litteraturstudien beskriver som en viktig aspekt att analysera när metod väljs. I analysen av användningsgruppen har målgruppen mellan 12-45 år visats sig ha mer än 50 \% användare av mobilt internet dagligen. I målgruppen 45-55 år är användningen utav mobilt internet 30 \% dagligen. I resultatet påpekas även det felaktiga antagandet att mobilt internet endast används vid rörliga situationer, vilket istället visar att större delen av användare brukar mobilt internet vid stationära situationer t.ex hemma eller på kontoret. Gällande kontext av webbsida har de fyra större områderna har visat sig vara, hantering utav e-post, sociala nätverk, söka information och kolla nyheter, vädret.  Dessa fyra områden har växt markant inom mobilt internet och sannolikheten att dessa överkommer desktop visar sig vara stora. De områden däremot där mobilt internet inte har lyckats nå upp till desktop och där siffran är väldigt låg jämfört med desktop är ”fylla enkäter” och ”handla produkter”. Det är väldigt svårt av resultatet att se varför det är så och ifall en förändring kommer att ske. Det som statistik visar däremot är att mobilen oftast används för att leta upp produkter innan köpet sker från desktop, vilket betyder att om webbsidan ändå ses ofta från en mobil, så skall även möjligheten att kunna köpa produkten finnas, och med en robust och säker mobilsida kanske detta till och med sker. Mobilt internet ökar så pass mycket i användning i alla områden för målgrupp, kontext på webbsida och miljö, vilket gör att det är svårt att hitta ett fall där mobilsidan har möjligheten att vara en nerskalad version utav desktopsidan, där prestandan inte är lika viktig när webbsidan ses från mobilen och där mobilsidan blir en bonus för desktopsidan.
+I resultatet beskrivs användningsområdet vara väldigt stor och utspritt för mobilt internet, vilket två källor från litteraturstudien beskriver som en viktig aspekt att analysera när metod väljs. I analysen av användningsgruppen har målgruppen mellan 12-45 år visats sig ha mer än 50\% användare av mobilt internet dagligen. I målgruppen 45-55 år är användningen utav mobilt internet 30\% dagligen. I resultatet påpekas även det felaktiga antagandet att mobilt internet endast används vid rörliga situationer, vilket istället visar att större delen av användare brukar mobilt internet vid stationära situationer t.ex hemma eller på kontoret. Gällande kontext av webbsida har de fyra större områderna har visat sig vara, hantering utav e-post, sociala nätverk, söka information och kolla nyheter, vädret.  Dessa fyra områden har växt markant inom mobilt internet och sannolikheten att dessa överkommer desktop visar sig vara stora. De områden däremot där mobilt internet inte har lyckats nå upp till desktop och där siffran är väldigt låg jämfört med desktop är ”fylla enkäter” och ”handla produkter”. Det är väldigt svårt av resultatet att se varför det är så och ifall en förändring kommer att ske. Det som statistik visar däremot är att mobilen oftast används för att leta upp produkter innan köpet sker från desktop, vilket betyder att om webbsidan ändå ses ofta från en mobil, så skall även möjligheten att kunna köpa produkten finnas, och med en robust och säker mobilsida kanske detta till och med sker. Mobilt internet ökar så pass mycket i användning i alla områden för målgrupp, kontext på webbsida och miljö, vilket gör att det är svårt att hitta ett fall där mobilsidan har möjligheten att vara en nerskalad version utav desktopsidan, där prestandan inte är lika viktig när webbsidan ses från mobilen och där mobilsidan blir en bonus för desktopsidan.
 
 Detta leder till att mobile-first bör användas i de flesta fallen, speciellt för webbsidor som avser stora och informationsrika webbplatser, vilket då kan vara en stor fördel för att främja mobilens prestanda. Det är även ett effektivt sätt att arbeta med CSS-filen, det ger en bra struktur för arbetet och försäkrar att webbsidornas vyer uppfyller samma kriterium. Användningen av mobilt internet är så pass stor och fördelat i så många områden att det är svårt att hitta ett scenario som tillåter en sämre mobilsida där information och funktionalitet inte nödvändigtvis behöver vara på samma nivå som den på desktopsidan. Mobile-first är motsatsen, det är en försäkran på att dessa nackdelar inte förekommer och att webbsidan uppfyller sitt syfte i både mobilvyn och desktopvyn, vilket visar sig i litteraturstudien för användningsområden att vara högst prioriterande. 
 
