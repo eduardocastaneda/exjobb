@@ -150,33 +150,33 @@ Det finns ingen grundlig faktum som tyder på att mobilt internet kommer att ta 
 \newpage
 
 \section{Teori}
-I nedanstående kapitel beskrivs den teori som krävs för att upprätthålla ett responsivt tillvägagångsätt för både \textit{desktop-first} och \textit{mobile-first}. Först kommer verktygen att beskrivas mer ingående för att sedan övergå till hur dessa samverkar med responsive web design.
+I nedanstående kapitel beskrivs den teori som krävs för att upprätthålla ett responsivt tillvägagångsätt för både \textit{desktop-first} och \textit{mobile-first}. Först beskrivs verktygen mer ingående för att sedan övergå till hur dessa samverkar med responsive web design.
 
 \subsection{Verktyg}
 
-Inom webdesignsutveckling används främst verktygen HTML, CSS och javascript, vilket är det verktyg som kommer att användas under implementeringsfasen i examensarbetet.
+Inom webbdesignsutveckling används främst verktygen HTML, CSS och JavaScript, vilket är det verktyg som kommer att användas under den tekniska delen i examensarbetet.
 
 \subsubsection{HTML}
 HTML står för \textit{Hypertext Markup Language} och är ett format som definierar strukturen och logiken på en webbsida. HTML beskriver strukturen genom att märka upp olika delar av sidan med hjälp av \textit{taggar} som beskriver typen av ett element. En webbläsare läser av HTML-koden och kan på så sätt rendera sidan med önskvärd layout.
 
-Det finns olika sorters taggar inom HTML, stycke, rubrik, tabeller, länkar, listor, sektioner är en av dessa. Inom webbutveckling har användning utav taggen \textit{<div>} blivit vanlig för att strukturera upp en sida i olika sektioner (\cite{divtable}), vartefter kan en sektion innehålla andra element.
+Det finns olika sorters taggar inom HTML, stycke, rubrik, tabeller, länkar, listor, sektioner är en av dessa. Inom webbutveckling har användning av taggen \textit{<div>} blivit vanlig för att strukturera upp en sida i olika sektioner (\cite{divtable}), vartefter kan en sektion innehålla andra element.
 
 \vspace{0.3cm}
 \begin{verbatim}
 <div> 
           <h1> Mobile-first eller Desktop-first?</h1>
-          <p>Frågan en webutvecklare ställer sig inför skapandet av
+          <p>Frågan en webbutvecklare ställer sig inför skapandet av
            en responsiv webbsida
           </p>
 </div>
 \end{verbatim}
 \vspace{0.3cm}
 
-I ovanstående HTML-kod har vi definierat en sektion på webbsidan med \textit{<div>} taggen, inom den sektionen har vi en rubrik som definieras med taggen \textit{<h1>} och ett stycke som definieras med taggen \textit{<p>}. Taggarna i html-koden bildar tillsammans strukturen på sidan, däremot så har inte html-koden någon kontroll över utseendet för taggarna, det sköts utav CSS.  
+I ovanstående HTML-kod definieras en sektion på webbsidan med \textit{<div>} taggen. Inom sektionen finns det rubrik som definieras med taggen \textit{<h1>} och ett stycke som definieras med taggen \textit{<p>}. Taggarna i html-koden bildar tillsammans strukturen på sidan. Html-koden har ingen kontroll över utseendet för taggarna, endast strukturen. Utseendet sköts av CSS.
 
 \subsubsection{CSS}
 CSS står för \textit{Cascading Style Sheets} och är ett språk som beskriver utseendet på en webbsida.
-Med hjälp av CSS-kod kan olika element i html-koden få ett speciellt utseende i form av storlek, färg och position. CSSen ser till att ge elementen egenskaper, vilket kan definieras direkt i taggen t.ex \textit{<p style=”color:blue; width:50px”>Frågan en webbutvecklare ställer sig inför skapandet av en responsiv webbsida</p>}, vilket betyder att elementet \textit{<p>} kommer att ha bredden 50px och texten kommer att vara blå. Att definiera utseendet på det sättet kallas för \textit{inline-styling}. Man kan även i html filen, definiera utseendet i \textit{<head>} taggen, vilket kallas för \textit{internal styling} (\cite{css}), det betyder då att alla taggar i html filen delar egenskapen som är utsatt, i det här fallet att texten i \textbf{alla} \textit{<p>} taggar i html filen har blå text och bredden 50px:
+Med hjälp av CSS-kod kan olika element i html-koden få ett speciellt utseende i form av storlek, färg och position. CSSen ser till att ge element egenskaper, vilka kan definieras direkt i taggen t.ex \textit{<p style=”color:blue; width:50px”>Frågan en webbutvecklare ställer sig inför skapandet av en responsiv webbsida</p>}. Det betyder att elementet \textit{<p>} kommer att ha bredden 50px och texten kommer att vara blå. Att definiera utseendet på det sättet kallas för \textit{inline-styling}. Man kan även i html-filen, definiera utseendet i \textit{<head>} taggen, vilket kallas för \textit{internal styling} (\cite{css}). Det betyder att alla taggar i html filen delar egenskapen som är utsatt, i det här fallet att \textbf{alla} \textit{<p>} taggar i koden har blå text och bredden 50px:
 
 \vspace{0.3cm}
 \begin{verbatim}
@@ -191,14 +191,14 @@ Med hjälp av CSS-kod kan olika element i html-koden få ett speciellt utseende 
 \end{verbatim}
 \vspace{0.3cm}
 
-Tredje sättet är att definiera det i en egen css-fil och länka till det från \textit{<head>} taggen i html-koden, vilket är det vanligaste av de tre sätten och kallas för \textit{external styling}. 
+Tredje sättet är att definiera det i en egen css-fil och länka till det från \textit{<head>} taggen i html-koden. Det är det vanligaste av de tre sätten och kallas för \textit{external styling}.
 \vspace{0.3cm}
 \begin{verbatim}
 <link rel="stylesheet" type="text/css" href="main.css">
 \end{verbatim}
 \vspace{0.3cm}
 
-I css-kod definieras utseendet av olika taggar. Det finns möjlighet att definiera samma tagg med olika utseenden, detta görs genom att sätta \textit{Klasser} och \textit{IDs} för varje element. Ett element kan ha olika klasser eller ids, vilket definieras med ett utseende i css-koden. Det gör att varje tagg som delar klassen, delar även utseendet:
+I css-kod definieras utseendet av olika taggar. Det finns även möjlighet att definiera samma tagg med olika utseenden, vilket görs genom att sätta \textit{Klasser} och \textit{IDs} för varje element. Ett element kan ha olika klasser eller ids, vilket definieras med ett utseende i css-koden. Det gör att varje tagg som delar klassen, även delar utseendet.
 
 \vspace{0.3cm}
 I html-filen:
@@ -223,15 +223,14 @@ I css-filen:
 \end{verbatim}
 \vspace{0.5cm}
 
-I ovanstående kod kommer sektionen få utseendet som definieras som ID: \textit{main} i css-koden och paragrafen utseendet som definieras som Klass: \textit{paragraf}.
+I ovanstående kod kommer sektionen få utseendet som definieras som ID: \textit{main} i css-koden, det vill säga 50\% bredd och bakgrundsfärgen grå. Paragrafen får utseendet som definieras som Klass: \textit{paragraf}, vilket är svart text i storlek 125\%.
 
-
-Dessa tre olika sätt syns i en browser enligt prioritering, inline-styling, internal-styling och sist external-styling, det betyder att utseende som skrivs i inline-styling kommer att skriva över utseende som har definierats i internal- och external-styling. Men oftast används external-styling i första hand för att utseendet inte behövs definieras flera gånger, allt är samlat i en fil och det går snabbare att ladda sidans utseende (\cite{css}). Därmed hålls det ur en webbutvecklares synvinkel, en bra struktur. Vilket tillåter webbutvecklaren att upprätthålla teknikerna fluid grid, fluid images och på ett enkelt sätt använda sig av media queries vid implementering av en responsiv webbplats.
+Dessa tre olika sätt syns i en browser enligt prioritering, inline-styling, internal-styling och sist external-styling, det betyder att utseende som skrivs i inline-styling kommer att skriva över utseende som har definierats i internal- och external-styling. Oftast används external-styling i första hand för att utseendet inte behövs definieras flera gånger, allt är samlat i en fil och det går snabbare att ladda sidans utseende (\cite{css}). Därmed hålls det ur en webbutvecklares synvinkel en bra struktur som upprätthåller teknikerna för responsive web design, vilka beskrivs i nästa delkapitel.
 
 \subsubsection{JavaScript}
-\textit{JavaScript} är ett scriptspråk som inom webbutveckling främst används för att hantera dynamiska funktioner för beteendet hos en webbsida, beteenden som skapas från klientsidan. Med JavaScript kan man t.ex. läsa en användarens klick i webbsidan och utifrån det kalla på funktioner som kan ändra webbsidans innehåll eller utseende. Eftersom JavaScript är ett skriptspråk behövs ingen kompilering och koden kan skrivas direkt i html-filen.
+\textit{JavaScript} är ett scriptspråk som inom webbutveckling främst används för att hantera dynamiska funktioner för beteendet hos en webbsida, beteenden som skapas från klientsidan. JavaScript läser en användarens klick i webbsidan och kallar på funktioner som utför ändringar på t.ex innehåll eller utseende. Eftersom JavaScript är ett skriptspråk behövs ingen kompilering och koden kan skrivas direkt i html-filen.
 
-För att JavaScript skall fungera korrekt krävs det dock att webbläsaren stödjer det. I vissa fall har webbläsaren den funktionen men har den avstängd (\cite[s.13]{sara_ingmar}). Tidigare ett problem varit att mobilwebbläsare inte har haft stöd för JavaScript, vilket har lett till att menyer och pop-up fönster inte har fungerat korrekt när man surfar till sidan via mobilen, men tekniken har utvecklats och numera klarar mobila webbläsare av JavaScript. Det finns fortfarande en del problem när det kommer till mer komplicerade JavaScript funktioner och bibliotek som mobilwebbläsare inte kan hantera (\cite{quirksmode}). Vid webbsidor som har helt separata mobilsidor kan det vara en fördel då man väljer att inte läsa in all JavaScript som behövs, med responsiva webbsidor använder man samma webbsida för varje enhet, vilket leder till att en mobilenhet laddar all JavaScript vilket försämra webbsidans respons. En webbutvecklare måste ha i åtanke och redan från början utveckla en hemsida vars JavaScript inte kommer i vägen för den responsiva webbsidans funktionalitet.
+För att JavaScript skall fungera korrekt krävs det dock att webbläsaren stödjer det. I vissa fall har webbläsaren den funktionen men har den avstängd (\cite[s.13]{sara_ingmar}). Tidigare fanns problemet att mobilwebbläsare inte haft stöd för JavaScript, vilket har lett till att menyer och pop-up fönster inte har fungerat korrekt när man surfar till sidan via mobilen. Tekniken har utvecklats och numera klarar mobilwebbläsare av JavaScript. Det finns fortfarande en del problem när det kommer till mer komplicerade JavaScript funktioner och bibliotek som mobilwebbläsare inte kan hantera (\cite{quirksmode}). Vid webbsidor som har helt separata mobilsidor kan det vara en fördel då man väljer att inte läsa in all JavaScript som behövs. Med responsiva webbsidor används samma webbsida för varje enhet, vilket leder till att en mobilwebbläsaren laddar all JavaScript och kan försämra webbsidans respons. En webbutvecklare måste ha i åtanke och redan från början utveckla en hemsida vars JavaScript inte kommer i vägen för den responsiva webbsidans funktionalitet.
 \newpage
 \subsection{Responsive web design}
 \textit{Responsive web design} är ett koncept som innebär att gränssnittet på en webbsida ändras beroende på skärmstorlek, vilket således ger möjligheten att ha olika layout på en och samma webbsida anpassat efter en enhet. Konceptet definierades av \cite{resp} i en artikel kallat \textit{A List Apart}, som sedan blev en del av boken \textit{”responsive web design”} där teorier och praktiska exempel används för att förklara begreppet. 
