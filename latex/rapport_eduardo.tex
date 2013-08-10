@@ -7,10 +7,10 @@
 \documentclass[11pt]{article}
 \setcounter{secnumdepth}{5}
 
-%\usepackage{listings}   DET HÄR MÅSTE LÄGGAS IN
-%\lstset{% Add other global options here
-%  escapechar=\&% char to escape out of listings and back to LaTeX
-%} DET HÄR MÅSTE LÄGGAS IN
+\usepackage{listings}
+\lstset{% Add other global options here
+  escapechar=\&% char to escape out of listings and back to LaTeX
+} 
 \usepackage{caption,subcaption}
 \usepackage{float}
 \restylefloat{table}
@@ -42,7 +42,7 @@
 \bibliography{references.bib}
 \usepackage{url}
 
-\title{Mobile-first eller Desktop-first, en studie om utvecklingslösningar för den responsiva webben}
+\title{Mobile-first eller Desktop-first, en studie om utvecklingslösningar för responsive web design}
 \author{Eduardo Castaneda}
 %\date{} % Uncomment to hide date, or provide a date to display
 
@@ -80,12 +80,12 @@ Implementationen av prototypen har inte kunnat styrka alla påståenden kring me
 
 
 \section{Inledning}
-Användningen av mobilt internet ökar för varje dag och nya webblösningar har krävts för att nå ut till mobilanvändarna. En lösning har varit responsiva webbsidor, vilket innebär att samma webbsida rendereras olika beroende på enheten webbsidan ses ifrån. Tekniken för att skapa responsiva webbsidor existerar, med hjälp av utvecklingen av tekniker och verktyg så som CSS, HTML finns i nuläget möjligheten att skapa webbsidor som beroende på skärmstorlek har olika designlayouts med en och samma kodgrund. Det finns även kunskap om hur man skall gå tillväga för att skapa en responsiv webbsida, där utvecklare med formler och riktlinjer kan lära sig att använda grundprinciperna fluid grid, fluid images och media queries på bästa sätt. Men vägen till att skapa en responsiv webbsida är olika.  I bloggar och forum på webben diskuteras flitigt valet av utvecklingsmetod när det kommer till responsiva webbplatser och innan implementeringen av en webbsida är detta en fråga som med stor sannolikhet dyker upp hos webbutvecklare. Utvecklingsmetoderna man diskuterar är \textit{Mobile-first} och \textit{Desktop-first}. Mobile-first och Desktop-first är två olika metoder där det responsiva angreppssättet används. Båda strävar efter samma mål men skiljer sig i prioriteringen av vilken enhet webbsidan skall vara anpassad för först.
+Användningen av mobilt internet ökar för varje dag och nya webblösningar har krävts för att nå ut till mobilanvändarna. En av lösningarna har varit responsive web design. Responsive web design innebär att samma webbsida rendereras olika beroende på enheten webbsidan ses från och kan på så sätt anpassas utifrån skärmstorleken. Tekniken för att skapa responsiva webbsidor existerar, med hjälp av utvecklingen av tekniker och verktyg så som CSS, HTML finns i nuläget möjligheten att skapa webbsidor som beroende på skärmstorlek har olika designlayouts med en och samma kodgrund. Det finns även kunskap om tillvägagångsätt för skapandetav responsiva webbsidor, där utvecklare med formler och riktlinjer kan lära sig att använda grundprinciperna fluid grid, fluid images och media queries på bästa sätt. Däremot är vägen till att skapa en responsiv webbsida olika.  I bloggar och forum på webben diskuteras flitigt valet av utvecklingsmetod när det kommer till responsiva webbplatser och innan implementeringen av en webbsida är detta en fråga som med stor sannolikhet dyker upp hos webbutvecklare. Utvecklingsmetoderna som diskuteras är \textit{Mobile-first} och \textit{Desktop-first}. Mobile-first och Desktop-first är två olika metoder där det responsiva angreppssättet används. Båda strävar efter samma mål, men skiljer sig i implementeringen för responsive web design.
 
 \subsection{Mobile-first eller Desktop-first}
-Det som kännetecknar metoderna är  grunden på strukturen och designen,  där storleken på webbläsaren avgör på vilket sätt den  skall ändras för att anpassas för en annan enhet. Kunskapen om metoderna var för sig har med tiden blivit större i samband med utvecklingen av responsive web design. Däremot ställs webbutvecklare kring frågan om vilken metod som appliceras bäst till den typen av webbsida som skall skapas. I dagsläget finns ingen kunskap om hur bra metoderna appliceras i jämförelse med varandra. Det finns tankar och spekulationer, därefter väljs metod utifrån dessa, komplikationer hanteras men dokumenteras inte och till slut har man en fungerande responsiv webbsida. Eftersom webbsidan är färdig implementerad finns ingen anledning till att implementera om en fungerande lösning med en annan metod, därav finns ingen större kunskap om jämförelse av implementationen med respektive metod riktat mot ett och samma resultat.
+Kännetecken för metoderna är  grunden på strukturen och designen,  där storleken på webbläsaren avgör på vilket sätt den  skall ändras för att anpassas för en annan enhet. Kunskapen om metoderna var för sig har med tiden blivit större i samband med utvecklingen av responsive web design. Däremot ställs webbutvecklare kring frågan om vilken metod som appliceras bäst till typen av webbsida som skall skapas. I dagsläget finns ingen kunskap om hur bra metoderna appliceras i jämförelse med varandra. Det finns tankar och spekulationer, därefter väljs metod utifrån dessa, komplikationer hanteras men dokumenteras inte vilket tillslut leder till en fungerande webbsida utan vetskapen ifall bästa lösning är applicerad. Eftersom webbsidan är färdig implementerad finns ingen anledning till att implementera om en fungerande lösning med en annan metod, därav finns ingen större kunskap om jämförelse av implementationen med respektive metod riktat mot ett och samma resultat.
 
-Användning av mobilt internet ökar och användningen av internet via en dator kommer med stor sannolikhet bestå. Vilket gör att en grund för val av metod är högst passande, då det redan nu och i framtiden kommer att kräva mer kunskap än vad som idag kan erbjudas från bloggar. Båda metoder har sina fördelar samt nackdelar, vilket bör lyftas fram tydligare. Även frågan som bör ställas är när dessa går att utnyttjas på bästa sätt, och kan beslutet av val leda till positiva faktorer vilka motsatta metod inte hade kunnat uppnå inom en specifik situation.
+Användning av mobilt internet ökar och användningen av internet via en dator kommer med stor sannolikhet bestå. Det gör att en grund för val av metod är högst passande, då det redan nu och i framtiden kommer att kräva mer kunskap än vad som idag kan erbjudas från bloggar. Båda metoder har sina fördelar samt nackdelar, vilket bör lyftas fram tydligare. Frågan som även bör ställas är när metoderna utnyttjas på bästa sätt och kan valet av metod leda till positiva faktorer vilka motsatta metod inte hade kunnat uppnå.
 
 \begin{figure}[h]
 \centerline{%
@@ -93,14 +93,14 @@ Användning av mobilt internet ökar och användningen av internet via en dator 
 }
 \end{figure}
 \vspace{1.5cm}
-Figur 1: En responsive webbsida kan även anpassas till enheter mellan desktop och mobil, t.ex  tablets och ipads.  I arbetet kommer fokus ske endast för mobil och desktop.
+Figur 1: En responsive webbsida kan även anpassas till enheter mellan desktop och mobil, t.ex  tablets och ipads.  I arbetet kommer fokus endast ske för mobil och desktop.
 
 
 \subsection{Valtech AB}
-Examensarbetet kommer att utföras på Valtech AB i Stockholm. Valtech Sverige fokuserar främst på utveckling av användaranpassade hemsidor, webbapplikationer och intranät. Hos Valtech finns erfarna gränssnittsutvecklare som har stött på problem under utvecklingsprocessen i form av ett beslutstagande av tillvägagångssätt för en responsiv webbsida. Det finns ett behov hos utvecklare på Valtech att ha en grund för vilka faktorer som är viktigast vid beslutstagande för metod, en metod som ger den bästa lösningen för en effektiv utveckling av en responsiv webbplats. Gränsnittssutvecklarna besitter på mycket erfarenhet och kunskap, vilket kan samlas i form av intervjuer för att analyseras och sammanfattas utifrån verkliga situationer som förekommer i företag, för framtida syfte.
+Examensarbetet kommer att utföras på Valtech AB i Stockholm. Valtech Sverige fokuserar främst på utveckling av användaranpassade webbsidor, webbapplikationer och intranät. Hos Valtech finns erfarna gränssnittsutvecklare som har stött på problem under utvecklingsprocessen i form av ett beslutstagande av tillvägagångssätt för en responsiv webbsida. Det finns ett behov hos utvecklare på Valtech att ha en grund för vilka faktorer som är viktigast vid beslutstagande för metod och som ger den bästa lösning för en effektiv utveckling av en responsiv webbplats. Gränsnittssutvecklarna besitter på mycket erfarenhet och kunskap, vilket kan samlas och användas som vägledning för att finna problem som uppstår i verkliga situationer.
 
 \subsection{Syfte}
-Syftet med arbetet är att kunna hitta riktlinjer till när en specifik metod appliceras bäst. Det vill säga beroende på faktorer kring webbsidan hitta den metod som tillför det mest optimala lösningen för implementationen av webbsidan. Att hitta en metod som fungerar bäst i alla lägen är inte nödvändigtvis målet med arbetet då det existera många olika vinklar, vilka gör det svårt att hitta en specifik metod som ger det optimala resultatet oberoende på situation.
+Syftet med arbetet är att kunna hitta riktlinjer till när en specifik metod appliceras bäst. Det vill säga beroende på faktorer kring webbsidan hitta den metod som tillför det mest optimala lösningen för implementationen av en webbsida. Att hitta en metod som fungerar bäst i alla lägen är inte nödvändigtvis målet med arbetet då det existera många olika vinklar, vilka gör det svårt att hitta en specifik metod som ger det optimala resultatet oberoende på situation.
 
 \vspace{0.5cm}
 Frågeställningar som besvaras i rapporten är:
@@ -114,13 +114,13 @@ Frågeställningar som besvaras i rapporten är:
 
 \subsection{Avgränsningar}
 
-Arbetet kommer att enbart fokusera på mobile-first och desktop-first \textit{(se figur 1)}, ett mellanläge som existerar för Ipads, tablets, osv. kommer inte att tas med i arbetet utan kommer att ses som ett desktopläge. I dagsläget finns även andra lösningar för mobilt webb t.ex Appar och Hybrida Appar, jämförelse mellan dessa och responsive web design kommer inte att göras, utan jämförelsen som görs är mellan mobilalösningar inom responsive web design.
+Arbetet kommer att enbart fokusera på mobile-first och desktop-first \textit{(se figur 1)}. Ett mellanläge som existerar för Ipads, tablets, osv. kommer inte att tas med i arbetet utan kommer att ses som desktopläge. I dagsläget finns även andra lösningar för mobilt webb t.ex \textit{Appar} och \textit{separata mobilsidor}, jämförelse mellan dessa och responsive web design kommer inte att göras, utan jämförelsen som görs är mellan mobilalösningar inom responsive web design.
 
-Termen \textit{Mobile-first} kan tolkas på olika sätt. Det har förekommit tillfällen för webbutvecklare där mobile-first är prioriterad designmässigt men där implementeringen ändå har skett för desktop innan mobilen, vilket en produktägare har tolkat som mobile-first. Det är inte fallet i arbetet, utan mobile-first beskrivs i arbetet som en tanke och en implementering avsedd för mobilen i första hand, och tvärtom vid desktop-first. Testfallen under implementeringsfasen i arbetet kommer att bygga på den teori för ovanstående metoder.
+Termen \textit{Mobile-first} kan tolkas på olika sätt. Det har förekommit tillfällen för webbutvecklare där mobile-first är prioriterad designmässigt men där implementeringen ändå har skett för desktop innan mobilen. Det är inte fallet i arbetet, utan mobile-first beskrivs som en tanke och en implementering avsedd för mobilen i första hand, och tvärtom för desktop-first.
 
 \subsection{Disposition}
 
-Kommande kapitler är indelade i \textit{Bakgrund}, \textit{Teori}, \textit{Metod}, \textit{Resultat} och \textit{Diskussion}. I \textit{Bakgrund} beskrivs ökningen av användningen av mobil och desktop, samt vilken betydelse detta har för webbutvecklingen och varför responsive web design är en metod som kan gynna detta. I kapitlet \textit{teori} förklaras tekniken responsive web design samt de verktyg och metoder som samverkar för att få en fungerande responsiv webbplats, för att få ett tekniskt förståelse för hur webbutvecklingen av mobile-first och desktop-first går till. Metoderna för arbetet är en litteraturstudie samt en prototyp av en webbsida som både implementeras i mobile-first och desktop-first, i kapitlet \textit{Metod} beskrivs valet av metoderna samt hur dessa samspelas för att få fram resultat som besvarar frågeställningarna för arbetet. I nästa kapitel, \textit{Resultat}, samlas resultatet från både litteraturstudien och utvecklingen av prototypen som senare diskuteras i kapitlet \textit{Diskussion}, där även frågeställningarna besvaras. 
+Kommande kapitler är indelade i \textit{Bakgrund}, \textit{Teori}, \textit{Metod}, \textit{Resultat} och \textit{Diskussion}. I \textit{bakgrund} beskrivs den ökning av användning som har skett för mobilt internet under de senaste åren och även användningen av desktop internet som har bestått. I bakgrund beskrivs även betydelsen dessa har för webbutvecklingen och varför responsive web design är en metod som kan gynna dem. I kapitlet \textit{teori} förklaras tekniken responsive web design samt de verktyg och metoder som samverkar för att få en fungerande responsiv webbplats, på så sätt tillföra en teknisk förståelse för hur webbutvecklingen av mobile-first och desktop-first går till. Metoderna för arbetet är en litteraturstudie samt en prototyp av en webbsida som både implementeras i mobile-first och desktop-first. I kapitlet \textit{metod} beskrivs valet av metoderna samt hur dessa samspelas för att få fram resultat som besvarar frågeställningarna för arbetet. I nästa kapitel, \textit{resultat}, samlas resultatet från tillvägagångsätten som beskrivs i metod, vilket senare diskuteras i kapitlet \textit{diskussion}, där även frågeställningarna besvaras. 
 
 
 
@@ -161,7 +161,7 @@ HTML står för \textit{Hypertext Markup Language} och är ett format som defini
 
 Det finns olika sorters taggar inom HTML, stycke, rubrik, tabeller, länkar, listor, sektioner är en av dessa. Inom webbutveckling har användning utav taggen \textit{<div>} blivit vanlig för att strukturera upp en sida i olika sektioner (\cite{divtable}), vartefter kan en sektion innehålla andra element.
 
-
+\vspace{0.3cm}
 \begin{verbatim}
 <div> 
           <h1> Mobile-first eller Desktop-first?</h1>
@@ -170,7 +170,7 @@ Det finns olika sorters taggar inom HTML, stycke, rubrik, tabeller, länkar, lis
           </p>
 </div>
 \end{verbatim}
-\vspace{1cm}
+\vspace{0.3cm}
 
 I ovanstående HTML-kod har vi definierat en sektion på webbsidan med \textit{<div>} taggen, inom den sektionen har vi en rubrik som definieras med taggen \textit{<h1>} och ett stycke som definieras med taggen \textit{<p>}. Taggarna i html-koden bildar tillsammans strukturen på sidan, däremot så har inte html-koden någon kontroll över utseendet för taggarna, det sköts utav CSS.  
 
@@ -178,7 +178,7 @@ I ovanstående HTML-kod har vi definierat en sektion på webbsidan med \textit{<
 CSS står för \textit{Cascading Style Sheets} och är ett språk som beskriver utseendet på en webbsida.
 Med hjälp av CSS-kod kan olika element i html-koden få ett speciellt utseende i form av storlek, färg och position. CSSen ser till att ge elementen egenskaper, vilket kan definieras direkt i taggen t.ex \textit{<p style=”color:blue; width:50px”>Frågan en webbutvecklare ställer sig inför skapandet av en responsiv webbsida</p>}, vilket betyder att elementet \textit{<p>} kommer att ha bredden 50px och texten kommer att vara blå. Att definiera utseendet på det sättet kallas för \textit{inline-styling}. Man kan även i html filen, definiera utseendet i \textit{<head>} taggen, vilket kallas för \textit{internal styling} (\cite{css}), det betyder då att alla taggar i html filen delar egenskapen som är utsatt, i det här fallet att texten i \textbf{alla} \textit{<p>} taggar i html filen har blå text och bredden 50px:
 
-\vspace{0.5cm}
+\vspace{0.3cm}
 \begin{verbatim}
 <head>
            <style>
@@ -189,34 +189,33 @@ Med hjälp av CSS-kod kan olika element i html-koden få ett speciellt utseende 
            </style>
 </head>
 \end{verbatim}
-\vspace{0.5cm}
+\vspace{0.3cm}
 
 Tredje sättet är att definiera det i en egen css-fil och länka till det från \textit{<head>} taggen i html-koden, vilket är det vanligaste av de tre sätten och kallas för \textit{external styling}. 
 \vspace{0.3cm}
 \begin{verbatim}
 <link rel="stylesheet" type="text/css" href="main.css">
 \end{verbatim}
-\vspace{0.5cm}
+\vspace{0.3cm}
 
 I css-kod definieras utseendet av olika taggar. Det finns möjlighet att definiera samma tagg med olika utseenden, detta görs genom att sätta \textit{Klasser} och \textit{IDs} för varje element. Ett element kan ha olika klasser eller ids, vilket definieras med ett utseende i css-koden. Det gör att varje tagg som delar klassen, delar även utseendet:
 
 \vspace{0.3cm}
-I html filen:
+I html-filen:
 
 \begin{verbatim}
 <div id=”main-container”>
           <p class=”paragraf”>Mobile-first vs Desktop-first</p>
 </div>
 \end{verbatim}
-\vspace{0.5cm}
-I css filen:
+\vspace{0.4cm}
+I css-filen:
 
 \begin{verbatim}
 #main-container {
         width:50%;
         background-color:grey;
 }
-
 .paragraf{
         font-size: 125%;
         color:black;
@@ -233,7 +232,7 @@ Dessa tre olika sätt syns i en browser enligt prioritering, inline-styling, int
 \textit{JavaScript} är ett scriptspråk som inom webbutveckling främst används för att hantera dynamiska funktioner för beteendet hos en webbsida, beteenden som skapas från klientsidan. Med JavaScript kan man t.ex. läsa en användarens klick i webbsidan och utifrån det kalla på funktioner som kan ändra webbsidans innehåll eller utseende. Eftersom JavaScript är ett skriptspråk behövs ingen kompilering och koden kan skrivas direkt i html-filen.
 
 För att JavaScript skall fungera korrekt krävs det dock att webbläsaren stödjer det. I vissa fall har webbläsaren den funktionen men har den avstängd (\cite[s.13]{sara_ingmar}). Tidigare ett problem varit att mobilwebbläsare inte har haft stöd för JavaScript, vilket har lett till att menyer och pop-up fönster inte har fungerat korrekt när man surfar till sidan via mobilen, men tekniken har utvecklats och numera klarar mobila webbläsare av JavaScript. Det finns fortfarande en del problem när det kommer till mer komplicerade JavaScript funktioner och bibliotek som mobilwebbläsare inte kan hantera (\cite{quirksmode}). Vid webbsidor som har helt separata mobilsidor kan det vara en fördel då man väljer att inte läsa in all JavaScript som behövs, med responsiva webbsidor använder man samma webbsida för varje enhet, vilket leder till att en mobilenhet laddar all JavaScript vilket försämra webbsidans respons. En webbutvecklare måste ha i åtanke och redan från början utveckla en hemsida vars JavaScript inte kommer i vägen för den responsiva webbsidans funktionalitet.
-
+\newpage
 \subsection{Responsive web design}
 \textit{Responsive web design} är ett koncept som innebär att gränssnittet på en webbsida ändras beroende på skärmstorlek, vilket således ger möjligheten att ha olika layout på en och samma webbsida anpassat efter en enhet. Konceptet definierades av \cite{resp} i en artikel kallat \textit{A List Apart}, som sedan blev en del av boken \textit{”responsive web design”} där teorier och praktiska exempel används för att förklara begreppet. 
 
@@ -271,7 +270,7 @@ Vid användning av fluid grid och fluid image sätts egenskaper hos element i pr
 \vspace{1cm}
 Denna design har endast ett element med egenskaperna:
 
-\vspace{0.5cm}
+\vspace{0.3cm}
 \begin{verbatim}
 
 div {	
@@ -279,9 +278,8 @@ div {
 	        width:50%; //bredd
 	        height:500px; //höjd
 }
-
 \end{verbatim}
-
+\vspace{0.3cm}
 Designen fungerar bra för skrivbordsskärmar\textit{(Figur 2)}, då rutan är centrerad och symmetrisk. 25\% av utrymmet på var sida av rutan gör designen läsvänlig och användbart då fokusering sker i mitten av skärmen där förmodlingen information kommer att samlas. Däremot är den inte lika optimal när skärmen blir mindre\textit{(Figur 3)}. Rutan är fortfarande 50\% av skärmen, vilket gör att  designen blir kompakt i ett utrymme där förmedling av mycket information sker. 50\% procent av skärmen går till spillo åt utrymme mellan rutan och kanter, vilket får rutan att se ihoptryckt ut. Därav en försämring på design och användbarhet när webbsidan ses ifrån en mobilskärm.
 \newpage
 Med media anrop i CSSen, kallat för media queries, tillåter vi att värden hos ”div” elementet skrivs över när bredden på webbläsaren underskrider 380px.
@@ -620,7 +618,7 @@ Färgmarkeringen görs i webbsidan för att markera olika typer av artiklar, i n
 
 \subsubsection{Responstid}
 
-Nedan visas tre olika hämtningar av bägge webbsidor, både i desktopmiljö samt mobilmiljö. Värdena som har antecknats är responstiden för hämtning av HTML-filen samt CSS-filen. Sambandet mellan de olika hämtningar visar att mobilvyn laddas snabbare i mobile-first och desktopvyn snabbare i desktop-first. I en av fallen tog hämtningen av CSS filen 19ms i mobilmiljön medan det tog desktop-first 36ms. I desktopmiljo gjordes hämtningen av CSS-filen 21ms för desktop-first och 23ms för mobile-first. Html filen varierar en del, men två av tre hämtningarna visar ungefär samma resultat som hämtningar för CSS.
+Nedan visas tre olika hämtningar av bägge webbsidor, både i desktopmiljö samt mobilmiljö. Värdena som har antecknats är responstiden för hämtning av HTML-filen samt CSS-filen. Sambandet mellan de olika hämtningar visar att mobilvyn laddas snabbare i mobile-first och desktopvyn laddas snabbare i desktop-first.
 
 \newpage
 \textbf{Hämtning 1}
@@ -634,7 +632,7 @@ Nedan visas tre olika hämtningar av bägge webbsidor, både i desktopmiljö sam
 	\textbf{Mobile-first}&36ms&19ms&39ms&23ms \\ \hline
 	~&~&~ &~&~\\ \hline
 	\end{tabular}
-    \caption {Värden från första hämtningen av prototypsidan.}
+    \caption {Värden från första hämtningen av prototypsidan. Tabellen visar tydligt snabbare responstid för mobilvyn med mobile-first och snabbare responstid för desktopvyn med desktop-first. Anmärkningsbart är värderna för laddningen av css-filen i mobilvyn, där det tar mobile-first 19ms, men desktop-first 36ms.}
 \end{table}
 
 \textbf{Hämtning 2}
@@ -648,7 +646,7 @@ Nedan visas tre olika hämtningar av bägge webbsidor, både i desktopmiljö sam
 	\textbf{Mobile-first}&33ms&20ms&22ms&22ms \\ \hline
 	~&~&~ &~&~\\ \hline
 	\end{tabular}
-    \caption {Värden från andra hämtningen av prototypsidan.}
+    \caption {Värden från andra hämtningen av prototypsidan. Ungefär samma resultat från tabell 5, men här skiljer responstiden mindre. Tabellen visar ändå en snabbare hämtning av css-filen för mobile-first i mobilvyn respektive desktop-first i desktopvyn.}
 \end{table}
 
 \textbf{Hämtning 3}
@@ -662,9 +660,10 @@ Nedan visas tre olika hämtningar av bägge webbsidor, både i desktopmiljö sam
 	\textbf{Mobile-first}&16ms&18ms&32ms&20ms \\ \hline
 	~&~&~ &~&~\\ \hline
 	\end{tabular}
-    \caption {Värden för tredje hämtningen av prototypsidan.}
+    \caption {Värden för tredje hämtningen av prototypsidan. Hämtning av css i mobilvyn är snabbare för mobile-first med 4ms skillnad, däremot är css hämtningen i desktopvyn snabbare för desktop-first men med bara 1ms i skillnad.}
 \end{table}
 
+Hämtningarna visar tydligt att css-filen laddas snabbare för mobile-first i mobilvyn, och snabbare för desktop-first i desktopvyn. Gällande hämtning av html-filen följer det samma mönster förutom i en av hämtningarna(\textit{tabell 6}), där visas resultatet vara tvärtom från resultatet i tabell 5 och 6. Alla hämtningar har gjorts från en stationär dator med en emulator som renderar om webbläsarens storlek för att passa valda enheter. Utförligare analys angående responstiden diskuteras i diskussionavsnittet.
 
 \subsubsection{Kodstorlek}
 
@@ -707,6 +706,8 @@ Implementeringstiden redovisas utifrån dagboken som skrevs under implementation
 \textit{”Oerhört lätt att göras till responsive så länge man har använt sig av fluid grid och fluid layout från början. Allt renderas av sig självt och så fort det ser konstigt ut, modifieras CSSen i media queries.”}\\\\
 \textit{”Lång tid i början, i jämförelse med responsive delen, förvånad över att responsivedelen gick så smidigt. Endast lite småpill lite här och där för att. Det mesta hade fixats under desktoputseendet.”}\\\\
 \textit{”Inte så många media queries, sidan ser bra ut mellan media queries. Mycket kod i grunden som är avsedd för desktop, inte lika mycket i media queries.”}\\\\
+\textbf{Sammanfattning:} Skapandet av grundsidan var det som tog mest tid, då det innebär många element att designa och positionera på rätt plats. Den responsiva delen gick smidigt till då media queries, fluid grid och fluid images enkelt renderar om elementen till att vara mindre och positioneras under varandra i en kolumn anpassad till mobilskärmen.
+\vspace{0.735cm}
 \\
 \textbf{Mobile-first}
 \\\\
@@ -716,6 +717,7 @@ Implementeringstiden redovisas utifrån dagboken som skrevs under implementation
 \textit{”Från 768px till desktop-size gick väldigt smidigt.”}\\\\
 \textit{”Väldigt lätt i början, enkel struktur att lägga upp för mobilen, responsivt höll till 480px och till och med 768px var det mycket att fixa med hjälp av media queries, då många element går från att vara under varandra till att vara bredvid varandra.”}\\\\
 \textit{”Viktigt att planera och lägga en struktur på hur den ska övergå till desktop. Mycket kod i media queries sektionen, lite kod i grunden för mobilvyn.  Ser bra ut mellan mobilvyn och desktopvyn.”}\\\\
+\textbf{Sammanfattning:} Skapandet av grundsidan går fort, är stabil och väl strukturerad. Däremot krävs det fler media queries i början av den responsiva delen då mycket förändras tidigt. Viktigt att lägga upp en bra planering till hur webbsidan skall övergå till desktopvyn, då element övergår till att positioneras utspritt över webbplatsen.
 
 
 
@@ -740,7 +742,7 @@ Responstid är den tid det tar mellan att en begäran har lagts, till dess att b
 Förutom att hämtningarna är gjorda med en dator så måste prototypen has i åtanke då den egentligen bara speglar skalet av en fulländad webbsida. Det vill säga att hämtningarna som görs är för en webbsida som är relativt liten i jämförelse med en normal webbsida. Återigen är dessa 2ms i skillnad mellan metoderna i en hämtning av mobilvyn små i jämförelse med vad skillnaden skulle vara om prototypen hade varit för ett större projekt.
 
 Resultat av responstiden visar tydligt de punkter som diskuterats i litteraturstudien. Mobile-first ger en robust webbsida för mobilen som fokuserar i första hand på situationer hos användaren där snabb respons krävs. Tack vare prestandan hos dagens datorer utelämnar inte mobile-first desktop, utan låter den snarare ta hand om den större lasten, vilken den har kapacitet för.
-\newpage
+
 \subsubsection{Kodanalys}
 \paragraph{Storlek}\mbox{}
 
@@ -750,48 +752,48 @@ Kodstorleken spelar en stor roll till resultatet av responstiden, beroende på m
 
 Förutom olika mycket kod i media queries, skiljer sig metodernas main.css till att få mobile-first agera som ett mer naturligt sätt att implementera. I Mobile-first är grundkoden avsedd för mobilen där element ligger i en kolumn under varandra. Eftersom det är standard att element visas under varandra behövs ingen kod för detta, utan kod läggs istället till i media queries när webbsidan börjar övergå till desktop och element skall visas vid sidan om varandra. I desktop-first måste elementen redan från början definieras så att de skall ligga bredvid varandra då detta inte är standard. När webbsidan börjar övergå till mobilläge och webbläsaren blir mindre, måste i media queries se till att det blir ogjort så att elementen hamnar under varandra, i en kolumn. Med andra ord kräver detta en rad kod i mobil-first som ändrar elementens position när den syns i desktop(\textit{figur 14}), men två rader kod i desktop-first, en som ändrar elementens position från början och en som ser till att det återgår till standard när sidan syns i mobilen(\textit{figur 15}). Det är endast fåtal element i protoypen där detta förekommer, men det tyder på att fallet existerar fler gånger på större webbsidor, speciellt nyhetssidor, där många element går från att vara vid sidan om varandra till att vara under varandra i en kolumn. Det medför att mobilsida blir ett naturligt sätt att påbörja en implementation av en responsiv webbplats, då det börjas från standard. 
 
-%\setcounter{figure}{13}
-%\begin{figure}[H]
-%  \begin{subfigure}[b]{.5\linewidth }
-%
-  %  \begin{lstlisting}
-    % .articles{
-%	color: white;
-%	widht: 200px;
-%	height:200px;
-  %    }
-%
-  %  @media (min-width: 768px){
-%	float:left;
-  %  }
- %& &
-   % \end{lstlisting}
-   % \caption{Mobile-first}
-  %\end{subfigure}
-  %\begin{subfigure}[b]{.5\linewidth}
-%	\begin{lstlisting}
-   %  .articles{
-	%float:left;
-%	color: white;
-%	widht: 200px;
-%	height:200px;
-   %   }
-%s
- %    @media (max-width: 768px){
-%	float: none;  
-%     }
-%	\end{lstlisting}
-%    \caption{Desktop-first}
-%  \end{subfigure}
-%  \caption{I Desktop-first(b) måste elementet först definieras så att de ligger vid sidan om varandra, sedan med media queries tas detta bort när det går över till mobilvyn. I %Mobile-first(a) är det standard och inget behöver definieras förens webbsidan övergår till desktopvy, då sätts elementen vid sidan om varandra.}
-%\end{figure}
+\setcounter{figure}{13}
+\begin{figure}[H]
+  \begin{subfigure}[b]{.5\linewidth }
 
+    \begin{lstlisting}
+     .articles{
+	color: white;
+	widht: 200px;
+	height:200px;
+      }
+
+    @media (min-width: 768px){
+	float:left;
+    }
+ & &
+    \end{lstlisting}
+    \caption{Mobile-first}
+    \end{subfigure}
+    \begin{subfigure}[b]{.5\linewidth}
+	\begin{lstlisting}
+     .articles{
+	float:left;
+	color: white;
+	widht: 200px;
+	height:200px;
+      }
+
+     @media (max-width: 768px){
+	float: none;  
+     }
+	\end{lstlisting}
+    \caption{Desktop-first}
+  \end{subfigure}
+  \caption{I Desktop-first(b) måste elementet först definieras så att de ligger vid sidan om varandra, sedan med media queries tas detta bort när det går över till mobilvyn. I Mobile-first(a) är det standard och inget behöver definieras förens webbsidan övergår till desktopvy, då sätts elementen vid sidan om varandra.}
+\end{figure}
+\newpage
 \subsubsection{Implementeringstid}
 Implementeringstiden för webbsidorna skiljer sig med ungefär med 5 timmar, mobil-first tog totalt 16,5 timmar och desktop-first 22h. Det är svårt att dra slutsatsen att mobile-first tar mindre tid att implementera än desktop-first, på grund av att: 1. Desktop-first implementerades före mobile-first, för en junior gränssnittsutvecklare, kan desktop-first implementeringen varit en bra uppvärmning, 2. För att erfarenheten utav utvecklaren inte är tillräckligt stor, vilket kan medföra inlärning inräknat i tiden. En teori kan ändå skapas utav kommentarerna ur dagboken och även tiden som redovisades under implementationsfasen
 
 Grundsidan för desktop-first tog längst tid att implementera, vilket enligt dagboken krävde många element att dekoreras och positioneras utspritt på en stor yta. Saknas erfarenhet inom området, kan det vara svårt att finna en struktur på hur en webbsida skall formas. Grundsidan för mobile-first tog minst tid, vilket i dagboken beskrivs som ett enkelt sätt att forma en webbsida på. Innehållet är i en kolumn där element implementeras uppifrån neråt utan att kunna tappa bort sig åt sidorna eller ändra något som påverkar andra element. Att göra webbsidan responsiv tog mindre tid för desktop-first än mobile-first. I desktop-first har elementen dekorerats och lagts ut på rätt plats, det enda som behövs göras är att minska elementen och samla ihop dessa till en kolumn, vilket fluid grid, fluid images och media queries tar hand om utan att gränssnittsutvecklaren behöver justera för mycket. I mobile-first börjar elementen i en kolumn, det som skall göras är att låta fluid grid, fluid images göra så att dessa förstoras. I mobile-first krävs det däremot fler justeringar i media queries då elementen skall positioneras till sina utspridda platser på desktopvyn istället för en kolumn där elementen finns under varandra. Det kan vara anledningen till att responsivdelen för mobile-first tog längre tid än responsivdelen i desktop-first.
 
-Mobile-first har fördelen att grundsidan implementeras på ett simplare sätt än i desktop-first. Istället för att rita ut alla element utspridda på en sida, dekoreras detta i en kolumn och låter den responsiva delen ta hand så att elementen hamnar på rätt plats i desktopvyn, med ett antal justeringar med media queries. I desktop-first, sprids och dekoreras elementen för att sen låta den responsiv delen samla in dessa i en kolumn, men då har redan mycket tid lagts åt att rita och positionera ut elementen i desktopvyn. Teoring säger att mobile-first är ett mer effektivt tillvägagångsätt, men att om behovet istället är en snabb lösning till att göra en existerande webbsida responsivt, finns fördelen tidsmässigt hos desktop-first då grunden redan är lagd.
+Mobile-first har fördelen att grundsidan implementeras på ett simplare sätt än i desktop-first. Istället för att rita ut alla element utspridda på en sida, dekoreras detta i en kolumn och låter den responsiva delen ta hand så att elementen hamnar på rätt plats i desktopvyn, med ett antal justeringar med media queries(\textit{figur 15}). I desktop-first, sprids och dekoreras elementen för att sen låta den responsiv delen samla in dessa i en kolumn, men då har redan mycket tid lagts åt att rita och positionera ut elementen i desktopvyn(\textit{figur 16}). Teoring säger att mobile-first är ett mer effektivt tillvägagångsätt, men att om behovet istället är en snabb lösning till att göra en existerande webbsida responsivt, finns fördelen tidsmässigt hos desktop-first då grunden redan är lagd.
 \\
 \begin{figure}[H]
 \centerline{%
@@ -801,7 +803,7 @@ Mobile-first har fördelen att grundsidan implementeras på ett simplare sätt �
 }
 \hspace{2cm}(a) Mobilvyn\hspace{2.3cm}(b)Responsiv\hspace{2.1cm}(c) Desktopvyn
 \\\\
-\hspace{0.15cm}Figur 16: Responsiv i Mobile-first, elementen börjar designas och placeras i en kolumn på skärmen, responsive ser till att med en del justeringar placera dessa rätt i desktopvyn.
+\hspace{0.15cm}Figur 15: Responsiv i Mobile-first, elementen börjar designas och placeras i en kolumn på skärmen, responsive ser till att med en del justeringar placera dessa rätt i desktopvyn.
 \end{figure}
 
 \begin{figure}[H]
@@ -812,7 +814,7 @@ Mobile-first har fördelen att grundsidan implementeras på ett simplare sätt �
 }
 \hspace{1.7cm}(a) Desktopvyn\hspace{2.3cm}(b)Responsiv\hspace{2.1cm}(c) Mobilvyn
 \\\\
-\hspace{0.15cm}Figur 17: Responsiv i Desktop-first, elementen måste designas och placeras rätt på skärmen, responsiv ser till att de samlas en kolumn för mobilvyn.
+\hspace{0.15cm}Figur 16: Responsiv i Desktop-first, elementen måste designas och placeras rätt på skärmen, responsiv ser till att de samlas en kolumn för mobilvyn.
 \end{figure}
 
 
